@@ -1,0 +1,118 @@
+# Nguồn. Mỗi nghĩa ghi `sources: [<mã>, ...]` hoặc `sources: [{id: <mã>, url: ..., note: ...}]`.
+#
+# Trạng thái kiểm chứng của một nghĩa được tính từ số nguồn ĐỘC LẬP:
+#   verified  : từ 2 nguồn độc lập trở lên
+#   pending   : 1 nguồn (chờ nguồn thứ hai)
+#   unsourced : chưa có nguồn nào
+# Hai nguồn chép của nhau tính là một: nguồn sau ghi `same_as: <mã nguồn gốc>`.
+# Nguồn chỉ ghi xuất xứ, không dùng để kiểm chứng, ghi `counts: false`.
+#
+# <mã>:
+#   name:    tên nguồn
+#   kind:    dictionary | web | press | article | book | speaker | provenance
+#   url:     (tùy chọn)
+#   license: (tùy chọn) chỉ ghi khi đã chép nội dung của nguồn vô repo
+#   same_as: (tùy chọn)
+#   counts:  (tùy chọn, mặc định true)
+#   note:    (tùy chọn)
+
+wiktionary:
+  name: Wiktionary (tiếng Anh)
+  kind: dictionary
+  url: https://en.wiktionary.org/
+  license: CC BY-SA 4.0
+  note: >-
+    Nhập qua bản JSON của wiktextract (kaikki.org), bản dump ngày 2026-10-30.
+    Mỗi nghĩa nhập về ghi url trang Wiktionary để ghi công tác giả theo CC BY-SA.
+
+contributor:
+  name: Người đóng góp đưa ra hoặc xác nhận
+  kind: speaker
+  note: >-
+    Ghi ngày và hoàn cảnh trong `note` của nguồn (VD. {id: contributor, note: "đưa ra khi duyệt, 2026-11-19"}).
+    Không ghi tên, số điện thoại hay địa chỉ.
+
+skill-dictionary-v1:
+  name: Từ điển Miền Tây trong skill southern-mekong-vietnamese-dialect (bản trước khi chuyển về repo này)
+  kind: provenance
+  counts: false
+  note: >-
+    Chuyển về ngày 2026-11-19. Bản cũ không ghi nguồn cho từng mục, nên các nghĩa này
+    cần bổ sung nguồn để được tính là đã kiểm chứng.
+
+nghengu:
+  name: "nghengu.vn: Từ điển tiếng miền Nam cho người ngoài tỉnh"
+  kind: web
+  url: https://nghengu.vn/chuyen-nguoi-nghe-ke/tu-dien-tieng-mien-nam-2032.html
+  note: Lẫn tiếng lóng Sài Gòn trước 1975 và từ toàn dân, phải lọc.
+
+scr-vn:
+  name: "scr.vn: Tiếng miền Tây"
+  kind: web
+  url: https://scr.vn/tieng-mien-tay.html
+  same_as: nghengu
+  note: Nhiều mục chép từ nghengu.vn.
+
+hohyhung:
+  name: "hohyhung.blogspot.com: Từ điển miền Tây - Nam bộ"
+  kind: web
+  url: http://hohyhung.blogspot.com/p/tu-ien-mien-tay-nam-bo.html
+  note: Bỏ qua các mục chỉ ghi cách phát âm (tai = tay, sáo = sáu…).
+
+mia-vn:
+  name: "mia.vn: Khám phá tiếng miền Tây"
+  kind: web
+  url: https://mia.vn/cam-nang-du-lich/kham-pha-tieng-mien-tay-18102
+
+voh-nhuc-nach:
+  name: "VOH: Nhức nách là gì?"
+  kind: press
+  url: https://voh.com.vn/thuong-thuc/nhuc-nach-la-gi-495793.html
+  same_as: mia-vn
+  note: Trùng nhiều mục với mia.vn.
+
+ngonngumientay:
+  name: "ngonngumientay.com: Từ điển miền Tây"
+  kind: web
+  url: https://ngonngumientay.com/tu-dien-mien-tay/
+
+tuoitre-cung-lam-ky-1:
+  name: "Tuổi Trẻ: Cưng lắm lời ăn tiếng nói miền Tây, Kỳ 1"
+  kind: press
+  url: https://tuoitre.vn/cung-lam-loi-an-tieng-noi-mien-tay-ky-1-doc-ba-co-o-xu-hoc-ba-to-20220207110129493.htm
+
+sggp-giong-que-trot:
+  name: "SGGP: Cái giọng quê trớt"
+  kind: press
+  url: https://www.sggp.org.vn/cai-giong-que-trot-post647549.html
+
+sggp-so-chuc:
+  name: "SGGP: Số chục miền Tây"
+  kind: press
+  url: https://www.sggp.org.vn/so-chuc-mien-tay-718592.html
+
+vnexpress-rat-giong:
+  name: "VnExpress: Rặt giọng miền Tây"
+  kind: press
+  url: https://vnexpress.net/rat-giong-mien-tay-5041991.html
+
+vnu-pham-van-tinh:
+  name: "Phạm Văn Tình: Tiếng Nam tiếng Bắc đang xích lại gần nhau (VNU)"
+  kind: article
+  url: https://news.vnu.edu.vn/upload/2011/09/11627/247%20p44-p45_Tieng%20Nam%20tieng%20Bac%20dang%20xich%20lai%20gan%20nhau%20_PGS_TS%20Pham%20Van%20Tinh(1).pdf
+
+vietnamtourism-cha-gio:
+  name: "Vietnam Tourism: Chả giò, gỏi cuốn và nem"
+  kind: web
+  url: https://www.vietnamtourism.com/vi/cha-gio-o-viet-nam-su-khac-biet-thuc-su-giua-goi-cuon-va-nem
+
+vnexpress-doc-mung:
+  name: "VnExpress: Phân biệt dọc mùng và khoai nước"
+  kind: press
+  url: https://vnexpress.net/co-nen-bop-muoi-doc-mung-truoc-khi-nau-4802440.html
+
+vjol-thay-mo-cho-bo:
+  name: "Tiểu từ tình thái phối kết thấy mồ, chớ bộ, mèn ơi cuối phát ngôn trong giao tiếp của người Nam Bộ (Từ điển học & Bách khoa thư)"
+  kind: article
+  url: https://vjol.info.vn/tudienhoc/article/view/130363
+  note: Bản PDF chưa đọc được.

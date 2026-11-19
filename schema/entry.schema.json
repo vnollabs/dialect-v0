@@ -1,0 +1,226 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dialect.vnol.net/schema/entry.schema.json",
+  "title": "VN Dialect entry",
+  "description": "One file per spelling (data/entries/<letter>/<telex>.yaml). A spelling holds one or more etymologies (unrelated words spelled the same); each etymology holds part-of-speech blocks; each block holds senses. Region, examples and sources live on the sense; pronunciation holds only checked exceptions. Ids of regions, topics and sources are checked against data/*.yaml by scripts/validate.ts.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["spelling", "etymologies"],
+  "properties": {
+    "spelling": {
+      "description": "The written form, NFC, lowercase except for proper nouns. The file name is derived from it (scripts/lib/telex.ts).",
+      "$ref": "#/$defs/word"
+    },
+    "pronunciation": {
+      "description": "Only pronunciations checked by ear (a speaker or a recording) that differ from what the spelling predicts in that region. Regular pronunciations are not stored; an IPA tool will generate them.",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["ipa", "region", "sources"],
+        "properties": {
+          "ipa": { "type": "string", "pattern": "^\\[.+\\]$" },
+          "region": { "$ref": "#/$defs/regions" },
+          "sources": { "$ref": "#/$defs/sources" },
+          "note": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "etymologies": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/etymology" }
+    }
+  },
+  "$defs": {
+    "word": { "type": "string", "minLength": 1, "pattern": "^\\S(.*\\S)?$" },
+    "words": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/word" } },
+    "regions": {
+      "description": "Region ids from data/regions.yaml.",
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^[a-z0-9-]+$" }
+    },
+    "sources": {
+      "description": "Source ids from data/sources.yaml, or {id, url, note} for a specific page or remark.",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "oneOf": [
+          { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id"],
+            "properties": {
+              "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+              "url": { "type": "string", "pattern": "^https?://" },
+              "note": { "type": "string", "minLength": 1 }
+            }
+          }
+        ]
+      }
+    },
+    "text": {
+      "description": "Text in Vietnamese and/or English.",
+      "type": "object",
+      "additionalProperties": false,
+      "minProperties": 1,
+      "properties": {
+        "vi": { "type": "string", "minLength": 1 },
+        "en": { "type": "string", "minLength": 1 }
+      }
+    },
+    "etymology": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["pos"],
+      "properties": {
+        "type": {
+          "description": "native: thuần Việt; sino: Hán Việt; loan: từ mượn (set lang); variant: biến âm of another Vietnamese word (set of); compound: ghép.",
+          "enum": ["native", "sino", "loan", "variant", "compound", "other"]
+        },
+        "lang": {
+          "description": "Source language for loans, as a Wiktionary language code: fr, en, km, nan-tws (Teochew), yue, zh…",
+          "type": "string",
+          "pattern": "^[a-z]{2,3}(-[a-z0-9]{2,8})*$"
+        },
+        "of": { "description": "For variants: the word this one varies from.", "$ref": "#/$defs/word" },
+        "han": { "description": "For sino: the Chinese source character(s).", "type": "string", "minLength": 1 },
+        "source_form": { "description": "For loans: the word in the source language.", "type": "string", "minLength": 1 },
+        "sound_change": {
+          "type": "object",
+          "additionalProperties": false,
+          "minProperties": 1,
+          "properties": {
+            "pattern": { "description": "e.g. 'ao → iêu'", "type": "string", "minLength": 1 },
+            "compare": {
+              "description": "Other word pairs showing the same change, e.g. [[cáo, kiếu], [đào, điều]].",
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "array",
+                "prefixItems": [{ "$ref": "#/$defs/word" }, { "$ref": "#/$defs/word" }],
+                "minItems": 2,
+                "maxItems": 2
+              }
+            }
+          }
+        },
+        "note": { "$ref": "#/$defs/text" },
+        "derived": { "description": "Words formed from this etymology.", "$ref": "#/$defs/words" },
+        "pos": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/posBlock" }
+        }
+      }
+    },
+    "posBlock": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["senses"],
+      "properties": {
+        "pos": {
+          "description": "Part of speech, using wiktextract's codes. Omit when not yet classified.",
+          "enum": [
+            "noun", "verb", "adj", "adv", "pron", "particle", "intj", "phrase", "proverb",
+            "name", "num", "classifier", "conj", "prep", "det", "prefix", "suffix", "romanization"
+          ]
+        },
+        "head": {
+          "description": "How the headword is shown when it differs from the spelling, e.g. '… coi' for a sentence-final particle.",
+          "$ref": "#/$defs/word"
+        },
+        "han_nom": { "description": "Chữ Hán Nôm forms.", "$ref": "#/$defs/words" },
+        "classifiers": { "description": "Noun classifiers (loại từ): cái, con, trái, tờ…", "$ref": "#/$defs/words" },
+        "alt_forms": { "description": "Other spellings or pronunciations of this same word.", "$ref": "#/$defs/words" },
+        "senses": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/sense" }
+        }
+      }
+    },
+    "sense": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["gloss", "region"],
+      "properties": {
+        "gloss": { "$ref": "#/$defs/text" },
+        "qualifier": {
+          "description": "Short context shown before the gloss, e.g. 'đèn, máy' for mở = bật.",
+          "type": "string",
+          "minLength": 1
+        },
+        "region": { "$ref": "#/$defs/regions" },
+        "labels": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "colloquial", "informal", "formal", "slang", "vulgar", "derogatory", "humorous", "endearing",
+              "familiar", "polite", "impolite", "emphatic", "literary", "dated", "archaic", "obsolete",
+              "historical", "rare", "uncommon", "figurative", "idiomatic", "proverb", "spoonerism",
+              "internet", "abbreviation", "pronunciation-spelling", "eye-dialect", "dialectal",
+              "childish", "euphemistic", "nonstandard", "proscribed"
+            ]
+          }
+        },
+        "standard": {
+          "description": "Standard Vietnamese equivalents (đối chiếu), e.g. [đắt] for mắc.",
+          "$ref": "#/$defs/words"
+        },
+        "variant_of": {
+          "description": "When this sense is a regional form of another word (biến âm), e.g. bảo for biểu.",
+          "$ref": "#/$defs/word"
+        },
+        "synonyms": { "$ref": "#/$defs/words" },
+        "examples": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/example" }
+        },
+        "topics": {
+          "description": "Topic ids from data/topics.yaml. Senses with a topic are included in the agent skill's dictionary.",
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "pattern": "^[a-z0-9-]+$" }
+        },
+        "ai": {
+          "description": "Guidance for AI agents (the PRD's pragmatics layer).",
+          "type": "object",
+          "additionalProperties": false,
+          "minProperties": 1,
+          "properties": {
+            "tone": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+            "register": { "type": "string", "minLength": 1 },
+            "relationship": { "type": "string", "minLength": 1 },
+            "usage_notes": { "type": "string", "minLength": 1 }
+          }
+        },
+        "sources": { "$ref": "#/$defs/sources" },
+        "note": { "description": "Editorial note.", "type": "string", "minLength": 1 }
+      }
+    },
+    "example": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["text"],
+      "properties": {
+        "text": { "type": "string", "minLength": 1 },
+        "standard": { "description": "The same sentence in standard Vietnamese.", "type": "string", "minLength": 1 },
+        "en": { "type": "string", "minLength": 1 },
+        "ref": { "description": "Where a quotation comes from.", "type": "string", "minLength": 1 },
+        "ai_draft": {
+          "description": "Drafted by AI and not yet reviewed by a person. A reviewer fixes or removes the example, then deletes this flag.",
+          "const": true
+        }
+      }
+    }
+  }
+}

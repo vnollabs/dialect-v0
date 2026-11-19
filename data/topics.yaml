@@ -1,0 +1,70 @@
+# Chủ đề. Nghĩa nào có `topics` thì được đưa vô từ điển của skill
+# southern-mekong-vietnamese-dialect (references/tu-dien-mien-tay.yaml), xếp theo chủ đề đầu tiên.
+# Thứ tự trong file này là thứ tự nhóm trong từ điển của skill.
+#
+# <mã>:
+#   name: tên nhóm (hiện trong từ điển của skill)
+#   en:   tên tiếng Anh (cho API và trang web)
+#   parent: <mã nhóm cha>   (tùy chọn; nhóm cha chỉ chứa nhóm con, không chứa nghĩa)
+
+idioms:
+  name: Thành ngữ, cụm từ & thán từ
+  en: Idioms, phrases & interjections
+
+mekong-words:
+  name: Từ vựng Miền Tây & từ xưa ít dùng
+  en: Mekong Delta words & old words
+
+north-south:
+  name: Đối chiếu Bắc → Nam
+  en: North → South equivalents
+
+family-address:
+  name: Gia đình & xưng hô
+  en: Family & forms of address
+  parent: north-south
+
+food-drink:
+  name: Ăn uống
+  en: Food & drink
+  parent: north-south
+
+household:
+  name: Đồ dùng & nhà cửa
+  en: Household & home
+  parent: north-south
+
+transport:
+  name: Giao thông & đường sá
+  en: Transport & roads
+  parent: north-south
+
+actions:
+  name: Hành động
+  en: Actions
+  parent: north-south
+
+qualities-feelings:
+  name: Tính chất & cảm xúc
+  en: Qualities & feelings
+  parent: north-south
+
+sino-vietnamese:
+  name: Âm Hán Việt kiểu Nam Bộ
+  en: Southern Sino-Vietnamese readings
+
+mekong-food:
+  name: Sản vật & món ăn Miền Tây
+  en: Mekong Delta produce & dishes
+
+weather-orchards:
+  name: Thời tiết & miệt vườn
+  en: Weather & orchards
+
+particles:
+  name: Ngữ khí từ & tiểu từ cuối câu
+  en: Modal and sentence-final particles
+
+discourse-markers:
+  name: Từ chen & dấu hiệu diễn ngôn
+  en: Discourse markers
