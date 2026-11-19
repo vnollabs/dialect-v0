@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dialect.vnol.net/api/v1/schema/index.schema.json",
+  "title": "VN Dialect API v1: index.json",
+  "description": "One search record per entry. Search by folding the query (lowercase, strip tone and vowel marks, đ -> d) and matching it against `keys`, `id` (Telex), `standard` and the glosses; see docs/api.md.",
+  "type": "object",
+  "allOf": [{ "$ref": "meta.schema.json#/$defs/header" }],
+  "required": ["entries"],
+  "properties": {
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "word", "forms", "keys", "standard", "regions", "pos", "topics", "status", "senses"],
+        "properties": {
+          "id": { "description": "Telex form of the spelling: fetch entries/<id>.json.", "type": "string" },
+          "word": { "description": "The spelling.", "type": "string" },
+          "forms": { "description": "Spelling, display heads and alternative forms.", "type": "array", "items": { "type": "string" } },
+          "keys": { "description": "`forms` folded: no tone or vowel marks, lowercase (mắc -> mac).", "type": "array", "items": { "type": "string" } },
+          "standard": { "description": "Standard-Vietnamese words this entry stands for (reverse lookup: đắt -> mắc).", "type": "array", "items": { "type": "string" } },
+          "gloss": { "description": "First Vietnamese gloss, for previews.", "type": "string" },
+          "gloss_en": { "description": "First English gloss, for previews.", "type": "string" },
+          "regions": { "type": "array", "items": { "type": "string" } },
+          "pos": { "type": "array", "items": { "type": "string" } },
+          "topics": { "type": "array", "items": { "type": "string" } },
+          "status": { "description": "Best verification status among the senses.", "enum": ["verified", "pending", "unsourced"] },
+          "senses": { "description": "Number of senses.", "type": "integer", "minimum": 1 }
+        }
+      }
+    }
+  },
+  "unevaluatedProperties": false
+}

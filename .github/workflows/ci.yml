@@ -36,3 +36,33 @@ jobs:
 
       - name: Skill dictionary still reads with the skill's own tool
         run: python3 skills/southern-mekong-vietnamese-dialect/scripts/dictionary.py check
+
+      - name: API builds and packages for Cloudflare
+        run: |
+          npm run build
+          npx wrangler deploy --dry-run
+
+  # Publishes https://dialect.vnol.net/api/v1/ on every push to main (releases; work merges into develop).
+  # Needs repository secrets CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID. The token needs Editor on the
+  # dialect-api Worker and Zone > Workers Routes > Write on vnol.net; creating the Worker the first time needs
+  # the Workers Admin role, so a member can run the first `npm run deploy` instead. See docs/api.md.
+  deploy:
+    needs: check
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    concurrency: deploy-api
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      - name: Deploy the API
+        run: npm run deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

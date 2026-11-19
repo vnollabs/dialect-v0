@@ -2,7 +2,8 @@
  * Generates artifacts from data/:
  *   skills/southern-mekong-vietnamese-dialect/references/tu-dien-mien-tay.yaml  (senses that have a topic)
  *   skills/southern-mekong-vietnamese-dialect/references/nguon-tu-dien.md       (copy of data/nguon-tu-dien.md)
- *   dist/lexicon.json                                                            (every entry, with status; not committed)
+ *   dist/public/api/v1/…  the static JSON API served at https://dialect.vnol.net/api/v1/ (see docs/api.md; not committed)
+ *   dist/public/_headers  CORS and caching for the API (Cloudflare Workers static assets)
  *
  * Usage:
  *   node scripts/build.ts           write the files
@@ -10,7 +11,9 @@
  */
 import fs from "node:fs";
 import path from "node:path";
-import { DATA, ROOT, loadEntries, loadSources, loadTopics, status } from "./lib/data.ts";
+import { execFileSync } from "node:child_process";
+import { HEADERS_FILE, buildApi } from "./lib/api.ts";
+import { DATA, ROOT, loadEntries, loadRegions, loadSources, loadTopics } from "./lib/data.ts";
 import { renderSkillDictionary, skillLines } from "./lib/skill.ts";
 
 const check = process.argv.includes("--check");
@@ -51,13 +54,35 @@ for (const [file, text] of Object.entries(generated)) {
   console.log(`wrote ${path.relative(ROOT, file)}`);
 }
 
-const lexicon = entries.map(({ entry }) => ({
-  ...entry,
-  etymologies: entry.etymologies.map((e) => ({
-    ...e,
-    pos: e.pos.map((p) => ({ ...p, senses: p.senses.map((s) => ({ ...s, status: status(s, sources) })) })),
-  })),
-}));
-fs.mkdirSync(path.join(ROOT, "dist"), { recursive: true });
-fs.writeFileSync(path.join(ROOT, "dist/lexicon.json"), JSON.stringify(lexicon));
-console.log(`wrote dist/lexicon.json (${entries.length} entries, ${lines.length} lines in the skill dictionary)`);
+// The JSON API. dist/public is the Worker's asset directory (wrangler.jsonc), rebuilt from scratch each time.
+const built = new Date().toISOString();
+let commit = "dev";
+try {
+  commit = execFileSync("git", ["rev-parse", "--short", "HEAD"], { cwd: ROOT, encoding: "utf8" }).trim();
+} catch {
+  // Not a git checkout: keep "dev".
+}
+const readJson = (p: string) => JSON.parse(fs.readFileSync(path.join(ROOT, p), "utf8"));
+const api = buildApi({
+  entries,
+  regions: loadRegions(),
+  topics,
+  sources,
+  dataVersion: `${built.slice(0, 10)}+${commit}`,
+  built,
+  entrySchema: readJson("schema/entry.schema.json"),
+  apiSchemas: Object.fromEntries(
+    ["meta", "index", "bundle"].map((n) => [n, readJson(`schema/api/v1/${n}.schema.json`)]),
+  ),
+});
+const PUBLIC = path.join(ROOT, "dist/public");
+fs.rmSync(PUBLIC, { recursive: true, force: true });
+for (const [rel, text] of api) {
+  const file = path.join(PUBLIC, "api/v1", rel);
+  fs.mkdirSync(path.dirname(file), { recursive: true });
+  fs.writeFileSync(file, text);
+}
+fs.writeFileSync(path.join(PUBLIC, "_headers"), HEADERS_FILE);
+console.log(
+  `wrote dist/public/api/v1 (${api.size} files, ${entries.length} entries; ${lines.length} lines in the skill dictionary)`,
+);

@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dialect.vnol.net/api/v1/schema/meta.schema.json",
+  "title": "VN Dialect API v1: meta.json",
+  "description": "Counts, file layout and vocabularies of one API build. $defs.header is the block every bundle starts with.",
+  "type": "object",
+  "allOf": [{ "$ref": "#/$defs/header" }],
+  "required": ["counts", "files", "regions", "topics", "sources"],
+  "properties": {
+    "counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["entries", "senses", "verified", "pending", "unsourced", "ai_draft_examples"],
+      "properties": {
+        "entries": { "type": "integer", "minimum": 0 },
+        "senses": { "type": "integer", "minimum": 0 },
+        "verified": { "type": "integer", "minimum": 0 },
+        "pending": { "type": "integer", "minimum": 0 },
+        "unsourced": { "type": "integer", "minimum": 0 },
+        "ai_draft_examples": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "files": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["index", "lexicon", "entry", "regions", "schemas"],
+      "properties": {
+        "index": { "type": "string" },
+        "lexicon": { "type": "string" },
+        "entry": { "description": "Path template; replace {id} with an index record's id.", "type": "string" },
+        "regions": { "description": "Region id -> bundle path, for regions that have senses.", "type": "object", "additionalProperties": { "type": "string" } },
+        "schemas": { "type": "object", "additionalProperties": { "type": "string" } }
+      }
+    },
+    "regions": {
+      "description": "data/regions.yaml: id -> {name (Vietnamese), en, parent}.",
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name"],
+        "properties": { "name": { "type": "string" }, "en": { "type": "string" }, "parent": { "type": "string" } }
+      }
+    },
+    "topics": {
+      "description": "data/topics.yaml: id -> {name (Vietnamese), en, parent}.",
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name"],
+        "properties": { "name": { "type": "string" }, "en": { "type": "string" }, "parent": { "type": "string" } }
+      }
+    },
+    "sources": {
+      "description": "data/sources.yaml: id -> source description.",
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["name", "kind"],
+        "properties": {
+          "name": { "type": "string" },
+          "kind": { "type": "string" },
+          "url": { "type": "string" },
+          "license": { "type": "string" },
+          "same_as": { "type": "string" },
+          "counts": { "type": "boolean" },
+          "note": { "type": "string" }
+        }
+      }
+    }
+  },
+  "unevaluatedProperties": false,
+  "$defs": {
+    "header": {
+      "type": "object",
+      "required": ["api", "data_version", "built", "license", "license_url", "attribution"],
+      "properties": {
+        "api": { "const": "v1" },
+        "data_version": { "description": "Build date and commit, e.g. 2026-11-19+9e9fb04.", "type": "string" },
+        "built": { "type": "string", "format": "date-time" },
+        "license": { "type": "string" },
+        "license_url": { "type": "string" },
+        "attribution": { "description": "Show this (or equivalent credit) wherever the data is displayed.", "type": "string" }
+      }
+    }
+  }
+}

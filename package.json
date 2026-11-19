@@ -10,6 +10,8 @@
   "scripts": {
     "validate": "node scripts/validate.ts",
     "build": "node scripts/build.ts",
+    "dev:api": "npm run build && wrangler dev",
+    "deploy": "npm run build && wrangler deploy",
     "dict": "node scripts/dict.ts",
     "import:wiktionary": "node scripts/import-wiktionary.ts",
     "typecheck": "tsc",
@@ -19,6 +21,7 @@
     "@types/node": "^24.19.2",
     "ajv": "^8.20.0",
     "typescript": "^7.0.2",
+    "wrangler": "^4.165.0",
     "yaml": "^2.9.1"
   }
 }
