@@ -1,0 +1,383 @@
+# Từ điển phương ngữ Nam Bộ & Miền Tây
+#
+# FILE NÀY ĐƯỢC TẠO TỰ ĐỘNG từ data/entries/ của repo VN Dialect
+# (https://github.com/vnollabs/dialect-v0) bằng `npm run build`. Đừng sửa tay trong repo đó;
+# sửa file mục từ trong data/entries/ rồi build lại.
+#
+# Định dạng: <từ>: <nghĩa>
+#   - <từ>   là từ Nam Bộ / Miền Tây. Nhiều cách nói cùng nghĩa thì nối bằng " / ".
+#   - <nghĩa> là lời giải nghĩa, hoặc từ phổ thông / Bắc tương đương.
+#     Ví dụ đặt cuối, trong ngoặc: (VD. ...).
+#   - Không viết ": " hay " #" bên trong <từ> / <nghĩa>. Cần thì bọc cả chuỗi trong "...".
+#   - Mỗi <từ> chỉ xuất hiện một lần trong cả file.
+#   - Dùng skill ngoài repo VN Dialect: thêm / tìm / kiểm tra bằng scripts/dictionary.py (add, find, check).
+#
+# Một số ví dụ lấy từ Wiktionary tiếng Anh (https://en.wiktionary.org/), giấy phép CC BY-SA 4.0;
+# trang nguồn của từng nghĩa ghi trong trường `sources` của mục từ trong data/entries/.
+
+Thành ngữ, cụm từ & thán từ:
+  Ăn như xáng múc, làm như lục bình trôi: Siêng ăn, biếng làm
+  Ăn tây ni / Đóng thùng: Bỏ áo vô quần cho lịch sự (VD. Trời, bữa nay ăn tây ni nhìn bảnh dữ bây!)
+  Bá cháy / Bá cháy con bà bảy / Bá chấy bọ chét: Cực kỳ xuất sắc, tuyệt vời
+  Bà tám / Nhiều chiện: Hay nói chuyện thiên hạ, thêm bớt (VD. Thôi đi bà tám)
+  Bầy hầy: Không gọn gàng, bừa bãi
+  Buông dầm cầm chèo: Tháo vát, linh hoạt trong ứng xử
+  Chạy giặc / Chạy như chạy giặc: Chạy loạn tránh giặc; nói vui là chạy hối hả, tán loạn (VD. Mưa xuống cái là cả xóm lo dọn đồ phơi, chạy như chạy giặc)
+  Chu cha / Chu cha mẹ ơi: Thán từ biểu lộ sự ngạc nhiên tột độ, trầm trồ hoặc thán phục (VD. Chu cha, con cá lóc nướng trui thơm phức!)
+  Chù ụ / Mặt chầm dầm: Mặt xị, sưng sỉa vì không vui (VD. Làm gì mà mặt chù ụ một đống vậy?)
+  Coi cọp: Xem lén, không mua vé
+  Dữ hôn / Dữ thần: Ghê thiệt, dữ quá; khen hay trách nhẹ tùy giọng (VD. Dữ hôn! Lâu quá mới chịu ghé qua nhà tui nhen)
+  Đâm bang / Đâm xuồng lủng / Đâm xuồng bể: Nói chuyện lạc đề, lan man, chen ngang làm mất hứng
+  Đi bang bang: Đi nghênh ngang ngoài đường, đi giữa nắng không mục đích (VD. Giờ này mà còn bang bang ngoài đường chi vậy trời?!)
+  Gió chiều nào theo chiều nấy: Ba phải, không có chính kiến, thấy bên nào có lợi thì ngả theo
+  Hằm bà lằng xá bấu: Lộn xộn, không theo quy tắc nào
+  Hết sẩy / Hết xảy: Ngon, tuyệt
+  Hóc bà tó: Nơi xa xôi, hẻo lánh (VD. Ê, mày chui hóc bà tó nào đó?)
+  Làm chảnh / Làm phách: Ra vẻ kiêu kỳ, cách điệu, kiêu căng khó gần (VD. Làm gì mà làm chảnh dữ vậy bây?)
+  Lật mặt như bánh tráng: Thay đổi thái độ, lời nói cực kỳ nhanh, lật lọng (VD. Sống ở đời ghét nhứt là mấy người lật mặt như bánh tráng)
+  Lên hương: Đổi đời, phất lên, gặp thời vận tốt (VD. Từ hồi mở quán bún mắm, làm ăn lên hương luôn)
+  Mần ăn kiểu nước nhảy: Làm ăn chớp nhoáng, không bền vững, không kiên định
+  Mèn đéc ơi / Mèn đét ơi / Mèn ơi / Chèn ơi / Chèng đéc ơi: Trời ơi (thán từ khi ngạc nhiên)
+  Ngon bà cố / Ngon nhức nách: Ngon hết sẩy, ngon hết cỡ
+  Nói ruột ngựa: Nói thẳng, nghĩ sao nói vậy, không giấu giếm (VD. Tính tui xưa nay vậy đó, nói ruột ngựa chớ hổng có ý gì đâu)
+  Nói vòng vo như rạch Cái Tắc: Nói lòng vòng, khó hiểu
+  Nước tới trôn mới nhảy: Nước đến chân mới nhảy; để sát nút mới lo (VD. Chuyện gì cũng để nước tới trôn mới nhảy)
+  Quá trời quá đất: Nhiều lắm, quá mức
+  Quá xá: Nhiều lắm, quá chừng (VD. Dạo này kẹt chiện quá xá!)
+  Tào lao: Vớ vẩn, không đâu vô đâu
+  Tầm xàm bá láp: Nói năng lung tung, nhảm nhí
+  Tháng mười mưa thúi đất: Mưa dầm liên miên
+  Tới bến / Tới nái: Vui chơi hoặc làm việc hết mình, quá mức
+  Tới công chuyện: Bị bắt quả tang, sắp bị xử (VD. Rồi xong! Mày tới công chuyện với tao rồi con!)
+  Tránh vỏ dưa gặp vỏ dừa: Tránh được rắc rối này lại vướng ngay rắc rối khác (VD. Đúng là xui, tưởng thoát nạn ai dè tránh vỏ dưa gặp vỏ dừa)
+  Trời đất quỷ thần ơi: Thán từ biểu lộ sự kinh ngạc tột độ hoặc hoảng hốt (VD. Trời đất quỷ thần ơi, sao để nước ngập tới nhà vầy nè!)
+  Trúng mánh: Trúng đậm, làm ăn phát tài hoặc gặp may lớn bất ngờ (VD. Vụ lúa năm nay trúng mùa trúng giá, coi như trúng mánh lớn!)
+  Xa mút chỉ cà tha: Rất xa
+  Xạo / Xạo ke / Ba xạo: Nói dối, nói phét
+
+Từ vựng Miền Tây & từ xưa ít dùng:
+  Bán đắc / Đắc: Đông khách, bán chạy; khác mắc là giá cao
+  Bẹo / Cây bẹo: Cây sào treo hàng trên ghe ở chợ nổi để chào bán; bẹo là chưng ra
+  Binh thiên: Đông nghẹt, nhiều vô kể (VD. Người đâu ra quá xá binh thiên)
+  Bộn: Nhiều, khá nhiều (VD. Kéo lưới được bộn cá)
+  Bông bụp: Hoa dâm bụt
+  Bữa giờ: Mấy hôm nay (VD. Bữa giờ đi đâu mà hổng thấy qua chơi?)
+  Bữa hổm / Hôm hổm: Hôm trước, hôm nọ
+  Bữa nay: Hôm nay
+  Bữa nọ: Hôm nọ
+  Cà nhông / Cà nhổng: Rong chơi, không có việc gì làm (VD. Đi cà nhổng tối ngày)
+  Cà rịch cà tang / Cà rịt cà tang: Chậm rãi, lề mề, từ từ không vội (VD. Làm cà rịch cà tang vậy chừng nào mới xong?)
+  Cái củng: Cái chân váy
+  Cầu khỉ: Cầu bắc qua kinh rạch bằng thân dừa hoặc tre đơn sơ, đi phải giữ thăng bằng (VD. Mới tập đi ruộng mà đòi qua cầu khỉ là thể nào cũng rớt xuống sình)
+  Cây dầm: Mái chèo để khua nước chạy ghe
+  Chà bá / Bự tổ chảng / Cành xì nái: To lớn quá khổ (VD. Con cá lóc bự chà bá lửa)
+  Chạy huốt / Huốt / Huốc: Chạy vượt quá chỗ cần tới, qua lượt, mất lượt (VD. Quẹo hẻm này nè, chạy huốt rồi!)
+  Chục: Chục trái cây có thể hơn 10 trái; chục trơn là đủ 10, chục có đầu là hơn 10
+  Chưng hửng: Hụt hẫng, ngỡ ngàng
+  Con lăng quăng: Bọ gậy (loăng quăng trong nước)
+  Củ khoai mì: Củ sắn
+  Cu ki: Một mình, lẻ loi
+  Cù lao: Vùng đất nổi giữa sông do phù sa bồi đắp (VD. Về cù lao Thới Sơn ăn trái cây hái tại vườn)
+  Dóc / Dóc bà cố: Nói khoác, bịa chuyện (VD. Cái thằng dóc bà cố, cứ mở miệng toàn chiện dữ thần thiên địa)
+  Đàng: Đường (VD. Liệu đàng lủi ra cho lẹ)
+  Đặng: Được (VD. Ra đường ngó mặt nhau hổng đặng)
+  Đầy nhóc / Nhóc: Đầy, nhiều lắm (VD. Dưới kinh nhóc cá)
+  Đèn cầy: Nến
+  Đi mần: Đi làm, lao động (VD. Sáng giờ đi mần mệt nghỉ)
+  Đìa: Ao (thường đào trong ruộng, vườn để nuôi cá)
+  Đía: Lươn lẹo, không thật thà (VD. Thấy cái mặt nó là biết đía rồi!)
+  Đọt: Ngọn cây, ngọn rau (VD. Đọt rau muống)
+  Gáo / Gáo dừa: Dụng cụ múc nước có cán, làm bằng nửa vỏ trái dừa khô hoặc bằng nhựa
+  Ghe: Thuyền lớn
+  Ghe lườn / Ghe tam bản: Các loại thuyền nhỏ, thon dài, chuyên chèo chống trong kinh rạch hẹp
+  Hạnh / Trái tắc: Quả quất
+  Hồ (nước): Bể chứa nước
+  Hổm rày / Mấy rày: Dạo này, mấy hôm nay
+  Hột gà: Trứng gà
+  Hột vịt: Trứng vịt
+  Hủ hỉ: Thủ thỉ, tâm sự nhỏ nhẹ với nhau, thường giữa vợ chồng, người thân (VD. Ở nhà ba má hủ hỉ với nhau cũng được)
+  Huyết: Tiết (động vật)
+  Kinh: Kênh
+  Lai rai: Ngồi nhậu, trò chuyện từ tốn, kéo dài cho vui, không uống gấp (VD. Chiều nay rảnh ghé nhà tui làm vài ve lai rai chơi)
+  Lội bộ: Đi bộ
+  Mắc công: Mất công, phiền
+  Mần thinh: Im lặng, không lên tiếng, làm thinh (VD. Hỏi gì cũng mần thinh như hến)
+  Mé: Phía, bên, mép (VD. Nhà ổng ở xích mé bên kia kìa)
+  Miệt: Vùng, miền (VD. Miệt vườn, miệt thứ, miệt bưng biền)
+  Miết / Riết: Lặp lại hoài, liên tục
+  Mình ên: Một mình
+  Mồi bén: Đồ nhậu ngon, hợp khẩu vị (VD. Có dĩa khô cá lóc nướng làm mồi bén là ngồi tới khuya luôn)
+  Mống: Cầu vồng
+  Mùa nước nổi: Mùa lũ đặc trưng của miền Tây, khoảng tháng 7 tới tháng 10 âm lịch (VD. Canh chua bông điên điển cá linh mùa nước nổi)
+  Mùng: Màn (ngủ)
+  Nước lớn: Thủy triều lên
+  Nước ròng: Thủy triều xuống
+  Phi cơ: Máy bay (từ xưa, nay ít dùng)
+  Rạch: Đường nước nhỏ chảy ra sông
+  Rành: Thạo, biết rõ (VD. Tui hổng rành đường nha!)
+  Rặt: Thuần, nguyên chất (VD. Nói rặt giọng miền Tây)
+  Rề rề: Chậm chạp, lề mề (VD. Gì mà rề rề như bà già vậy?)
+  Rốp rẻng / Rốp rẽng: Nhanh gọn, dứt khoát (VD. Làm gì thì làm rốp rẻng cho xong)
+  Sát nút: Sát giờ chót, cận kề; chênh lệch rất ít (VD. Để sát nút mới lo; thắng sát nút)
+  Sắp nhỏ: Tụi con nít, bọn nhỏ trong nhà
+  Sình: Bùn; (cá, thịt) ươn
+  Tắc ráng: Xuồng máy nhỏ gắn máy đuôi tôm, chạy nhanh trên sông rạch (VD. Ra bến lẹ lên tắc ráng cho kịp chuyến nước ròng)
+  Tầy quầy / Tùm lum tà la: Bừa bộn, luộm thuộm
+  Thí: Cho không, bỏ (VD. Thôi thí cho nó đi!)
+  Thương hồ: Người buôn bán trên sông (VD. Dân thương hồ)
+  Tòn ten: Treo lủng lẳng, đung đưa (VD. Xách giỏ tòn ten đi chợ)
+  Tới tua: Tới lượt mình (uống xoay vòng, xếp hàng) (VD. Tới tua mày rồi đó, vô một ly cho trọn tình trọn nghĩa coi!)
+  Trái khóm / Trái thơm: Quả dứa
+  Trớt quớt: Lạc đề, sai bét, trật lất, không ăn nhập gì
+  Vàm / Vàm sông: Chỗ rạch, nhánh sông nhỏ đổ ra sông lớn
+  Vịt xiêm: Ngan
+  Xẻo: Lạch nước nhỏ trên vùng đất thấp (VD. Xẻo Bướm, Xẻo Chim, Xẻo Mù U)
+  Xị / Xị đế: Đơn vị đong rượu gạo của người Nam Bộ, 1 xị khoảng 250ml
+  Xía / Chỏ / Xứa: Chen vô, can thiệp chuyện người khác (VD. Cứ xía dô chiện tui hoài nghen!)
+  Xuồng: Thuyền nhỏ
+  Xực: Ăn (văn cảnh thân mật)
+
+Đối chiếu Bắc → Nam:
+  Gia đình & xưng hô:
+    Ảnh: Anh ấy
+    Anh Hai / Chị Hai: Cách gọi theo thứ trong nhà (anh Hai, chị Ba, má Bảy…); anh Hai còn dùng gọi người lạ cho thân (VD. Uống gì hông anh Hai?)
+    Ba: Bố (VD. Ba con tên gì?)
+    Bả: Bà ấy
+    Bậu: Tiếng gọi thân mật người thương (VD. Bậu về hồi nào vậy?)
+    Bây / Tụi bây: Các bạn, tụi mày (gọi người nhỏ hơn hoặc ngang hàng, thân mật)
+    Chế: Chị
+    Chỉ: Chị ấy
+    Cổ: Cô ấy
+    Ẻm: Em ấy
+    Hia: Anh
+    Má: Mẹ
+    Ní: Cách gọi thân mật người ngang tuổi hoặc nhỏ hơn
+    Ổng: Ông ấy (VD. Đó là lúc "ổng", tức ba tôi chống cây gậy khật khừng lang thang xuống bến.)
+    Qua: Anh (tự xưng với người thương hoặc người nhỏ hơn) (VD. Qua tính vậy em coi có đặng hông?)
+    Tía: Cha
+    Tui: Tôi
+
+  Ăn uống:
+    Bạc hà / Môn thơm: Dọc mùng
+    Bánh tráng: Bánh đa (nem)
+    Bánh ướt: Bánh cuốn
+    Bao tử: Dạ dày (VD. Ăn chậm nhai kĩ kẻo đau bao tử.)
+    Bắp: Ngô
+    Bí đỏ: Bí ngô
+    Bịch: Túi
+    Bông cải: Súp lơ
+    Bột ngọt: Mì chính
+    Cá lóc: Cá quả (VD. cá lóc nướng trui)
+    Cà rem: Kem (VD. Lắm đi bán cà-rem và làm quân trong gánh hát.)
+    Chả giò: Nem rán
+    Chén: Bát
+    Chiên: Rán (VD. trứng chiên)
+    Củ sắn: Củ đậu (miền Bắc); còn củ sắn của miền Bắc thì miền Nam gọi là "củ khoai mì"
+    Dĩa: Đĩa
+    Đậu: Đỗ
+    Đậu hủ / Tàu hủ: Đậu phụ
+    Đậu phộng: Lạc
+    Gỏi: Nộm
+    Gỏi cuốn: Nem cuốn
+    Heo: Lợn
+    Khổ qua: Mướp đắng (VD. khổ qua nhồi thịt)
+    Ly: Cốc
+    Mè: Vừng
+    Muỗng: Thìa
+    Nấm mèo: Mộc nhĩ
+    Ngò: Rau mùi
+    Nước tương: Xì dầu
+    Tính tiền: Thanh toán (ở quán)
+    Trái: Quả (VD. ăn trái (cây))
+    Trái bom / Trái bôm: Quả táo tây (apple), gốc tiếng Pháp pomme; từ xưa, nay ít dùng (VD. Ngoại mua cho mấy trái bom đỏ au)
+    Trái cây: Hoa quả
+    Trái mãng cầu: Quả na
+    Trái mận: Quả roi (miền Bắc); còn mận ngoài Bắc gọi là "mận Bắc" hoặc "mận Hà Nội"
+
+  Đồ dùng & nhà cửa:
+    Áo bà ba: Áo truyền thống giản dị, thoải mái, gắn với hình ảnh người Nam Bộ (VD. Con gái miền Tây bận áo bà ba nhìn dịu dàng hết sẩy)
+    Áo thun: Áo phông
+    Banh: Bóng
+    Bình thủy: Phích nước
+    Cà mên / Gà mên: Cặp lồng (hộp đựng cơm nhiều ngăn chồng lên nhau, có quai xách) (VD. Sáng nào má cũng soạn cà mên cơm theo cho ba đi mần rẫy)
+    Cà rá: Nhẫn (VD. Đeo cà rá hột xoàn)
+    Cái chõng: Giường tre hoặc gỗ nhỏ đặt ở hiên nhà để hóng mát, ngả lưng buổi trưa (VD. Trưa hè ra hiên nằm trên cái chõng, gió thổi hiu hiu ngủ ngon ghê)
+    Cái đó / Cái lờ (bẫy cá): Đồ đan bằng tre nứa đặt dưới mương, đìa để bắt cá (VD. Sáng ra thăm đìa thấy cái đó dính đầy cá rô)
+    Cái nia: Đồ đan bằng tre hình tròn, dẹt, dùng phơi lúa, sàng gạo, đựng đồ (VD. Đem mẻ cá khô ra phơi trên cái nia cho lẹ)
+    Chén kiểu: Chén, dĩa bằng sứ cổ có viền hoa văn xanh đỏ, thường thấy trong nhà Nam Bộ xưa
+    Dù: Ô
+    Đá banh: Đá bóng
+    Đèn hột vịt: Đèn dầu nhỏ, bầu đèn tròn như hột vịt, thắp sáng ban đêm thời chưa có điện (VD. Cúp điện rồi, đốt cây đèn hột vịt lên đi tụi bây)
+    Gác-măng-rê: Tủ đựng thức ăn, chén dĩa, có lưới kẽm xung quanh cho thoáng và chống ruồi (gốc tiếng Pháp garde-manger) (VD. Mở gác-măng-rê ra lấy giùm tui cái chén kiểu coi)
+    Hột xoàn: Kim cương (VD. Cà rá hột xoàn)
+    Khạp / Lu: Chum, vại lớn bằng sành đựng nước mưa (VD. Múc nước mưa ngoài lu vô nấu trà)
+    Khăn rằn: Khăn choàng cổ sọc ca-rô đen trắng hoặc đen xám, đặc trưng người miền Tây (VD. Quấn cái khăn rằn lên cổ đi tát mương bắt cá)
+    Kiếng: Kính
+    Lò: Bếp
+    Máy lạnh: Điều hoà
+    Mền: Chăn
+    Mở (đèn, máy): Bật
+    Nhà thương: Bệnh viện
+    Nón: Mũ
+    Quần cụt / Xà lỏn: Quần đùi (VD. […] bỗng có một ông bố mặc "xà lỏn" lượn qua lượn lại,[…])
+    Viết: Bút (VD. một cây viết chì)
+    Xà bông: Xà phòng (VD. Lấy cục xà bông Cô Ba ra tắm rửa sạch sẽ rồi mới vô nhà)
+
+  Giao thông & đường sá:
+    Bùng binh: Vòng xuyến, vòng xoay
+    Cua / Quẹo: Rẽ
+    Đậu xe: Đỗ xe
+    Hẻm: Ngõ
+    Lề: Vỉa hè
+    Lộ: Đường cái, đường lớn (VD. Ra lộ đón xe đò)
+    Niềng (xe): Vành xe
+    Quá giang: Đi nhờ xe, đi nhờ ghe (VD. Cho em quá giang ra chợ với)
+    Ruột xe: Săm xe
+    Sên (xe): Xích xe
+    Thắng: Phanh
+    Vỏ xe: Lốp xe
+    Xe đò: Xe khách đường dài
+    Xe hơi: Ô tô
+
+  Hành động:
+    Ăn hiếp: Bắt nạt
+    Bận: Mặc (quần áo) (VD. Bữa nay bận đồ đẹp nghen)
+    Biểu / Nói: Bảo (VD. Ê cu, lại đây tao biểu!)
+    Cà khịa: Kiếm chuyện, trêu chọc để gây sự (VD. Đang yên đang lành tự nhiên đi cà khịa người ta chi vậy?)
+    Cãi lộn: Cãi nhau
+    Chích: Tiêm
+    Chích ngừa: Tiêm phòng (VD. Dẫn sắp nhỏ đi chích ngừa)
+    Chịu: Thích, ưng, đồng ý (VD. Hổng chịu đâu nha)
+    Chôm / Chôm chỉa: Ăn cắp vặt, lấy lén (VD. Tụi nhỏ rình chôm xoài ngoài vườn bị ổng rượt chạy có cờ)
+    Coi: Xem (VD. coi em)
+    Đánh lộn: Đánh nhau
+    Ghiền: Nghiện, mê (VD. Coi phim cho đỡ ghiền)
+    Giỡn: Đùa
+    Hốt: Gom lấy hết, bắt gọn; ăn sạch (VD. Công an mới hốt nguyên ổ đá gà dưới bến đò)
+    Hư: Hỏng
+    La / Rầy: Mắng (VD. bị vợ la)
+    Liệng / Quăng: Vứt
+    Lội: Bơi
+    Lộn: Nhầm (VD. Nói lộn nói lại, đi lộn đường)
+    Lủi: Luồn lách, chui nhanh vô chỗ khuất hoặc trốn mất (VD. Thấy chủ nợ tới là nó lủi mất tiêu ra cửa sau)
+    Lượm: Nhặt
+    Mắc võng: Treo võng để nằm (VD. Ra hiên trước nhà mắc võng nằm đưa kẽo kẹt)
+    Mần: Làm
+    Mướn: Thuê
+    Ngó: Trông
+    Nói xạo: Nói dối
+    Nựng: Cưng nựng, âu yếm trẻ con hoặc thú cưng (VD. Thấy thằng nhỏ mập ú dễ thương ai cũng lại nựng)
+    Quắc cần câu / Xỉn: Say rượu, say tới mức không biết trời trăng gì (VD. Mới có mấy xị đế mà ổng đã quắc cần câu rồi)
+    Rà: Dò tìm, đi chậm để quan sát kỹ (VD. Chạy xe rà rà kiếm số nhà cho kỹ kẻo chạy huốt)
+    Rước: Đón
+    Táp: Ăn vội, tớp nhanh; (chó) đớp, cắn (VD. Đói bụng quá táp đại tô cơm nguội rồi đi mần tiếp)
+    Té: Ngã
+    Thọt lét: Cù vô nách hoặc hông cho nhột (VD. Đừng có thọt lét tao, nhột muốn chết!)
+    Trả giá: Mặc cả
+    Ủi (đồ): Là (quần áo)
+    Xài: Dùng, tiêu (VD. Xài đồ phải giữ nghen)
+    Xắt: Thái (rau, thịt) (VD. Xắt rau heo)
+    Xẹt qua: Tạt qua, ghé ngang (VD. Tao xẹt qua nhà thằng Tám cái đã nghen)
+    Xích (qua, lại, vô): Dịch, nhích (sang, lại, vào) (VD. Ngồi xích qua đây coi!)
+    Xổ: Nói tuôn ra một tràng; nói ngoại ngữ lưu loát (VD. Nhìn quê quê vậy chớ gặp Tây là cổ xổ tiếng Anh như gió)
+
+  Tính chất & cảm xúc:
+    Cà chớn: Không đàng hoàng, thiếu nghiêm túc, hay giỡn quá trớn (VD. Thằng đó tánh tình cà chớn lắm, đừng có tin lời nó)
+    Chà lết: Mệt quá, lê lết không nổi; quần áo, đồ vật dài quét đất (VD. Bận cái quần dài chà lết nhìn luộm thuộm quá)
+    Chèm nhẹp: Ướt sũng, nhão nhoét (VD. Mưa dầm nguyên đêm làm đường đất nhão chèm nhẹp)
+    Chết trân: Đứng sững người vì quá bất ngờ hoặc sợ hãi (VD. Nghe tin dữ xong bả đứng chết trân tại chỗ)
+    Chừng nào: Bao giờ (tương lai)
+    Củ mỉ cù mì: Ít nói, hiền lành, chậm rãi, sống nội tâm (VD. Tánh nó củ mỉ cù mì vậy chớ tốt bụng dữ lắm)
+    Giận / Lẫy: Dỗi
+    Hên: May (VD. Hên xui may rủi)
+    Hồi nào: Bao giờ (quá khứ)
+    Keo cú / Kẹt xỉn: Keo kiệt, bủn xỉn, tính toán chi li từng đồng (VD. Đàn ông con trai gì mà kẹt xỉn dữ vậy ba!)
+    Làm sao / Sao: Thế nào
+    Láng cóng / Láng o: Trơn láng, bóng loáng, sạch không tì vết (VD. Sàn nhà mới lau láng cóng, đi coi chừng trợt té nghen)
+    Lanh chanh: Nhanh nhẹn nhưng hơi hấp tấp, lăng xăng (VD. Đừng có lanh chanh lo chuyện người ta)
+    Lẹ: Nhanh (VD. Lẹ lên!)
+    Lủ khủ: Rất nhiều, chất đống (VD. Dưới ghe chở khóm chất lủ khủ nhìn đã con mắt)
+    Mắc: Đắt / Đắt đỏ
+    Mắc cỡ: Ngượng
+    Mắc cười: Buồn cười (VD. Suốt buổi, không dính con cá nào, chị nói, "Mắc cười quá, tới mấy con cá quỷ này còn chê chị".)
+    Mập: Béo
+    Ngộ: Lạ mà xinh, dễ thương (VD. Cái này coi ngộ hén)
+    Ốm: Gầy
+    Rầu: Buồn
+    Tèm lem / Tèm nhèm: Dính bẩn lấm lem khắp mặt mũi, tay chân (VD. Ăn cây cà rem xong mặt mũi dính tèm lem hết trơn)
+    Thúi: Thối (VD. có mùi thúi)
+    Trễ: Muộn
+    Trơn tuột: Trơn trượt rất dễ té; thuộc bài, làm việc trôi chảy không vấp
+    Xui: Rủi (VD. Hên xui may rủi)
+    Y chang: Giống y hệt, như đúc
+
+Âm Hán Việt kiểu Nam Bộ:
+  Chánh: Chính (VD. Người miền Bắc chánh hiệu)
+  Chơn / Chưn: Chân
+  Lịnh: Lệnh
+  Nhơn: Nhân
+  Nhựt: Nhật
+  Nhứt: Nhất
+  Sanh: Sinh
+  Tánh: Tính
+
+Sản vật & món ăn Miền Tây:
+  Ba khía: Loại cua nhỏ ở vùng nước lợ, làm món mắm ba khía nổi tiếng (VD. Dĩa gỏi đu đủ trộn ba khía cay xé lưỡi)
+  Bánh xèo: Bánh đổ bằng bột gạo pha nước cốt dừa, nghệ, nhân tôm thịt, giá, ăn kèm rau sống, rau rừng
+  Bông điên điển / Bông so đũa: Các loại hoa đặc trưng mùa nước nổi miền Tây, dùng nấu canh chua, đổ bánh xèo
+  Bông súng: Cọng bông súng mọc hoang ở đồng, đìa mùa nước nổi; xốp giòn, ăn kèm lẩu, mắm kho
+  Cá linh: Loại cá nhỏ đặc trưng mùa nước nổi miền Tây (VD. Canh chua bông điên điển cá linh)
+  Cá lóc nướng trui: Cá lóc tươi nguyên con thui bằng rơm, vừa bắt dưới đìa lên (VD. Chiều nay làm vài con cá lóc nướng trui cuốn rau sống bánh tráng nghen anh Hai)
+  Cà ràng: Bếp lò nặn bằng đất sét nung, đun củi trên ghe hoặc trong bếp xưa
+  Canh chua bần: Canh chua nấu bằng trái bần chín mọc ven sông rạch, vị chua thanh (VD. Canh chua cá bông lau nấu bần ăn đứt mấy món khác)
+  Kho quẹt: Món mắm quẹt với tóp mỡ, tiêu, ớt quánh lại để chấm rau luộc (VD. Cơm cháy kho quẹt)
+  Khô cá lóc / Khô cá sặc: Cá nước ngọt xẻ phơi khô, đặc sản miền Tây (VD. Nướng con khô cá sặc trộn gỏi xoài bằm là hết bài)
+  Lục bình: Bèo tây, trôi nổi trên sông rạch
+  Mắm kho: Mắm cá linh, cá sặc kho với thịt ba rọi, cà tím, ăn kèm rau đồng, bông súng
+  Nước mắm nhỉ: Nước mắm cốt nguyên chất rút từ thùng chượp đầu tiên
+  Ốc lác hấp tiêu: Ốc đồng béo ngậy hấp trong thố đất với tiêu xanh cay nồng
+  Trái bình bát / Trái trâm / Trái gáo: Các loại trái cây dân dã mọc hoang ven sông rạch miền Tây xưa
+
+Thời tiết & miệt vườn:
+  Bưng biền: Vùng đồng trũng ngập nước, hoang sơ nhiều lau sậy, đặc trưng miền Tây xưa
+  Liếp (vườn): Luống đất cao giữa các mương vườn để trồng cây ăn trái (VD. Bên kia mương có mấy liếp sầu riêng đang ra bông)
+  Mưa bóng mây: Mưa rào bất chợt giữa lúc trời đang nắng rồi tạnh ngay (VD. Mưa bóng mây chút xíu là tạnh hà, khỏi bận áo mưa)
+  Mưa dầm / Mưa thúi đất: Mưa kéo dài liên miên nhiều ngày không dứt
+  Mương vườn: Rãnh nước đào xen giữa các liếp cây để tưới tiêu và nuôi cá
+  Nắng bể đầu / Nắng chang chang: Trời nắng gắt, oi bức dữ dội giữa trưa
+  Trời chuyển mưa: Trời kéo mây đen u ám sắp đổ mưa (VD. Trời chuyển mưa đen kịt rồi, mau gom đồ phơi vô nhà!)
+
+Ngữ khí từ & tiểu từ cuối câu:
+  … coi: Tiếng đệm cuối câu khi biểu, hướng dẫn hoặc ra hiệu (VD. Ngồi xích qua đây coi!)
+  Ai dè / Đâu dè: Bất ngờ, ngỡ ngàng vì kết quả trái với dự tính (VD. Cứ tưởng ổng hiền, đâu dè dữ thần thiệt chớ!)
+  Bộ: Đầu câu hỏi, tỏ ý thắc mắc, hoài nghi hoặc ngạc nhiên (VD. Bộ mày tính bỏ đi luôn hả?)
+  Chớ: Nhấn mạnh sự khẳng định, đôi khi phản bác hoặc răn đe nhẹ (VD. Đâu phải chuyện giỡn chơi chớ!)
+  Chớ bộ: "Cuối câu: khẳng định điều hiển nhiên, có ý phân trần hay bắt bẻ nhẹ (VD. Thì phải đợi nước ròng mới đi được chớ bộ)"
+  Chớ sao: "Đáp hay kết câu: dĩ nhiên rồi, chứ sao (VD. Đi chớ sao! Đám giỗ ông Năm mà)"
+  Có… đâu / Đâu có: Phủ định một cách từ tốn, hiền lành (VD. Tui có làm gì đâu mà la rầy hoài vậy)
+  Hà: Cuối câu, giảm nhẹ mức độ, an ủi hoặc tỏ ý đơn giản, bình thường (VD. Chuyện có xíu xiu hà, đừng có bận tâm)
+  Hén: Hỏi ý, rủ rê nhẹ nhàng hoặc tìm sự đồng thuận của người nghe (VD. Chiều nay qua vườn hái mận với tui hén?)
+  Nè: Kéo sự chú ý của người nghe vô hành động, sự việc, vật trước mặt (VD. Lấy cái áo này bận thử đi nè, đẹp lắm đó)
+  Nghe / Nghen: Dặn dò, nhắc nhở thân mật, tạo cảm giác gắn kết (VD. Nhớ cẩn thận đường trơn trợt nghen!)
+  Thấy mồ: "Cuối câu, sau tính từ: than hay nhấn mạnh mức độ, như 'quá', 'ghê' (VD. Trưa nay nắng thấy mồ, đừng có ra đồng)"
+  Trời: Tiếng đệm cảm thán cuối câu, thân mật, trách yêu (VD. Làm gì mà đi trễ dữ vậy trời!)
+
+Từ chen & dấu hiệu diễn ngôn:
+  Ai biểu: Ai bảo; trách hay bắt bẻ rằng tại mình mà ra (VD. Ai biểu hổng nghe lời má, giờ ráng mà chịu)
+  Bởi vậy / Bởi vậy mới nói: Vì thế, thế nên; 'bởi vậy mới nói' là 'thế mới nói', dẫn ra một lẽ đời (VD. Bởi vậy mới nói, ăn ở hiền thì gặp lành)
+  Coi bộ: Có vẻ như, xem ra; đoán theo điều thấy trước mắt (VD. Mây đen kéo tới nghẹt trời, coi bộ chiều nay mưa lớn à nghen)
+  Dễ sợ: "Đứng sau tính từ: ghê lắm, quá chừng (nói quá để khen) (VD. Trái sầu riêng này ngọt dễ sợ)"
+  Đó giờ: Từ trước đến giờ, xưa nay (VD. Đó giờ tui chưa thấy con cá lóc nào bự cỡ này)
+  Gì đâu: Đứng sau tính từ để nhấn mạnh khi khen hay than, như 'quá trời'; khác 'có gì đâu' (không có gì) (VD. Con nhỏ đó dễ thương gì đâu á!)
+  Hèn chi / Hèn gì: Thảo nào, bảo sao; vỡ lẽ ra nguyên do (VD. Bữa nay ổng trúng số, hèn chi cười hoài)
+  Hết biết: "Đứng sau tính từ, động từ: hết chỗ nói, quá mức (khen hay chê đều được) (VD. Bánh xèo bà Bảy giòn hết biết)"
+  Hổng chừng / Không chừng: Có khi, biết đâu, không biết chừng (VD. Trời vầy hổng chừng tối nay nước lớn tràn bờ)
+  Mắc gì / Mắc mớ gì: Việc gì mà, cớ gì mà, can gì tới (hỏi vặn, có ý bực) (VD. Mắc mớ gì mày xía vô chuyện nhà tao?)
+  Nói nào ngay: Nói cho công bằng, nói thiệt ra; chen vô khi đang chê mà muốn nói tốt một câu (VD. Thằng đó làm biếng thiệt, mà nói nào ngay, nó thương má nó lắm)
+  Nói thiệt / Tình thiệt: Nói thật, thật lòng mà nói (VD. Nói thiệt, tui hổng ưa cái kiểu đó chút nào)
+  Nói vậy chớ: Nói thì nói vậy, nhưng mà; tuy vậy (VD. Nói vậy chớ tui cũng hổng nỡ bỏ nó)
+  Ờ ha / Ờ há: Ừ nhỉ, à phải rồi; chợt nhớ ra hay chợt thấy người kia nói đúng (VD. Ờ há, quên mất tiêu, bữa nay chủ nhật)
+  Ta nói: Cụm chen sau chủ đề để nhấn mạnh, trầm trồ, như 'phải nói là' (let me tell you); hay đi với 'nó' nhắc lại chủ đề và 'làm sao / gì đâu / hết biết' cuối câu (VD. Mà món ăn ở miền Tây ta nói nó ngon làm sao)
+  Té ra: Hóa ra, thì ra (VD. Tưởng ai, té ra là thằng Tư ở xóm dưới)
+  Ủa: Thán từ đầu câu khi ngạc nhiên, thắc mắc, như 'ơ' của miền Bắc (VD. Ủa, sao bữa nay về sớm vậy?)
+  Vậy chớ: "Đầu câu hỏi: vậy thì, thế thì (hỏi tới, hỏi vặn); giữa câu: vậy mà, tuy vậy (VD. Vậy chớ bây giờ tính sao?)"
