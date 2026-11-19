@@ -284,7 +284,17 @@ def main(argv):
     p.add_argument("--create", action="store_true")
     p.add_argument("--dry-run", action="store_true")
     args = ap.parse_args(argv)
-    d = Dictionary(os.path.normpath(args.file))
+    path = os.path.normpath(args.file)
+    if not os.path.isfile(path):
+        print(f"Không thấy từ điển: {path}", file=sys.stderr)
+        if os.path.isdir(REPO_ENTRIES):
+            print(
+                "Trong repo VN Dialect, file này do `npm run build` tạo từ data/entries/ và không nằm trong git.\n"
+                "Chạy `npm run build`, hoặc tra thẳng:  npm run dict -- find \"<từ>\"",
+                file=sys.stderr,
+            )
+        return 1
+    d = Dictionary(path)
     return {"groups": cmd_groups, "find": cmd_find, "check": cmd_check, "add": cmd_add}[args.cmd](d, args)
 
 

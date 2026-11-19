@@ -25,8 +25,8 @@ jobs:
       - name: Entries match the schema and vocabularies
         run: npm run validate
 
-      - name: Generated skill files are committed and up to date
-        run: npm run build -- --check
+      - name: Build the skill dictionary, packaged skills and API
+        run: npm run build
 
       - name: Type-check scripts
         run: npm run typecheck
@@ -34,13 +34,11 @@ jobs:
       - name: Tests (scripts and skills)
         run: npm test
 
-      - name: Skill dictionary still reads with the skill's own tool
-        run: python3 skills/southern-mekong-vietnamese-dialect/scripts/dictionary.py check
+      - name: Packaged skill dictionary reads with the skill's own tool
+        run: python3 dist/skills/southern-mekong-vietnamese-dialect/scripts/dictionary.py check
 
-      - name: API builds and packages for Cloudflare
-        run: |
-          npm run build
-          npx wrangler deploy --dry-run
+      - name: API packages for Cloudflare
+        run: npx wrangler deploy --dry-run
 
   # Publishes https://dialect.vnol.net/api/v1/ on every push to main (releases; work merges into develop).
   # Needs repository secrets CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID. The token needs Editor on the

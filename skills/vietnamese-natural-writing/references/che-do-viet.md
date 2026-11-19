@@ -84,18 +84,18 @@ Tin nhắn gửi cho người khác: trả lời khách trong inbox, tin nhắn 
 
 Luật chung khi viết lại: **giữ nguyên dữ kiện, số liệu, tên riêng, trích dẫn và ý của người viết.** Không thêm ý mới, trừ chế độ Mở rộng (và chỉ từ thông tin người dùng đưa).
 
-| Chế độ | Làm gì | Độ dài |
-| :--- | :--- | :--- |
-| **Chuẩn** (Standard) | Viết lại cho tự nhiên, rõ hơn; đổi cấu trúc câu vừa phải | ±10% |
-| **Trôi chảy** (Fluency) | Sửa ngữ pháp, chính tả, chỗ vấp; đổi ít nhất có thể | Giữ nguyên |
-| **Tự nhiên hóa** (Humanize) | Bỏ dấu hiệu văn máy (`dau-hieu-ai.md`), lệch nhịp, thay từ sáo bằng chuyện cụ thể có sẵn trong bài | ±15% |
-| **Trang trọng** (Formal) | Lên văn phong công việc / hành chính; bỏ khẩu ngữ, tiếng lóng | ±10% |
-| **Học thuật** (Academic) | Thuật ngữ chính xác, câu chặt, nêu giới hạn, không phóng đại, không cảm thán | ±15% |
-| **Đơn giản** (Simple) | Câu ngắn, từ thông dụng, một ý một câu; người đọc phổ thông hoặc học sinh | −10% đến −30% |
-| **Sáng tạo** (Creative) | Đổi hình ảnh, giọng, cấu trúc tự do; giữ ý chính | Tự do |
-| **Mở rộng** (Expand) | Thêm ví dụ, chi tiết, giải thích; **chỉ dùng thông tin có thật**, thiếu thì hỏi hoặc để `[cần bổ sung: …]` | +30% đến +100% |
-| **Rút gọn** (Shorten) | Cắt lặp, cắt rào đón, giữ ý chính và dữ kiện | −30% đến −50% |
-| **Tùy chỉnh** (Custom) | Theo mô tả của người dùng (VD. "như người bán cà phê ở chợ nói chuyện") | Theo yêu cầu |
+| Chế độ                      | Làm gì                                                                                                     | Độ dài         |
+|:----------------------------|:-----------------------------------------------------------------------------------------------------------|:---------------|
+| **Chuẩn** (Standard)        | Viết lại cho tự nhiên, rõ hơn; đổi cấu trúc câu vừa phải                                                   | ±10%           |
+| **Trôi chảy** (Fluency)     | Sửa ngữ pháp, chính tả, chỗ vấp; đổi ít nhất có thể                                                        | Giữ nguyên     |
+| **Tự nhiên hóa** (Humanize) | Bỏ dấu hiệu văn máy (`dau-hieu-ai.md`), lệch nhịp, thay từ sáo bằng chuyện cụ thể có sẵn trong bài         | ±15%           |
+| **Trang trọng** (Formal)    | Lên văn phong công việc / hành chính; bỏ khẩu ngữ, tiếng lóng                                              | ±10%           |
+| **Học thuật** (Academic)    | Thuật ngữ chính xác, câu chặt, nêu giới hạn, không phóng đại, không cảm thán                               | ±15%           |
+| **Đơn giản** (Simple)       | Câu ngắn, từ thông dụng, một ý một câu; người đọc phổ thông hoặc học sinh                                  | −10% đến −30%  |
+| **Sáng tạo** (Creative)     | Đổi hình ảnh, giọng, cấu trúc tự do; giữ ý chính                                                           | Tự do          |
+| **Mở rộng** (Expand)        | Thêm ví dụ, chi tiết, giải thích; **chỉ dùng thông tin có thật**, thiếu thì hỏi hoặc để `[cần bổ sung: …]` | +30% đến +100% |
+| **Rút gọn** (Shorten)       | Cắt lặp, cắt rào đón, giữ ý chính và dữ kiện                                                               | −30% đến −50%  |
+| **Tùy chỉnh** (Custom)      | Theo mô tả của người dùng (VD. "như người bán cà phê ở chợ nói chuyện")                                    | Theo yêu cầu   |
 
 **Mức đổi từ** (Synonyms), áp dụng cho mọi chế độ viết lại:
 - **Thấp:** giữ phần lớn từ gốc, chỉ đổi chỗ vấp.
@@ -106,12 +106,12 @@ Luật chung khi viết lại: **giữ nguyên dữ kiện, số liệu, tên ri
 
 Kỹ thuật lấy từ `van-phong-tac-gia.md` và `dau-hieu-ai.md`. Áp dụng theo mức:
 
-| Kỹ thuật | Truyện, Sáng tạo | Quảng cáo, Kịch bản video, Tùy chỉnh | Lịch sự, Chat, Chuẩn, Tự nhiên hóa | Trang trọng, Học thuật, Đơn giản |
-| :--- | :--- | :--- | :--- | :--- |
-| Lệch nhịp câu | Mạnh (CV ≥ 0,5) | Vừa | Vừa | Nhẹ, không ép |
-| Câu cụt, đoạn một câu | Có | Có | Thỉnh thoảng | Không |
-| Khẩu ngữ, tiểu từ | Theo nhân vật | Theo thương hiệu | Nhẹ | Không |
-| Cảm xúc qua vật, cơ thể | Có | Có | Có | Không áp dụng |
-| Nói một giới hạn có thật | Không áp dụng | Có | Có | Có (giới hạn số liệu, phạm vi) |
-| Kết không tổng kết | Có | Kết bằng việc cụ thể cần làm | Có | Kết bằng việc cần làm hoặc kết luận ngắn, không sáo |
-| Bỏ từ sáo, liên từ khung | Có | Có | Có | Có (giữ "tuy nhiên" khi thật sự đối lập) |
+| Kỹ thuật                 | Truyện, Sáng tạo | Quảng cáo, Kịch bản video, Tùy chỉnh | Lịch sự, Chat, Chuẩn, Tự nhiên hóa | Trang trọng, Học thuật, Đơn giản                    |
+|:-------------------------|:-----------------|:-------------------------------------|:-----------------------------------|:----------------------------------------------------|
+| Lệch nhịp câu            | Mạnh (CV ≥ 0,5)  | Vừa                                  | Vừa                                | Nhẹ, không ép                                       |
+| Câu cụt, đoạn một câu    | Có               | Có                                   | Thỉnh thoảng                       | Không                                               |
+| Khẩu ngữ, tiểu từ        | Theo nhân vật    | Theo thương hiệu                     | Nhẹ                                | Không                                               |
+| Cảm xúc qua vật, cơ thể  | Có               | Có                                   | Có                                 | Không áp dụng                                       |
+| Nói một giới hạn có thật | Không áp dụng    | Có                                   | Có                                 | Có (giới hạn số liệu, phạm vi)                      |
+| Kết không tổng kết       | Có               | Kết bằng việc cụ thể cần làm         | Có                                 | Kết bằng việc cần làm hoặc kết luận ngắn, không sáo |
+| Bỏ từ sáo, liên từ khung | Có               | Có                                   | Có                                 | Có (giữ "tuy nhiên" khi thật sự đối lập)            |

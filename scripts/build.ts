@@ -1,13 +1,12 @@
 /**
- * Generates artifacts from data/:
+ * Generates artifacts from data/. None of them is committed: data/ is the only source in Git.
  *   skills/southern-mekong-vietnamese-dialect/references/tu-dien-mien-tay.yaml  (senses that have a topic)
  *   skills/southern-mekong-vietnamese-dialect/references/nguon-tu-dien.md       (copy of data/nguon-tu-dien.md)
- *   dist/public/api/v1/…  the static JSON API served at https://dialect.vnol.net/api/v1/ (see docs/api.md; not committed)
+ *   dist/skills/<name>/   every skill in skills/, self-contained, ready to copy into an agent's skills directory
+ *   dist/public/api/v1/…  the static JSON API served at https://dialect.vnol.net/api/v1/ (see docs/api.md)
  *   dist/public/_headers  CORS and caching for the API (Cloudflare Workers static assets)
  *
- * Usage:
- *   node scripts/build.ts           write the files
- *   node scripts/build.ts --check   exit 1 if the committed skill files are out of date (for CI)
+ * Usage: node scripts/build.ts
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -16,8 +15,8 @@ import { HEADERS_FILE, buildApi } from "./lib/api.ts";
 import { DATA, ROOT, loadEntries, loadRegions, loadSources, loadTopics } from "./lib/data.ts";
 import { renderSkillDictionary, skillLines } from "./lib/skill.ts";
 
-const check = process.argv.includes("--check");
-const SKILL = path.join(ROOT, "skills/southern-mekong-vietnamese-dialect/references");
+const SKILLS = path.join(ROOT, "skills");
+const SKILL = path.join(SKILLS, "southern-mekong-vietnamese-dialect/references");
 
 const entries = loadEntries();
 const topics = loadTopics();
@@ -35,24 +34,26 @@ const generated: Record<string, string> = {
   [path.join(SKILL, "nguon-tu-dien.md")]: fs.readFileSync(path.join(DATA, "nguon-tu-dien.md"), "utf8"),
 };
 
-if (check) {
-  const stale = Object.entries(generated).filter(
-    ([file, text]) => !fs.existsSync(file) || fs.readFileSync(file, "utf8") !== text,
-  );
-  for (const [file] of stale) console.error(`out of date: ${path.relative(ROOT, file)}`);
-  if (stale.length) {
-    console.error("Run `npm run build` and commit the result.");
-    process.exit(1);
-  }
-  console.log("Skill files are up to date.");
-  process.exit(0);
-}
-
 for (const [file, text] of Object.entries(generated)) {
   fs.mkdirSync(path.dirname(file), { recursive: true });
   fs.writeFileSync(file, text);
   console.log(`wrote ${path.relative(ROOT, file)}`);
 }
+
+// Packaged skills: copies of skills/ that include the generated files, without local clutter.
+const PACKAGED = path.join(ROOT, "dist/skills");
+const CLUTTER = new Set(["__pycache__", ".DS_Store"]);
+fs.rmSync(PACKAGED, { recursive: true, force: true });
+const skillNames = fs
+  .readdirSync(SKILLS, { withFileTypes: true })
+  .filter((d) => d.isDirectory() && fs.existsSync(path.join(SKILLS, d.name, "SKILL.md")))
+  .map((d) => d.name);
+for (const name of skillNames)
+  fs.cpSync(path.join(SKILLS, name), path.join(PACKAGED, name), {
+    recursive: true,
+    filter: (src) => !CLUTTER.has(path.basename(src)),
+  });
+console.log(`wrote dist/skills (${skillNames.join(", ")})`);
 
 // The JSON API. dist/public is the Worker's asset directory (wrangler.jsonc), rebuilt from scratch each time.
 const built = new Date().toISOString();
