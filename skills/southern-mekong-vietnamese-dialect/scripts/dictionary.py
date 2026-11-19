@@ -23,11 +23,21 @@ import re
 import sys
 import unicodedata
 
-DEFAULT_FILE = os.path.join(
-    os.path.dirname(os.path.abspath(__file__)), "..", "references", "tu-dien-mien-tay.yaml"
-)
-# When the skill sits in the VN Dialect repo (skills/<name>/), the dictionary is generated from here.
-REPO_ENTRIES = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "..", "data", "entries")
+HERE = os.path.dirname(os.path.abspath(__file__))
+DEFAULT_FILE = os.path.join(HERE, "..", "references", "tu-dien-mien-tay.yaml")
+
+
+def in_repo():
+    """True when the skill sits in the VN Dialect repo, which generates the dictionary from data/entries/.
+
+    The source copy is skills/<name>/, the packaged one dist/skills/<name>/.
+    """
+    for up in (3, 4):
+        root = os.path.join(HERE, *[".."] * up)
+        if os.path.isdir(os.path.join(root, "data", "entries")) and os.path.isfile(os.path.join(root, "scripts", "dict.ts")):
+            return True
+    return False
+
 STEP = 2
 YAML_INDICATORS = tuple("-?:,[]{}#&*!|>'\"%@`")
 
@@ -197,7 +207,7 @@ def cmd_check(d, _args):
 
 
 def cmd_add(d, args):
-    if os.path.samefile(d.path, DEFAULT_FILE) and os.path.isdir(REPO_ENTRIES):
+    if os.path.isfile(DEFAULT_FILE) and os.path.samefile(d.path, DEFAULT_FILE) and in_repo():
         print(
             "Skill này đang nằm trong repo VN Dialect: từ điển được tạo từ data/entries/, đừng sửa tay.\n"
             "Thêm từ bằng:  npm run dict -- add \"<từ>\" \"<nghĩa>\" --topic <mã nhóm> [--example \"...\"]\n"
@@ -284,7 +294,17 @@ def main(argv):
     p.add_argument("--create", action="store_true")
     p.add_argument("--dry-run", action="store_true")
     args = ap.parse_args(argv)
-    d = Dictionary(os.path.normpath(args.file))
+    path = os.path.normpath(args.file)
+    if not os.path.isfile(path):
+        print(f"Không thấy từ điển: {path}", file=sys.stderr)
+        if in_repo():
+            print(
+                "Trong repo VN Dialect, file này do `npm run build` tạo từ data/entries/ và không nằm trong git.\n"
+                "Chạy `npm run build`, hoặc tra thẳng:  npm run dict -- find \"<từ>\"",
+                file=sys.stderr,
+            )
+        return 1
+    d = Dictionary(path)
     return {"groups": cmd_groups, "find": cmd_find, "check": cmd_check, "add": cmd_add}[args.cmd](d, args)
 
 

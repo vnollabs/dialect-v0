@@ -1,0 +1,17 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  // The static JSON API for the lexicon: https://dialect.vnol.net/api/v1/ (format: docs/api.md).
+  // An assets-only Worker: no script. `npm run build` writes the files to dist/public; dist/public/_headers
+  // adds CORS and caching.
+  "name": "dialect-api",
+  "compatibility_date": "2026-11-19",
+  "assets": {
+    "directory": "./dist/public",
+    "html_handling": "none",
+    "not_found_handling": "none"
+  },
+  // dialect.vnol.net itself is the site from vnol.net-landing-pages (a Custom Domain). A route on the same
+  // hostname takes precedence for the paths it matches, so this Worker answers /api/* and the site the rest.
+  "routes": [{ "pattern": "dialect.vnol.net/api/*", "zone_name": "vnol.net" }],
+  "workers_dev": false
+}

@@ -92,6 +92,8 @@ Người Nam chính gốc không nói "ạ" ở cuối câu và không đáp "v�
 
 Kho từ đầy đủ nằm ở [references/tu-dien-mien-tay.yaml](references/tu-dien-mien-tay.yaml), mỗi dòng một mục `<từ Nam>: <nghĩa / từ Bắc tương đương>`, chia theo nhóm: thành ngữ & thán từ, từ Miền Tây xưa ít dùng, đối chiếu Bắc → Nam theo chủ đề, tiểu từ cuối câu, từ chen & dấu hiệu diễn ngôn. Đọc file này khi viết đoạn dài, khi viết truyện hay lời thoại cần đậm chất Miền Tây, hoặc khi phân vân một từ là Bắc hay Nam (tìm nhanh bằng `grep -i "<từ>"`).
 
+Trong repo VN Dialect, file này không nằm trong git: `npm run build` tạo nó từ `data/entries/`. Ở đó tra bằng `npm run dict -- find "<từ>"`, vì lệnh này tìm luôn các nghĩa chưa xếp nhóm, là những nghĩa không có trong file.
+
 ## 6. Rà soát trước khi xuất (Pre-Output Linter)
 
 Trước khi gửi mỗi câu trả lời tiếng Việt, rà lại:
@@ -111,7 +113,7 @@ Trước khi gửi mỗi câu trả lời tiếng Việt, rà lại:
 
 ## 7. Cập nhật & làm giàu từ điển
 
-**Trong repo VN Dialect** ([vnollabs/dialect-v0](https://github.com/vnollabs/dialect-v0), skill nằm ở `skills/southern-mekong-vietnamese-dialect/`): từ điển của skill được tạo tự động từ `data/entries/`, mỗi từ một file. Đừng sửa `references/tu-dien-mien-tay.yaml` hay `references/nguon-tu-dien.md` trong skill (`dictionary.py add` sẽ từ chối). Làm ở gốc repo:
+**Trong repo VN Dialect** ([vnollabs/dialect-v0](https://github.com/vnollabs/dialect-v0), skill nằm ở `skills/southern-mekong-vietnamese-dialect/`): nguồn duy nhất là `data/`, mỗi từ một file trong `data/entries/`. `references/tu-dien-mien-tay.yaml` và `references/nguon-tu-dien.md` do `npm run build` tạo ra, không commit, đừng sửa tay (`dictionary.py add` sẽ từ chối). Bản skill đóng gói đầy đủ để chép đi chỗ khác nằm ở `dist/skills/`. Làm ở gốc repo:
 
 ```bash
 npm run dict -- find "xuồng"                      # tìm theo từ, nghĩa, từ phổ thông
@@ -155,11 +157,11 @@ Chỉ đề xuất từ chắc chắn là của miền Nam / Miền Tây; chưa 
 Khi người dùng nhờ "cập nhật / làm giàu từ điển", hoặc khi chạy theo lịch:
 
 1. Chạy `groups` để thấy nhóm nào còn mỏng. Ưu tiên chủ đề chưa có hoặc ít mục: sông nước, thời tiết, ruộng vườn, món ăn & trái cây Miền Tây, tiếng lóng Sài Gòn, thành ngữ.
-2. Đọc [references/nguon-tu-dien.md](references/nguon-tu-dien.md): bắt đầu từ "Danh sách chờ nguồn thứ hai", rồi gom ứng viên từ tài liệu người dùng đưa, các nguồn ghi trong file đó và nguồn mới tìm trên web (từ điển phương ngữ, báo chí, văn học Nam Bộ). Đọc nhiều trang cùng lúc thì giao cho subagent đọc web, kèm danh sách từ đã có (`groups` / `find`) để nó chỉ trả từ mới.
+2. Đọc [references/nguon-tu-dien.md](references/nguon-tu-dien.md) (trong repo VN Dialect: `data/nguon-tu-dien.md`): bắt đầu từ "Danh sách chờ nguồn thứ hai", rồi gom ứng viên từ tài liệu người dùng đưa, các nguồn ghi trong file đó và nguồn mới tìm trên web (từ điển phương ngữ, báo chí, văn học Nam Bộ). Đọc nhiều trang cùng lúc thì giao cho subagent đọc web, kèm danh sách từ đã có (`groups` / `find`) để nó chỉ trả từ mới.
 3. Kiểm chứng từng từ: đúng là cách nói Nam Bộ / Miền Tây (không phải miền Trung hay Bắc, không phải từ toàn dân), nghĩa khớp ở ít nhất hai nguồn độc lập. Hai trang chép của nhau tính là một nguồn. Chỉ có một nguồn thì đưa vô danh sách chờ, không thêm. (Trong repo VN Dialect thì thêm luôn kèm `--source`: nghĩa chỉ có một nguồn tự hiện trong `npm run dict -- pending`, đó là danh sách chờ.)
 4. `find` để tránh trùng, rồi `add` kèm `--example` là một câu giọng Nam tự nhiên.
 5. `check` phải ra OK. Mỗi đợt chừng 10–20 từ để người duyệt dễ coi.
-6. Cập nhật `references/nguon-tu-dien.md` (danh sách chờ, nguồn mới, nguồn hỏng). Báo cáo bảng các từ đã thêm (nhóm, từ, nghĩa, nguồn) và các từ đưa vô danh sách chờ. Chạy tự động trong repo git thì tạo branch mới, commit, mở PR cho người duyệt; không push thẳng vô `main`.
+6. Cập nhật `references/nguon-tu-dien.md` (trong repo VN Dialect thì sửa `data/nguon-tu-dien.md`): danh sách chờ, nguồn mới, nguồn hỏng. Báo cáo bảng các từ đã thêm (nhóm, từ, nghĩa, nguồn) và các từ đưa vô danh sách chờ. Chạy tự động trong repo git thì tạo branch mới, commit, mở PR cho người duyệt; không push thẳng vô `main`.
 
 ## Ví dụ
 

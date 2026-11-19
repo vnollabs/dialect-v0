@@ -2,3 +2,9 @@ node_modules/
 dist/
 .cache/
 __pycache__/
+.wrangler/
+
+# Generated from data/ by `npm run build`; data/ is the only source in Git.
+# Packaged, self-contained copies of the skills land in dist/skills/.
+skills/southern-mekong-vietnamese-dialect/references/tu-dien-mien-tay.yaml
+skills/southern-mekong-vietnamese-dialect/references/nguon-tu-dien.md

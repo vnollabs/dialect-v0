@@ -77,11 +77,11 @@ dialect-v0/
 │   ├── sources.yaml             # Source ids; copies (same_as) count once
 │   └── nguon-tu-dien.md         # Notes for finding and verifying new words
 ├── skills/                      # Agent skills (SKILL.md + references + scripts)
-│   ├── southern-mekong-vietnamese-dialect/   # Dictionary in references/ is generated from data/
+│   ├── southern-mekong-vietnamese-dialect/   # Dictionary in references/ is generated from data/, not committed
 │   └── vietnamese-natural-writing/
 ├── scripts/                     # TypeScript, run directly by Node ≥ 22.18
 │   ├── validate.ts              # Schema, file names, NFC, ids (CI)
-│   ├── build.ts                 # Skill dictionary + dist/lexicon.json; --check for CI
+│   ├── build.ts                 # Skill dictionary, packaged skills (dist/skills), JSON API (dist/public/api/v1)
 │   ├── dict.ts                  # find / add / pending / topics
 │   └── import-wiktionary.ts     # Seed from the kaikki.org dump of Wiktionary
 ├── docs/

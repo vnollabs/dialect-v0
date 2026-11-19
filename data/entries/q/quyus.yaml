@@ -3,11 +3,15 @@ etymologies:
   - derived: [líu quýu]
     pos:
       - pos: adj
+        alt_forms: [quíu]
         senses:
           - gloss:
+              vi: Sợ hay rối tới mức tay chân run, co rúm, cứng lại
               en: being in such great anxiety that one's body starts to tremble or shrink
             region: [south]
             labels: [colloquial]
+            standard: [rúm, run]
+            topics: [qualities-feelings]
             examples:
               - text: Con chó bự chạy ra sủa, thằng nhỏ sợ quýu giò đứng im re.
                 standard: Con chó to chạy ra sủa, thằng bé sợ rúm người đứng im thin thít.
