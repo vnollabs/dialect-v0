@@ -13,7 +13,7 @@ import {
   senses, status, type Entry, type Loaded, type Region, type Sense, type Source, type Status, type Topic,
 } from "./data.ts";
 import { slug } from "./telex.ts";
-import { fold } from "./search.ts";
+import { fold, words } from "./search.ts";
 
 export { fold };
 
@@ -48,6 +48,7 @@ export type IndexRecord = {
   standard: string[];
   gloss?: string;
   gloss_en?: string;
+  gloss_words: string[];
   regions: string[];
   pos: string[];
   topics: string[];
@@ -69,20 +70,32 @@ function toApiEntry(entry: Entry, registry: Record<string, Source>): ApiEntry {
   };
 }
 
-function indexRecord(e: ApiEntry): IndexRecord {
+/** The regions and every region above them (mekong-delta -> mekong-delta, south). */
+function withAncestors(ids: string[], regions: Record<string, Region>): string[] {
+  const out: string[] = [];
+  for (const start of ids)
+    for (let id: string | undefined = start; id && !out.includes(id); id = regions[id]?.parent) out.push(id);
+  return out;
+}
+
+function indexRecord(e: ApiEntry, regions: Record<string, Region>): IndexRecord {
   const all = e.etymologies.flatMap((et) => et.pos.flatMap((b) => b.senses.map((s) => ({ b, s }))));
   const forms = uniq<string>([e.spelling, ...all.flatMap(({ b }) => [b.head, ...(b.alt_forms ?? [])])]);
   const best = all.reduce<Status>((acc, { s }) => (RANK[s.status] > RANK[acc] ? s.status : acc), "unsourced");
+  // Both preview glosses come from one sense: the first with a curated Vietnamese gloss, else the first sense.
+  // So gloss_en is missing when that sense has only a Vietnamese gloss, and gloss when no sense has one.
+  const preview = (all.find(({ s }) => s.gloss.vi) ?? all[0])?.s.gloss;
   return {
     id: e.id,
     word: e.spelling,
     forms,
     keys: uniq(forms.map(fold)),
     standard: uniq(all.flatMap(({ s }) => [...(s.standard ?? []), s.variant_of])),
-    // Prefer the curated Vietnamese gloss for the preview; English when there is none.
-    gloss: all.find(({ s }) => s.gloss.vi)?.s.gloss.vi,
-    gloss_en: all.find(({ s }) => s.gloss.en)?.s.gloss.en,
-    regions: uniq(all.flatMap(({ s }) => s.region)),
+    gloss: preview?.vi,
+    gloss_en: preview?.en,
+    gloss_words: uniq(all.flatMap(({ s }) => words(`${s.gloss.vi ?? ""} ${s.gloss.en ?? ""}`))),
+    // Parents too, so a facet on `south` finds Mekong Delta words, like regions/south.json.
+    regions: withAncestors(uniq(all.flatMap(({ s }) => s.region)), regions),
     pos: uniq(all.map(({ b }) => b.pos)),
     topics: uniq(all.flatMap(({ s }) => s.topics ?? [])),
     status: best,
@@ -105,7 +118,7 @@ function descendants(id: string, regions: Record<string, Region>): Set<string> {
   return out;
 }
 
-/** The entry restricted to senses in `wanted`; undefined when none are left. */
+/** The entry restricted to senses and pronunciations in `wanted`; undefined when no sense is left. */
 function onlyRegions(e: ApiEntry, wanted: Set<string>): ApiEntry | undefined {
   const etymologies = e.etymologies
     .map((et) => ({
@@ -115,7 +128,12 @@ function onlyRegions(e: ApiEntry, wanted: Set<string>): ApiEntry | undefined {
         .filter((b) => b.senses.length),
     }))
     .filter((et) => et.pos.length);
-  return etymologies.length ? { ...e, etymologies } : undefined;
+  if (!etymologies.length) return undefined;
+  const out: ApiEntry = { ...e, etymologies };
+  const pronunciation = e.pronunciation?.filter((p) => p.region.some((r) => wanted.has(r)));
+  if (pronunciation?.length) out.pronunciation = pronunciation;
+  else delete out.pronunciation;
+  return out;
 }
 
 /**
@@ -144,8 +162,12 @@ export function buildApi(opts: {
   const put = (p: string, value: unknown) => files.set(p, JSON.stringify(value));
 
   const entries = opts.entries.map(({ entry }) => toApiEntry(entry, opts.sources));
-  for (const e of entries) put(`entries/${e.id}.json`, e);
-  put("index.json", { ...header, entries: entries.map(indexRecord) });
+  for (const e of entries) {
+    // validate.ts rules this out (each file is named by its id); never overwrite an entry silently.
+    if (files.has(`entries/${e.id}.json`)) throw new Error(`two entries have the id ${e.id}`);
+    put(`entries/${e.id}.json`, e);
+  }
+  put("index.json", { ...header, entries: entries.map((e) => indexRecord(e, opts.regions)) });
   put("lexicon.json", { ...header, entries });
 
   const regionFiles: Record<string, string> = {};

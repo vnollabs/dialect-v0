@@ -27,7 +27,7 @@ Existing regional dictionaries are written for people to read. They have no mach
 | **Skill: `southern-mekong-vietnamese-dialect`** ([`skills/`](skills/southern-mekong-vietnamese-dialect)) | Makes an agent write authentic Southern / Mekong Delta Vietnamese: rules, a dictionary generated from `data/`, and a checker that flags *ạ*, *vâng* and Northern words |
 | **Skill: `vietnamese-natural-writing`** ([`skills/`](skills/vietnamese-natural-writing)) | Makes Vietnamese text read like a person wrote it: writing modes, techniques from four Vietnamese authors, and a checker for machine-like patterns                |
 | **Scripts** ([`scripts/`](scripts))                                                      | `validate`, `build` (skill dictionary, packaged skills in `dist/skills/`, the JSON API: see [`docs/api.md`](docs/api.md)), `dict` (find / add / pending), Wiktionary import                   |
-| **JSON API** ([`docs/api.md`](docs/api.md))                                              | Static JSON for sites, agents and RAG: a 42 KB search index, one file per entry, region bundles, JSON Schemas. Served at `dialect.vnol.net/api/v1/` once deployed |
+| **JSON API** ([`docs/api.md`](docs/api.md))                                              | Static JSON for sites, agents and RAG: a 58 KB search index, one file per entry, region bundles, JSON Schemas. Served at `dialect.vnol.net/api/v1/` once deployed |
 
 Planned: the dialect.vnol.net portal (search, prompt playground, contribution form; built in vnol.net-landing-pages on top of the JSON API), an MCP server, north–south mappings, and Central and Northern regions.
 
