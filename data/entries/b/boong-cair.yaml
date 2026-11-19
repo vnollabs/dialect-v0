@@ -1,0 +1,14 @@
+spelling: bông cải
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Súp lơ
+            region: [south]
+            standard: [súp lơ]
+            examples:
+              - text: Ra chợ mua giùm má một cái bông cải xanh về xào thịt bò nghen.
+                standard: Ra chợ mua giúp mẹ một cây súp lơ xanh về xào thịt bò nhé.
+                ai_draft: true
+            topics: [food-drink]
+            sources: [skill-dictionary-v1]

@@ -1,0 +1,24 @@
+spelling: ốm
+etymologies:
+  - type: native
+    note:
+      en: From Proto-Vietic *ʔoːmʔ.
+    pos:
+      - pos: adj
+        han_nom: [瘖, 𤺵]
+        senses:
+          - gloss:
+              vi: Gầy
+              en: skinny; bony
+            region: [south]
+            standard: [gầy]
+            synonyms: [gầy, ròm, tóm, còi]
+            examples:
+              - text: Dạo này ăn uống thất thường nên chỉ ốm đi thấy rõ.
+                standard: Dạo này ăn uống thất thường nên chị ấy gầy đi thấy rõ.
+                ai_draft: true
+            topics: [qualities-feelings]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%E1%BB%91m#Vietnamese

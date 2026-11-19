@@ -1,0 +1,15 @@
+spelling: ngăm
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to threaten; to intimidate
+            region: [central, south]
+            examples:
+              - text: Bả ngăm thằng con, hễ còn trốn học là cho nghỉ luôn.
+                standard: Bà ấy dọa thằng con, hễ còn trốn học là cho nghỉ luôn.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ng%C4%83m#Vietnamese

@@ -1,0 +1,17 @@
+spelling: bánh đúc
+etymologies:
+  - note:
+      en: .
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: Vietnamese rice cake made from non-glutinous rice flour. It takes the form of gelatinous blocks that are often colored green by the addition of Pandanus amaryllifolius leaf extract.
+            region: [south]
+            examples:
+              - text: Sáng nay má mua mấy miếng bánh đúc lá dứa xanh lè, ăn mát ruột ghê.
+                standard: Sáng nay mẹ mua mấy miếng bánh đúc lá dứa xanh lét, ăn mát ruột lắm.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%C3%A1nh_%C4%91%C3%BAc#Vietnamese

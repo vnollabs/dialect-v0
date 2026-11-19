@@ -1,0 +1,19 @@
+spelling: heo rừng
+etymologies:
+  - type: compound
+    note:
+      en: heo + rừng.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: wild boar
+            region: [central, south]
+            synonyms: [lợn rừng, lợn lòi]
+            examples:
+              - text: Quán đầu hẻm có món heo rừng nướng ngon lắm.
+                standard: Quán đầu ngõ có món lợn rừng nướng ngon lắm.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/heo_r%E1%BB%ABng#Vietnamese

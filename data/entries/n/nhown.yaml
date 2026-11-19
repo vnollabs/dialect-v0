@@ -1,0 +1,14 @@
+spelling: nhơn
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Nhân
+            region: [south]
+            standard: [nhân]
+            examples:
+              - text: Bà Năm ăn ở nhơn hậu, xóm giềng ai cũng thương.
+                standard: Bà Năm ăn ở nhân hậu, xóm giềng ai cũng thương.
+                ai_draft: true
+            topics: [sino-vietnamese]
+            sources: [skill-dictionary-v1]

@@ -1,0 +1,17 @@
+spelling: cây ăn trái
+etymologies:
+  - type: compound
+    note:
+      en: cây + ăn + trái.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: fruit tree
+            region: [south-central, south]
+            synonyms: [cây ăn quả]
+            examples:
+              - text: "Coordinate term: cây lương thực"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%C3%A2y_%C4%83n_tr%C3%A1i#Vietnamese

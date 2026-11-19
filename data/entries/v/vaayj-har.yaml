@@ -1,0 +1,18 @@
+spelling: vậy hả
+etymologies:
+  - type: compound
+    note:
+      en: vậy (“so; thus”) + hả.
+    pos:
+      - pos: intj
+        senses:
+          - gloss:
+              en: really?
+            region: [south]
+            examples:
+              - text: Bữa nay chợ nghỉ đó. – Vậy hả, vậy để mai tui đi.
+                standard: Hôm nay chợ nghỉ đấy. – Thế à, thế để mai tôi đi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/v%E1%BA%ADy_h%E1%BA%A3#Vietnamese

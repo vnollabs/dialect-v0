@@ -1,0 +1,19 @@
+spelling: dầu thơm
+etymologies:
+  - type: compound
+    note:
+      en: dầu + thơm.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: perfume; scent
+            region: [south]
+            synonyms: [nước hoa]
+            examples:
+              - text: Đi đám cưới mà xịt dầu thơm nhiều quá, đứng gần muốn nhảy mũi.
+                standard: Đi đám cưới mà xịt nước hoa nhiều quá, đứng gần muốn hắt hơi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/d%E1%BA%A7u_th%C6%A1m#Vietnamese

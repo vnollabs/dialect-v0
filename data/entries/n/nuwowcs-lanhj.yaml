@@ -1,0 +1,17 @@
+spelling: nước lạnh
+etymologies:
+  - pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: unboiled water
+            region: [south]
+            labels: [dated]
+            synonyms: [nước lã]
+            examples:
+              - text: Bà dặn hoài, nước lạnh phải nấu sôi rồi mới được uống.
+                standard: Bà dặn mãi, nước lã phải đun sôi rồi mới được uống.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/n%C6%B0%E1%BB%9Bc_l%E1%BA%A1nh#Vietnamese

@@ -1,0 +1,30 @@
+spelling: rờ
+etymologies:
+  - note:
+      en: Cognate with Arem rərʌː.
+    derived: [cà rờ, mò rờ, rờ mò, rờ rẫm]
+    pos:
+      - pos: verb
+        han_nom: [𢲢]
+        senses:
+          - gloss:
+              en: to touch
+            region: [central, south]
+            examples:
+              - text: Đừng rờ vô cái nồi, nóng lắm đó con.
+                standard: Đừng sờ vào cái nồi, nóng lắm đấy con.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/r%E1%BB%9D#Vietnamese
+          - gloss:
+              en: to take one's sweet time
+            qualifier: often in reduplicated form
+            region: [central, south]
+            labels: [colloquial]
+            examples:
+              - text: Đi có tí mà làm gì rờ dữ vậy?
+                en: You sure took your sweet time to simply get here.
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/r%E1%BB%9D#Vietnamese

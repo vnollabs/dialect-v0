@@ -1,0 +1,15 @@
+spelling: làm sao
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Thế nào
+            region: [south]
+            standard: [thế nào]
+            synonyms: [sao]
+            examples:
+              - text: Cái nồi cơm điện này xài làm sao, chỉ tui với.
+                standard: Cái nồi cơm điện này dùng thế nào, chỉ tôi với.
+                ai_draft: true
+            topics: [qualities-feelings]
+            sources: [skill-dictionary-v1]

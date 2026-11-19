@@ -1,0 +1,13 @@
+spelling: ăn như xáng múc, làm như lục bình trôi
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Siêng ăn, biếng làm
+            region: [south]
+            examples:
+              - text: Thằng cháu tui ăn như xáng múc, làm như lục bình trôi, nói hoài hổng sửa.
+                standard: Thằng cháu tôi ham ăn lười làm, nói mãi không sửa.
+                ai_draft: true
+            topics: [idioms]
+            sources: [skill-dictionary-v1]

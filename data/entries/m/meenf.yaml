@@ -1,0 +1,26 @@
+spelling: mền
+etymologies:
+  - type: sino
+    han: 棉
+    note:
+      en: "Non-Sino-Vietnamese reading of Chinese 棉 (SV: miên) (Old Chinese /*men/ (Zhengzhang)). Compare Sui myeenz (“quilt”)."
+    pos:
+      - pos: noun
+        han_nom: [𢅧, 𬡴, 𧚭]
+        classifiers: [cái, tấm]
+        senses:
+          - gloss:
+              vi: Chăn
+              en: blanket
+            region: [south, central]
+            standard: [chăn]
+            synonyms: [chăn]
+            examples:
+              - text: Đêm nay lạnh, con đắp mền vô kẻo cảm nha.
+                standard: Đêm nay lạnh, con đắp chăn vào kẻo cảm nhé.
+                ai_draft: true
+            topics: [household]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%E1%BB%81n#Vietnamese

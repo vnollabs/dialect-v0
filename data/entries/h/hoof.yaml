@@ -1,0 +1,14 @@
+spelling: hồ
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Bể chứa nước
+            qualifier: nước
+            region: [mekong-delta]
+            examples:
+              - text: Bơm đầy hồ nước trên sân thượng đi con, mai cúp nước đó.
+                standard: Bơm đầy bể nước trên sân thượng đi con, mai mất nước đấy.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

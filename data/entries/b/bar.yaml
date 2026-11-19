@@ -1,0 +1,23 @@
+spelling: bả
+etymologies:
+  - note:
+      en: Word formation with distal denotation by adding hỏi tone to the root bà in Southern Vietnamese and some topolects of Thanh Hoá.
+    pos:
+      - pos: pron
+        senses:
+          - gloss:
+              vi: Bà ấy
+              en: she; her (woman of higher social status)
+            region: [south, central]
+            labels: [colloquial]
+            standard: [bà ấy]
+            synonyms: [bà ấy]
+            examples:
+              - text: Bả bán tạp hóa đầu hẻm, ai thiếu tiền bả cũng cho thiếu.
+                standard: Bà ấy bán tạp hóa đầu ngõ, ai thiếu tiền bà ấy cũng cho nợ.
+                ai_draft: true
+            topics: [family-address]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%E1%BA%A3#Vietnamese

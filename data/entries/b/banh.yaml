@@ -1,0 +1,40 @@
+spelling: banh
+etymologies:
+  - type: loan
+    lang: fr
+    source_form: balle
+    note:
+      en: Borrowed from French balle. Compare bành tô (from French paletot). Related to ban, which is probably borrowed separately from this term.
+    derived: [banh bóng, banh đũa, đá banh]
+    pos:
+      - pos: noun
+        classifiers: [quả, trái]
+        senses:
+          - gloss:
+              vi: Bóng
+              en: ball
+            region: [south]
+            standard: [bóng]
+            synonyms: [bóng]
+            examples:
+              - text: Tụi nhỏ đá banh ngoài sân, coi chừng bể kiếng nhà người ta.
+                standard: Bọn trẻ đá bóng ngoài sân, cẩn thận vỡ kính nhà người ta.
+                ai_draft: true
+            topics: [household]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/banh#Vietnamese
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: broken into smithereens; ruined; tattered
+            region: [central, south]
+            examples:
+              - text: Đôi dép bị con chó gặm banh hết trơn, hết mang được rồi.
+                standard: Đôi dép bị con chó gặm nát hết, không đi được nữa rồi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/banh#Vietnamese

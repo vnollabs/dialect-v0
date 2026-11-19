@@ -1,0 +1,14 @@
+spelling: không chừng
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Có khi, biết đâu, không biết chừng
+            region: [south]
+            synonyms: [hổng chừng]
+            examples:
+              - text: Mây đen kéo tới rồi, chiều nay không chừng mưa lớn đó.
+                standard: Mây đen kéo tới rồi, chiều nay biết đâu mưa to đấy.
+                ai_draft: true
+            topics: [discourse-markers]
+            sources: [skill-dictionary-v1]

@@ -1,0 +1,13 @@
+spelling: tính tiền
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Thanh toán (ở quán)
+            region: [south]
+            examples:
+              - text: Em ơi, tính tiền bàn này giùm anh nghen.
+                standard: Em ơi, thanh toán bàn này giúp anh nhé.
+                ai_draft: true
+            topics: [food-drink]
+            sources: [skill-dictionary-v1]

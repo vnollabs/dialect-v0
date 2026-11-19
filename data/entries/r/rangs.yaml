@@ -1,0 +1,17 @@
+spelling: ráng
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to try hard
+            region: [south]
+            labels: [colloquial]
+            synonyms: [cố]
+            examples:
+              - text: Con ráng học cho giỏi, mai mốt lớn lên đỡ cực nghen.
+                standard: Con cố học cho giỏi, sau này lớn lên đỡ vất vả nhé.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/r%C3%A1ng#Vietnamese

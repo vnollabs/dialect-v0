@@ -1,0 +1,22 @@
+spelling: sở thú
+etymologies:
+  - type: compound
+    note:
+      en: |-
+        sở (“department, place”) + thú (“animal”), literally "department/place of animals".
+        Apparently originally the colloquial nickname for the Saigon Zoo and Botanical Gardens, then became the term of "zoo" in general.
+    pos:
+      - pos: noun
+        han_nom: [所獸]
+        senses:
+          - gloss:
+              en: zoo
+            region: [south]
+            labels: [colloquial]
+            synonyms: [vườn bách thú, vườn thú, thảo cầm viên]
+            examples:
+              - text: Ê bữa đi sở thú thấy mới rinh về con này nom hay hay nè.
+                en: You know, the other day when I went to zoo, I saw that they have this new funny-looking animal.
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/s%E1%BB%9F_th%C3%BA#Vietnamese

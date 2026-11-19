@@ -1,0 +1,30 @@
+spelling: biểu
+etymologies:
+  - type: variant
+    of: bảo
+    sound_change:
+      pattern: ao → iêu
+      compare:
+        - [cáo, kiếu]
+        - [đào, điều]
+    note:
+      en: Variant of bảo. Compare cáo vs. kiếu, đào vs. điều. Also compare 表 (biǎo, “to express”) as in 表態 /表态 (biǎotài, “to declare one's stance”).
+    pos:
+      - pos: verb
+        han_nom: [𠶓]
+        senses:
+          - gloss:
+              vi: Bảo
+              en: to tell
+            region: [south, south-central]
+            standard: [bảo]
+            variant_of: bảo
+            synonyms: [nói]
+            examples:
+              - text: Ê cu, lại đây tao biểu!
+                en: Come here for a sec boy, I have something to tell you.
+            topics: [actions]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/bi%E1%BB%83u#Vietnamese

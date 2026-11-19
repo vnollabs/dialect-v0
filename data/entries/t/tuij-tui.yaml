@@ -1,0 +1,20 @@
+spelling: tụi tui
+etymologies:
+  - type: compound
+    note:
+      en: tụi + tui.
+    pos:
+      - pos: pron
+        senses:
+          - gloss:
+              en: we/us (exclusive)
+            qualifier: between speakers of equal social status
+            region: [south]
+            synonyms: [tụi tao, tụi này, chúng tôi, bầy tui, choa, bọn tau, nhà quân, mình, tụi mình, chúng ta]
+            examples:
+              - text: Tụi tui đi chợ trước nghen, mấy chị ở nhà coi nhà giùm.
+                standard: Chúng tôi đi chợ trước nhé, các chị ở nhà trông nhà giúp.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/t%E1%BB%A5i_tui#Vietnamese

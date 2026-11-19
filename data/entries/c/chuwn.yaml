@@ -1,0 +1,21 @@
+spelling: chưn
+etymologies:
+  - pos:
+      - pos: noun
+        senses:
+          - gloss:
+              vi: Chân
+              en: alternative form of chân
+            region: [south, central]
+            standard: [chân]
+            variant_of: chân
+            synonyms: [chơn]
+            examples:
+              - text: Đi chưn đất ngoài sân coi chừng đạp gai nghen con.
+                standard: Đi chân đất ngoài sân cẩn thận giẫm phải gai nhé con.
+                ai_draft: true
+            topics: [sino-vietnamese]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ch%C6%B0n#Vietnamese

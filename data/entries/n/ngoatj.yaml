@@ -1,0 +1,20 @@
+spelling: ngoạt
+etymologies:
+  - note:
+      en: See nguyệt.
+    pos:
+      - pos: noun
+        han_nom: [月]
+        senses:
+          - gloss:
+              en: moon
+            region: [central, south]
+            labels: [obsolete]
+            variant_of: nguyệt
+            examples:
+              - text: Hồi xưa ông ngoại hay ngồi ngoài hiên ngắm ngoạt, uống trà tới khuya.
+                standard: Hồi xưa ông ngoại hay ngồi ngoài hiên ngắm nguyệt, uống trà đến khuya.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ngo%E1%BA%A1t#Vietnamese

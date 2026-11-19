@@ -1,0 +1,26 @@
+spelling: xẻo
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Lạch nước nhỏ trên vùng đất thấp
+            region: [mekong-delta]
+            examples:
+              - text: Xẻo Bướm, Xẻo Chim, Xẻo Mù U
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]
+  - pos:
+      - pos: noun
+        classifiers: [con]
+        senses:
+          - gloss:
+              en: small canal
+            region: [south]
+            synonyms: [xẽo]
+            examples:
+              - text: Chèo xuồng vô xẻo nhỏ đặt lọp bắt cá.
+                standard: Chèo thuyền vào con lạch nhỏ đặt lờ bắt cá.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/x%E1%BA%BBo#Vietnamese

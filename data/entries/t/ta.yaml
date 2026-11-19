@@ -1,0 +1,20 @@
+spelling: ta
+etymologies:
+  - note:
+      en: |-
+        See tau. This form reflects the local South Central shift of /aw/ > /aː/. Compare mainstream nhau vs. South Central nha (“each other”), mainstream màu vs. South Central mà (“colour”).
+        Although innovative, the historical nucleus thus shows affiliation with the North Central dialects (*oː > /aw/ > /aː/) instead of Northern-Southern *oː > /aːw/.
+        Despite nearly identical semantics, not related to etymology 1 above.
+    pos:
+      - pos: pron
+        senses:
+          - gloss:
+              en: I/me
+            region: [south-central]
+            examples:
+              - text: "Coordinate term: mi"
+              - text: Reng ta núa mi không nghe?
+                en: Why don't you listen to what I'm saying?
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ta#Vietnamese

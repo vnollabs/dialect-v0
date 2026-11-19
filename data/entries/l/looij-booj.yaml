@@ -1,0 +1,13 @@
+spelling: lội bộ
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Đi bộ
+            region: [mekong-delta]
+            examples:
+              - text: Xe hư giữa đường, tui phải lội bộ về tới nhà.
+                standard: Xe hỏng giữa đường, tôi phải đi bộ về đến nhà.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

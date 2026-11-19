@@ -1,0 +1,14 @@
+spelling: đậu xe
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Đỗ xe
+            region: [south]
+            standard: [đỗ xe]
+            examples:
+              - text: Anh ơi, chỗ này cấm đậu xe, anh dời qua bên kia giùm em nha.
+                standard: Anh ơi, chỗ này cấm đỗ xe, anh chuyển sang bên kia giúp em nhé.
+                ai_draft: true
+            topics: [transport]
+            sources: [skill-dictionary-v1]

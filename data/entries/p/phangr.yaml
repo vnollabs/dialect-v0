@@ -1,0 +1,15 @@
+spelling: phảng
+etymologies:
+  - pos:
+      - pos: noun
+        classifiers: [cái, cây]
+        senses:
+          - gloss:
+              en: kind of sickle for cutting wild grass
+            region: [central, south]
+            examples:
+              - text: Sáng sớm ông Bảy vác phảng ra phát cỏ bờ ruộng.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ph%E1%BA%A3ng#Vietnamese

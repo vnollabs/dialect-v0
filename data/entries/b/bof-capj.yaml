@@ -1,0 +1,15 @@
+spelling: bò cạp
+etymologies:
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: shivering (from cold with teeth clattering); trembling
+            region: [south]
+            examples:
+              - text: Tắm sông lâu quá, thằng nhỏ lạnh run bò cạp.
+                standard: Tắm sông lâu quá, thằng bé lạnh run cầm cập.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%C3%B2_c%E1%BA%A1p#Vietnamese

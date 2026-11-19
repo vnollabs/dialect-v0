@@ -1,0 +1,14 @@
+spelling: tèm nhèm
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Dính bẩn lấm lem khắp mặt mũi, tay chân
+            region: [south]
+            synonyms: [tèm lem]
+            examples:
+              - text: Đi chơi ngoài ruộng về, mặt mũi tay chân tèm nhèm sình đất.
+                standard: Đi chơi ngoài ruộng về, mặt mũi tay chân lấm lem bùn đất.
+                ai_draft: true
+            topics: [qualities-feelings]
+            sources: [skill-dictionary-v1]

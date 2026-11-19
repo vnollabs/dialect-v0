@@ -1,0 +1,42 @@
+spelling: thối
+etymologies:
+  - type: sino
+    han: 退
+    note:
+      en: Sino-Vietnamese word from 退. Compare thoái.
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to retreat
+            region: [central, south]
+            synonyms: [thoái]
+            examples:
+              - text: |-
+                  1954: Hồ Biểu Chánh, "Một cõi xưng hùng", Đỗ nương nương báo oán
+                  Tôi nói thiệt cho ông biết, tôi tính thối về Ba Giồng mà tổ-chúc căn-cứ đây là có ý đào huyệt sẵn để chôn binh tướng Tây-Sơn.
+                  I told him the truth, I thought of retreating to Ba Giồng but the base here intended to dig graves to bury the army and general of Tây Sơn.
+              - text: lúc tiến lúc thối
+                en: at times advancing, at times retreating
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/th%E1%BB%91i#Vietnamese
+          - gloss:
+              en: to repay; to give back change (to a customer)
+            region: [central, south]
+            examples:
+              - text: |-
+                  1926: Exodus 21:2 (translated by Phan Khôi)
+                  Nếu ngươi mua một người đầy tớ Hê-bơ-rơ, nó sẽ hầu việc cho sáu năm; nhưng qua năm thứ bảy nó sẽ được thả ra, không phải thối tiền.
+                  If you purchase a Hebrew servant, he is to serve you for six years, but in the seventh year he is to be released without needing to repay him.
+              - text: |-
+                  1929: Hồ Biểu Chánh, "Nhà giàu hại nhà nghèo", Khóc thầm
+                  Mà hồi nãy dượng Hai biểu tôi đem thối đủ ba chục đồng bạc lại.
+                  But just now Uncle Hai told me to pay you back the full thirty piastres.
+              - text: thối tiền cho khách
+                en: to repay the customer
+              - text: Không có tiền lẻ để thối lại.
+                en: (I) don't have change to give back.
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/th%E1%BB%91i#Vietnamese

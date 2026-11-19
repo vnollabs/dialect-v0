@@ -1,0 +1,30 @@
+spelling: coi bộ
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Có vẻ như, xem ra; đoán theo điều thấy trước mắt
+            region: [south]
+            examples:
+              - text: Mây đen kéo tới nghẹt trời, coi bộ chiều nay mưa lớn à nghen
+            topics: [discourse-markers]
+            sources:
+              - skill-dictionary-v1
+              - id: vjol-thay-mo-cho-bo
+                note: Ví dụ hội thoại Nam Bộ trong bài
+  - type: compound
+    note:
+      en: coi (“to look”) + bộ (“bearing, appearance”).
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to seem
+            region: [central, south]
+            labels: [colloquial]
+            synonyms: [có vẻ]
+            examples:
+              - text: "Near-synonym: có vẻ"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/coi_b%E1%BB%99#Vietnamese

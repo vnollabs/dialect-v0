@@ -1,0 +1,18 @@
+spelling: hơi bị
+etymologies:
+  - pos:
+      - pos: adv
+        senses:
+          - gloss:
+              en: mighty; damn; freaking; frigging; compare English quite which means both "fairly" and "very"
+            qualifier: before adjectives
+            region: [south]
+            labels: [informal]
+            examples:
+              - text: Phim hơi bị hay đó!
+                en: That movie/show is so-o-o good!
+              - text: Thằng đó hơi bị ngu.
+                en: He's a friggin' idiot.
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/h%C6%A1i_b%E1%BB%8B#Vietnamese

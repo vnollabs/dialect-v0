@@ -1,0 +1,14 @@
+spelling: ngon bà cố
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Ngon hết sẩy, ngon hết cỡ
+            region: [south]
+            synonyms: [ngon nhức nách]
+            examples:
+              - text: Nồi cá kho tộ của má ngon bà cố, ăn hết ba chén cơm.
+                standard: Nồi cá kho tộ của mẹ ngon hết sẩy, ăn hết ba bát cơm.
+                ai_draft: true
+            topics: [idioms]
+            sources: [skill-dictionary-v1]

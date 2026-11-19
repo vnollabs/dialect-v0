@@ -1,0 +1,14 @@
+spelling: ngò
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Rau mùi
+            region: [south]
+            standard: [rau mùi]
+            examples:
+              - text: Tô phở nhớ bỏ thêm ngò với hành lá nha.
+                standard: Bát phở nhớ cho thêm rau mùi với hành lá nhé.
+                ai_draft: true
+            topics: [food-drink]
+            sources: [skill-dictionary-v1]

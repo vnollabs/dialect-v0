@@ -1,0 +1,14 @@
+spelling: bông điên điển
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Các loại hoa đặc trưng mùa nước nổi miền Tây, dùng nấu canh chua, đổ bánh xèo
+            region: [mekong-delta]
+            synonyms: [bông so đũa]
+            examples:
+              - text: Mùa nước nổi, má hái bông điên điển về đổ bánh xèo ăn giòn rụm.
+                standard: Mùa nước nổi, mẹ hái hoa điên điển về đổ bánh xèo ăn giòn rụm.
+                ai_draft: true
+            topics: [mekong-food]
+            sources: [skill-dictionary-v1]

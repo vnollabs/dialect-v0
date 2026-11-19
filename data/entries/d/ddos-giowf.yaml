@@ -1,0 +1,11 @@
+spelling: đó giờ
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Từ trước đến giờ, xưa nay
+            region: [south]
+            examples:
+              - text: Đó giờ tui chưa thấy con cá lóc nào bự cỡ này
+            topics: [discourse-markers]
+            sources: [skill-dictionary-v1]

@@ -1,0 +1,19 @@
+spelling: chí
+etymologies:
+  - type: native
+    note:
+      en: From Proto-Vietic *ciːʔ, from Proto-Austroasiatic *ciʔ (“head louse”). Cognate with Muong chỉ, Bahnar si, Khasi ksi and Mon စဲ.
+    pos:
+      - pos: noun
+        han_nom: [蛭]
+        classifiers: [con]
+        senses:
+          - gloss:
+              en: head louse
+            region: [central, south]
+            examples:
+              - text: Có chí thì gãi.
+                en: If you have head lice, then scratch (your head).
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ch%C3%AD#Vietnamese

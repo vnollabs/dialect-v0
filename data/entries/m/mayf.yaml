@@ -1,0 +1,22 @@
+spelling: mày
+etymologies:
+  - type: native
+    note:
+      en: From Proto-Vietic *miː, from Proto-Austroasiatic *miːʔ. Cognate with Koho mi (“you”), Pacoh may (“you”), Khasi me (“you”), Mang miː², Central Nicobarese me (“you”).
+    derived: [chú mày, mày hả mạy, mày tao chi tớ]
+    pos:
+      - pos: pron
+        han_nom: [迈, 眉, 𱚧, 𠋥, 𡮠, 𫵇]
+        senses:
+          - gloss:
+              en: you
+            qualifier: disrespectful or hostile
+            region: [north, south]
+            labels: [familiar, impolite]
+            examples:
+              - text: Mày mà còn thả vịt qua phá ruộng tao nữa là biết tay tao!
+                standard: Mày mà còn thả vịt sang phá ruộng tao nữa là biết tay tao!
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%C3%A0y#Vietnamese

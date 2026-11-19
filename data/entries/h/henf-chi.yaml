@@ -1,0 +1,25 @@
+spelling: hèn chi
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Thảo nào, bảo sao; vỡ lẽ ra nguyên do
+            region: [south]
+            synonyms: [hèn gì]
+            examples:
+              - text: Bữa nay ổng trúng số, hèn chi cười hoài
+            topics: [discourse-markers]
+            sources: [skill-dictionary-v1]
+  - pos:
+      - pos: intj
+        senses:
+          - gloss:
+              en: no wonder; of course; it figures
+            region: [central, south]
+            examples:
+              - text: Hèn chi bữa nay má cười hoài, té ra anh Hai gửi tiền về.
+                standard: Thảo nào hôm nay mẹ cười mãi, hóa ra anh Hai gửi tiền về.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/h%C3%A8n_chi#Vietnamese

@@ -1,0 +1,14 @@
+spelling: ba xạo
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Nói dối, nói phét
+            region: [south]
+            synonyms: [xạo, xạo ke]
+            examples:
+              - text: Mày đừng có ba xạo, hôm qua tao thấy mày ngồi quán cà phê mà.
+                standard: Mày đừng có nói dối, hôm qua tao thấy mày ngồi quán cà phê mà.
+                ai_draft: true
+            topics: [idioms]
+            sources: [skill-dictionary-v1]

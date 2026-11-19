@@ -1,0 +1,33 @@
+spelling: chục
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Chục trái cây có thể hơn 10 trái; chục trơn là đủ 10, chục có đầu là hơn 10
+            region: [mekong-delta]
+            examples:
+              - text: Chục mận của tui là mười bốn trái nghen, hổng phải mười đâu.
+                standard: Chục quả roi của tôi là mười bốn quả nhé, không phải mười đâu.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]
+  - type: native
+    note:
+      en: |-
+        From Proto-Vietic *ɟuːk (“ten”). Cognate with Arem nhcùk.
+        Attested as Middle Vietnamese chọuc in Dictionarium Annamiticum Lusitanum et Latinum (1651).
+    pos:
+      - pos: noun
+        han_nom: [逐, 𨔿, 𱑐]
+        senses:
+          - gloss:
+              en: certain sets of numbers, most usually a dozen but might be as high as eighteen
+            qualifier: Mekong Delta
+            region: [mekong-delta]
+            examples:
+              - text: Ông Năm mua ba chục dừa, mỗi chục mười hai trái, chất đầy xuồng.
+                standard: Ông Năm mua ba chục dừa, mỗi chục mười hai quả, chất đầy thuyền.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ch%E1%BB%A5c#Vietnamese

@@ -1,0 +1,15 @@
+spelling: niềng
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Vành xe
+            qualifier: xe
+            region: [south]
+            standard: [vành xe]
+            examples:
+              - text: Xe đạp sụp ổ gà, niềng bị cong vênh hết trơn.
+                standard: Xe đạp sa ổ gà, vành xe bị cong vênh hết.
+                ai_draft: true
+            topics: [transport]
+            sources: [skill-dictionary-v1]

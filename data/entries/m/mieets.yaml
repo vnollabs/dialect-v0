@@ -1,0 +1,29 @@
+spelling: miết
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Lặp lại hoài, liên tục
+            region: [mekong-delta]
+            synonyms: [riết]
+            examples:
+              - text: Thằng nhỏ hỏi miết một câu, nghe muốn nhức đầu.
+                standard: Thằng bé hỏi mãi một câu, nghe muốn nhức đầu.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]
+  - pos:
+      - pos: adv
+        han_nom: [蔑]
+        senses:
+          - gloss:
+              en: uninterruptedly; without a break; continuously
+            region: [south]
+            synonyms: [riết]
+            examples:
+              - text: Mưa miết từ trưa tới giờ, đồ phơi hổng khô nổi.
+                standard: Mưa mãi từ trưa đến giờ, quần áo phơi không khô được.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/mi%E1%BA%BFt#Vietnamese

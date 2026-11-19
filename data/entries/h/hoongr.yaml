@@ -1,0 +1,30 @@
+spelling: hổng
+etymologies:
+  - type: sino
+    han: 空
+    note:
+      en: "Derived from hông, which is a non-Sino-Vietnamese reading of Chinese 空 (“empty, hollow”, SV: không). Doublet of không."
+    pos:
+      - pos: adv
+        senses:
+          - gloss:
+              en: Southern Vietnam form of không
+            region: [south]
+            variant_of: không
+            examples:
+              - text: Hổng chịu đâu!
+                en: I wouldn't stand it!
+              - text: Hổng phải đâu!
+                en: That's not right!
+              - text: Hổng có đâu!
+                en: There's no such thing! / I don't have it! / I didn't do it! (precise meaning depends on context)
+              - text: Hổng (có) được đâu!
+                en: That's no good! / That's not viable! / That's not allowed! (precise meaning depends on context)
+              - text: Hổng (có) (làm) được đâu!
+                en: That can't be done! / I can't do that!
+              - text: Ôi hấp dẫn tuyệt vời, nhưng mà em hổng dám đâu !
+                en: "[They're] oh so superbly fascinating, but I wouldn't dare."
+                ref: "1992, Nguyễn Văn Hiên, “Không Dám Đâu [I Wouldn't Dare!]”performed by Hiền Thục:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/h%E1%BB%95ng#Vietnamese

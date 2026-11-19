@@ -1,0 +1,30 @@
+spelling: quạu
+etymologies:
+  - derived: [chàu quạu, lạu quạu, quạu đeo, quạu quọ]
+    pos:
+      - pos: verb
+        han_nom: [㗕, 姤]
+        senses:
+          - gloss:
+              en: to be angry; to get mad
+            region: [central, south]
+            examples:
+              - text: Chờ cả tiếng mà xe chưa tới, ổng quạu lên chửi um sùm.
+                standard: Chờ cả tiếng mà xe chưa đến, ông ấy cáu lên chửi om sòm.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/qu%E1%BA%A1u#Vietnamese
+      - pos: adj
+        han_nom: [㗕, 姤]
+        senses:
+          - gloss:
+              en: irritable; cranky
+            region: [central, south]
+            examples:
+              - text: Mấy bữa nay bả quạu lắm, nói gì cũng gắt.
+                standard: Mấy hôm nay bà ấy cáu kỉnh lắm, nói gì cũng gắt.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/qu%E1%BA%A1u#Vietnamese

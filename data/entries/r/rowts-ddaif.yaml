@@ -1,0 +1,19 @@
+spelling: rớt đài
+etymologies:
+  - type: compound
+    note:
+      en: rớt + đài.
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to be incapacitated half-way through
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Mới nhậu tới chai thứ hai mà ảnh rớt đài rồi, nằm ngủ khò.
+                standard: Mới uống đến chai thứ hai mà anh ấy đã gục giữa chừng rồi, nằm ngủ khò.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/r%E1%BB%9Bt_%C4%91%C3%A0i#Vietnamese

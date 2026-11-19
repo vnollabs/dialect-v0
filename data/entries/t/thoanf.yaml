@@ -1,0 +1,19 @@
+spelling: thoàn
+etymologies:
+  - note:
+      en: See thuyền. This form has been displaced by its counterpart thuyền.
+    pos:
+      - pos: noun
+        han_nom: [船]
+        senses:
+          - gloss:
+              en: watercraft
+            region: [central, south]
+            labels: [obsolete]
+            variant_of: thuyền
+            examples:
+              - text: Giáo sư Trần Bửu và bé Kim Ngân ngắm cảnh trên thoàn.
+                en: Professor Tran Bao and Kim Ngan enjoy the scenery on the boat.
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/tho%C3%A0n#Vietnamese

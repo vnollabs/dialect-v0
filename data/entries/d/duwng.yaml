@@ -1,0 +1,16 @@
+spelling: dưng
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: alternative form of dâng
+            region: [central, south]
+            variant_of: dâng
+            examples:
+              - text: Sáng mùng một, bà nội dưng trái cây lên bàn thờ Phật.
+                standard: Sáng mùng một, bà nội dâng hoa quả lên bàn thờ Phật.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/d%C6%B0ng#Vietnamese

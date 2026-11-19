@@ -1,0 +1,15 @@
+spelling: sao
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Thế nào
+            region: [south]
+            standard: [thế nào]
+            synonyms: [làm sao]
+            examples:
+              - text: Bữa nay trong người con thấy sao, đỡ chưa?
+                standard: Hôm nay trong người con thấy thế nào, đỡ chưa?
+                ai_draft: true
+            topics: [qualities-feelings]
+            sources: [skill-dictionary-v1]

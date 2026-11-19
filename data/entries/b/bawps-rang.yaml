@@ -1,0 +1,20 @@
+spelling: bắp rang
+etymologies:
+  - type: compound
+    note:
+      en: bắp + rang.
+    derived: [bắp rang bơ]
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: popcorn
+            region: [central, south]
+            synonyms: [bỏng ngô]
+            examples:
+              - text: Đi coi phim mà hổng mua bắp rang thì mất vui.
+                standard: Đi xem phim mà không mua bỏng ngô thì mất vui.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%E1%BA%AFp_rang#Vietnamese

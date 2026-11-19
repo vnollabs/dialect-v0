@@ -1,0 +1,31 @@
+spelling: lội
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Bơi
+            region: [south]
+            standard: [bơi]
+            examples:
+              - text: Thằng Út mới năm tuổi mà lội qua sông được rồi.
+                standard: Thằng Út mới năm tuổi mà bơi qua sông được rồi.
+                ai_draft: true
+            topics: [actions]
+            sources: [skill-dictionary-v1]
+  - type: native
+    note:
+      en: Inherited from Proto-Vietic *loːjʔ (“to wade”), Proto-Austroasiatic *loːjʔ ~ *lɔːjʔ (“to wade; to swim”). Cognate with Khmer លុយ (luy), Mon လုဲ, Riang luj². Compare also Proto-Tai *loːjᴬ (“to swim”) (whence Thai ลอย (lɔɔi)).
+    pos:
+      - pos: verb
+        han_nom: [洡, 𣷮, 𱧎, 𤂬, 耒, 𨀤, 𨇒, 汭]
+        senses:
+          - gloss:
+              en: to swim
+            region: [central, south]
+            examples:
+              - text: Trưa nắng tụi nhỏ rủ nhau ra mé sông lội cho mát.
+                standard: Trưa nắng bọn trẻ rủ nhau ra bờ sông bơi cho mát.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%E1%BB%99i#Vietnamese

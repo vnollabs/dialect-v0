@@ -1,0 +1,16 @@
+spelling: tột bực
+etymologies:
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: Southern Vietnam form of tột bậc
+            region: [south]
+            variant_of: tột bậc
+            examples:
+              - text: Nghe tin thằng cháu đậu đại học, ông bà mừng tột bực.
+                standard: Nghe tin thằng cháu đỗ đại học, ông bà mừng tột bậc.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/t%E1%BB%99t_b%E1%BB%B1c#Vietnamese

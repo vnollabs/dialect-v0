@@ -1,0 +1,22 @@
+spelling: xíu
+etymologies:
+  - type: loan
+    lang: yue
+    source_form: 小
+    note:
+      en: From Cantonese 小 (siu2, “little”) and 少 (siu2, “few”).
+    derived: [bé xíu, chút xíu, nhỏ xíu, tí xíu, xíu xiu, xíu xíu]
+    pos:
+      - pos: adj
+        han_nom: [𡭰, 𡮜]
+        senses:
+          - gloss:
+              en: tiny
+            region: [south]
+            examples:
+              - text: Cái nhà nhỏ xíu mà chứa cả chục người.
+                standard: Cái nhà bé tí mà chứa cả chục người.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/x%C3%ADu#Vietnamese

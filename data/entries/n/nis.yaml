@@ -1,0 +1,60 @@
+spelling: ní
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Cách gọi thân mật người ngang tuổi hoặc nhỏ hơn
+            region: [south]
+            examples:
+              - text: Ê ní, ghé quán làm ly cà phê rồi mới về.
+                standard: Ê bạn, ghé quán uống cốc cà phê rồi mới về.
+                ai_draft: true
+            topics: [family-address]
+            sources: [skill-dictionary-v1]
+  - type: loan
+    lang: nan-tws
+    source_form: 同年
+    note:
+      en: "Clipping of tằng ní, borrowed from Teochew 同年 (tâng-nî) (SV: đồng niên). Doublet of đồng niên."
+    derived: [ba ní, kết ní, má ní, xả ní]
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: a friend of the same age
+            qualifier: chiefly Mekong Delta
+            region: [mekong-delta]
+            labels: [colloquial, dated]
+            examples:
+              - text: Ông nội tui với ông Tư là ní, hồi nhỏ đi chăn trâu chung.
+                standard: Ông nội tôi với ông Tư là bạn cùng tuổi, hồi nhỏ đi chăn trâu cùng nhau.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/n%C3%AD#Vietnamese
+          - gloss:
+              en: a sworn brother or sister (traditionally involving a formal oath-swearing ritual at a temple)
+            qualifier: chiefly Mekong Delta
+            region: [mekong-delta]
+            labels: [colloquial, dated]
+            examples:
+              - text: Hồi trẻ ông Sáu với ông Bảy ra chùa thắp nhang thề làm ní với nhau.
+                standard: Hồi trẻ ông Sáu với ông Bảy ra chùa thắp hương thề làm anh em kết nghĩa với nhau.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/n%C3%AD#Vietnamese
+      - pos: pron
+        senses:
+          - gloss:
+              en: you (used familiarly and affectionately between close friends)
+            qualifier: chiefly Mekong Delta
+            region: [mekong-delta]
+            labels: [colloquial]
+            examples:
+              - text: Mấy bữa nay ní đi đâu mà hổng thấy ghé quán?
+                standard: Mấy hôm nay cậu đi đâu mà không thấy ghé quán?
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/n%C3%AD#Vietnamese

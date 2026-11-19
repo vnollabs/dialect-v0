@@ -1,0 +1,30 @@
+spelling: quá xá
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Nhiều lắm, quá chừng
+            region: [south]
+            examples:
+              - text: Dạo này kẹt chiện quá xá!
+            topics: [idioms]
+            sources: [skill-dictionary-v1]
+  - pos:
+      - pos: adv
+        senses:
+          - gloss:
+              en: extremely; mighty
+            region: [south]
+            labels: [colloquial]
+            synonyms: [quá trời]
+            examples:
+              - text: |-
+                  Về thưa ba thưa má mà vui quá xá nếu anh cưới nàng nà
+                  Cò bay lơi bay lả cò ơi
+                en: |-
+                  Going back to inform your parents, it will be great if I can marry you, oh.
+                  Dear stork, fly fly away！
+                ref: "2024 January 31, “Căn nhà tranh mái lá [Thatched house]”, performed by Tibicon ft. Deagle and Dub P:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/qu%C3%A1_x%C3%A1#Vietnamese

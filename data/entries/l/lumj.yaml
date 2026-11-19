@@ -1,0 +1,16 @@
+spelling: lụm
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to pick up
+            region: [south]
+            synonyms: [nhặt, lượm]
+            examples:
+              - text: Rớt cây viết kìa, lụm lên giùm chị coi.
+                standard: Rơi cái bút kìa, nhặt lên giúp chị xem nào.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%E1%BB%A5m#Vietnamese

@@ -1,0 +1,18 @@
+spelling: rít
+etymologies:
+  - pos:
+      - pos: noun
+        han_nom: [蝎]
+        classifiers: [con]
+        senses:
+          - gloss:
+              en: centipede
+            region: [south]
+            variant_of: rết
+            examples:
+              - text: Coi chừng con rít trong đống củi, nó cắn đau lắm đó.
+                standard: Cẩn thận con rết trong đống củi, nó cắn đau lắm đấy.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/r%C3%ADt#Vietnamese

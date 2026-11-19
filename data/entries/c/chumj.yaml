@@ -1,0 +1,17 @@
+spelling: chụm
+etymologies:
+  - note:
+      en: Compare Pacoh adyúm (“to push sticks into fire”).
+    pos:
+      - pos: verb
+        han_nom: [揕]
+        senses:
+          - gloss:
+              en: to put into the fire
+            region: [central, south]
+            examples:
+              - text: Bỏ thêm củi vô chụm cho nước mau sôi coi.
+                en: Let's put more wood into the fire so that the water boils more quickly.
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ch%E1%BB%A5m#Vietnamese

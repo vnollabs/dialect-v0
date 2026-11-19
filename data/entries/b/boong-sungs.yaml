@@ -1,0 +1,13 @@
+spelling: bông súng
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Cọng bông súng mọc hoang ở đồng, đìa mùa nước nổi; xốp giòn, ăn kèm lẩu, mắm kho
+            region: [mekong-delta]
+            examples:
+              - text: Ra đìa nhổ mớ bông súng, tước vỏ chấm mắm kho ăn bắt cơm lắm.
+                standard: Ra ao nhổ mớ hoa súng, tước vỏ chấm mắm kho ăn đưa cơm lắm.
+                ai_draft: true
+            topics: [mekong-food]
+            sources: [skill-dictionary-v1]

@@ -1,0 +1,37 @@
+spelling: heo
+etymologies:
+  - type: sino
+    han: 豪
+    derived: [cá heo, heo đất, heo mọi, heo nái, heo quay, heo rừng, thịt heo, thịt heo kho]
+    pos:
+      - pos: noun
+        han_nom: [㺧]
+        classifiers: [con]
+        senses:
+          - gloss:
+              vi: Lợn
+              en: pig (mammal of genus Sus)
+            region: [south, central]
+            standard: [lợn]
+            synonyms: [cúi]
+            examples:
+              - text: Sáng nào má cũng nấu cám cho heo ăn rồi mới đi chợ.
+                standard: Sáng nào mẹ cũng nấu cám cho lợn ăn rồi mới đi chợ.
+                ai_draft: true
+            topics: [food-drink]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/heo#Vietnamese
+      - pos: noun
+        senses:
+          - gloss:
+              en: two
+            region: [south]
+            examples:
+              - text: Đánh tiến lên mà tui còn đôi heo trong tay, ván này chắc thắng.
+                standard: Đánh tiến lên mà tôi còn đôi hai trong tay, ván này chắc thắng.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/heo#Vietnamese

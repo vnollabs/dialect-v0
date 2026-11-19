@@ -1,0 +1,12 @@
+spelling: nói thiệt
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Nói thật, thật lòng mà nói
+            region: [south]
+            synonyms: [tình thiệt]
+            examples:
+              - text: Nói thiệt, tui hổng ưa cái kiểu đó chút nào
+            topics: [discourse-markers]
+            sources: [skill-dictionary-v1]

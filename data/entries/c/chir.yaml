@@ -1,0 +1,29 @@
+spelling: chỉ
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Chị ấy
+            region: [south]
+            standard: [chị ấy]
+            examples:
+              - text: Chỉ mới đi chợ về, để chỉ nghỉ chút rồi tính.
+                standard: Chị ấy mới đi chợ về, để chị ấy nghỉ chút rồi tính.
+                ai_draft: true
+            topics: [family-address]
+            sources: [skill-dictionary-v1]
+  - note:
+      en: Word formation with distal denotation by adding hỏi tone to the root chị in Southern Vietnamese and some topolects of Thanh Hoá.
+    pos:
+      - pos: pron
+        senses:
+          - gloss:
+              en: she; her
+            region: [south]
+            examples:
+              - text: Con hỏi chỉ coi chừng nào chỉ về quê ăn Tết.
+                standard: Con hỏi chị ấy xem bao giờ chị ấy về quê ăn Tết.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ch%E1%BB%89#Vietnamese

@@ -1,0 +1,38 @@
+spelling: thăm
+etymologies:
+  - type: sino
+    han: 探
+    note:
+      en: "Non-Sino-Vietnamese reading of Chinese 探 (SV: tham, thám)."
+    pos:
+      - pos: verb
+        han_nom: [𠶀, 探, 深, 𠽄, 𠽉, 𡂹, 㖭]
+        senses:
+          - gloss:
+              en: to (clinically) examine
+            region: [south]
+            examples:
+              - text: Ông thầy thuốc thăm mạch xong nói má tui chỉ bị cảm sơ sơ.
+                standard: Ông thầy thuốc bắt mạch xong nói mẹ tôi chỉ bị cảm nhẹ.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/th%C4%83m#Vietnamese
+  - type: sino
+    han: 籤
+    note:
+      en: "Non-Sino-Vietnamese reading of Chinese 籤 (SV: thiêm). Compare xăm, tăm."
+    pos:
+      - pos: noun
+        han_nom: [採, 𪮨]
+        senses:
+          - gloss:
+              en: vote; ballot
+            region: [south]
+            examples:
+              - text: Cả ấp đi bỏ thăm chọn người làm trưởng ấp mới.
+                standard: Cả thôn đi bỏ phiếu chọn người làm trưởng thôn mới.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/th%C4%83m#Vietnamese

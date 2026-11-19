@@ -1,0 +1,19 @@
+spelling: màng nhện
+etymologies:
+  - type: compound
+    note:
+      en: màng + nhện.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: spiderweb
+            region: [central, south]
+            synonyms: [mạng nhện]
+            examples:
+              - text: Lâu quá hổng quét, trên trần nhà giăng màng nhện đầy.
+                standard: Lâu quá không quét, trên trần nhà giăng mạng nhện đầy.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%C3%A0ng_nh%E1%BB%87n#Vietnamese

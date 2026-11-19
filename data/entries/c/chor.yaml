@@ -1,0 +1,14 @@
+spelling: chỏ
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Chen vô, can thiệp chuyện người khác
+            region: [mekong-delta]
+            synonyms: [xía, xứa]
+            examples:
+              - text: Chuyện nhà người ta, mày đừng có chỏ miệng vô.
+                standard: Chuyện nhà người ta, mày đừng có xen miệng vào.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

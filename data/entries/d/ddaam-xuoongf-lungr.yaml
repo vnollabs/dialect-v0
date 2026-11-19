@@ -1,0 +1,14 @@
+spelling: đâm xuồng lủng
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Nói chuyện lạc đề, lan man, chen ngang làm mất hứng
+            region: [south]
+            synonyms: [đâm bang, đâm xuồng bể]
+            examples:
+              - text: Người ta đang bàn chuyện đám giỗ, mắc gì mày đâm xuồng lủng vậy?
+                standard: Người ta đang bàn chuyện đám giỗ, sao mày lại nói chen ngang lạc đề vậy?
+                ai_draft: true
+            topics: [idioms]
+            sources: [skill-dictionary-v1]

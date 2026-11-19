@@ -1,0 +1,14 @@
+spelling: gác-măng-rê
+etymologies:
+  - type: loan
+    lang: fr
+    source_form: garde-manger
+    pos:
+      - senses:
+          - gloss:
+              vi: Tủ đựng thức ăn, chén dĩa, có lưới kẽm xung quanh cho thoáng và chống ruồi (gốc tiếng Pháp garde-manger)
+            region: [south]
+            examples:
+              - text: Mở gác-măng-rê ra lấy giùm tui cái chén kiểu coi
+            topics: [household]
+            sources: [skill-dictionary-v1]

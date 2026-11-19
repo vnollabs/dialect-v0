@@ -1,0 +1,25 @@
+spelling: hai
+etymologies:
+  - type: native
+    note:
+      en: |-
+        From Proto-Vietic *haːr, from Proto-Austroasiatic *ɓaːr (or some variant presented by Proto-Palaungic *ləʔaːr, Khasi ar, Central Nicobarese [Nancowry] âṅ; Shorto reconstructed Pre-Mon-Khmer *biʔaar). Cognate with Muong hal, Khmer ពីរ (pii), Bahnar 'bar, Pacoh bar, Khasi ar, Mon ၜါ, Santali ᱵᱟᱨ (bar).
+        Insertion of initial *h in Vietic can also be seen in *huːɲ (“to kiss”) (> Vietnamese hôn), *heːt (“finished”) (> Vietnamese hết), *hanʔ (“he, she, it”) (> Vietnamese hắn), *hoːj (“foul-smelling”) (> Vietnamese hôi), *tŋ-ʔaːm (> Vietnamese hàm, Late Vietic), *hɔːŋʔ (“river, brook”), *haːŋʔ (“to open (mouth)”).
+    derived: [bắt cá hai tay, cả hai, hai họ, hai mặt, tháng hai, thứ hai]
+    pos:
+      - pos: adj
+        han_nom: [𠄩, 咍, 台]
+        senses:
+          - gloss:
+              en: eldest or elder; firstborn
+            qualifier: of a sibling
+            region: [south]
+            synonyms: [cả]
+            examples:
+              - text: anh/chị hai
+                en: eldest brother/sister
+              - text: bác hai
+                en: eldest brother/sister of one's parent
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/hai#Vietnamese

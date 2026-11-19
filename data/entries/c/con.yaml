@@ -1,0 +1,30 @@
+spelling: con
+etymologies:
+  - type: native
+    note:
+      en: |-
+        Inherited from Proto-Vietic *kɔːn, from Proto-Austroasiatic *koan. Cognate with Muong Bi con, Thavung กอน, Mon ကွေန် (kon), Khmer កូន (koun), Bahnar kon, Khasi khun, Central Nicobarese kōan. Doublet of non (“young, juvenile”), which is from an infixed form of the root.
+        Attested in Phật thuyết đại báo phụ mẫu ân trọng kinh (佛說大報父母恩重經, c. 12th cent.) as 昆 (MC kwon) (modern SV: côn). Attested in the Annan Jishi (安南即事, 13th century) as 乾 (MC kan) (modern SV: can).
+    pos:
+      - pos: pron
+        han_nom: [𡥵, 昆]
+        senses:
+          - gloss:
+              en: I/me (used when talking to someone significantly older than the speaker)
+            region: [central, south]
+            examples:
+              - text: Dạ, con ăn rồi, ngoại ăn đi, để con dọn dẹp cho.
+                standard: Dạ, con ăn rồi, bà ngoại ăn đi, để con dọn dẹp cho.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/con#Vietnamese
+          - gloss:
+              en: you (used when talking to some significantly younger than the speaker)
+            region: [central, south]
+            examples:
+              - text: Là con thật!
+                en: It's you for real!
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/con#Vietnamese

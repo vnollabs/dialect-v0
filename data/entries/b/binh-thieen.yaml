@@ -1,0 +1,11 @@
+spelling: binh thiên
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Đông nghẹt, nhiều vô kể
+            region: [mekong-delta]
+            examples:
+              - text: Người đâu ra quá xá binh thiên
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

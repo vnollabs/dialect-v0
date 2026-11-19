@@ -1,0 +1,18 @@
+spelling: ga
+etymologies:
+  - pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: bed sheet
+            qualifier: especially Mekong Delta
+            region: [mekong-delta]
+            labels: [pronunciation-spelling]
+            variant_of: ra
+            examples:
+              - text: Nắng tốt, con giặt cái ga giường rồi phơi giùm má nghen.
+                standard: Nắng tốt, con giặt cái ra giường rồi phơi giúp mẹ nhé.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ga#Vietnamese

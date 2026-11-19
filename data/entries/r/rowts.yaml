@@ -1,0 +1,19 @@
+spelling: rớt
+etymologies:
+  - type: native
+    note:
+      en: From Proto-Vietic *-rəːc.
+    pos:
+      - pos: verb
+        han_nom: [溧]
+        senses:
+          - gloss:
+              en: to fail (in one's examination)
+            region: [central, south]
+            examples:
+              - text: Học hành gì mà thi rớt hoài vậy con?
+                standard: Học hành gì mà thi trượt mãi vậy con?
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/r%E1%BB%9Bt#Vietnamese

@@ -1,0 +1,19 @@
+spelling: liện
+etymologies:
+  - note:
+      en: See luyện.
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to train, to drill
+            region: [south]
+            labels: [obsolete]
+            variant_of: luyện
+            examples:
+              - text: Hồi xưa ông nội ngày nào cũng liện võ ngoài sân từ lúc gà gáy.
+                standard: Hồi xưa ông nội ngày nào cũng luyện võ ngoài sân từ lúc gà gáy.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/li%E1%BB%87n#Vietnamese

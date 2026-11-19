@@ -1,0 +1,20 @@
+spelling: cô nương
+etymologies:
+  - type: sino
+    han: 姑娘
+    note:
+      en: Sino-Vietnamese word from 姑娘.
+    pos:
+      - pos: pron
+        senses:
+          - gloss:
+              en: you, young lady
+            region: [south]
+            labels: [polite]
+            examples:
+              - text: Cô nương muốn mua vải gì, để tui lấy xuống cho coi.
+                standard: Cô muốn mua vải gì, để tôi lấy xuống cho xem.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%C3%B4_n%C6%B0%C6%A1ng#Vietnamese

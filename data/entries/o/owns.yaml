@@ -1,0 +1,16 @@
+spelling: ớn
+etymologies:
+  - pos:
+      - pos: verb
+        han_nom: [𠹵, 按, 𠻈, 𢞴, 𫣃]
+        senses:
+          - gloss:
+              en: to be scared of; to fear
+            region: [south]
+            examples:
+              - text: Tui ớn con chó nhà đó lắm, đi ngang là nó sủa rân.
+                standard: Tôi sợ con chó nhà đó lắm, đi ngang là nó sủa ầm.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%E1%BB%9Bn#Vietnamese

@@ -1,0 +1,19 @@
+spelling: giùm
+etymologies:
+  - type: native
+    note:
+      en: "Ferlus, 2009: From Proto-Vietic *p-tʃuːm, a prefixed form of Proto-Vietic *tʃuːm (“to gather”), via the changes of /p-tʃuːm/ > /p-ʝuːm/ > /ʝuːm/. The forms of gium (“to help”), giúm (“to help each other”) and giụm (“to put together”) are attested in older dictionaries. Related to xum (“to meet; to get together”, now obsolete), xúm (“to gather; to collect”), chùm (“bunch; cluster”) and chụm (“to assemble; to gather”). Outside Vietic, related to Khmer ប្រជុំ (prɑɑcum, “to gather; to meet together”) → Thai ประชุม (bprà-chum, “to gather; to meet”)."
+    pos:
+      - pos: adv
+        han_nom: [用, 𡑓]
+        senses:
+          - gloss:
+              en: in someone else's stead
+            region: [central, south]
+            synonyms: [hộ, thay, nhờ]
+            examples:
+              - text: Mày mua giùm tao điếu thuốc cái coi!
+                en: Get me a cigarette while you're at it, please!
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/gi%C3%B9m#Vietnamese

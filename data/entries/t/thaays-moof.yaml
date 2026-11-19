@@ -1,0 +1,27 @@
+spelling: thấy mồ
+etymologies:
+  - pos:
+      - pos: particle
+        senses:
+          - gloss:
+              vi: "Cuối câu, sau tính từ: than hay nhấn mạnh mức độ, như 'quá', 'ghê'"
+            region: [south]
+            examples:
+              - text: Trưa nay nắng thấy mồ, đừng có ra đồng
+            topics: [particles]
+            sources: [skill-dictionary-v1, vjol-thay-mo-cho-bo]
+  - type: compound
+    note:
+      en: thấy (“to see”) + mồ (“grave”)
+    pos:
+      - pos: adv
+        senses:
+          - gloss:
+              en: very much
+            region: [south]
+            examples:
+              - text: chán thấy mồ
+                en: to be bored out of one's mind
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/th%E1%BA%A5y_m%E1%BB%93#Vietnamese

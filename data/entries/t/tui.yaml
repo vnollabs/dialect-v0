@@ -1,0 +1,22 @@
+spelling: tui
+etymologies:
+  - pos:
+      - pos: pron
+        han_nom: [碎]
+        senses:
+          - gloss:
+              vi: Tôi
+              en: alternative form of tôi
+            region: [south, south-central]
+            labels: [internet, colloquial]
+            standard: [tôi]
+            variant_of: tôi
+            examples:
+              - text: Chiều nay tui ghé nhà bà lấy rổ trứng gà nghen.
+                standard: Chiều nay tôi ghé nhà bà lấy rổ trứng gà nhé.
+                ai_draft: true
+            topics: [family-address]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/tui#Vietnamese

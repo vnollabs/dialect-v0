@@ -1,0 +1,40 @@
+spelling: rành
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Thạo, biết rõ
+            region: [mekong-delta]
+            examples:
+              - text: Tui hổng rành đường nha!
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]
+  - derived: [rành mạch, rành rẽ, rành rõi, rành rọt, rõ rành]
+    pos:
+      - pos: verb
+        han_nom: [伶, 佲, 停, 炩, 𣉏]
+        senses:
+          - gloss:
+              en: to know clearly; to be acquainted (with)
+            region: [central, south]
+            examples:
+              - text: Tui mới dọn tới, chưa rành người trong xóm, để hỏi bà Năm coi.
+                standard: Tôi mới chuyển đến, chưa biết rõ người trong xóm, để hỏi bà Năm xem.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/r%C3%A0nh#Vietnamese
+      - pos: adj
+        han_nom: [伶, 佲, 停, 炩, 𣉏]
+        senses:
+          - gloss:
+              en: clear; plain; evident; obvious
+            region: [central, south]
+            labels: [rare]
+            examples:
+              - text: Dấu tay dính mỡ còn rành rành trên cửa tủ, vậy mà thằng nhỏ còn chối.
+                standard: Dấu tay dính mỡ còn rõ mồn một trên cửa tủ, vậy mà thằng bé còn chối.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/r%C3%A0nh#Vietnamese

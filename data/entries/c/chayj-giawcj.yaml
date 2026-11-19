@@ -1,0 +1,14 @@
+spelling: chạy giặc
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Chạy loạn tránh giặc; nói vui là chạy hối hả, tán loạn
+            region: [south]
+            synonyms: [chạy như chạy giặc]
+            examples:
+              - text: Mới nghe trời gầm là cả nhà chạy như chạy giặc đi lượm đồ phơi.
+                standard: Vừa nghe trời gầm là cả nhà chạy tán loạn đi nhặt quần áo phơi.
+                ai_draft: true
+            topics: [idioms]
+            sources: [skill-dictionary-v1]

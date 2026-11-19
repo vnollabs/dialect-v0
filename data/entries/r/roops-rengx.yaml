@@ -1,0 +1,14 @@
+spelling: rốp rẽng
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Nhanh gọn, dứt khoát
+            region: [mekong-delta]
+            synonyms: [rốp rẻng]
+            examples:
+              - text: Cổ nói chuyện rốp rẽng lắm, chịu thì chịu, hổng chịu thì thôi.
+                standard: Cô ấy nói chuyện dứt khoát lắm, đồng ý thì đồng ý, không đồng ý thì thôi.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

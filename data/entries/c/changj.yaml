@@ -1,0 +1,17 @@
+spelling: chạng
+etymologies:
+  - pos:
+      - pos: verb
+        han_nom: [𩕆, 𩕉]
+        senses:
+          - gloss:
+              en: (“to spread out; split; extend (diagonally)”)
+            region: [central, south]
+            variant_of: giạng
+            examples:
+              - text: Anh chàng cũng chạng chân, khuỳnh tay trợn mắt nhìn trở lại – […]
+                en: The lad also stood with his feet apart and his arms akimbo, rolling his eyes and looking back, […]
+                ref: "2001, Chu Lai, Cuộc đời dài lắm, NXB Văn học, page 194:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ch%E1%BA%A1ng#Vietnamese

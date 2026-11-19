@@ -1,0 +1,17 @@
+spelling: thí bà nội
+etymologies:
+  - pos:
+      - pos: adv
+        senses:
+          - gloss:
+              en: synonym of thí mẹ (“very much”)
+            region: [south]
+            labels: [vulgar]
+            synonyms: [thí mẹ]
+            examples:
+              - text: Nồi lẩu mắm này ngon thí bà nội luôn mấy ông ơi.
+                standard: Nồi lẩu mắm này ngon cực kỳ luôn các ông ơi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/th%C3%AD_b%C3%A0_n%E1%BB%99i#Vietnamese

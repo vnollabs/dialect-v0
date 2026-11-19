@@ -1,0 +1,19 @@
+spelling: muối mè
+etymologies:
+  - type: compound
+    note:
+      en: muối (“salt”) + mè (“sesame”).
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: A condiment made of salt and ground, roasted sesame or peanut, sprinkled on xôi and similar dishes.
+            region: [central, south]
+            standard: [muối vừng]
+            examples:
+              - text: Sáng nay ăn xôi rắc muối mè cho chắc bụng.
+                standard: Sáng nay ăn xôi rắc muối vừng cho chắc bụng.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/mu%E1%BB%91i_m%C3%A8#Vietnamese

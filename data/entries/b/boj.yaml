@@ -1,0 +1,19 @@
+spelling: bọ
+etymologies:
+  - type: loan
+    lang: sit
+    note:
+      en: From a Sino-Tibetan language. Compare Proto-Loloish *bi/bo² (“insect”) (whence Yao'an Lolopo bber).
+    pos:
+      - pos: noun
+        han_nom: [蜅, 𧌂, 𧏳, 𧐾]
+        classifiers: [con]
+        senses:
+          - gloss:
+              en: guinea pig
+            region: [south]
+            synonyms: [chuột lang]
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%E1%BB%8D#Vietnamese
+            note: "No example yet: the AI drafter skipped this sense (doubt 'bọ' alone means guinea pig in real Southern speech; an example would read as 'bọ' = insect). Check that the sense is real before adding one."

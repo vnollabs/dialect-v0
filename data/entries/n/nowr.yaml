@@ -1,0 +1,19 @@
+spelling: nở
+etymologies:
+  - note:
+      en: Cognate with Muong Bi đớ.
+    pos:
+      - pos: verb
+        han_nom: [𦬑, 𫉅]
+        senses:
+          - gloss:
+              en: to give birth (to a child)
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Chị Ba mới nở đứa thứ hai, cả nhà xúm lại chăm.
+                standard: Chị Ba mới đẻ đứa thứ hai, cả nhà xúm lại chăm.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/n%E1%BB%9F#Vietnamese

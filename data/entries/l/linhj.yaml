@@ -1,0 +1,14 @@
+spelling: lịnh
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Lệnh
+            region: [south]
+            standard: [lệnh]
+            examples:
+              - text: Ổng là chủ, ổng ra lịnh thì tụi tui làm chớ biết sao.
+                standard: Ông ấy là chủ, ông ấy ra lệnh thì bọn tôi làm chứ biết sao.
+                ai_draft: true
+            topics: [sino-vietnamese]
+            sources: [skill-dictionary-v1]

@@ -1,0 +1,19 @@
+spelling: xấu hoắc
+etymologies:
+  - type: compound
+    note:
+      en: xấu (“ugly”) + hoắc (intensifier).
+    pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: very ugly
+            region: [central, south]
+            labels: [colloquial]
+            examples:
+              - text: Một người đàn ông chăm sóc cho em rất là kĩ, yêu em rất là nhiều, chiều em rất là tốt, nhưng đôi mắt "xấu hoắc", thì sao?
+                en: A man who takes good care of you, loves you very much, pampers you... yet he has a very ugly pair of eyes. What do you think?
+                ref: "2016, 3:15 from the start, in Bạn Muốn Hẹn Hò, episode 209:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/x%E1%BA%A5u_ho%E1%BA%AFc#Vietnamese

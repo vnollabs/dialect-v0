@@ -1,0 +1,19 @@
+spelling: dơ bẩn
+etymologies:
+  - type: compound
+    note:
+      en: dơ + bẩn.
+    derived: [ăn dơ ở bẩn]
+    pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: dirty; unclean
+            region: [central, south]
+            examples:
+              - text: Quần áo dơ bẩn bỏ vô thau, để chiều má giặt.
+                standard: Quần áo bẩn thỉu bỏ vào chậu, để chiều mẹ giặt.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/d%C6%A1_b%E1%BA%A9n#Vietnamese

@@ -1,0 +1,35 @@
+spelling: bông
+etymologies:
+  - type: native
+    note:
+      en: |-
+        From Proto-Vietic *poːŋ (“flower”). Cognate with Muong pông and Thavung โปง. Outside of Vietic, compare Proto-Pearic *Pa(ː)ŋ (Headley, 1985), Proto-Katuic *ʔmpɔɔŋ (“banana blossom”), Kensiu həpuaŋ, Ten'edn hapɔŋ.
+        This word had been tentatively proposed as being connected etymologically with Hmong-Mien (Proto-Hmong-Mien *bi̯aŋ, whence Iu Mien biangh, White Hmong paj) or Austronesian (Proto-Austronesian *buŋa, whence Malay bunga etc.) (for examples, Hsiu, 2017; H. Hayes, 1999, Hoàng Thị Châu, 2009). Ratliff (2017) connected the Hmong-Mien and Austronesian terms, but did not mention any Austroasiatic comparanda. In any case, the connection is not certain and might just be look-alikes.
+    pos:
+      - pos: noun
+        han_nom: [芃, 𱽐, 𱣩, 葻, 𥟌, 𣒾, 𣜳]
+        senses:
+          - gloss:
+              en: bloom; flower
+            region: [central, south]
+            synonyms: [hoa]
+            examples:
+              - text: Tết này má mua chậu bông vạn thọ chưng trước cửa.
+                standard: Tết này mẹ mua chậu hoa vạn thọ bày trước cửa.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%C3%B4ng#Vietnamese
+  - pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: earring
+            region: [south]
+            examples:
+              - text: Thi bảo, không cần rình rang nhưng cũng phải có năm sáu bộ đồ, đôi bông, sợi dây chuyền cho Huệ không phải tủi chứ.
+                en: Thi said, it didn't need to be extravagant, but there still had to be five or six outfits, a pair of earrings, and a necklace so Huệ wouldn't feel ashamed.
+                ref: "2005, Nguyễn Ngọc Tư, “Huệ lấy chồng”, in Cánh đồng bất tận, NXB Trẻ:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%C3%B4ng#Vietnamese

@@ -1,0 +1,11 @@
+spelling: mùa nước nổi
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Mùa lũ đặc trưng của miền Tây, khoảng tháng 7 tới tháng 10 âm lịch
+            region: [mekong-delta]
+            examples:
+              - text: Canh chua bông điên điển cá linh mùa nước nổi
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

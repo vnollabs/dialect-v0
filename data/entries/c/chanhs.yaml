@@ -1,0 +1,48 @@
+spelling: chánh
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Chính
+            region: [south]
+            standard: [chính]
+            examples:
+              - text: Người miền Bắc chánh hiệu
+            topics: [sino-vietnamese]
+            sources: [skill-dictionary-v1]
+  - type: sino
+    han: 正
+    note:
+      en: Sino-Vietnamese word from 正; this is the Southern form. Doublet of chính. Compare Japanese 正 (shō-, “senior ranking for 位”).
+    derived: [cải tà quy chánh, chánh án, chánh đại, chánh nghĩa, chánh phạm, chánh thất, chánh thống, chánh thức, chánh toà, chánh tông, chánh trực, chánh trương, công chánh, liêm chánh]
+    pos:
+      - pos: romanization
+        senses:
+          - gloss:
+              en: Sino-Vietnamese reading of 正
+            region: [south-central, south]
+            examples:
+              - text: Cái đồng hồ này hàng chánh hiệu đó, hổng phải đồ nhái đâu.
+                standard: Cái đồng hồ này hàng chính hiệu đấy, không phải đồ nhái đâu.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ch%C3%A1nh#Vietnamese
+  - type: sino
+    han: 政
+    note:
+      en: Sino-Vietnamese word from 政; this is the Southern form.
+    derived: [chánh đảng, chánh phủ, chánh trị, hành chánh, tài chánh, tham chánh, triều chánh]
+    pos:
+      - pos: romanization
+        senses:
+          - gloss:
+              en: Sino-Vietnamese reading of 政
+            region: [south-central, south]
+            examples:
+              - text: Muốn xin giấy phép cất nhà thì phải lên chánh quyền xã làm đơn.
+                standard: Muốn xin giấy phép xây nhà thì phải lên chính quyền xã làm đơn.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ch%C3%A1nh#Vietnamese

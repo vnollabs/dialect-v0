@@ -1,0 +1,44 @@
+spelling: út
+etymologies:
+  - type: native
+    note:
+      en: |-
+        From Proto-Vietic *ʔuːc.
+        Compare Chong [Ban Thung Saphan] ʔuːˀc ("few, little").
+    pos:
+      - pos: pron
+        han_nom: [乙, 𠃝]
+        senses:
+          - gloss:
+              en: you, my youngest sibling
+            region: [south]
+            labels: [familiar]
+            examples:
+              - text: Út ở nhà coi nhà nghen, anh Hai đi chợ chút về.
+                standard: Em út ở nhà trông nhà nhé, anh Hai đi chợ một lát về.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C3%BAt#Vietnamese
+          - gloss:
+              en: you, my youngest uncle or aunt
+            region: [south]
+            labels: [familiar]
+            examples:
+              - text: Dì Út ơi, Út chở con ra chợ giùm được hông?
+                standard: Dì Út ơi, dì chở cháu ra chợ giúp được không?
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C3%BAt#Vietnamese
+          - gloss:
+              en: he/him/she/her, my youngest uncle or aunt
+            region: [south]
+            labels: [familiar]
+            examples:
+              - text: Cậu Út đi làm chưa về, Út dặn má để phần cơm.
+                standard: Cậu Út đi làm chưa về, cậu dặn mẹ để phần cơm.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C3%BAt#Vietnamese

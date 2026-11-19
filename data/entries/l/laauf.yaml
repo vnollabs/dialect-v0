@@ -1,0 +1,40 @@
+spelling: lầu
+etymologies:
+  - type: sino
+    han: 樓
+    note:
+      en: "Non-Sino-Vietnamese reading of Chinese 樓 (SV: lâu)."
+    pos:
+      - pos: noun
+        han_nom: [樓, 楼]
+        senses:
+          - gloss:
+              en: floor/storey (except the ground floor/storey),
+            region: [south]
+            synonyms: [tầng]
+            examples:
+              - text: lầu 2
+                en: floor one level above the ground floor; i.e. 2nd floor (US)
+              - text: nhà lầu
+                en: multi-storey house
+              - text: nhảy lầu tự tử
+                en: to jump off a [high] floor to kill oneself
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%E1%BA%A7u#Vietnamese
+          - gloss:
+              en: floor/storey (including the ground floor/storey)
+            region: [south]
+            labels: [proscribed, rare]
+            synonyms: [tầng]
+            examples:
+              - text: lầu trệt
+                en: ground floor
+              - text: lầu 1
+                en: floor one level above the ground floor; i.e. 1st floor (Europe)
+              - text: Ngoài ra, Biệt đội Kiểm soát Nhiễm khuẩn (KSNK) của bệnh viện cũng tổ chức quầy thông tin tại lầu trệt, để hướng dẫn mọi người thực hiện rửa tay đúng cách.
+                en: The Hospital’s Infection Control Unit will also organise an information counter on the ground floor to guide people in how to correctly wash their hands.
+                ref: "2021 May 4, “FV Tiếp Tục Hưởng Ứng Ngày Vệ Sinh Tay Thế Giới”, in Bệnh Viện FV; English version in “FV Continues To Respond To World Hand Hygiene Day”, in FV Hospital, 4 May 2021:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%E1%BA%A7u#Vietnamese

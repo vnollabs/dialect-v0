@@ -1,0 +1,22 @@
+spelling: đơm
+etymologies:
+  - sound_change:
+      compare:
+        - [đàn, đờn]
+    note:
+      en: Compare the following doublet pairs; nhân vs. nhơn, đàn vs. đờn, etc.
+    derived: [đơm hoa kết trái]
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to sprout
+            region: [central, south]
+            variant_of: đâm
+            examples:
+              - text: Mới mưa có mấy bữa mà mấy gốc chuối đã đơm chồi lên rồi.
+                standard: Mới mưa có mấy hôm mà mấy gốc chuối đã đâm chồi lên rồi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%C6%A1m#Vietnamese

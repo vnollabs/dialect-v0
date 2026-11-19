@@ -1,0 +1,20 @@
+spelling: bị
+etymologies:
+  - type: sino
+    han: 被
+    note:
+      en: Sino-Vietnamese word from 被 (“to cover, to pack; "by" (passive voice)”).
+    pos:
+      - pos: noun
+        classifiers: [cái, chiếc]
+        senses:
+          - gloss:
+              en: plastic bag
+            region: [south]
+            examples:
+              - text: Lấy cái bị ni lông đựng mớ rau giùm tui, kẻo ướt hết đồ trong giỏ.
+                standard: Lấy cái túi ni lông đựng mớ rau giúp tôi, kẻo ướt hết đồ trong giỏ.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%E1%BB%8B#Vietnamese

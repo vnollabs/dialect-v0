@@ -1,0 +1,15 @@
+spelling: bíu
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to cling
+            region: [central, south]
+            examples:
+              - text: Thằng nhỏ sợ nước, bíu chặt cổ ba nó hổng chịu buông.
+                standard: Thằng bé sợ nước, bám chặt cổ bố nó không chịu buông.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%C3%ADu#Vietnamese

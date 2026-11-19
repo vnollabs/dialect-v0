@@ -1,0 +1,30 @@
+spelling: xì ke
+etymologies:
+  - type: loan
+    lang: en
+    source_form: scag
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: opium
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Hồi đó ông nội hay dặn tụi nhỏ tránh xa mấy chỗ hút xì ke.
+                standard: Hồi đó ông nội hay dặn bọn trẻ tránh xa mấy chỗ hút thuốc phiện.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/x%C3%AC_ke#Vietnamese
+          - gloss:
+              en: drugs; narcotic
+            region: [south]
+            synonyms: [ma tuý]
+            examples:
+              - text: Má dặn hoài, đi đâu cũng đừng có dính vô xì ke nghe chưa.
+                standard: Mẹ dặn mãi, đi đâu cũng đừng có dính vào ma túy nghe chưa.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/x%C3%AC_ke#Vietnamese

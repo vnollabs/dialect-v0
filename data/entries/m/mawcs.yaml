@@ -1,0 +1,67 @@
+spelling: mắc
+etymologies:
+  - type: native
+    note:
+      en: Inherited from Proto-Vietic *ɓak, from Proto-Austroasiatic *ɓakʔ (“to carry on back/slung”). Cognate with Muong bắc, Chut [Sách] kəbak⁷, Mang ɓak⁷, Eastern Bru ʔa.bak, Bahnar tơʼbăk, Khmer ពាក់ (pĕək).
+    derived: [mắc mỏ]
+    pos:
+      - pos: verb
+        han_nom: [縸, 黓, 默, 𢹇, 𦄿, 𫄓, 𱡅, 𱤒]
+        senses:
+          - gloss:
+              en: to contract (debt); to owe
+            region: [central, south]
+            examples:
+              - text: Ổng còn mắc nợ tiệm tạp hóa đầu xóm mấy trăm ngàn chưa trả.
+                standard: Ông ấy còn mắc nợ cửa hàng tạp hóa đầu xóm mấy trăm nghìn chưa trả.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%E1%BA%AFc#Vietnamese
+          - gloss:
+              en: to be busy; to be occupied; to be engaged
+            region: [central, south]
+            examples:
+              - text: Đi chơi hả? Để mai mốt gì đi, mắc việc rồi.
+                en: Hanging out? Umm, maybe later, I'm kinda occupied with work right now.
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%E1%BA%AFc#Vietnamese
+          - gloss:
+              en: to want to (go to the bathroom, laugh, etc.); to have the desire to
+            region: [central, south]
+            examples:
+              - text: mắc ói
+                en: wanting to puke
+              - text: mắc cười
+                en: funny or laughable
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%E1%BA%AFc#Vietnamese
+          - gloss:
+              en: to cause (one to develop a feeling)
+            region: [south]
+            examples:
+              - text: Con mèo cứ nằm chình ình trên ghế, đuổi hoài hổng đi, coi mắc ghét.
+                standard: Con mèo cứ nằm ì trên ghế, đuổi mãi không đi, trông thấy ghét.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%E1%BA%AFc#Vietnamese
+      - pos: adj
+        senses:
+          - gloss:
+              vi: Đắt / Đắt đỏ
+              en: expensive; dear
+            region: [south, central]
+            standard: [đắt, đắt đỏ]
+            synonyms: [đắt]
+            examples:
+              - text: Sầu riêng đầu mùa mắc quá, để bữa khác mua.
+                standard: Sầu riêng đầu mùa đắt quá, để hôm khác mua.
+                ai_draft: true
+            topics: [qualities-feelings]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%E1%BA%AFc#Vietnamese

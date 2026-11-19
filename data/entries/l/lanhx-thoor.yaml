@@ -1,0 +1,21 @@
+spelling: lãnh thổ
+etymologies:
+  - type: sino
+    han: 領土
+    note:
+      en: |-
+        Sino-Vietnamese word from 領土 (“territory”), with the Southern reading of the first character.
+        Currently the widespread form.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: territory
+            region: [south]
+            examples:
+              - text: Con mèo nhà tui coi cái sân như lãnh thổ của nó, mèo lạ vô là rượt.
+                standard: Con mèo nhà tôi coi cái sân như lãnh thổ của nó, mèo lạ vào là đuổi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%C3%A3nh_th%E1%BB%95#Vietnamese

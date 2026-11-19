@@ -1,0 +1,19 @@
+spelling: máy rửa chén
+etymologies:
+  - type: compound
+    note:
+      en: máy + rửa + chén.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: dishwasher (machine)
+            region: [central, south]
+            synonyms: [máy rửa bát]
+            examples:
+              - text: Nhà đông người, mua cái máy rửa chén cho đỡ cực.
+                standard: Nhà đông người, mua cái máy rửa bát cho đỡ vất vả.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%C3%A1y_r%E1%BB%ADa_ch%C3%A9n#Vietnamese

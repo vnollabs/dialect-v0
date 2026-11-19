@@ -1,0 +1,24 @@
+spelling: xửng
+etymologies:
+  - pos:
+      - pos: adj
+        han_nom: [𩄔]
+        senses:
+          - gloss:
+              en: clear
+            qualifier: after rain; of weather
+            region: [south-central]
+            synonyms: [quang]
+            examples:
+              - text: Xửng mưa rầu kìa, mừng gơ mừng gơ
+                en: Look! The sky is clear, so glad so glad!
+              - text: |-
+                  Giữa đường không tiện nói năng,
+                  Xửng mưa cùng xuống Gò Găng tỏ tình.
+                  Gò Găng có chợ có đình,
+                  Người quen thấy mặt Thần Linh chứng lời.
+                en: Bình Định folk song(s)
+                ref: "2016, Ðào Đức Bích, “Ca dao Bình Định [Bình Định folk song(s)]”, in binhdinh-thcscatkhanh, archived from the original on 26 May 2022:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/x%E1%BB%ADng#Vietnamese

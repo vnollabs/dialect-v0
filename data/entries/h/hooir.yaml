@@ -1,0 +1,17 @@
+spelling: hổi
+etymologies:
+  - note:
+      en: Word formation with distal denotation by adding hỏi tone to the root hồi in Southern Vietnamese and some topolects of Thanh Hoá.
+    pos:
+      - pos: pron
+        senses:
+          - gloss:
+              en: that time; then
+            region: [south]
+            examples:
+              - text: Hổi tui còn nhỏ, xóm này toàn ruộng với vườn dừa.
+                standard: Hồi ấy tôi còn nhỏ, xóm này toàn ruộng với vườn dừa.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/h%E1%BB%95i#Vietnamese

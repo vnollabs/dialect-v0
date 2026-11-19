@@ -1,0 +1,14 @@
+spelling: khạp
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Chum, vại lớn bằng sành đựng nước mưa
+            region: [south]
+            synonyms: [lu]
+            examples:
+              - text: Nhà ngoại có mấy cái khạp hứng nước mưa để dành nấu cơm.
+                standard: Nhà ngoại có mấy cái chum hứng nước mưa để dành nấu cơm.
+                ai_draft: true
+            topics: [household]
+            sources: [skill-dictionary-v1]

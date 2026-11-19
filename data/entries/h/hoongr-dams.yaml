@@ -1,0 +1,17 @@
+spelling: hổng dám
+etymologies:
+  - pos:
+      - pos: phrase
+        senses:
+          - gloss:
+              en: pronunciation spelling of không dám, representing Southern Vietnam Vietnamese
+            region: [south]
+            labels: [pronunciation-spelling]
+            variant_of: không dám
+            examples:
+              - text: Ôi hấp dẫn tuyệt vời, nhưng mà em hổng dám đâu !
+                en: "[They're] oh so superbly fascinating, but I wouldn't dare."
+                ref: "1992, Nguyễn Văn Hiên, “Không Dám Đâu [I Wouldn't Dare!]”performed by Hiền Thục:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/h%E1%BB%95ng_d%C3%A1m#Vietnamese

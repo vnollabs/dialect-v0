@@ -1,0 +1,25 @@
+spelling: nước tương
+etymologies:
+  - type: compound
+    note:
+      en: |-
+        nước (“liquid”); back-formation from 豆漿 (“soy milk”, SV: đậu tương). The back-formation is influenced by the word tương. The Sinitic term means "soybean", not "soy milk", in Vietnamese usage.
+        Compare Khmer ទឹកសៀង (tɨk siəng, “hoisin sauce”), whose elements are cognates to the Vietnamese term.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              vi: Xì dầu
+              en: soy sauce
+            region: [south]
+            standard: [xì dầu]
+            synonyms: [xì dầu, vị tâm]
+            examples:
+              - text: Đậu hũ chiên chấm nước tương ăn với cơm nóng là hết sẩy.
+                standard: Đậu phụ rán chấm xì dầu ăn với cơm nóng là tuyệt.
+                ai_draft: true
+            topics: [food-drink]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/n%C6%B0%E1%BB%9Bc_t%C6%B0%C6%A1ng#Vietnamese

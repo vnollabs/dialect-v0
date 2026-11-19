@@ -1,0 +1,31 @@
+spelling: sanh
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Sinh
+            region: [south]
+            standard: [sinh]
+            examples:
+              - text: Mai là sanh nhựt bà nội, nhớ về sớm nghen con.
+                standard: Mai là sinh nhật bà nội, nhớ về sớm nhé con.
+                ai_draft: true
+            topics: [sino-vietnamese]
+            sources: [skill-dictionary-v1]
+  - type: sino
+    han: 生
+    note:
+      en: Sino-Vietnamese word from 生 (“birth”). See sinh.
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to give birth (to)
+            region: [south]
+            examples:
+              - text: Chị Hai mới sanh em bé hôm qua, mẹ tròn con vuông.
+                standard: Chị Hai mới sinh em bé hôm qua, mẹ tròn con vuông.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/sanh#Vietnamese

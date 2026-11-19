@@ -1,0 +1,20 @@
+spelling: cá lóc
+etymologies:
+  - pos:
+      - pos: noun
+        classifiers: [con]
+        senses:
+          - gloss:
+              vi: Cá quả
+              en: snakehead
+            region: [south]
+            standard: [cá quả]
+            synonyms: [cá quả, cá chuối, cá tràu]
+            examples:
+              - text: cá lóc nướng trui
+                en: grilled snakehead
+            topics: [food-drink]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%C3%A1_l%C3%B3c#Vietnamese

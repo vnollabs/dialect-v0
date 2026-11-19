@@ -1,0 +1,23 @@
+spelling: khổ qua
+etymologies:
+  - type: sino
+    han: 苦瓜
+    note:
+      en: Sino-Vietnamese word from 苦瓜.
+    pos:
+      - pos: noun
+        classifiers: [cây, trái, quả]
+        senses:
+          - gloss:
+              vi: Mướp đắng
+              en: bitter melon; bitter gourd
+            region: [south]
+            standard: [mướp đắng]
+            examples:
+              - text: khổ qua nhồi thịt
+                en: bitter melon stuffed with meat
+            topics: [food-drink]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/kh%E1%BB%95_qua#Vietnamese

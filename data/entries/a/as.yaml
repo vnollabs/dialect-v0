@@ -1,0 +1,17 @@
+spelling: á
+etymologies:
+  - note:
+      en: Onomatopoeic.
+    pos:
+      - pos: particle
+        senses:
+          - gloss:
+              en: emphasizes a quality that the listener may not have known; you see?; I'm telling you
+            region: [south]
+            synonyms: [đó]
+            examples:
+              - text: Món này ngon lắm á! Mày ăn thử đi rồi biết.
+                en: This dish is delicious! Try it and you will know.
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C3%A1#Vietnamese

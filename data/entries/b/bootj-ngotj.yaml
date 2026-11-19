@@ -1,0 +1,23 @@
+spelling: bột ngọt
+etymologies:
+  - type: compound
+    note:
+      en: Compound of bột (“powder”) + ngọt (“sweet”). Compare Burmese အချိုမှုန့် (a.hkyuihmun.).
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              vi: Mì chính
+              en: monosodium glutamate
+            region: [south]
+            standard: [mì chính]
+            synonyms: [vị tinh, mononatri glutamat]
+            examples:
+              - text: Nấu canh nêm chút xíu bột ngọt thôi, đừng bỏ nhiều nghen.
+                standard: Nấu canh nêm một chút mì chính thôi, đừng cho nhiều nhé.
+                ai_draft: true
+            topics: [food-drink]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%E1%BB%99t_ng%E1%BB%8Dt#Vietnamese

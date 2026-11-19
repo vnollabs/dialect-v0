@@ -1,0 +1,15 @@
+spelling: nêm
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to season (with salt, fish sauce); to flavor (with)
+            region: [central, south]
+            examples:
+              - text: Canh sôi rồi, con nêm chút nước mắm với đường cho vừa ăn nha.
+                standard: Canh sôi rồi, con nêm chút nước mắm với đường cho vừa ăn nhé.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/n%C3%AAm#Vietnamese

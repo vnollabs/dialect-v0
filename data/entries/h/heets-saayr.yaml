@@ -1,0 +1,14 @@
+spelling: hết sẩy
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Ngon, tuyệt
+            region: [south]
+            synonyms: [hết xảy]
+            examples:
+              - text: Tô hủ tiếu bà Năm nấu hết sẩy, ăn một lần là nhớ hoài.
+                standard: Bát hủ tiếu bà Năm nấu ngon tuyệt, ăn một lần là nhớ mãi.
+                ai_draft: true
+            topics: [idioms]
+            sources: [skill-dictionary-v1]

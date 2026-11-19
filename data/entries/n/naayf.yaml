@@ -1,0 +1,18 @@
+spelling: nầy
+etymologies:
+  - pos:
+      - pos: det
+        han_nom: [尼]
+        senses:
+          - gloss:
+              en: this
+            region: [north, south]
+            labels: [dated]
+            variant_of: này
+            examples:
+              - text: Lần nầy tôi cũng làm [động tác] y như vậy.
+                en: This time I repeated the same [gesture].
+                ref: "[1986, Anh Đức, Đứa con của đất, 2nd edition, Ho Chi Minh City: Nhà xuất bản Văn Nghệ, published 1987, page 258:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/n%E1%BA%A7y#Vietnamese

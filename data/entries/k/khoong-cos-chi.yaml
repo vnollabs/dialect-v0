@@ -1,0 +1,19 @@
+spelling: không có chi
+etymologies:
+  - type: compound
+    note:
+      en: không + có + chi.
+    pos:
+      - pos: phrase
+        senses:
+          - gloss:
+              en: you're welcome; no problem; it's nothing
+            region: [central, south]
+            synonyms: [không có gì]
+            examples:
+              - text: Cảm ơn con nhiều nghen! Dạ, không có chi, cô cứ để con xách phụ.
+                standard: Cảm ơn con nhiều nhé! Dạ, không có gì, cô cứ để con xách giúp.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/kh%C3%B4ng_c%C3%B3_chi#Vietnamese

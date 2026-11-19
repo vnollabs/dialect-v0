@@ -1,0 +1,14 @@
+spelling: hết xảy
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Ngon, tuyệt
+            region: [south]
+            synonyms: [hết sẩy]
+            examples:
+              - text: Giọng ca cải lương của ông Tám nghe hết xảy.
+                standard: Giọng ca cải lương của ông Tám nghe tuyệt vời.
+                ai_draft: true
+            topics: [idioms]
+            sources: [skill-dictionary-v1]

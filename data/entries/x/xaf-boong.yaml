@@ -1,0 +1,46 @@
+spelling: xà bông
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Xà phòng
+            region: [south]
+            standard: [xà phòng]
+            examples:
+              - text: Lấy cục xà bông Cô Ba ra tắm rửa sạch sẽ rồi mới vô nhà
+            topics: [household]
+            sources: [skill-dictionary-v1]
+  - type: loan
+    lang: fr
+    source_form: savon
+    note:
+      en: From French savon. Ultimately from Proto-Germanic *saipǭ (“soap”).
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: soap
+            region: [south]
+            examples:
+              - text: |-
+                  Dạ cô, cho con xin chút xà bông.
+                  Omo hay Tide?
+                  Dạ hông, xà bông á cô. À, ý con là xà bông tắm !
+                en: |-
+                  I'd like some soap.
+                  You want Omo or Tide?
+                  No, please get me some soap. Oh, I meant soap as in "bathing soap"!
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/x%C3%A0_b%C3%B4ng#Vietnamese
+          - gloss:
+              en: laundry detergent; washing powder
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Hết xà bông giặt đồ rồi, ra tiệm mua một bịch đi con.
+                standard: Hết bột giặt rồi, ra tiệm mua một túi đi con.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/x%C3%A0_b%C3%B4ng#Vietnamese

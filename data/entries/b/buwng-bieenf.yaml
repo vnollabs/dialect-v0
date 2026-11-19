@@ -1,0 +1,13 @@
+spelling: bưng biền
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Vùng đồng trũng ngập nước, hoang sơ nhiều lau sậy, đặc trưng miền Tây xưa
+            region: [south]
+            examples:
+              - text: Hồi xưa vùng này toàn là bưng biền, lau sậy mọc cao hơn đầu người.
+                standard: Hồi xưa vùng này toàn là đồng trũng ngập nước, lau sậy mọc cao hơn đầu người.
+                ai_draft: true
+            topics: [weather-orchards]
+            sources: [skill-dictionary-v1]

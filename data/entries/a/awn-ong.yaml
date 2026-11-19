@@ -1,0 +1,19 @@
+spelling: ăn ong
+etymologies:
+  - type: compound
+    note:
+      en: ăn (“to eat”) + ong (“bee”).
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to go wild honey hunting
+            qualifier: Mekong Delta
+            region: [mekong-delta]
+            examples:
+              - text: Hồi đó ba tui hay vô rừng tràm ăn ong, về là có mật cho cả nhà.
+                standard: Hồi đó bố tôi hay vào rừng tràm lấy mật ong rừng, về là có mật cho cả nhà.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%83n_ong#Vietnamese

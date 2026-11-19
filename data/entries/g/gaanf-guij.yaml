@@ -1,0 +1,18 @@
+spelling: gần gụi
+etymologies:
+  - note:
+      en: A variant of gần gũi, probably originated from a North Central dialect where ngã (C2) and nặng (B2) tones merged.
+    pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: Central Vietnam and Southern Vietnam form of gần gũi
+            region: [central, south]
+            variant_of: gần gũi
+            examples:
+              - text: Cô giáo mới hiền mà gần gụi, tụi nhỏ thương lắm.
+                standard: Cô giáo mới hiền mà gần gũi, bọn trẻ quý lắm.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/g%E1%BA%A7n_g%E1%BB%A5i#Vietnamese

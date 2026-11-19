@@ -1,0 +1,21 @@
+spelling: rì-mốt
+etymologies:
+  - type: loan
+    lang: en
+    source_form: remote
+    note:
+      en: Borrowed from English remote.
+    pos:
+      - pos: noun
+        classifiers: [cái]
+        senses:
+          - gloss:
+              en: remote control
+            region: [south]
+            examples:
+              - text: Đứa nào lấy cái rì-mốt rồi, tui kiếm hoài hổng thấy.
+                standard: Đứa nào lấy cái điều khiển rồi, tôi tìm mãi không thấy.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/r%C3%AC-m%E1%BB%91t#Vietnamese

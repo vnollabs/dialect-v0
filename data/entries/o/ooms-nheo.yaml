@@ -1,0 +1,17 @@
+spelling: ốm nheo
+etymologies:
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: very skinny
+            region: [south]
+            labels: [colloquial]
+            synonyms: [ốm nhách]
+            examples:
+              - text: Con mèo hoang ốm nheo, ngày nào cũng ghé xin ăn.
+                standard: Con mèo hoang gầy nhẳng, ngày nào cũng ghé xin ăn.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%E1%BB%91m_nheo#Vietnamese

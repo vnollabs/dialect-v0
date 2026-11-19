@@ -1,0 +1,20 @@
+spelling: viết chì
+etymologies:
+  - type: compound
+    note:
+      en: viết (“pen”) + chì (“lead”).
+    pos:
+      - pos: noun
+        classifiers: [cây]
+        senses:
+          - gloss:
+              en: a pencil (graphite writing-instrument)
+            region: [south]
+            synonyms: [bút chì]
+            examples:
+              - text: Con mượn cây viết chì của bạn thì nhớ trả nghen.
+                standard: Con mượn cái bút chì của bạn thì nhớ trả nhé.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/vi%E1%BA%BFt_ch%C3%AC#Vietnamese

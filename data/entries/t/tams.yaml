@@ -1,0 +1,27 @@
+spelling: tám
+etymologies:
+  - note:
+      en: Perhaps related to Etymology 1. Compare bà tám (“very talkative woman”), Chinese 八 (bát, “eight; to gossip”).
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to chat
+            region: [south]
+            examples:
+              - text: Rảnh thì ghé quán cà phê ngồi tám chút chơi nghen.
+                standard: Rảnh thì ghé quán cà phê ngồi tán gẫu một chút nhé.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/t%C3%A1m#Vietnamese
+          - gloss:
+              en: to gossip
+            region: [south]
+            examples:
+              - text: Mấy bà trong xóm tám chuyện nhà người ta hoài, nghe mệt ghê.
+                standard: Mấy bà trong xóm buôn chuyện nhà người ta mãi, nghe mệt ghê.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/t%C3%A1m#Vietnamese

@@ -1,0 +1,20 @@
+spelling: kí lô
+etymologies:
+  - type: loan
+    lang: fr
+    source_form: kilo
+    note:
+      en: From French kilo.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: kilogram
+            region: [south]
+            examples:
+              - text: Bán cho tui hai kí lô thịt ba rọi nghen chị.
+                standard: Bán cho tôi hai cân thịt ba chỉ nhé chị.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/k%C3%AD_l%C3%B4#Vietnamese

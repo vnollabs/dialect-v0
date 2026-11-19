@@ -1,0 +1,13 @@
+spelling: tào lao
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Vớ vẩn, không đâu vô đâu
+            region: [south]
+            examples:
+              - text: Chuyện tào lao vậy mà hai người cũng cãi nhau nữa.
+                standard: Chuyện vớ vẩn vậy mà hai người cũng cãi nhau nữa.
+                ai_draft: true
+            topics: [idioms]
+            sources: [skill-dictionary-v1]

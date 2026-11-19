@@ -1,0 +1,21 @@
+spelling: đụ
+etymologies:
+  - type: sino
+    han: 鳥
+    note:
+      en: "Non-Sino-Vietnamese reading of Chinese 鳥 (SV: điểu)."
+    derived: [đụ má, đụ mẹ]
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to fuck
+            region: [central, south]
+            labels: [vulgar]
+            synonyms: [địt, chịch]
+            examples:
+              - text: Mày đi chơi đêm đụ con nọ, đụ con kia!
+                en: You've been going out at night fucking all the whores!
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%E1%BB%A5#Vietnamese

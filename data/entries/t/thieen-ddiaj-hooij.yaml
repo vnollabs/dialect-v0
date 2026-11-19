@@ -1,0 +1,19 @@
+spelling: thiên địa hội
+etymologies:
+  - type: variant
+    of: Thiên Địa hội
+    note:
+      en: Alternative form of Thiên Địa hội.
+    pos:
+      - pos: intj
+        senses:
+          - gloss:
+              en: Used as an intensifier
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Trời đất quỷ thần thiên địa hội ơi!
+                en: Oh my fucking God.
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/thi%C3%AAn_%C4%91%E1%BB%8Ba_h%E1%BB%99i#Vietnamese

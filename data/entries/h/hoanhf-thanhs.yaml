@@ -1,0 +1,21 @@
+spelling: hoành thánh
+etymologies:
+  - type: loan
+    lang: yue
+    source_form: 雲吞
+    note:
+      en: From Cantonese 雲吞 /云吞 (wan⁴ tan¹) or Cantonese 餛飩 /馄饨 (wan⁴ tan¹).
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: wonton
+            region: [central, south]
+            synonyms: [vằn thắn]
+            examples:
+              - text: Cho con một tô mì hoành thánh, ít hành nha chú.
+                standard: Cho con một bát mì vằn thắn, ít hành nhé chú.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ho%C3%A0nh_th%C3%A1nh#Vietnamese

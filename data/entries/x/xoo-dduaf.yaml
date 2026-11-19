@@ -1,0 +1,17 @@
+spelling: xô đùa
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to hit into one another in a frolicking manner
+            region: [south]
+            labels: [literary]
+            examples:
+              - text: Làn mây xám trôi còn sợ gió kia xô đùa.
+                ref: "c. 1951–1954, Trần Văn Trạch, Đừng Có Lo:"
+              - text: Lúa trên đồng bắt đầu xô đùa vào nhau.
+                ref: "1986, Anh Đức, Đứa con của đất, 2nd edition, Ho Chi Minh City: Nhà xuất bản Văn Nghệ, published 1987, page 207:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/x%C3%B4_%C4%91%C3%B9a#Vietnamese

@@ -1,0 +1,21 @@
+spelling: trệt
+etymologies:
+  - type: native
+    note:
+      en: |-
+        From Proto-Vietic *g-leːt (“ground”). Cognate with Proto-Pong *kleːt⁸. Doublet of bệt.
+        Attested as Northern Middle Vietnamese blẹt in Dictionarium Annamiticum Lusitanum et Latinum (1651).
+    pos:
+      - pos: adj
+        han_nom: [徹]
+        senses:
+          - gloss:
+              en: close to the ground; at the bottom
+            qualifier: house; of storey
+            region: [south]
+            examples:
+              - text: tầng trệt
+                en: ground floor
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/tr%E1%BB%87t#Vietnamese

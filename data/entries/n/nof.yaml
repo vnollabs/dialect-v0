@@ -1,0 +1,16 @@
+spelling: nò
+etymologies:
+  - pos:
+      - pos: noun
+        classifiers: [cái, chiếc]
+        senses:
+          - gloss:
+              en: kind of fish trap
+            region: [central, south]
+            examples:
+              - text: Chiều ra mé sông đặt nò, sáng sớm đi gỡ cá về kho.
+                standard: Chiều ra bờ sông đặt nò, sáng sớm đi gỡ cá về kho.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/n%C3%B2#Vietnamese

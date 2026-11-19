@@ -1,0 +1,29 @@
+spelling: ăn hàng
+etymologies:
+  - type: compound
+    note:
+      en: ăn + hàng.
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to eat between meals; to snack (when outside)
+            region: [central, south]
+            synonyms: [ăn vặt]
+            examples:
+              - text: Tan học là tụi nhỏ ghé cổng trường ăn hàng, về nhà hết muốn ăn cơm.
+                standard: Tan học là bọn trẻ ghé cổng trường ăn vặt, về nhà hết muốn ăn cơm.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%83n_h%C3%A0ng#Vietnamese
+          - gloss:
+              en: to rob (a shop)
+            region: [south]
+            examples:
+              - text: Mấy thằng đó tính ăn hàng tiệm vàng đầu chợ, ai dè bị bắt liền.
+                standard: Mấy thằng đó định cướp tiệm vàng đầu chợ, ai ngờ bị bắt ngay.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%83n_h%C3%A0ng#Vietnamese

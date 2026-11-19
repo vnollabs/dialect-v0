@@ -1,0 +1,13 @@
+spelling: gió chiều nào theo chiều nấy
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Ba phải, không có chính kiến, thấy bên nào có lợi thì ngả theo
+            region: [south]
+            examples:
+              - text: Ông đó gió chiều nào theo chiều nấy, hổng tin được đâu.
+                standard: Ông đó gió chiều nào che chiều ấy, không tin được đâu.
+                ai_draft: true
+            topics: [idioms]
+            sources: [skill-dictionary-v1]

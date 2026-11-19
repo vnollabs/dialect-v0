@@ -1,0 +1,21 @@
+spelling: bể
+etymologies:
+  - type: native
+    note:
+      en: From Proto-Vietic *-peh.
+    derived: [đổ sông đổ bể, đổ bể]
+    pos:
+      - pos: adj
+        han_nom: [𢯏]
+        senses:
+          - gloss:
+              en: broken into pieces
+            region: [south]
+            synonyms: [vỡ]
+            examples:
+              - text: Má ơi, con lỡ tay làm bể cái chén rồi.
+                standard: Mẹ ơi, con lỡ tay làm vỡ cái bát rồi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%E1%BB%83#Vietnamese

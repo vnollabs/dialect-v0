@@ -1,0 +1,21 @@
+spelling: bún mẹ
+etymologies:
+  - type: compound
+    note:
+      en: Compound of bún (“rice vermicelli”) + mẹ (“mother”). So called because this species lays egg strings used as foods, known as bún sông.
+    pos:
+      - pos: noun
+        classifiers: [con]
+        senses:
+          - gloss:
+              en: sea hare
+            region: [south-central]
+            labels: [colloquial]
+            synonyms: [thỏ biển]
+            examples:
+              - text: '"Bún mẹ" có hình dáng xù xì, thân mềm, nhiều đốm xanh trên lưng, xung quanh thân có nhiều chân màu cam vàng và thường tiết ra chất dịch màu đen tím để bảo vệ khi gặp nguy hiểm.'
+                en: Sea hares have a rough and soft texture with a lot of green spots on their backs, their body is surrounded by many orange-yellow legs and they often secretes a dark purple fluid for protection when in danger.
+                ref: "2024 May 18, “Nghề lạ: 'Bún sông' là gì mà nhiều người đeo chì ngụp lặn dưới đáy sông để mò?”, in Báo Thanh niên:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%C3%BAn_m%E1%BA%B9#Vietnamese

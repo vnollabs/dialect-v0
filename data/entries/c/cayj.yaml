@@ -1,0 +1,17 @@
+spelling: cạy
+etymologies:
+  - note:
+      en: Attested in the hydronyms Cái Cạy and Ngả Cạy.
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to steer (a boat) leftward
+            region: [south-central, south]
+            labels: [dated]
+            examples:
+              - text: Cạy thuyền nhanh kẻo húc vào mỏm đá!
+                en: Hurry and steer the boat leftward to avoid the rock!
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%E1%BA%A1y#Vietnamese

@@ -1,0 +1,11 @@
+spelling: hết biết
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: "Đứng sau tính từ, động từ: hết chỗ nói, quá mức (khen hay chê đều được)"
+            region: [south]
+            examples:
+              - text: Bánh xèo bà Bảy giòn hết biết
+            topics: [discourse-markers]
+            sources: [skill-dictionary-v1]

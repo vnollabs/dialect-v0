@@ -1,0 +1,21 @@
+spelling: cá tra
+etymologies:
+  - type: loan
+    lang: km
+    source_form: ប្រា
+    note:
+      en: cá (“fish”) + tra. The second element is apparently from Khmer ប្រា (praa, “Pangasius sp.”)
+    pos:
+      - pos: noun
+        classifiers: [con]
+        senses:
+          - gloss:
+              en: iridescent shark (Pangasianodon hypophthalmus)
+            region: [south]
+            examples:
+              - text: Ba nuôi mấy ao cá tra sau nhà, tới mùa thì bán cho thương lái.
+                standard: Bố nuôi mấy ao cá tra sau nhà, đến vụ thì bán cho thương lái.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%C3%A1_tra#Vietnamese

@@ -1,0 +1,14 @@
+spelling: phi cơ
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Máy bay (từ xưa, nay ít dùng)
+            region: [mekong-delta]
+            labels: [dated]
+            examples:
+              - text: Hồi đó ông ngoại lần đầu đi phi cơ, run muốn xỉu.
+                standard: Hồi đó ông ngoại lần đầu đi máy bay, run muốn ngất.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

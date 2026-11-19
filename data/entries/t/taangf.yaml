@@ -1,0 +1,25 @@
+spelling: tầng
+etymologies:
+  - type: sino
+    han: 層
+    note:
+      en: "Non-Sino-Vietnamese reading of Chinese 層 (SV: tằng)."
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: story; floor
+            region: [north, south]
+            synonyms: [lầu]
+            examples:
+              - text: tầng 1
+                en: the first floor (either (Northern Vietnam) the ground floor, or (Southern Vietnam) the floor immediately above it)
+              - text: tầng trệt
+                en: (Southern Vietnam) the ground floor
+              - text: tầng hầm
+                en: an underground level
+              - text: tầng lửng
+                en: a full-fledged mezzanine, as opposed to a gác lửng which is just a platform used in small flats
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/t%E1%BA%A7ng#Vietnamese

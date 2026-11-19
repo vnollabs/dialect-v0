@@ -1,0 +1,15 @@
+spelling: chơn
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Chân
+            region: [south]
+            standard: [chân]
+            synonyms: [chưn]
+            examples:
+              - text: Đi ruộng về nhớ rửa chơn cho sạch rồi mới lên giường.
+                standard: Đi ruộng về nhớ rửa chân cho sạch rồi mới lên giường.
+                ai_draft: true
+            topics: [sino-vietnamese]
+            sources: [skill-dictionary-v1]

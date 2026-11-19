@@ -1,0 +1,39 @@
+spelling: bất tử
+etymologies:
+  - note:
+      en: Clipping of bất đắc kì tử (“to not get one's (usual) death; to die suddenly”), an idiom originating from the Analects. Compare Chinese 不得好死 (bất đắc hảo tử).
+    pos:
+      - pos: adv
+        senses:
+          - gloss:
+              en: (dying) all of a sudden; unexpectedly
+            region: [south]
+            examples:
+              - text: chết bất tử
+                en: to drop dead
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%E1%BA%A5t_t%E1%BB%AD#Vietnamese
+          - gloss:
+              en: suddenly; all of a sudden
+            region: [south]
+            examples:
+              - text: Trời đang nắng, bất tử mưa xuống ướt hết đồ phơi.
+                standard: Trời đang nắng, bỗng dưng mưa xuống ướt hết quần áo phơi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%E1%BA%A5t_t%E1%BB%AD#Vietnamese
+      - pos: adj
+        senses:
+          - gloss:
+              en: reckless; rash; unruly
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Cái thằng bất tử, ai biểu mày leo lên nóc nhà chơi vậy?
+                standard: Cái thằng liều lĩnh, ai bảo mày trèo lên nóc nhà chơi thế?
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%E1%BA%A5t_t%E1%BB%AD#Vietnamese

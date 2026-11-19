@@ -1,0 +1,14 @@
+spelling: mặt chầm dầm
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Mặt xị, sưng sỉa vì không vui
+            region: [south]
+            synonyms: [chù ụ]
+            examples:
+              - text: Bị má rầy, nó ngồi mặt chầm dầm cả buổi hổng nói tiếng nào.
+                standard: Bị mẹ mắng, nó ngồi mặt xị cả buổi không nói tiếng nào.
+                ai_draft: true
+            topics: [idioms]
+            sources: [skill-dictionary-v1]

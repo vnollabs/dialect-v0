@@ -1,0 +1,20 @@
+spelling: mận bắc
+etymologies:
+  - type: compound
+    note:
+      en: mận (“plum”) + bắc (“North”), so named because within Vietnam, it is only grown in the Northern region.
+    pos:
+      - pos: noun
+        classifiers: [cây, trái, quả]
+        senses:
+          - gloss:
+              en: Prunus salicina, the Chinese plum or Japanese plum
+            region: [south]
+            synonyms: [mận, mận Hà Nội, mận hậu]
+            examples:
+              - text: Mùa này chợ có bán mận bắc, chấm muối ớt chua chua ngọt ngọt ngon lắm.
+                standard: Mùa này chợ có bán mận, chấm muối ớt chua chua ngọt ngọt ngon lắm.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%E1%BA%ADn_b%E1%BA%AFc#Vietnamese

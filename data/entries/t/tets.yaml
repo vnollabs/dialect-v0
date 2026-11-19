@@ -1,0 +1,16 @@
+spelling: tét
+etymologies:
+  - derived: [tét lét]
+    pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: be torn apart
+            region: [south]
+            examples:
+              - text: Bao gạo bị tét một đường, gạo đổ tùm lum dưới đất.
+                standard: Bao gạo bị rách toạc một đường, gạo đổ lung tung dưới đất.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/t%C3%A9t#Vietnamese

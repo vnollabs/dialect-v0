@@ -1,0 +1,17 @@
+spelling: dơ hì
+etymologies:
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: very dirty
+            region: [central, south]
+            labels: [colloquial]
+            synonyms: [sạch bóng, sạch trơn]
+            examples:
+              - text: Đá banh dưới ruộng về, quần áo thằng nhỏ dơ hì.
+                standard: Đá bóng dưới ruộng về, quần áo thằng bé bẩn kinh khủng.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/d%C6%A1_h%C3%AC#Vietnamese

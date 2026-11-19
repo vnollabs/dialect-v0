@@ -1,0 +1,16 @@
+spelling: nghiền
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: (“to be addicted (to); to give oneself up (to)”)
+            region: [central, south]
+            variant_of: nghiện
+            examples:
+              - text: Ổng nghiền cà phê, sáng nào hổng uống là nhức đầu.
+                standard: Ông ấy nghiện cà phê, sáng nào không uống là đau đầu.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/nghi%E1%BB%81n#Vietnamese

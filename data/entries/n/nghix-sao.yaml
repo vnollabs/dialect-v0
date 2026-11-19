@@ -1,0 +1,16 @@
+spelling: nghĩ sao
+etymologies:
+  - pos:
+      - pos: adv
+        senses:
+          - gloss:
+              en: how the hell; how in the world; what were you thinking?
+            region: [south]
+            labels: [informal]
+            examples:
+              - text: Nghĩ sao mà để con nít ở nhà một mình vậy?
+                standard: Nghĩ gì mà để trẻ con ở nhà một mình thế?
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ngh%C4%A9_sao#Vietnamese

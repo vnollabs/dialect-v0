@@ -1,0 +1,25 @@
+spelling: cẳng
+etymologies:
+  - type: loan
+    lang: sit
+    note:
+      en: |-
+        From Proto-Vietic *kaŋh (“leg, foot”), from a Sino-Tibetan language. Compare Proto-Karen *khaŋᴮ (“foot; leg”) (whence S'gaw Karen ခီၣ် (khaẁ)), Tibetan རྐང (rkang) (as in རྐང་པ (rkang pa), Western Tamang कङ् (kaŋ, “leg”).
+        Usually theorized as being from Old Chinese 脛 (OC *m-kʰˤeŋ-s) (B-S) (SV: hĩnh), derived from the same Sino-Tibetan root, but the vowel correspondences are irregular.
+    derived: [cẳng chân, cẳng tay, chân cẳng, chết thẳng cẳng, hất cẳng, rộng cẳng, thẳng cẳng]
+    pos:
+      - pos: noun
+        han_nom: [亙, 亘]
+        senses:
+          - gloss:
+              en: leg
+            region: [central, south]
+            labels: [colloquial]
+            synonyms: [chân, giò]
+            examples:
+              - text: Đi bộ từ chợ về mỏi cẳng muốn chết.
+                standard: Đi bộ từ chợ về mỏi chân muốn chết.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%E1%BA%B3ng#Vietnamese

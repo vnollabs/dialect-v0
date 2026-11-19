@@ -1,0 +1,20 @@
+spelling: chi
+etymologies:
+  - type: native
+    note:
+      en: From Proto-Vietic *ciː (“what”). Cognate with gì (the form affected by lenition) and Muong Bi chi.
+    pos:
+      - pos: adv
+        han_nom: [之, 亗]
+        senses:
+          - gloss:
+              en: what for
+            region: [central, south]
+            examples:
+              - text: Chi?
+                en: For what?
+              - text: Làm vậy chi?
+                en: What did you do that for?
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/chi#Vietnamese

@@ -1,0 +1,24 @@
+spelling: nón
+etymologies:
+  - type: native
+    note:
+      en: From Proto-Vietic *ɗɔːnʔ (“conical hat”). This is an Eastern Austroasiatic item, representing in Bahnaric, Vietic, Katuic and Khmer. Compare Muong Bi đỏn, Pacoh doan (“conical hat”) and Khmer ដួន (duən, “conical straw or leaf hat”).
+    pos:
+      - pos: noun
+        han_nom: [𥶄]
+        classifiers: [cái, chiếc]
+        senses:
+          - gloss:
+              vi: Mũ
+              en: hat; cap; helmet
+            region: [south, south-central]
+            standard: [mũ]
+            examples:
+              - text: Trưa nắng ra đường nhớ đội nón nha con.
+                standard: Trưa nắng ra đường nhớ đội mũ nhé con.
+                ai_draft: true
+            topics: [household]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/n%C3%B3n#Vietnamese

@@ -1,0 +1,11 @@
+spelling: kho quẹt
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Món mắm quẹt với tóp mỡ, tiêu, ớt quánh lại để chấm rau luộc
+            region: [mekong-delta]
+            examples:
+              - text: Cơm cháy kho quẹt
+            topics: [mekong-food]
+            sources: [skill-dictionary-v1]

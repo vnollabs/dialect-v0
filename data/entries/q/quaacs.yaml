@@ -1,0 +1,17 @@
+spelling: quấc
+etymologies:
+  - pos:
+      - pos: romanization
+        senses:
+          - gloss:
+              en: Southern Vietnam form of quốc
+            qualifier: later Southern Vietnam
+            region: [south]
+            labels: [obsolete]
+            variant_of: quốc
+            examples:
+              - text: Đại Nam quấc âm tự vị
+                en: The Chinese Character Dictionary for the Sounds of the Great Southern Land
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/qu%E1%BA%A5c#Vietnamese

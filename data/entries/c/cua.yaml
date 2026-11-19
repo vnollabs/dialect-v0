@@ -1,0 +1,35 @@
+spelling: cua
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Rẽ
+            region: [south]
+            standard: [rẽ]
+            synonyms: [quẹo]
+            examples:
+              - text: Chạy thẳng tới ngã tư thì cua trái, nhà tui ở đó.
+                standard: Đi thẳng tới ngã tư thì rẽ trái, nhà tôi ở đó.
+                ai_draft: true
+            topics: [transport]
+            sources: [skill-dictionary-v1]
+  - type: loan
+    lang: fr
+    source_form: courtiser
+    note:
+      en: Borrowed from French courtiser or French cour.
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to take out a girl
+            region: [south]
+            labels: [slang]
+            synonyms: [cưa]
+            examples:
+              - text: Thằng Tâm đang cua con gái nhà bán tạp hóa, ngày nào cũng ghé mua đồ.
+                standard: Thằng Tâm đang tán con gái nhà bán tạp hóa, ngày nào cũng ghé mua đồ.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/cua#Vietnamese

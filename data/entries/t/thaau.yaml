@@ -1,0 +1,28 @@
+spelling: thâu
+etymologies:
+  - pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: autumn
+            region: [south]
+            labels: [literary]
+            variant_of: thu
+            examples:
+              - text: ngàn thâu
+                en: a thousand autumns; eternity
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/th%C3%A2u#Vietnamese
+      - pos: verb
+        senses:
+          - gloss:
+              en: to get, to retrieve
+            region: [south]
+            variant_of: thu
+            examples:
+              - text: thâu tiền
+                en: to collect fees/payment
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/th%C3%A2u#Vietnamese

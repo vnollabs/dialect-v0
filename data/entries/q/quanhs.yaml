@@ -1,0 +1,16 @@
+spelling: quánh
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: Southern Vietnam form of quýnh
+            region: [south]
+            variant_of: quýnh
+            examples:
+              - text: Hai thằng nhỏ giành đồ chơi rồi quánh nhau u đầu.
+                standard: Hai thằng bé giành đồ chơi rồi quýnh nhau u đầu.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/qu%C3%A1nh#Vietnamese

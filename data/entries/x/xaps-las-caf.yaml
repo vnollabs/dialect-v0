@@ -1,0 +1,16 @@
+spelling: xáp lá cà
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: close-quarter combat
+            region: [central, south]
+            variant_of: giáp lá cà
+            examples:
+              - text: Hai thằng giành trái banh rồi xáp lá cà ngay giữa sân.
+                standard: Hai thằng giành quả bóng rồi giáp lá cà ngay giữa sân.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/x%C3%A1p_l%C3%A1_c%C3%A0#Vietnamese

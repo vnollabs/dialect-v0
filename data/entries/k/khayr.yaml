@@ -1,0 +1,17 @@
+spelling: khảy
+etymologies:
+  - derived: [đàn khảy tai trâu]
+    pos:
+      - pos: verb
+        han_nom: [𢴖]
+        senses:
+          - gloss:
+              en: to pluck (a stringed musical instrument)
+            region: [central, south]
+            examples:
+              - text: Ổng ngồi khảy đờn kìm ngoài hiên, nghe buồn thấy mồ.
+                standard: Ông ấy ngồi gảy đàn nguyệt ngoài hiên, nghe buồn ghê.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/kh%E1%BA%A3y#Vietnamese

@@ -1,0 +1,14 @@
+spelling: lề
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Vỉa hè
+            region: [south]
+            standard: [vỉa hè]
+            examples:
+              - text: Chiều chiều bả bày bàn bán chè trên lề trước nhà.
+                standard: Chiều chiều bà ấy bày bàn bán chè trên vỉa hè trước nhà.
+                ai_draft: true
+            topics: [transport]
+            sources: [skill-dictionary-v1]

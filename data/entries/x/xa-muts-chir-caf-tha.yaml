@@ -1,0 +1,13 @@
+spelling: xa mút chỉ cà tha
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Rất xa
+            region: [south]
+            examples:
+              - text: Nhà nó ở xa mút chỉ cà tha, chạy xe cả tiếng mới tới.
+                standard: Nhà nó ở xa tít mù tắp, đi xe cả tiếng mới tới.
+                ai_draft: true
+            topics: [idioms]
+            sources: [skill-dictionary-v1]

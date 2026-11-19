@@ -1,0 +1,13 @@
+spelling: huyết
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Tiết (động vật)
+            region: [mekong-delta]
+            examples:
+              - text: Bữa nay má nấu cháo lòng có huyết heo, ăn nóng mới ngon.
+                standard: Hôm nay mẹ nấu cháo lòng có tiết lợn, ăn nóng mới ngon.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

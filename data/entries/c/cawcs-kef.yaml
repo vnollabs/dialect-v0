@@ -1,0 +1,19 @@
+spelling: cắc kè
+etymologies:
+  - note:
+      en: Onomatopoeic. Compare cắc ké and also English gecko.
+    pos:
+      - pos: noun
+        classifiers: [con]
+        senses:
+          - gloss:
+              en: gecko
+            region: [central, south]
+            synonyms: [tắc kè]
+            examples:
+              - text: Đêm nằm nghe con cắc kè trên mái nhà kêu từng tiếng.
+                standard: Đêm nằm nghe con tắc kè trên mái nhà kêu từng tiếng.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%E1%BA%AFc_k%C3%A8#Vietnamese

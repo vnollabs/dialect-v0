@@ -1,0 +1,17 @@
+spelling: ngột
+etymologies:
+  - derived: [ngột ngạt]
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to feel suffocated
+            region: [central, south]
+            synonyms: [ngạt]
+            examples:
+              - text: Phòng đóng kín cửa, hổng có quạt, ngồi ngột muốn xỉu.
+                standard: Phòng đóng kín cửa, không có quạt, ngồi ngạt muốn ngất.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ng%E1%BB%99t#Vietnamese

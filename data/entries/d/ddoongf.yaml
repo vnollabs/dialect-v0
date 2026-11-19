@@ -1,0 +1,19 @@
+spelling: đồng
+etymologies:
+  - type: sino
+    han: 銅
+    note:
+      en: Sino-Vietnamese word from 銅 (“copper”).
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: a thousand dongs
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: hai đồng
+                en: two thousand dongs
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%E1%BB%93ng#Vietnamese

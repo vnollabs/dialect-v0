@@ -1,0 +1,16 @@
+spelling: chà bông
+etymologies:
+  - pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: rousong
+            region: [south]
+            synonyms: [ruốc]
+            examples:
+              - text: Sáng nay ăn cháo trắng với chà bông, nhẹ bụng mà ngon.
+                standard: Sáng nay ăn cháo trắng với ruốc, nhẹ bụng mà ngon.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ch%C3%A0_b%C3%B4ng#Vietnamese

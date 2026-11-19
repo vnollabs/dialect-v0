@@ -1,0 +1,17 @@
+spelling: trọi
+etymologies:
+  - derived: [hết trọi, trọi lỏi, trọi trơn, trơ trọi]
+    pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: alternative form of trụi
+            region: [central, south]
+            variant_of: trụi
+            examples:
+              - text: Cây ổi sau nhà bị sâu ăn trọi lá hết trơn.
+                standard: Cây ổi sau nhà bị sâu ăn trụi lá hết cả.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/tr%E1%BB%8Di#Vietnamese

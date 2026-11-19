@@ -1,0 +1,22 @@
+spelling: anh em cọc chèo
+etymologies:
+  - type: compound
+    note:
+      en: |-
+        Compound of anh + em + cọc + chèo.
+        An innovation originated from the Mekong Delta region of Southern Vietnam, whose expressions tend to be connected with the river way of life.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: men whose wives are biological sisters in the same family
+            region: [south]
+            labels: [idiomatic]
+            synonyms: [anh em đồng hao, anh em đứng nắng]
+            examples:
+              - text: Tui với chồng của em Út là anh em cọc chèo, Tết nào cũng ngồi nhậu chung.
+                standard: Tôi với chồng của em Út là anh em đồng hao, Tết nào cũng ngồi nhậu chung.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/anh_em_c%E1%BB%8Dc_ch%C3%A8o#Vietnamese

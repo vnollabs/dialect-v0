@@ -1,0 +1,27 @@
+spelling: nhóc
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Đầy, nhiều lắm
+            region: [mekong-delta]
+            synonyms: [đầy nhóc]
+            examples:
+              - text: Dưới kinh nhóc cá
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]
+  - derived: [đầy nhóc, lóc nhóc]
+    pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: full of; filled with
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Ghe ông Tư chở nhóc dưa hấu, chìm gần sát mạn.
+                standard: Thuyền ông Tư chở đầy dưa hấu, chìm gần sát mạn.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/nh%C3%B3c#Vietnamese

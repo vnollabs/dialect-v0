@@ -1,0 +1,55 @@
+spelling: vô
+etymologies:
+  - note:
+      en: |-
+        Undiphthongized equivalent of Northern vào.
+        The usage of vào (especially in writing) by speakers of Central-Southern dialects can be attributed to borrowing from Northern dialects. On the other hand, the undiphthongized Southern form with palatal initial latter spread to the Northern and Central dialects as an interjection.
+    pos:
+      - pos: verb
+        han_nom: [無, 𱍺, 𠓺]
+        senses:
+          - gloss:
+              en: to enter; to go into
+            region: [central, south]
+            synonyms: [vào]
+            examples:
+              - text: Vô nhà lấy con dao cho ba mày làm cá coi cu Thắng.
+                en: Thắng boy, go inside and fetch the knife so that your dad can start preparing some fish.
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/v%C3%B4#Vietnamese
+          - gloss:
+              en: to toast
+            region: [central, south]
+            examples:
+              - text: Nào, anh em mình nâng ly, một, hai, ba, vô!
+                standard: Nào, anh em mình nâng cốc, một, hai, ba, dô!
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/v%C3%B4#Vietnamese
+          - gloss:
+              en: to go southwards in Vietnam
+            region: [central, south]
+            examples:
+              - text: Tết này ông bà ngoài Huế vô Sài Gòn ăn Tết với con cháu.
+                standard: Tết này ông bà ngoài Huế vào Sài Gòn ăn Tết với con cháu.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/v%C3%B4#Vietnamese
+      - pos: particle
+        han_nom: [無, 𱍺, 𠓺]
+        senses:
+          - gloss:
+              en: emphasizing sentence-ending particle
+            region: [central, south]
+            synonyms: [vào]
+            examples:
+              - text: Uống cho lắm vô! Giờ đau đầu!
+                en: You drank yourself to death and now you're wondering why you're having a headache!
+              - text: Mại vô!
+                en: Check it out, guys!
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/v%C3%B4#Vietnamese

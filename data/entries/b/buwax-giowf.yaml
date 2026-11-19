@@ -1,0 +1,11 @@
+spelling: bữa giờ
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Mấy hôm nay
+            region: [mekong-delta]
+            examples:
+              - text: Bữa giờ đi đâu mà hổng thấy qua chơi?
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

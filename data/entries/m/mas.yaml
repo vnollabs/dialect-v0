@@ -1,0 +1,26 @@
+spelling: má
+etymologies:
+  - type: sino
+    han: 媽
+    note:
+      en: 'Non-Sino-Vietnamese reading of Chinese 媽 (“mother”, SV: ma), ultimately a nursery word. Đại Nam quấc âm tự vị (1895) directly annotates this as kêu theo tiếng Khách ("way of calling from Chinese") and it was also often paired with tía (another Chinese loan) to form tía má.'
+    derived: [ba má, tía má]
+    pos:
+      - pos: noun
+        han_nom: [媽, 𦟐]
+        senses:
+          - gloss:
+              vi: Mẹ
+              en: mother; mom
+            region: [south]
+            standard: [mẹ]
+            synonyms: [mạ, mẹ, mợ, u, bầm, đẻ]
+            examples:
+              - text: Má ơi, con đi học về rồi nè!
+                standard: Mẹ ơi, con đi học về rồi đây!
+                ai_draft: true
+            topics: [family-address]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%C3%A1#Vietnamese

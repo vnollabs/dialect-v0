@@ -1,0 +1,63 @@
+spelling: xí
+etymologies:
+  - pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: tiny bit; a little bit
+            region: [central, south]
+            examples:
+              - text: Chờ tui một xí, tui ra liền.
+                standard: Chờ tôi một chút, tôi ra ngay.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/x%C3%AD#Vietnamese
+  - type: loan
+    lang: yue
+    source_form: 死
+    note:
+      en: Borrowed from Cantonese 死.
+    derived: [xấu xí]
+    pos:
+      - pos: intj
+        senses:
+          - gloss:
+              en: "Indicating mild discontent or disgust: ugh! huh! fie! hell!"
+            region: [south]
+            examples:
+              - text: Xí, ai thèm đồ của mấy người!
+                standard: Hứ, ai thèm đồ của các người!
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/x%C3%AD#Vietnamese
+      - pos: verb
+        senses:
+          - gloss:
+              en: to die; to croak; to kick the bucket
+            region: [south]
+            labels: [derogatory]
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/x%C3%AD#Vietnamese
+            note: "No example yet: the AI drafter skipped this sense (doubt the usage: xí as a derogatory verb 'to die' is not attested to me; risky to guess with a derogatory label). Check that the sense is real before adding one."
+      - pos: adj
+        senses:
+          - gloss:
+              en: ugly; unattractive
+            region: [south]
+            examples:
+              - text: Mới cắt tóc ngắn, nó soi gương rồi kêu xí quá trời.
+                standard: Mới cắt tóc ngắn, nó soi gương rồi kêu xấu quá.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/x%C3%AD#Vietnamese
+          - gloss:
+              en: bad; mean; evil
+            region: [south]
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/x%C3%AD#Vietnamese
+            note: "No example yet: the AI drafter skipped this sense (doubt the usage: xí meaning 'bad; mean; evil' is not attested to me and is hard to separate from the interjection and 'ugly' senses). Check that the sense is real before adding one."

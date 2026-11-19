@@ -1,0 +1,12 @@
+spelling: anh Hai
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Cách gọi theo thứ trong nhà (anh Hai, chị Ba, má Bảy…); anh Hai còn dùng gọi người lạ cho thân
+            region: [south]
+            synonyms: [chị Hai]
+            examples:
+              - text: Uống gì hông anh Hai?
+            topics: [family-address]
+            sources: [skill-dictionary-v1]

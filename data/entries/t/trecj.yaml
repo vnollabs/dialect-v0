@@ -1,0 +1,20 @@
+spelling: trẹc
+etymologies:
+  - note:
+      en: See trẹt.
+    pos:
+      - pos: noun
+        classifiers: [cái]
+        senses:
+          - gloss:
+              en: (“shallow; flat bamboo basket”), representing South Central Vietnam Vietnamese
+            region: [south-central]
+            labels: [pronunciation-spelling]
+            variant_of: trẹt
+            examples:
+              - text: Con bưng cái trẹc đậu ra sân phơi giùm má.
+                standard: Con bưng cái trẹt đậu ra sân phơi giúp mẹ.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/tr%E1%BA%B9c#Vietnamese

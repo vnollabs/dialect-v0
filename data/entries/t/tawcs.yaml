@@ -1,0 +1,18 @@
+spelling: tắc
+etymologies:
+  - pos:
+      - pos: noun
+        classifiers: [cây, trái, quả]
+        senses:
+          - gloss:
+              en: calamansi
+            region: [south]
+            synonyms: [quất, hạnh]
+            examples:
+              - text: tắc muối ớt
+                en: spicy salted calamansi
+              - text: trà tắc
+                en: calamansi tea
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/t%E1%BA%AFc#Vietnamese

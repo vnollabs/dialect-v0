@@ -1,0 +1,17 @@
+spelling: bực
+etymologies:
+  - derived: [thứ bực, tột bực, vượt bực]
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: step; rung; rank; level
+            region: [central, south]
+            variant_of: bậc
+            examples:
+              - text: Bước lên bực thềm coi chừng trơn nghen, mới lau nhà đó.
+                standard: Bước lên bậc thềm cẩn thận trơn nhé, mới lau nhà đấy.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%E1%BB%B1c#Vietnamese

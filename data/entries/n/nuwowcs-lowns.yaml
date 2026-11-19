@@ -1,0 +1,13 @@
+spelling: nước lớn
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Thủy triều lên
+            region: [mekong-delta]
+            examples:
+              - text: Chờ nước lớn rồi mình chống xuồng vô rạch cho dễ.
+                standard: Chờ thủy triều lên rồi mình chống xuồng vào rạch cho dễ.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

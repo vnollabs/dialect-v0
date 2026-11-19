@@ -1,0 +1,17 @@
+spelling: sài
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to use; to spend
+            region: [south]
+            labels: [colloquial]
+            synonyms: [dùng, tiêu, xài]
+            examples:
+              - text: Cái điện thoại này tui sài mấy năm rồi mà còn tốt.
+                standard: Cái điện thoại này tôi dùng mấy năm rồi mà vẫn còn tốt.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/s%C3%A0i#Vietnamese

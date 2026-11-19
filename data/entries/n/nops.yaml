@@ -1,0 +1,18 @@
+spelling: nóp
+etymologies:
+  - derived: [nghèo cháy nóp]
+    pos:
+      - pos: noun
+        han_nom: [納, 蒳, 衲]
+        classifiers: [cái, chiếc]
+        senses:
+          - gloss:
+              en: kind of bamboo or rattan blanket
+            region: [south]
+            examples:
+              - text: Hồi xưa đi ruộng xa, tối ông nội chui vô cái nóp ngủ cho khỏi muỗi.
+                standard: Hồi xưa đi ruộng xa, tối ông nội chui vào cái nóp ngủ cho khỏi muỗi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/n%C3%B3p#Vietnamese

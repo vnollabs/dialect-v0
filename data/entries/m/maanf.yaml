@@ -1,0 +1,44 @@
+spelling: mần
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Làm
+            region: [south]
+            standard: [làm]
+            examples:
+              - text: Bữa nay mần ruộng mệt quá, về tắm rửa ăn cơm rồi ngủ sớm.
+                standard: Hôm nay làm ruộng mệt quá, về tắm rửa ăn cơm rồi ngủ sớm.
+                ai_draft: true
+            topics: [actions]
+            sources: [skill-dictionary-v1]
+  - type: native
+    note:
+      en: From Proto-Vietic *mən. Cognate with Tho [Cuối Chăm] mʌn².
+    pos:
+      - pos: verb
+        han_nom: [𲈧, 𤔫]
+        senses:
+          - gloss:
+              en: to do
+            qualifier: in Mekong Delta
+            region: [central, mekong-delta]
+            labels: [rare]
+            examples:
+              - text: Mần chi rứa?
+                en: What are you doing?
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%E1%BA%A7n#Vietnamese
+          - gloss:
+              en: to make
+            qualifier: in Mekong Delta
+            region: [central, mekong-delta]
+            labels: [rare]
+            examples:
+              - text: Ông Sáu ngồi chẻ tre mần cho thằng cháu cái lồng chim.
+                standard: Ông Sáu ngồi chẻ tre làm cho thằng cháu cái lồng chim.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%E1%BA%A7n#Vietnamese

@@ -1,0 +1,12 @@
+spelling: hà
+etymologies:
+  - pos:
+      - pos: particle
+        senses:
+          - gloss:
+              vi: Cuối câu, giảm nhẹ mức độ, an ủi hoặc tỏ ý đơn giản, bình thường
+            region: [south]
+            examples:
+              - text: Chuyện có xíu xiu hà, đừng có bận tâm
+            topics: [particles]
+            sources: [skill-dictionary-v1]

@@ -1,0 +1,25 @@
+spelling: ngãi lới
+etymologies:
+  - note:
+      en: |-
+        While ngãi was common, the reading lới for 理 (MC liX) was very rare; in fact, this seems to be the only compound where lới occurred (unless the element in mánh lới is the same).
+        This word is attested as ngãi lới in the Dictionarium anamitico-latinum (both in the 1772 manuscript and the 1838 version) and as ngải lới in Như Tây nhựt trình (1889). It is completely obsolete, being replaced by the Northern nghĩa lí.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: Southern Vietnam form of nghĩa lí
+            region: [south]
+            labels: [obsolete]
+            variant_of: nghĩa lí
+            examples:
+              - text: |-
+                  Đặng mà học, cho rành ngải lới,
+                  Kẻo chưa thông, thấu tới bật cao.
+                en: |-
+                  So they could learn, to know what is right,
+                  In case they had not understood things in depth.
+                ref: "1889, Trương Minh Ký, Như Tây nhựt trình:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ng%C3%A3i_l%E1%BB%9Bi#Vietnamese

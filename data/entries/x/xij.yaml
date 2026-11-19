@@ -1,0 +1,29 @@
+spelling: xị
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Đơn vị đong rượu gạo của người Nam Bộ, 1 xị khoảng 250ml
+            region: [mekong-delta]
+            synonyms: [xị đế]
+            examples:
+              - text: Con chạy ra tiệm tạp hóa mua giùm ba một xị rượu nghen.
+                standard: Con chạy ra cửa hàng tạp hóa mua giúp bố một chai rượu nhỏ nhé.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]
+  - pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: hundred thousand dongs
+            region: [south]
+            labels: [slang]
+            synonyms: [lít]
+            examples:
+              - text: Cho em mượn hai xị, mai em trả liền.
+                standard: Cho em mượn hai trăm nghìn, mai em trả ngay.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/x%E1%BB%8B#Vietnamese

@@ -1,0 +1,14 @@
+spelling: vàm sông
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Chỗ rạch, nhánh sông nhỏ đổ ra sông lớn
+            region: [mekong-delta]
+            synonyms: [vàm]
+            examples:
+              - text: Ghe đậu ngoài vàm sông chờ nước lớn mới vô rạch được.
+                standard: Thuyền đậu ngoài chỗ kênh đổ ra sông chờ nước lên mới vào kênh được.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

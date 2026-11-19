@@ -1,0 +1,13 @@
+spelling: cu ki
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Một mình, lẻ loi
+            region: [mekong-delta]
+            examples:
+              - text: Con cái đi làm xa hết, ông Tư ở nhà cu ki một mình.
+                standard: Con cái đi làm xa hết, ông Tư ở nhà lẻ loi một mình.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

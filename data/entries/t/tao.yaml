@@ -1,0 +1,24 @@
+spelling: tao
+etymologies:
+  - type: native
+    note:
+      en: |-
+        From Proto-Vietic *soː (“I; me”). Cognate with Thavung โซว.
+        There are 1st person single pronouns in Northern Austroasiatic branches with back vocalism and null-initial such as Mang ʔuː⁴, Khmu [Cuang] ʔoʔ, Riang [Sak] ʔoʔ¹, Pnar o. However, the only case of competing *s- vs. null-onset in Vietic is Proto-Vietic *suh ~ *ʔuh (“nest”), which gave rise to Vietnamese tổ and ổ respectively.
+    derived: [mày tao chi tớ, tụi tao]
+    pos:
+      - pos: pron
+        han_nom: [蚤, 騷]
+        senses:
+          - gloss:
+              en: I/me
+            qualifier: disrespectful or hostile
+            region: [north, south]
+            labels: [familiar, impolite]
+            examples:
+              - text: Mày còn lấy đồ chơi của tao nữa là tao méc má đó.
+                standard: Mày còn lấy đồ chơi của tao nữa là tao mách mẹ đấy.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/tao#Vietnamese

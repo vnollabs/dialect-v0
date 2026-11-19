@@ -1,0 +1,28 @@
+spelling: chà bá
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: To lớn quá khổ
+            region: [mekong-delta]
+            synonyms: [bự tổ chảng, cành xì nái]
+            examples:
+              - text: Con cá lóc bự chà bá lửa
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]
+  - note:
+      en: From Champa "chaba" (big, strong). In "Từ Điển Chăm - Việt, Bùi Khánh Thế" page 190.
+    derived: [chà bá lửa]
+    pos:
+      - pos: adv
+        senses:
+          - gloss:
+              en: humongously; enormously
+            region: [south]
+            examples:
+              - text: Trái bưởi này bự chà bá, xách muốn gãy tay.
+                standard: Quả bưởi này to khổng lồ, xách muốn gãy tay.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ch%C3%A0_b%C3%A1#Vietnamese

@@ -1,0 +1,14 @@
+spelling: huốt
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Chạy vượt quá chỗ cần tới, qua lượt, mất lượt
+            region: [mekong-delta]
+            synonyms: [chạy huốt, huốc]
+            examples:
+              - text: Xe đò chạy huốt qua ngã ba, tui phải đi bộ ngược lại.
+                standard: Xe khách chạy vượt quá ngã ba, tôi phải đi bộ ngược lại.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

@@ -1,0 +1,44 @@
+spelling: lúa
+etymologies:
+  - type: loan
+    lang: och
+    note:
+      en: |-
+        Inherited from Proto-Vietic *ʔa-lɔʔ (“paddy rice”) (Ferlus, 2007). Cognate with Muong Bi lõ and Arem alăắ.
+        According to Ferlus, it is a loanword from Old Chinese 稻 (OC *[l]ˤuʔ) (B-S) (SV: đạo), in turn related to Proto-Mon-Khmer *sruʔ (“paddy rice”) and Proto-Mon-Khmer *t₂rawʔ ~ *t₂raaw() (“taro”). Ferlus reasons that the two different plants share the same ecological farming niche, thus facilitating semantic shift from "taro" to "rice". Shorto notes a dubious connection between Proto-Vietic *ʔa-lɔʔ and Proto-Mon-Khmer *s-ruʔ (“paddy”).
+    pos:
+      - pos: noun
+        han_nom: [穭, 𧀦, 魯]
+        classifiers: [cây]
+        senses:
+          - gloss:
+              en: paddy; unhusked rice
+            region: [central, south]
+            synonyms: [thóc]
+            examples:
+              - text: Năm nay trúng mùa, lúa phơi kín cả sân.
+                standard: Năm nay được mùa, thóc phơi kín cả sân.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%C3%BAa#Vietnamese
+  - note:
+      en: The verb sense comes from the name of the teacher Nguyễn Văn Lúa who taught French at the Pétrus Ký High School around 1955 in Saigon. He was known for his brutality when grading exams. Alternatively, it could have the same origin as etymology 1.
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to fail (a task or an academic examination)
+            region: [south]
+            labels: [dated, slang]
+            examples:
+              - text: Trò ấy lúa rồi!
+                en: That student has failed [the test]!
+              - text: Công việc lúa cả rồi!
+                en: Business is now screwed.
+              - text: Tên sao trùng với người thế. Gặp ông là lúa đời rồi. Ông nổi tiếng hung thần đánh rớt học trò. Vậy mà được đồng nghiệp kính nể.
+                en: How can his name so matching with his character. Meet him and your life will fall apart. He is infamous for being a devil who fails students. Yet he is respected by his colleagues.
+                ref: "2014 March 24, TranDuong, “Nhìn lại việc thi tú tài ở Việt Nam trước 1975”, in Vietnam Future:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%C3%BAa#Vietnamese

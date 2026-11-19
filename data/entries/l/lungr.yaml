@@ -1,0 +1,20 @@
+spelling: lủng
+etymologies:
+  - note:
+      en: Cognate with Chut [Mày] ɓlŭŋ³.
+    derived: [vô thiên lủng]
+    pos:
+      - pos: adj
+        han_nom: [隴, 寵]
+        senses:
+          - gloss:
+              en: having a hole; perforated
+            region: [central, south]
+            synonyms: [thủng]
+            examples:
+              - text: Cái thau lủng một lỗ rồi, đựng nước hổng được nữa.
+                standard: Cái chậu thủng một lỗ rồi, đựng nước không được nữa.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%E1%BB%A7ng#Vietnamese

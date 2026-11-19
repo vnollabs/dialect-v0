@@ -1,0 +1,14 @@
+spelling: khô cá lóc
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Cá nước ngọt xẻ phơi khô, đặc sản miền Tây
+            region: [mekong-delta]
+            synonyms: [khô cá sặc]
+            examples:
+              - text: Trưa nay nướng khô cá lóc, ăn với cơm nóng là hết sẩy.
+                standard: Trưa nay nướng cá quả khô, ăn với cơm nóng là tuyệt.
+                ai_draft: true
+            topics: [mekong-food]
+            sources: [skill-dictionary-v1]

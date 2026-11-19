@@ -1,0 +1,16 @@
+spelling: chọc lét
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to tickle
+            region: [central, south]
+            synonyms: [cù, cù lét, thọc lét]
+            examples:
+              - text: Đừng có chọc lét em nữa, nó cười muốn sặc rồi kìa.
+                standard: Đừng có cù em nữa, nó cười muốn sặc rồi kìa.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ch%E1%BB%8Dc_l%C3%A9t#Vietnamese

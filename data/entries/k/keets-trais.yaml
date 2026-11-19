@@ -1,0 +1,20 @@
+spelling: kết trái
+etymologies:
+  - type: loan
+    lang: zh
+    source_form: 結
+    note:
+      en: "Chinese 結 /结 + trái (“fruit”), partial calque of Chinese 結果 /结果 (SV: kết quả)."
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to bear fruit
+            region: [central, south]
+            synonyms: [ra trái, ra quả, đậu trái, kết quả]
+            examples:
+              - text: đơm hoa kết trái; đâm bông kết trái
+                en: to blossom and bear fruit
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/k%E1%BA%BFt_tr%C3%A1i#Vietnamese

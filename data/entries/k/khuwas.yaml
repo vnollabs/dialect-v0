@@ -1,0 +1,83 @@
+spelling: khứa
+etymologies:
+  - type: sino
+    han: 鋸
+    note:
+      en: "Non-Sino-Vietnamese reading of Chinese 鋸 (“saw; to saw off”, SV: cứ). Related to cứa, cưa."
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to cut little by little; to saw off
+            region: [central, south]
+            synonyms: [cứa]
+            examples:
+              - text: Ông lấy con dao lụt khứa hoài mà sợi dây chão hổng đứt.
+                standard: Ông lấy con dao cùn cứa mãi mà sợi dây thừng không đứt.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/kh%E1%BB%A9a#Vietnamese
+      - pos: noun
+        senses:
+          - gloss:
+              en: cut; slice; piece from cutting
+            region: [south]
+            examples:
+              - text: Má chiên mấy khứa cá thu, ăn với cơm trắng bắt cơm lắm.
+                standard: Mẹ rán mấy khoanh cá thu, ăn với cơm trắng đưa cơm lắm.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/kh%E1%BB%A9a#Vietnamese
+  - note:
+      en: Compare khá, khớ.
+    pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: moderate; fair; average
+            region: [south]
+            labels: [archaic]
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/kh%E1%BB%A9a#Vietnamese
+            note: "No example yet: the AI drafter skipped this sense (archaic adjective ('moderate; fair'); no reliable knowledge of how it was used). Check that the sense is real before adding one."
+          - gloss:
+              en: a lot of; much; considerable
+            region: [south]
+            labels: [archaic]
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/kh%E1%BB%A9a#Vietnamese
+            note: "No example yet: the AI drafter skipped this sense (archaic adjective ('a lot of; much'); no reliable knowledge of how it was used). Check that the sense is real before adding one."
+  - type: loan
+    lang: nan-tws
+    source_form: 渠
+    note:
+      en: From Teochew 渠 (ke⁵)
+    derived: [khứa lão]
+    pos:
+      - pos: pron
+        senses:
+          - gloss:
+              en: he; that bloke
+            region: [central, south]
+            labels: [derogatory]
+            examples:
+              - text: Khứa đó mượn xe tui cả tuần rồi mà chưa chịu trả.
+                standard: Gã đó mượn xe tôi cả tuần rồi mà chưa chịu trả.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/kh%E1%BB%A9a#Vietnamese
+          - gloss:
+              en: a person
+            region: [central, south]
+            labels: [derogatory, humorous, slang]
+            examples:
+              - text: Khứa nào lấy mũ của tao rồi?
+                en: Who stole my hat?
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/kh%E1%BB%A9a#Vietnamese

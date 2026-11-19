@@ -1,0 +1,18 @@
+spelling: nẳm
+etymologies:
+  - note:
+      en: Word formation with distal denotation by adding hỏi tone to the root năm (“year”) in Southern Vietnamese and some topolects of Thanh Hoá.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: that year
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Nẳm tui mới mười tuổi, còn theo ba ra đồng chăn vịt.
+                standard: Năm ấy tôi mới mười tuổi, còn theo bố ra đồng chăn vịt.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/n%E1%BA%B3m#Vietnamese

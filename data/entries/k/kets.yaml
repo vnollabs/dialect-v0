@@ -1,0 +1,21 @@
+spelling: két
+etymologies:
+  - note:
+      en: Attested as kéc in the Dictionarium Anamitico-Latinum (1838) and Đại Nam Quấc âm tự vị (1895). It is not clear if this spelling was etymological or if it simply reflected the /k/-/t/ coda merger (both dictionaries were based on the Southern dialects).
+    derived: [mòng két]
+    pos:
+      - pos: noun
+        han_nom: [鴶, 𪁄, 鴼]
+        classifiers: [con]
+        senses:
+          - gloss:
+              en: parrot
+            region: [south]
+            synonyms: [vẹt]
+            examples:
+              - text: Con két nhà ông Sáu thấy khách là kêu om sòm, nghe vui tai lắm.
+                standard: Con vẹt nhà ông Sáu thấy khách là kêu om sòm, nghe vui tai lắm.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/k%C3%A9t#Vietnamese

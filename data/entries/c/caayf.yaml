@@ -1,0 +1,17 @@
+spelling: cầy
+etymologies:
+  - pos:
+      - pos: noun
+        han_nom: [𦓿]
+        senses:
+          - gloss:
+              en: plough
+            region: [south-central]
+            variant_of: cày
+            examples:
+              - text: Sáng mai dắt trâu ra ruộng, con nhớ vác cái cầy theo cho ông.
+                standard: Sáng mai dắt trâu ra ruộng, con nhớ vác cái cày theo cho ông.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%E1%BA%A7y#Vietnamese

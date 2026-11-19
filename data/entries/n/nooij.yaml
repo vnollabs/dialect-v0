@@ -1,0 +1,19 @@
+spelling: nội
+etymologies:
+  - type: sino
+    han: 內
+    note:
+      en: Sino-Vietnamese word from 內 (“inside”). A woman once married is considered belonging to a different family, hence the "inside" father's side and "outside" mother's side.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: a paternal grandparent
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Nội ơi! Để con nhổ tóc bạc cho nội nha!
+                en: (Paternal) Grandpa/Grandma! Let me pull out your gray hair!
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/n%E1%BB%99i#Vietnamese

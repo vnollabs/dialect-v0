@@ -1,0 +1,30 @@
+spelling: rù quến
+etymologies:
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: attractive; charming
+            qualifier: Mekong Delta
+            region: [central, mekong-delta]
+            labels: [colloquial]
+            examples:
+              - text: sắc đẹp rù quến
+                en: mesmerizing beauty
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/r%C3%B9_qu%E1%BA%BFn#Vietnamese
+      - pos: verb
+        senses:
+          - gloss:
+              en: to allure; to entice; to attract
+            qualifier: Mekong Delta
+            region: [central, mekong-delta]
+            labels: [colloquial]
+            examples:
+              - text: Tụi bạn rù quến hoài nên nó bỏ học đi chơi game.
+                standard: Bọn bạn dụ dỗ mãi nên nó bỏ học đi chơi game.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/r%C3%B9_qu%E1%BA%BFn#Vietnamese

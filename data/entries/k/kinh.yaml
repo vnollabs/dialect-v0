@@ -1,0 +1,28 @@
+spelling: kinh
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Kênh
+            region: [mekong-delta]
+            examples:
+              - text: Chiều chiều tụi nhỏ ra kinh tắm, la hét om sòm.
+                standard: Chiều chiều bọn trẻ ra kênh tắm, la hét om sòm.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]
+  - pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: eye dialect spelling of kênh, representing Central Vietnam and Southern Vietnam Vietnamese
+            region: [central, south]
+            labels: [pronunciation-spelling]
+            variant_of: kênh
+            examples:
+              - text: Qua khỏi cây cầu bắc ngang kinh là tới nhà tui.
+                standard: Qua khỏi cây cầu bắc ngang kênh là tới nhà tôi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/kinh#Vietnamese

@@ -1,0 +1,14 @@
+spelling: trái thơm
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Quả dứa
+            region: [mekong-delta]
+            synonyms: [trái khóm]
+            examples:
+              - text: Má gọt trái thơm xong, rắc chút muối ớt cho tụi nhỏ ăn.
+                standard: Mẹ gọt quả dứa xong, rắc chút muối ớt cho bọn trẻ ăn.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

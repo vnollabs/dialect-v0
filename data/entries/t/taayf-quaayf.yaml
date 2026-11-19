@@ -1,0 +1,14 @@
+spelling: tầy quầy
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Bừa bộn, luộm thuộm
+            region: [mekong-delta]
+            synonyms: [tùm lum tà la]
+            examples:
+              - text: Nhà cửa tầy quầy vậy mà còn mời khách tới chơi.
+                standard: Nhà cửa bừa bộn thế mà còn mời khách đến chơi.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

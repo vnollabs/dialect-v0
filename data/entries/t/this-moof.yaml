@@ -1,0 +1,17 @@
+spelling: thí mồ
+etymologies:
+  - pos:
+      - pos: adv
+        senses:
+          - gloss:
+              en: eye dialect spelling of thấy mồ, representing Southern Vietnam Vietnamese
+            region: [south]
+            labels: [pronunciation-spelling]
+            variant_of: thấy mồ
+            examples:
+              - text: Trời bữa nay nóng thí mồ, ngồi im mà mồ hôi ướt áo.
+                standard: Trời hôm nay nóng thấy mồ, ngồi yên mà mồ hôi ướt áo.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/th%C3%AD_m%E1%BB%93#Vietnamese

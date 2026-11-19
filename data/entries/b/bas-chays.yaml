@@ -1,0 +1,28 @@
+spelling: bá cháy
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Cực kỳ xuất sắc, tuyệt vời
+            region: [south]
+            synonyms: [bá cháy con bà bảy, bá chấy bọ chét]
+            examples:
+              - text: Ly cà phê sữa đá quán này bá cháy, uống một ngụm là tỉnh liền.
+                standard: Cốc cà phê sữa đá quán này tuyệt vời, uống một ngụm là tỉnh ngay.
+                ai_draft: true
+            topics: [idioms]
+            sources: [skill-dictionary-v1]
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: awesome; cool; badass
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Chiếc xe mới độ của mày nhìn bá cháy quá, chở tao đi một vòng coi.
+                standard: Chiếc xe mới độ của mày nhìn ngầu quá, chở tao đi một vòng xem.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%C3%A1_ch%C3%A1y#Vietnamese

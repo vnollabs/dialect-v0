@@ -1,0 +1,18 @@
+spelling: nha
+etymologies:
+  - derived: [à nha, ê nha]
+    pos:
+      - pos: particle
+        senses:
+          - gloss:
+              en: alright?; okay?; will you?
+            region: [central, south]
+            synonyms: [nhé]
+            examples:
+              - text: Bye nha!
+                en: See ya!
+              - text: Đi đường nhớ cẩn thận nha.
+                en: Be careful when you're on the road.
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/nha#Vietnamese

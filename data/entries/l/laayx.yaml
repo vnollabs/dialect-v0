@@ -1,0 +1,29 @@
+spelling: lẫy
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Dỗi
+            region: [south]
+            standard: [dỗi]
+            synonyms: [giận]
+            examples:
+              - text: Má hổng cho đi chơi, con nhỏ lẫy, ôm gối qua buồng bà ngủ.
+                standard: Mẹ không cho đi chơi, con bé dỗi, ôm gối sang buồng bà ngủ.
+                ai_draft: true
+            topics: [qualities-feelings]
+            sources: [skill-dictionary-v1]
+  - derived: [cãi lẫy, giận lẫy]
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to sulk; to get angry
+            region: [central, south]
+            examples:
+              - text: Mới nói có một câu mà ổng lẫy, bỏ về hổng thèm ăn.
+                standard: Mới nói có một câu mà ông ấy giận dỗi, bỏ về không thèm ăn.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%E1%BA%ABy#Vietnamese

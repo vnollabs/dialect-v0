@@ -1,0 +1,13 @@
+spelling: mương vườn
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Rãnh nước đào xen giữa các liếp cây để tưới tiêu và nuôi cá
+            region: [south]
+            examples:
+              - text: Ông Bảy thả cá rô dưới mương vườn, tới Tết tát lên bán.
+                standard: Ông Bảy thả cá rô dưới mương vườn, đến Tết tát lên bán.
+                ai_draft: true
+            topics: [weather-orchards]
+            sources: [skill-dictionary-v1]

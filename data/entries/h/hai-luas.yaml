@@ -1,0 +1,32 @@
+spelling: hai lúa
+etymologies:
+  - type: compound
+    note:
+      en: hai + lúa.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: peasant; countryman
+            region: [south]
+            labels: [derogatory]
+            examples:
+              - text: Tui là hai lúa mới lên Sài Gòn, đi đâu cũng lạc.
+                standard: Tôi là anh nhà quê mới lên Sài Gòn, đi đâu cũng lạc.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/hai_l%C3%BAa#Vietnamese
+      - pos: adj
+        senses:
+          - gloss:
+              en: rustic; naïve
+            region: [south]
+            labels: [derogatory]
+            examples:
+              - text: Hồi mới lên thành phố, tui hai lúa lắm, thấy thang máy cũng sợ.
+                standard: Hồi mới lên thành phố, tôi quê mùa lắm, thấy thang máy cũng sợ.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/hai_l%C3%BAa#Vietnamese

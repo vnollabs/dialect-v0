@@ -1,0 +1,19 @@
+spelling: vô phước
+etymologies:
+  - type: sino
+    han: 無
+    note:
+      en: Sino-Vietnamese word from 無 and 福.
+    pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: unhappy; unfortunate
+            region: [south]
+            examples:
+              - text: Vô phước gặp phải ông chủ khó tánh, làm cực mà lương ít.
+                standard: Không may gặp phải ông chủ khó tính, làm vất vả mà lương ít.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/v%C3%B4_ph%C6%B0%E1%BB%9Bc#Vietnamese

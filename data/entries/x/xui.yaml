@@ -1,0 +1,31 @@
+spelling: xui
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Rủi
+            region: [south]
+            standard: [rủi]
+            examples:
+              - text: Hên xui may rủi
+            topics: [qualities-feelings]
+            sources: [skill-dictionary-v1]
+  - type: sino
+    han: 衰
+    note:
+      en: "Non-Sino-Vietnamese reading of Chinese 衰 (SV: suy), probably via Teochew 衰 (suê¹, “bad luck”)."
+    derived: [hên xui, xui xẻo]
+    pos:
+      - pos: adj
+        han_nom: [𠺼, 𫤄]
+        senses:
+          - gloss:
+              en: unlucky
+            region: [central, south]
+            examples:
+              - text: Bữa nay xui ghê, đi chợ làm rớt mất cái bóp.
+                standard: Hôm nay đen đủi ghê, đi chợ đánh rơi mất cái ví.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/xui#Vietnamese

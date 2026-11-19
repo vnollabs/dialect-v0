@@ -1,0 +1,15 @@
+spelling: giận
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Dỗi
+            region: [south]
+            standard: [dỗi]
+            synonyms: [lẫy]
+            examples:
+              - text: Con nhỏ giận hổng thèm ăn cơm, ngồi lì trong buồng.
+                standard: Con bé dỗi không thèm ăn cơm, ngồi lì trong buồng.
+                ai_draft: true
+            topics: [qualities-feelings]
+            sources: [skill-dictionary-v1]

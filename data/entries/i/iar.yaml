@@ -1,0 +1,24 @@
+spelling: ỉa
+etymologies:
+  - type: native
+    note:
+      en: |-
+        From Proto-Vietic *ʔɛh (“to defecate; faeces”). Cognate with Muong Bi é. Compare Pacoh éh.
+        The Northern Middle Vietnamese yả is attested in the Dictionarium Annamiticum Lusitanum et Latinum (1651).
+    derived: [ỉa chảy, ỉa đái, ỉa đùn]
+    pos:
+      - pos: verb
+        han_nom: [𦟑, 𥺿, 𱼆]
+        senses:
+          - gloss:
+              en: to (take a) shit
+            region: [north, south]
+            labels: [informal]
+            synonyms: [ị, đại tiện]
+            examples:
+              - text: Con chó lại ỉa ngay trước cửa nữa rồi, đứa nào dọn giùm coi.
+                standard: Con chó lại ỉa ngay trước cửa nữa rồi, đứa nào dọn giúp xem nào.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%E1%BB%89a#Vietnamese

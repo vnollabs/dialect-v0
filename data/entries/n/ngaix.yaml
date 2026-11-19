@@ -1,0 +1,20 @@
+spelling: ngãi
+etymologies:
+  - type: sino
+    han: 義
+    note:
+      en: Sino-Vietnamese word from 義 (“righteousness”).
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: righteousness, faithfulness
+            region: [south-central, south]
+            labels: [literary, obsolete]
+            examples:
+              - text: Ông bà mình hồi xưa trọng ngãi hơn tiền, ai giúp mình thì nhớ ơn suốt đời.
+                standard: Ông bà mình hồi xưa trọng nghĩa hơn tiền, ai giúp mình thì nhớ ơn suốt đời.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ng%C3%A3i#Vietnamese

@@ -1,0 +1,14 @@
+spelling: mưa dầm
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Mưa kéo dài liên miên nhiều ngày không dứt
+            region: [south]
+            synonyms: [mưa thúi đất]
+            examples:
+              - text: Mưa dầm cả tuần nay, lúa ngoài đồng ngã rạp hết.
+                standard: Mưa dầm cả tuần nay, lúa ngoài đồng đổ rạp hết.
+                ai_draft: true
+            topics: [weather-orchards]
+            sources: [skill-dictionary-v1]

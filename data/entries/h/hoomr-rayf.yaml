@@ -1,0 +1,30 @@
+spelling: hổm rày
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Dạo này, mấy hôm nay
+            region: [mekong-delta]
+            synonyms: [mấy rày]
+            examples:
+              - text: Hổm rày trời mưa dầm, lúa ngoài đồng ngã rạp hết.
+                standard: Mấy hôm nay trời mưa dầm, lúa ngoài đồng đổ rạp hết.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]
+  - type: compound
+    note:
+      en: hổm (“that day”) + rày (“now”).
+    pos:
+      - pos: adv
+        senses:
+          - gloss:
+              en: '"from then till now"; these days'
+            region: [south]
+            examples:
+              - text: Hổm rày mày đi đâu mất biệt, tụi tao kiếm hoài hổng thấy?
+                standard: Từ hôm đó tới giờ mày đi đâu biệt tăm, bọn tao tìm mãi không thấy?
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/h%E1%BB%95m_r%C3%A0y#Vietnamese

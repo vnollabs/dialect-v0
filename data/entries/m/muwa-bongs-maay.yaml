@@ -1,0 +1,11 @@
+spelling: mưa bóng mây
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Mưa rào bất chợt giữa lúc trời đang nắng rồi tạnh ngay
+            region: [south]
+            examples:
+              - text: Mưa bóng mây chút xíu là tạnh hà, khỏi bận áo mưa
+            topics: [weather-orchards]
+            sources: [skill-dictionary-v1]

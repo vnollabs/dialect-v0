@@ -1,0 +1,25 @@
+spelling: lẹ
+etymologies:
+  - type: sino
+    han: 易
+    note:
+      en: "Possibly an archaic non-Sino-Vietnamese reading of Chinese 易 (SV: dị)."
+    derived: [lanh lẹ, lẹ làng, mau lẹ, nhanh lẹ, nhặm lẹ]
+    pos:
+      - pos: adj
+        han_nom: [𫑐, 珥]
+        senses:
+          - gloss:
+              vi: Nhanh
+              en: fast; quick; swift
+            region: [south]
+            standard: [nhanh]
+            synonyms: [nhanh, mau]
+            examples:
+              - text: Lẹ lên!
+                en: Hurry up!
+            topics: [qualities-feelings]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%E1%BA%B9#Vietnamese

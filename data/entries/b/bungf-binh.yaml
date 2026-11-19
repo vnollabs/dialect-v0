@@ -1,0 +1,28 @@
+spelling: bùng binh
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Vòng xuyến, vòng xoay
+            region: [south]
+            examples:
+              - text: Chạy tới bùng binh thì quẹo phải, nhà tui ở đầu hẻm đó.
+                standard: Đi tới vòng xuyến thì rẽ phải, nhà tôi ở đầu ngõ đó.
+                ai_draft: true
+            topics: [transport]
+            sources: [skill-dictionary-v1]
+  - pos:
+      - pos: noun
+        classifiers: [cái]
+        senses:
+          - gloss:
+              en: roundabout; traffic circle
+            region: [south]
+            synonyms: [vòng xuyến, vòng xoay, đường vòng]
+            examples:
+              - text: Giờ tan tầm, xe kẹt cứng quanh bùng binh, nhích từng chút một.
+                standard: Giờ tan tầm, xe tắc cứng quanh vòng xoay, nhích từng chút một.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%C3%B9ng_binh#Vietnamese

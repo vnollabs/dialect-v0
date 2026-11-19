@@ -1,0 +1,17 @@
+spelling: cưỡng
+etymologies:
+  - pos:
+      - pos: noun
+        classifiers: [con]
+        senses:
+          - gloss:
+              en: a black-collared starling (Gracupica nigricollis)
+            region: [south]
+            synonyms: [cà cưỡng, sáo sậu]
+            examples:
+              - text: Sáng nào con cưỡng cũng đậu trên cây me kêu inh ỏi.
+                standard: Sáng nào con sáo sậu cũng đậu trên cây me kêu inh ỏi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%C6%B0%E1%BB%A1ng#Vietnamese

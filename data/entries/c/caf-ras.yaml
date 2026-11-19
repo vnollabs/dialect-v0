@@ -1,0 +1,27 @@
+spelling: cà rá
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Nhẫn
+            region: [south]
+            standard: [nhẫn]
+            examples:
+              - text: Đeo cà rá hột xoàn
+            topics: [household]
+            sources: [skill-dictionary-v1]
+  - pos:
+      - pos: noun
+        classifiers: [chiếc]
+        senses:
+          - gloss:
+              en: a ring; metal hoop
+            qualifier: Mekong Delta
+            region: [mekong-delta]
+            examples:
+              - text: Bà ngoại cho con cái cà rá vàng hồi đám cưới, con giữ kỹ lắm.
+                standard: Bà ngoại cho con cái nhẫn vàng hồi đám cưới, con giữ kỹ lắm.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%C3%A0_r%C3%A1#Vietnamese

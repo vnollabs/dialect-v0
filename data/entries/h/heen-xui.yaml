@@ -1,0 +1,21 @@
+spelling: hên xui
+etymologies:
+  - type: loan
+    lang: nan-tws
+    source_form: 興衰
+    note:
+      en: By surface analysis, hên + xui, or directly from Teochew 興衰 /兴衰 (hêng¹ suê¹). Compare Thai เฮงซวย (heng-suai), Khmer ហេងស៊យ (héngsôy).
+    pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: lucky and unlucky; haphazard; random; dependent on chance
+            region: [south]
+            synonyms: [may rủi]
+            examples:
+              - text: Đi câu bữa nay hên xui lắm, có khi về tay không.
+                standard: Đi câu hôm nay may rủi lắm, có khi về tay không.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/h%C3%AAn_xui#Vietnamese

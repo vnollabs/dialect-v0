@@ -1,0 +1,14 @@
+spelling: lượm
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Nhặt
+            region: [south]
+            standard: [nhặt]
+            examples:
+              - text: Sáng sớm bà ra vườn lượm mấy trái dừa khô mới rụng.
+                standard: Sáng sớm bà ra vườn nhặt mấy quả dừa khô mới rụng.
+                ai_draft: true
+            topics: [actions]
+            sources: [skill-dictionary-v1]

@@ -1,0 +1,29 @@
+spelling: đá
+etymologies:
+  - type: native
+    note:
+      en: From Proto-Vietic *taʔ. Cognate with Arem tʌːˀ.
+    pos:
+      - pos: verb
+        han_nom: [打, 跢]
+        senses:
+          - gloss:
+              en: to fight each other
+            region: [south]
+            examples:
+              - text: Hai con gà trống đá nhau dữ quá, lông bay tứ tung.
+                standard: Hai con gà trống chọi nhau dữ quá, lông bay tứ tung.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%C3%A1#Vietnamese
+          - gloss:
+              en: to go; to come by
+            region: [south]
+            examples:
+              - text: Chút nữa tui đá qua nhà bà lấy cái nồi nghen.
+                standard: Lát nữa tôi ghé qua nhà bà lấy cái nồi nhé.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%C3%A1#Vietnamese

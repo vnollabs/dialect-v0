@@ -1,0 +1,20 @@
+spelling: mụt ruồi
+etymologies:
+  - type: compound
+    note:
+      en: mụt + ruồi.
+    pos:
+      - pos: noun
+        classifiers: [cái]
+        senses:
+          - gloss:
+              en: mole; melanocytic nevus
+            region: [central, south]
+            synonyms: [nốt ruồi]
+            examples:
+              - text: Ngoài chợ ai cũng nhận ra bả nhờ cái mụt ruồi bên khóe miệng.
+                standard: Ngoài chợ ai cũng nhận ra bà ấy nhờ cái nốt ruồi bên khóe miệng.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%E1%BB%A5t_ru%E1%BB%93i#Vietnamese

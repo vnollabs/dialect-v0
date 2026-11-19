@@ -1,0 +1,14 @@
+spelling: vỏ xe
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Lốp xe
+            region: [south]
+            standard: [lốp xe]
+            examples:
+              - text: Vỏ xe mòn láng rồi, thay cái mới đi kẻo trượt.
+                standard: Lốp xe mòn nhẵn rồi, thay cái mới đi kẻo trượt.
+                ai_draft: true
+            topics: [transport]
+            sources: [skill-dictionary-v1]

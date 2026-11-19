@@ -1,0 +1,22 @@
+spelling: lứ
+etymologies:
+  - type: loan
+    lang: nan-tws
+    source_form: 汝
+    note:
+      en: From Teochew 汝 (lɯ⁵²).
+    pos:
+      - pos: pron
+        senses:
+          - gloss:
+              en: thou, you (second-person pronoun)
+            qualifier: probably obsolete; towards a Teochew speaker; probably obsolete; towards a Teochew speaker
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: '"Tôi với lứ đi Bạc Liêu một chuyến đi."'
+                en: '"Let us [I and you] visit Bạc Liêu for a trip."'
+                ref: "2007, Linguistic Society of Vietnam, edited by Huỳnh Công Tín, Từ điển Từ ngữ Nam Bộ [Southern Vietnamese Dictionary], Cần Thơ: Nhà xuất bản Khoa học xã hội, page 780:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%E1%BB%A9#Vietnamese

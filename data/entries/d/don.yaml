@@ -1,0 +1,16 @@
+spelling: don
+etymologies:
+  - pos:
+      - pos: noun
+        classifiers: [con]
+        senses:
+          - gloss:
+              en: kind of clam
+            region: [south-central]
+            examples:
+              - text: Bữa ni mẹ ra sông cào được rổ don, về nấu canh cho cả nhà ăn.
+                standard: Hôm nay mẹ ra sông cào được rổ don, về nấu canh cho cả nhà ăn.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/don#Vietnamese

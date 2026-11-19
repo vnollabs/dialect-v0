@@ -1,0 +1,25 @@
+spelling: dù
+etymologies:
+  - type: native
+    note:
+      en: From Proto-Vietic *duː (“shelter”). There are related words in many neighbouring languages. Compare Lao ຍູ (nyū) (as in ຄັນຍູ (khan nyū)) and Khmer យូ (yuu) (as in តាំងយូ (tangyuu)). The distribution within both Tai languages and Austroasiatic does not indicate great time depth, so they might be borrowed from Vietnamese instead.
+    pos:
+      - pos: noun
+        han_nom: [𢂎]
+        classifiers: [cây, cái, chiếc]
+        senses:
+          - gloss:
+              vi: Ô
+              en: umbrella
+            region: [south]
+            standard: [ô]
+            synonyms: [ô]
+            examples:
+              - text: Trời coi bộ sắp mưa, con nhớ đem theo cây dù nghen.
+                standard: Trời có vẻ sắp mưa, con nhớ mang theo cái ô nhé.
+                ai_draft: true
+            topics: [household]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/d%C3%B9#Vietnamese

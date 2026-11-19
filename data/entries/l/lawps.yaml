@@ -1,0 +1,18 @@
+spelling: lắp
+etymologies:
+  - note:
+      en: Compare lấp.
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to fill
+            region: [south]
+            variant_of: lấp
+            examples:
+              - text: Tụi nhỏ xúc đất lắp cái hố trước cửa cho khỏi té.
+                standard: Bọn trẻ xúc đất lấp cái hố trước cửa cho khỏi ngã.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%E1%BA%AFp#Vietnamese

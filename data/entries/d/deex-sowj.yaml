@@ -1,0 +1,29 @@
+spelling: dễ sợ
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: "Đứng sau tính từ: ghê lắm, quá chừng (nói quá để khen)"
+            region: [south]
+            examples:
+              - text: Trái sầu riêng này ngọt dễ sợ
+            topics: [discourse-markers]
+            sources: [skill-dictionary-v1]
+  - type: compound
+    note:
+      en: dễ + sợ.
+    pos:
+      - pos: adv
+        senses:
+          - gloss:
+              en: very; extremely; drastically; at a very high level
+            region: [central, south]
+            labels: [colloquial]
+            synonyms: [ghê, cực kì]
+            examples:
+              - text: Trưa nay nắng dễ sợ, ra đồng một chút là cháy da.
+                standard: Trưa nay nắng kinh khủng, ra đồng một chút là cháy da.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/d%E1%BB%85_s%E1%BB%A3#Vietnamese

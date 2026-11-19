@@ -1,0 +1,19 @@
+spelling: trầm mình
+etymologies:
+  - type: compound
+    note:
+      en: trầm + mình.
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: alternative form of trẫm mình
+            region: [central, south]
+            variant_of: trẫm mình
+            examples:
+              - text: Coi tới khúc cô đào trầm mình xuống sông, bà ngoại khóc ướt khăn.
+                standard: Xem đến đoạn cô đào trẫm mình xuống sông, bà ngoại khóc ướt khăn.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/tr%E1%BA%A7m_m%C3%ACnh#Vietnamese

@@ -1,0 +1,27 @@
+spelling: bao tử
+etymologies:
+  - type: sino
+    han: 包
+    note:
+      en: Sino-Vietnamese word from 包子, composed of 包 (“to wrap”) and 子 (“noun suffix”).
+    pos:
+      - pos: noun
+        classifiers: [cái]
+        senses:
+          - gloss:
+              vi: Dạ dày
+              en: stomach
+            region: [south, central]
+            standard: [dạ dày]
+            synonyms: [dạ dày]
+            examples:
+              - text: Ăn chậm nhai kĩ kẻo đau bao tử.
+                en: Take slow and thorough bites, or else you'll get a stomachache.
+              - text: Nhưng nếu bạn vẫn chưa quen thêm gia vị cay vào thức ăn, thì cũng đừng nên thử nó, vì bao tử của bạn không chịu được chất cay nóng của những gia vị này, sẽ khiến tình trạng bệnh bao tử của bạn càng tồi tệ hơn.
+                en: But if you are not used to spicy food, then do not try it, because your stomach cannot tolerate the spices and it will make your stomach disease even worse.
+                ref: "2017, “9 loại thực phẩm người bệnh đau bao tử nên tránh”, in VOH Online:"
+            topics: [food-drink]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/bao_t%E1%BB%AD#Vietnamese

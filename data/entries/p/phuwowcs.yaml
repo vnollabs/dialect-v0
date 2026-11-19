@@ -1,0 +1,19 @@
+spelling: phước
+etymologies:
+  - type: sino
+    han: 福
+    note:
+      en: Sino-Vietnamese word from 福. Doublet of phúc.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: good fortune; good luck; happiness; bliss; felicity
+            region: [south]
+            examples:
+              - text: Có đứa con hiếu thảo vậy là phước lớn của ông bà rồi.
+                standard: Có đứa con hiếu thảo như vậy là phúc lớn của ông bà rồi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ph%C6%B0%E1%BB%9Bc#Vietnamese

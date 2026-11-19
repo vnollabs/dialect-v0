@@ -1,0 +1,21 @@
+spelling: trễ
+etymologies:
+  - pos:
+      - pos: adj
+        han_nom: [𧜐]
+        senses:
+          - gloss:
+              vi: Muộn
+              en: late; tardy
+            region: [south, central]
+            standard: [muộn]
+            synonyms: [muộn]
+            examples:
+              - text: Sáng nay kẹt xe nên tui tới trễ nửa tiếng.
+                standard: Sáng nay tắc đường nên tôi đến muộn nửa tiếng.
+                ai_draft: true
+            topics: [qualities-feelings]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/tr%E1%BB%85#Vietnamese

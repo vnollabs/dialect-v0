@@ -1,0 +1,18 @@
+spelling: dượt
+etymologies:
+  - note:
+      en: "See duyệt. Attested in Phật thuyết đại báo phụ mẫu ân trọng kinh (佛說大報父母恩重經) as 𱜠, composed of 巴 (MC pae) + 欲 (MC yowk) (modern SV: ba dục), 波欲 (MC pa yowk) (modern SV: ba dục)."
+    pos:
+      - pos: verb
+        han_nom: [欲, 𱜠]
+        senses:
+          - gloss:
+              en: to practise, to rehash, to train
+            region: [south]
+            examples:
+              - text: Tối nay cả nhóm dượt văn nghệ ở nhà văn hóa ấp nghen.
+                standard: Tối nay cả nhóm tập văn nghệ ở nhà văn hóa thôn nhé.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/d%C6%B0%E1%BB%A3t#Vietnamese

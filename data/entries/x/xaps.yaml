@@ -1,0 +1,16 @@
+spelling: xáp
+etymologies:
+  - pos:
+      - pos: verb
+        han_nom: [夾]
+        senses:
+          - gloss:
+              en: to draw close; to come near
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Trời nóng thấy mồ đừng có xáp xáp vô.
+                en: It's damn hot today, stop trying to get so close to me.
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/x%C3%A1p#Vietnamese

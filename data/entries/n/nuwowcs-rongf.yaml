@@ -1,0 +1,13 @@
+spelling: nước ròng
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Thủy triều xuống
+            region: [mekong-delta]
+            examples:
+              - text: Nước ròng rồi, ghe mắc cạn ngoài vàm, đợi chiều mới chạy được.
+                standard: Thủy triều xuống rồi, thuyền mắc cạn ngoài cửa sông, đợi chiều mới chạy được.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

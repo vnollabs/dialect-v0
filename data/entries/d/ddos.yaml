@@ -1,0 +1,20 @@
+spelling: đó
+etymologies:
+  - type: native
+    note:
+      en: From Proto-Mon-Khmer *tɔʔ (“that, there”). Cognate with Khmer ដ៏ (dɑɑ) and Bahnar to.
+    pos:
+      - pos: particle
+        senses:
+          - gloss:
+              en: emphasizes a quality that the listener may not have known; you see?; I'm telling you
+            region: [south]
+            synonyms: [á]
+            examples:
+              - text: Tao mới coi tối qua. Hơi bị hay đó! Bữa nào mày cũng dành thời gian coi đi!
+                en: I finally saw it yesterday. Really good, I must say. You should go see it when you have the chance.
+              - text: Em mới đến nên không biết, thằng này khùng lắm đó!
+                en: You've just moved here so you might not have known, but he's pretty screwed up in the head.
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%C3%B3#Vietnamese

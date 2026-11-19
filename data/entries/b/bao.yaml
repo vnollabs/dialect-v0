@@ -1,0 +1,19 @@
+spelling: bao
+etymologies:
+  - note:
+      en: Part of the b-series of demonstratives, along with bây, bấy.
+    pos:
+      - pos: adv
+        han_nom: [包]
+        senses:
+          - gloss:
+              en: very; super (placed before an adjective to intensify)
+            qualifier: Mekong Delta
+            region: [mekong-delta]
+            labels: [colloquial]
+            examples:
+              - text: cam bao ngọt
+                en: super-duper sweet oranges
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/bao#Vietnamese

@@ -1,0 +1,12 @@
+spelling: hổng chừng
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Có khi, biết đâu, không biết chừng
+            region: [south]
+            synonyms: [không chừng]
+            examples:
+              - text: Trời vầy hổng chừng tối nay nước lớn tràn bờ
+            topics: [discourse-markers]
+            sources: [skill-dictionary-v1]

@@ -1,0 +1,19 @@
+spelling: mạnh giỏi
+etymologies:
+  - type: compound
+    note:
+      en: mạnh + giỏi.
+    pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: strong; healthy; well
+            region: [south]
+            synonyms: [mạnh khoẻ]
+            examples:
+              - text: Lâu quá mới gặp, ông bà ở nhà vẫn mạnh giỏi hả con?
+                standard: Lâu quá mới gặp, ông bà ở nhà vẫn mạnh khỏe chứ con?
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%E1%BA%A1nh_gi%E1%BB%8Fi#Vietnamese

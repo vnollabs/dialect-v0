@@ -1,0 +1,31 @@
+spelling: máy lạnh
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Điều hoà
+            region: [south]
+            standard: [điều hoà]
+            examples:
+              - text: Trời nóng quá, mở máy lạnh lên cho mát đi con.
+                standard: Trời nóng quá, bật điều hòa lên cho mát đi con.
+                ai_draft: true
+            topics: [household]
+            sources: [skill-dictionary-v1]
+  - type: compound
+    note:
+      en: máy (“machine”) + lạnh (“cold”).
+    pos:
+      - pos: noun
+        classifiers: [cái]
+        senses:
+          - gloss:
+              en: an air conditioner
+            region: [south]
+            examples:
+              - text: Phòng này mới gắn máy lạnh mà chạy kêu ồn quá trời.
+                standard: Phòng này mới lắp điều hòa mà chạy kêu ồn quá.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%C3%A1y_l%E1%BA%A1nh#Vietnamese

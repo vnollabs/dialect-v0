@@ -1,0 +1,17 @@
+spelling: ăn bận
+etymologies:
+  - type: compound
+    note:
+      en: ăn + bận.
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to dress (up); to wear clothes
+            region: [central, south]
+            examples:
+              - text: ăn bận chỉnh tề
+                en: to dress formally
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%83n_b%E1%BA%ADn#Vietnamese

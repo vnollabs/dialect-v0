@@ -1,0 +1,40 @@
+spelling: thiệt tình
+etymologies:
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: Southern Vietnam form of thật tình
+            region: [south]
+            variant_of: thật tình
+            examples:
+              - text: Ông Bảy là người thiệt tình, ai nhờ gì cũng giúp hết lòng.
+                standard: Ông Bảy là người thật tình, ai nhờ gì cũng giúp hết lòng.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/thi%E1%BB%87t_t%C3%ACnh#Vietnamese
+      - pos: adv
+        senses:
+          - gloss:
+              en: Southern Vietnam form of thật tình
+            region: [south]
+            variant_of: thật tình
+            examples:
+              - text: Tui thiệt tình hổng biết chuyện đó, đừng có trách tui.
+                standard: Tôi thật tình không biết chuyện đó, đừng có trách tôi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/thi%E1%BB%87t_t%C3%ACnh#Vietnamese
+      - pos: intj
+        senses:
+          - gloss:
+              en: honestly; seriously; for Pete's sake
+            region: [south]
+            examples:
+              - text: Giỡn thì giỡn vừa vừa thôi chứ giỡn gì ghê vậy. Thiệt tình luôn á.
+                en: Play harmless jokes, don't play such a cruel joke. Jesus Christ, what's wrong with you?
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/thi%E1%BB%87t_t%C3%ACnh#Vietnamese

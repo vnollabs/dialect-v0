@@ -1,0 +1,13 @@
+spelling: quá trời quá đất
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Nhiều lắm, quá mức
+            region: [south]
+            examples:
+              - text: Đám cưới nhà ông Sáu đông quá trời quá đất, bàn kê ra tới ngoài đường.
+                standard: Đám cưới nhà ông Sáu đông vô cùng, bàn kê ra đến ngoài đường.
+                ai_draft: true
+            topics: [idioms]
+            sources: [skill-dictionary-v1]

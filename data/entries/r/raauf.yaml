@@ -1,0 +1,14 @@
+spelling: rầu
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Buồn
+            region: [south]
+            standard: [buồn]
+            examples:
+              - text: Lúa mất mùa năm nay, ông Tư rầu quá trời, ăn cơm hổng vô.
+                standard: Lúa mất mùa năm nay, ông Tư buồn lắm, ăn cơm không vào.
+                ai_draft: true
+            topics: [qualities-feelings]
+            sources: [skill-dictionary-v1]

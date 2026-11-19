@@ -1,0 +1,34 @@
+spelling: ngoải
+etymologies:
+  - note:
+      en: Word formation with distal denotation by adding hỏi tone to the root ngoài (“outside”) in Southern Vietnamese and some topolects of Thanh Hoá.
+    pos:
+      - pos: pron
+        senses:
+          - gloss:
+              en: that place outside; out there; outside
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Con ra ngoải lấy đồ vô giùm má, sắp mưa rồi.
+                standard: Con ra ngoài ấy lấy quần áo vào giúp mẹ, sắp mưa rồi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ngo%E1%BA%A3i#Vietnamese
+  - note:
+      en: Word formation with distal denotation by adding hỏi tone to the root ngoại (“maternal grandparent”) in Southern Vietnamese and some topolects of Thanh Hoá.
+    pos:
+      - pos: pron
+        senses:
+          - gloss:
+              en: she or he (referring to one's ông ngoại or bà ngoại)
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Bà ngoại hả? Ngoải đang ngồi têm trầu ngoài hiên đó.
+                standard: Bà ngoại à? Bà đang ngồi têm trầu ngoài hiên đấy.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ngo%E1%BA%A3i#Vietnamese

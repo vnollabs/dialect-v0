@@ -1,0 +1,16 @@
+spelling: núa
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to say
+            region: [south-central]
+            variant_of: nói
+            examples:
+              - text: Mi núa chi rứa, tau nghe không rõ.
+                standard: Mày nói gì thế, tao nghe không rõ.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/n%C3%BAa#Vietnamese

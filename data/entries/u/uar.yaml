@@ -1,0 +1,11 @@
+spelling: ủa
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Thán từ đầu câu khi ngạc nhiên, thắc mắc, như 'ơ' của miền Bắc
+            region: [south]
+            examples:
+              - text: Ủa, sao bữa nay về sớm vậy?
+            topics: [discourse-markers]
+            sources: [skill-dictionary-v1]

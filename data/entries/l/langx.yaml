@@ -1,0 +1,17 @@
+spelling: lãng
+etymologies:
+  - note:
+      en: Southern form of 𢥉 nhãng (nonsensical).
+    pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: ridiculous; nonsensical
+            region: [south]
+            examples:
+              - text: Chuyện có vậy mà hai người giận nhau cả tháng, lãng thiệt.
+                standard: Chuyện có vậy mà hai người giận nhau cả tháng, vô lý thật.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%C3%A3ng#Vietnamese

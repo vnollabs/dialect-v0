@@ -1,0 +1,16 @@
+spelling: trỏng
+etymologies:
+  - note:
+      en: Word formation with distal denotation by adding hỏi tone to the root trong (“inside”) in Southern Vietnamese and some topolects of Thanh Hoá.
+    pos:
+      - pos: adv
+        senses:
+          - gloss:
+              en: in there; inside that place
+            region: [central, south]
+            examples:
+              - text: Hang tối om à, đừng có vô trỏng!
+                en: That cave is very dark, you shouldn't go there!
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/tr%E1%BB%8Fng#Vietnamese

@@ -1,0 +1,17 @@
+spelling: lọt
+etymologies:
+  - note:
+      en: Compare Proto-Katuic *lɔɔt (“to pass, go by”) (whence Pacoh luat).
+    pos:
+      - pos: verb
+        han_nom: [律, 津, 突, 𢯰]
+        senses:
+          - gloss:
+              en: to fall, to tumble (from a high place)
+            region: [south]
+            examples:
+              - text: Ngồi ban công có ngày lọt bây giờ. Lọt từ đây xuống là có cứu cũng hông được đâu.
+                en: Quit sitting on the balcony, you might just fall you know. At this height, there is no helping you once that happens.
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%E1%BB%8Dt#Vietnamese

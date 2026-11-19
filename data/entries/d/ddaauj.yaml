@@ -1,0 +1,28 @@
+spelling: đậu
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Đỗ
+            region: [south]
+            standard: [đỗ]
+            examples:
+              - text: Xe đò đậu ở đầu chợ chừng mười phút rồi mới chạy tiếp.
+                standard: Xe khách đỗ ở đầu chợ khoảng mười phút rồi mới chạy tiếp.
+                ai_draft: true
+            topics: [food-drink]
+            sources: [skill-dictionary-v1]
+  - derived: [thi đậu]
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to pass (an examination)
+            region: [south]
+            examples:
+              - text: Thằng Hai thi đậu đại học rồi, cả nhà mừng quá trời.
+                standard: Thằng Hai thi đỗ đại học rồi, cả nhà mừng lắm.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%E1%BA%ADu#Vietnamese

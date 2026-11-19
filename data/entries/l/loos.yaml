@@ -1,0 +1,18 @@
+spelling: lố
+etymologies:
+  - note:
+      en: Compare trố.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: dozen
+            region: [south]
+            synonyms: [tá]
+            examples:
+              - text: Năm học mới, má mua cho tụi nhỏ một lố bút chì.
+                standard: Năm học mới, mẹ mua cho bọn trẻ một tá bút chì.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%E1%BB%91#Vietnamese

@@ -1,0 +1,18 @@
+spelling: sói
+etymologies:
+  - derived: [hoa hoè hoa sói]
+    pos:
+      - pos: adj
+        han_nom: [𩯹, 𪻆]
+        senses:
+          - gloss:
+              en: synonym of hói
+            region: [central, south]
+            synonyms: [hói]
+            examples:
+              - text: Ổng mới bốn chục tuổi mà đầu sói gần hết rồi.
+                standard: Ông ấy mới bốn mươi tuổi mà đầu hói gần hết rồi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/s%C3%B3i#Vietnamese

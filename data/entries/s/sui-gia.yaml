@@ -1,0 +1,19 @@
+spelling: sui gia
+etymologies:
+  - type: compound
+    note:
+      en: sui (“marriage”) + gia (“family”).
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: union between families by marriage; parents of husband and wife; co-parents-in-law
+            region: [south]
+            synonyms: [thông gia]
+            examples:
+              - text: Hai bên sui gia ngồi bàn ngày đám cưới cho tụi nhỏ.
+                standard: Hai bên thông gia ngồi bàn ngày đám cưới cho các con.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/sui_gia#Vietnamese

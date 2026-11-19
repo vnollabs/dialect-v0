@@ -1,0 +1,11 @@
+spelling: trời chuyển mưa
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Trời kéo mây đen u ám sắp đổ mưa
+            region: [south]
+            examples:
+              - text: Trời chuyển mưa đen kịt rồi, mau gom đồ phơi vô nhà!
+            topics: [weather-orchards]
+            sources: [skill-dictionary-v1]

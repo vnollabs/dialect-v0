@@ -1,0 +1,15 @@
+spelling: trèo cao té đau
+etymologies:
+  - pos:
+      - pos: phrase
+        senses:
+          - gloss:
+              en: the bigger they are, the harder they fall
+            region: [south]
+            labels: [idiomatic]
+            examples:
+              - text: Mày đừng có trèo cao té đau, tao sẽ đá mày xuống mà không cần nhìn lại.
+                en: Don't you dare climb high and fall hard, I will kick you down and not look back.
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/tr%C3%A8o_cao_t%C3%A9_%C4%91au#Vietnamese

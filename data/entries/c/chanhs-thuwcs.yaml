@@ -1,0 +1,17 @@
+spelling: chánh thức
+etymologies:
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: Southern Vietnam form of chính thức
+            region: [south]
+            labels: [dated]
+            variant_of: chính thức
+            examples:
+              - text: Tháng sau tiệm mới khai trương chánh thức, mời bà con tới ủng hộ.
+                standard: Tháng sau cửa hàng mới khai trương chính thức, mời bà con đến ủng hộ.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ch%C3%A1nh_th%E1%BB%A9c#Vietnamese

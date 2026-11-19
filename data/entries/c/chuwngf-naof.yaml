@@ -1,0 +1,13 @@
+spelling: chừng nào
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Bao giờ (tương lai)
+            region: [south]
+            examples:
+              - text: Chừng nào anh mới sửa cái mái nhà dột đây?
+                standard: Bao giờ anh mới sửa cái mái nhà dột đây?
+                ai_draft: true
+            topics: [qualities-feelings]
+            sources: [skill-dictionary-v1]

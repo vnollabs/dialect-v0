@@ -1,0 +1,11 @@
+spelling: miệt
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Vùng, miền
+            region: [mekong-delta]
+            examples:
+              - text: Miệt vườn, miệt thứ, miệt bưng biền
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

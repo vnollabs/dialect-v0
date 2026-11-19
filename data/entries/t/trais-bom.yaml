@@ -1,0 +1,16 @@
+spelling: trái bom
+etymologies:
+  - type: loan
+    lang: fr
+    source_form: pomme
+    pos:
+      - senses:
+          - gloss:
+              vi: Quả táo tây (apple), gốc tiếng Pháp pomme; từ xưa, nay ít dùng
+            region: [south]
+            labels: [dated]
+            synonyms: [trái bôm]
+            examples:
+              - text: Ngoại mua cho mấy trái bom đỏ au
+            topics: [food-drink]
+            sources: [skill-dictionary-v1]

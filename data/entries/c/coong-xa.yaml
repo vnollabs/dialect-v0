@@ -1,0 +1,20 @@
+spelling: công xa
+etymologies:
+  - type: sino
+    han: 公車
+    note:
+      en: Sino-Vietnamese word from 公車.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: vehicle for public officials
+            region: [south]
+            labels: [dated]
+            examples:
+              - text: Hồi xưa thấy công xa chạy ngang chợ, ai cũng đứng lại ngó.
+                standard: Hồi xưa thấy xe công chạy ngang chợ, ai cũng đứng lại nhìn.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%C3%B4ng_xa#Vietnamese

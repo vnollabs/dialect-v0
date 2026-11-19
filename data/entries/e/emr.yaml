@@ -1,0 +1,41 @@
+spelling: ẻm
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Em ấy
+            region: [south]
+            standard: [em ấy]
+            examples:
+              - text: Con Út nhà tui đó, ẻm học lớp chín rồi.
+                standard: Con Út nhà tôi đấy, em ấy học lớp chín rồi.
+                ai_draft: true
+            topics: [family-address]
+            sources: [skill-dictionary-v1]
+  - note:
+      en: Word formation with distal denotation by adding hỏi tone to the root em in Southern Vietnamese and some topolects of Thanh Hoá.
+    pos:
+      - pos: pron
+        senses:
+          - gloss:
+              en: they/them, that person who's a little younger than me
+            region: [central, south]
+            labels: [polite]
+            examples:
+              - text: Cô bé mới vô làm, ẻm lanh lẹ lắm, chị chỉ một lần là biết.
+                standard: Cô bé mới vào làm, em ấy nhanh nhẹn lắm, chị chỉ một lần là biết.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%E1%BA%BBm#Vietnamese
+          - gloss:
+              en: they/them, that student who's younger than me as a teacher
+            region: [central, south]
+            labels: [polite]
+            examples:
+              - text: Lớp cô có em Tín, ẻm học giỏi mà nhà xa, ngày nào cũng đạp xe mười mấy cây số.
+                standard: Lớp cô có em Tín, em ấy học giỏi mà nhà xa, ngày nào cũng đạp xe hơn mười cây số.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%E1%BA%BBm#Vietnamese

@@ -1,0 +1,31 @@
+spelling: ngàn
+etymologies:
+  - note:
+      en: See nghìn.
+    derived: [ngàn cân treo sợi tóc, ngàn dâu, ngàn thu, ngàn trùng]
+    pos:
+      - pos: num
+        han_nom: [彦, 𠦳]
+        senses:
+          - gloss:
+              en: thousand
+            qualifier: limited usage that is usually literary in Northern Vietnam; regular usage in Central Vietnam or Southern Vietnam; limited usage that is usually literary in Northern Vietnam; regular usage in Central Vietnam or Southern Vietnam
+            region: [central, north, south]
+            variant_of: nghìn
+            examples:
+              - text: giấc ngủ ngàn thu
+                en: an eternal slumber
+              - text: |-
+                  Ru con, mẹ ru con,
+                  Tiếng ru cả cuộc đời.
+                  Ru con lời ru,
+                  Cất lên từ ngàn đời.
+                en: |-
+                  Lull you, I lull you,
+                  With the song of a lifetime.
+                  Lull you, with a lullaby,
+                  Resonating with eternity.
+                ref: "(Can we date this quote?), Văn Thành Nho, “Đất nước lời ru [Our Land, a Lullaby]”:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ng%C3%A0n#Vietnamese

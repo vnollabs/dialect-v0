@@ -1,0 +1,11 @@
+spelling: gì đâu
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Đứng sau tính từ để nhấn mạnh khi khen hay than, như 'quá trời'; khác 'có gì đâu' (không có gì)
+            region: [south]
+            examples:
+              - text: Con nhỏ đó dễ thương gì đâu á!
+            topics: [discourse-markers]
+            sources: [skill-dictionary-v1]

@@ -1,0 +1,14 @@
+spelling: thắng
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Phanh
+            region: [south]
+            standard: [phanh]
+            examples:
+              - text: Xuống dốc nhớ bóp thắng từ từ nghen.
+                standard: Xuống dốc nhớ bóp phanh từ từ nhé.
+                ai_draft: true
+            topics: [transport]
+            sources: [skill-dictionary-v1]

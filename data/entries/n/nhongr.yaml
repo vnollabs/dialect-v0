@@ -1,0 +1,14 @@
+spelling: nhỏng
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to point upward
+            region: [south]
+            examples:
+              - text: Đầu súng nhỏng lên trời.
+                en: The gun points to the sky.
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/nh%E1%BB%8Fng#Vietnamese

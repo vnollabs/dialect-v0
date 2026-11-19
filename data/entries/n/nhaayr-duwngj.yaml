@@ -1,0 +1,16 @@
+spelling: nhẩy dựng
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: alternative form of nhảy dựng
+            region: [north, south]
+            variant_of: nhảy dựng
+            examples:
+              - text: Bị kiến lửa cắn, thằng nhỏ nhẩy dựng lên la oai oái.
+                standard: Bị kiến lửa đốt, thằng bé nhảy dựng lên kêu oai oái.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/nh%E1%BA%A9y_d%E1%BB%B1ng#Vietnamese

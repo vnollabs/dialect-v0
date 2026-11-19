@@ -1,0 +1,15 @@
+spelling: lảng
+etymologies:
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: hard of hearing due to old age
+            region: [central, south]
+            examples:
+              - text: Bà nội lảng tai rồi, con nói lớn chút bả mới nghe.
+                standard: Bà nội nặng tai rồi, con nói to một chút bà ấy mới nghe.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%E1%BA%A3ng#Vietnamese

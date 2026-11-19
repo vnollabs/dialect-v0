@@ -1,0 +1,33 @@
+spelling: lục lăng
+etymologies:
+  - type: sino
+    han: 六
+    note:
+      en: Sino-Vietnamese word from 六 (“six”) and 棱 (“arris, edge, corner”).
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: a gangster, an homeless guy who causes trouble
+            region: [south]
+            labels: [obsolete, slang]
+            examples:
+              - text: Hồi xưa khúc chợ đó có mấy thằng lục lăng chuyên kiếm chuyện đánh lộn.
+                standard: Hồi xưa khúc chợ đó có mấy thằng du côn chuyên gây chuyện đánh nhau.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%E1%BB%A5c_l%C4%83ng#Vietnamese
+      - pos: adj
+        senses:
+          - gloss:
+              en: aggressive, stubborn, tameless
+            region: [south]
+            labels: [obsolete, slang]
+            examples:
+              - text: Thằng con ổng hồi nhỏ lục lăng lắm, ai nói gì cũng hổng nghe.
+                standard: Thằng con ông ấy hồi nhỏ ngang bướng lắm, ai nói gì cũng không nghe.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%E1%BB%A5c_l%C4%83ng#Vietnamese

@@ -1,0 +1,18 @@
+spelling: đệch
+etymologies:
+  - pos:
+      - pos: intj
+        senses:
+          - gloss:
+              en: eye dialect spelling of đệt, representing Southern Vietnam Vietnamese
+            qualifier: minced oath
+            region: [south]
+            labels: [internet, pronunciation-spelling]
+            variant_of: đệt
+            examples:
+              - text: Đệch, chạy tới nhà rồi mới nhớ ra quên đem chìa khóa!
+                standard: Đệt, đi tới nhà rồi mới nhớ ra quên mang chìa khóa!
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%E1%BB%87ch#Vietnamese

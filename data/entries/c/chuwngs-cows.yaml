@@ -1,0 +1,18 @@
+spelling: chứng cớ
+etymologies:
+  - note:
+      en: Compare thư and thơ (“letter”), tiểu thư and tiểu thơ (“young mistress”).
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: evidence; proof
+            region: [south]
+            variant_of: chứng cứ
+            examples:
+              - text: Nói người ta lấy đồ thì phải có chứng cớ, đừng có nghi bậy.
+                standard: Nói người ta lấy đồ thì phải có chứng cứ, đừng có nghi bậy.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ch%E1%BB%A9ng_c%E1%BB%9B#Vietnamese

@@ -1,0 +1,11 @@
+spelling: vậy chớ
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: "Đầu câu hỏi: vậy thì, thế thì (hỏi tới, hỏi vặn); giữa câu: vậy mà, tuy vậy"
+            region: [south]
+            examples:
+              - text: Vậy chớ bây giờ tính sao?
+            topics: [discourse-markers]
+            sources: [skill-dictionary-v1]

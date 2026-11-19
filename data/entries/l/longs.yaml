@@ -1,0 +1,18 @@
+spelling: lóng
+etymologies:
+  - type: native
+    note:
+      en: From Proto-Vietic *p-lɔːŋʔ.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: node, phalanx
+            region: [central, south]
+            examples:
+              - text: Mía năm nay lóng dài, chặt khúc nào ăn cũng ngọt.
+                standard: Mía năm nay đốt dài, chặt khúc nào ăn cũng ngọt.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%C3%B3ng#Vietnamese

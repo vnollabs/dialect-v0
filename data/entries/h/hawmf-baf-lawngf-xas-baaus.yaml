@@ -1,0 +1,13 @@
+spelling: hằm bà lằng xá bấu
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Lộn xộn, không theo quy tắc nào
+            region: [south]
+            examples:
+              - text: Đồ đạc trong kho để hằm bà lằng xá bấu, kiếm cái búa hổng ra.
+                standard: Đồ đạc trong kho để lộn xộn lung tung, tìm cái búa không ra.
+                ai_draft: true
+            topics: [idioms]
+            sources: [skill-dictionary-v1]

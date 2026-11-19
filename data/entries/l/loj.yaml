@@ -1,0 +1,20 @@
+spelling: lọ
+etymologies:
+  - type: native
+    note:
+      en: From Proto-Vietic *m-lɔːʔ. See nhọ for more.
+    derived: [khắm lọ, Lọ Lem, lọ nghẹ]
+    pos:
+      - pos: noun
+        han_nom: [路]
+        senses:
+          - gloss:
+              en: soot
+            region: [central, south]
+            examples:
+              - text: Nó chùi bếp xong, mặt dính lọ đen một mảng mà hổng hay.
+                standard: Nó lau bếp xong, mặt dính nhọ đen một mảng mà không biết.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%E1%BB%8D#Vietnamese

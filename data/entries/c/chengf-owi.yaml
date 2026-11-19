@@ -1,0 +1,18 @@
+spelling: chèng ơi
+etymologies:
+  - note:
+      en: Likely a blend of Vietnamese chời (“Eye-dialect spelling of trời (“sky, heaven”)”) and mèng, which is possibly from Khmer មេឃ (meik, “sky”), in the interjections mèng ơi and mèng đéc ơi.
+    pos:
+      - pos: intj
+        senses:
+          - gloss:
+              en: gosh, golly, golly gee, gee whiz
+            region: [south]
+            synonyms: [trời ơi, trời đất ơi, mèng ơi, mèng đéc ơi, chèng đéc ơi]
+            examples:
+              - text: Chèng ơi, coi bộ mưa lớn rồi, lo dọn hàng vô lẹ đi!
+                standard: Trời ơi, xem ra mưa to rồi, lo dọn hàng vào nhanh đi!
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ch%C3%A8ng_%C6%A1i#Vietnamese

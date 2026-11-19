@@ -1,0 +1,13 @@
+spelling: bữa nọ
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Hôm nọ
+            region: [mekong-delta]
+            examples:
+              - text: Bữa nọ có người lạ hỏi thăm nhà ông Bảy, bà có biết ai hông?
+                standard: Hôm nọ có người lạ hỏi thăm nhà ông Bảy, bà có biết ai không?
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

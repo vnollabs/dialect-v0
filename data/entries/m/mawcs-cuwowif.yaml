@@ -1,0 +1,23 @@
+spelling: mắc cười
+etymologies:
+  - type: compound
+    note:
+      en: mắc (“to want to”) + cười (“to laugh”).
+    pos:
+      - pos: adj
+        senses:
+          - gloss:
+              vi: Buồn cười
+              en: funny
+            region: [south]
+            standard: [buồn cười]
+            synonyms: [tức cười, buồn cười]
+            examples:
+              - text: Suốt buổi, không dính con cá nào, chị nói, "Mắc cười quá, tới mấy con cá quỷ này còn chê chị".
+                en: The entire time, she could not catch a single fish; she said, "So funny, even those fiendish fish refuse me."
+                ref: "2005, Nguyễn Ngọc Tư, “Cánh đồng bất tận” (chapter 2), in Cánh đồng bất tận, NXB Trẻ:"
+            topics: [qualities-feelings]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%E1%BA%AFc_c%C6%B0%E1%BB%9Di#Vietnamese

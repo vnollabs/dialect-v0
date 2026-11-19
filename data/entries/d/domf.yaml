@@ -1,0 +1,31 @@
+spelling: dòm
+etymologies:
+  - note:
+      en: Cognate with Tho [Cuối Chăm] jɔːm². See also dơ and nhơ.
+    derived: [dòm ngó, nom dòm, ống dòm]
+    pos:
+      - pos: verb
+        han_nom: [𥉰, 𥛗, 窞, 𥈺]
+        senses:
+          - gloss:
+              en: to look through a narrow opening or passage
+            region: [south]
+            variant_of: nhòm
+            examples:
+              - text: Thằng nhỏ dòm qua khe cửa coi ai mới tới.
+                standard: Thằng bé nhòm qua khe cửa xem ai mới tới.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/d%C3%B2m#Vietnamese
+          - gloss:
+              en: to look at
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Mày dòm coi trời có mưa hông rồi hẵng phơi đồ.
+                standard: Mày nhìn xem trời có mưa không rồi hẵng phơi quần áo.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/d%C3%B2m#Vietnamese

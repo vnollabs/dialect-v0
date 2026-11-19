@@ -1,0 +1,16 @@
+spelling: lè
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: (“to push (usually food) out of one's mouth”)
+            region: [central, south]
+            variant_of: nhè
+            examples:
+              - text: Thằng nhỏ hổng chịu ăn, đút muỗng nào nó lè ra muỗng đó.
+                standard: Thằng bé không chịu ăn, đút thìa nào nó nhè ra thìa đó.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%C3%A8#Vietnamese

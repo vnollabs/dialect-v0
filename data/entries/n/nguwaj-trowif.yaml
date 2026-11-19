@@ -1,0 +1,20 @@
+spelling: ngựa trời
+etymologies:
+  - type: compound
+    note:
+      en: ngựa (“horse”) + trời (“sky”).
+    pos:
+      - pos: noun
+        classifiers: [con]
+        senses:
+          - gloss:
+              en: mantis
+            region: [south]
+            synonyms: [bọ ngựa]
+            examples:
+              - text: Con ngựa trời đậu trên cành bông, giơ hai cái càng lên coi dữ dằn.
+                standard: Con bọ ngựa đậu trên cành hoa, giơ hai cái càng lên trông dữ dằn.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ng%E1%BB%B1a_tr%E1%BB%9Di#Vietnamese

@@ -1,0 +1,22 @@
+spelling: cà na
+etymologies:
+  - type: loan
+    lang: nan-tws
+    source_form: 橄欖
+    note:
+      en: From Teochew 橄欖 /橄榄 (gan¹ na²). Compare Thai กาน้า.
+    pos:
+      - pos: noun
+        classifiers: [cây, quả, trái]
+        senses:
+          - gloss:
+              en: plants of the genus Canarium
+            region: [south]
+            standard: [bùi, trám]
+            examples:
+              - text: Ngoài cổng trường có bà bán cà na dầm đường, tụi nhỏ bu lại mua đông nghẹt.
+                standard: Ngoài cổng trường có bà bán trám dầm đường, bọn trẻ xúm lại mua đông nghịt.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%C3%A0_na#Vietnamese

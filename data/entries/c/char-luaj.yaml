@@ -1,0 +1,19 @@
+spelling: chả lụa
+etymologies:
+  - type: compound
+    note:
+      en: chả + lụa.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: Vietnamese pork sausage
+            region: [south]
+            synonyms: [giò lụa]
+            examples:
+              - text: Ổ bánh mì chả lụa thêm chút đồ chua, ăn sáng là chắc bụng.
+                standard: Cái bánh mì giò lụa thêm chút đồ chua, ăn sáng là chắc bụng.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ch%E1%BA%A3_l%E1%BB%A5a#Vietnamese

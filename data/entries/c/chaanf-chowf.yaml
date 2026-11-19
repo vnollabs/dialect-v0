@@ -1,0 +1,16 @@
+spelling: chần chờ
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: alternative form of chần chừ
+            region: [south]
+            variant_of: chần chừ
+            examples:
+              - text: Có gì thì nói lẹ đi, đừng chần chờ nữa.
+                standard: Có gì thì nói nhanh đi, đừng chần chừ nữa.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ch%E1%BA%A7n_ch%E1%BB%9D#Vietnamese

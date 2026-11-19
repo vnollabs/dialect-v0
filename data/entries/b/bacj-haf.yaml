@@ -1,0 +1,25 @@
+spelling: bạc hà
+etymologies:
+  - type: sino
+    han: 薄荷
+    note:
+      en: Sino-Vietnamese word from 薄荷.
+    pos:
+      - pos: noun
+        classifiers: [cây]
+        senses:
+          - gloss:
+              vi: Dọc mùng
+              en: Colocasia gigantea
+            region: [south]
+            standard: [dọc mùng]
+            synonyms: [môn thơm, dọc mùng, rọc mùng]
+            examples:
+              - text: Má tước vỏ mấy cọng bạc hà, xắt xéo bỏ vô nồi canh chua cá.
+                standard: Mẹ tước vỏ mấy cọng dọc mùng, thái xéo cho vào nồi canh chua cá.
+                ai_draft: true
+            topics: [food-drink]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%E1%BA%A1c_h%C3%A0#Vietnamese

@@ -1,0 +1,25 @@
+spelling: hên
+etymologies:
+  - type: loan
+    lang: nan-tws
+    source_form: 興
+    note:
+      en: Borrowed from Teochew 興 /兴 (hêng¹, “lucky”). Compare Thai เฮง (heng), Khmer ហេង (heeng), English heng. See also Sino-Vietnamese hạnh.
+    derived: [hên xui]
+    pos:
+      - pos: adj
+        han_nom: [𢟑]
+        senses:
+          - gloss:
+              vi: May
+              en: lucky
+            region: [south]
+            standard: [may]
+            synonyms: [may]
+            examples:
+              - text: Hên xui may rủi
+            topics: [qualities-feelings]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/h%C3%AAn#Vietnamese

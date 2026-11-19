@@ -1,0 +1,27 @@
+spelling: hèn gì
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Thảo nào, bảo sao; vỡ lẽ ra nguyên do
+            region: [south]
+            synonyms: [hèn chi]
+            examples:
+              - text: Trời hầm quá, hèn gì cá trong ao nổi đầu hết.
+                standard: Trời oi quá, thảo nào cá trong ao nổi đầu hết.
+                ai_draft: true
+            topics: [discourse-markers]
+            sources: [skill-dictionary-v1]
+  - pos:
+      - pos: intj
+        senses:
+          - gloss:
+              en: I know it; no wonder; just as I expected
+            region: [north, south]
+            examples:
+              - text: Hèn gì! Tui biết trước kiểu gì nó cũng quên mà.
+                standard: Biết ngay mà! Tôi biết trước kiểu gì nó cũng quên mà.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/h%C3%A8n_g%C3%AC#Vietnamese

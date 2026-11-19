@@ -1,0 +1,16 @@
+spelling: càm ràm
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to whinge; to whine; to complain
+            region: [central, south]
+            labels: [colloquial]
+            examples:
+              - text: Ổng về tới nhà là càm ràm chuyện kẹt xe hoài.
+                standard: Ông ấy về đến nhà là cằn nhằn chuyện tắc đường mãi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%C3%A0m_r%C3%A0m#Vietnamese

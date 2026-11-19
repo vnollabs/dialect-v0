@@ -1,0 +1,22 @@
+spelling: bưng
+etymologies:
+  - type: loan
+    lang: km
+    source_form: បឹង
+    note:
+      en: Borrowed from Khmer បឹង (bəng, “lake”).
+    derived: [bưng biền]
+    pos:
+      - pos: noun
+        han_nom: [𣵮]
+        senses:
+          - gloss:
+              en: a kind of marshland
+            region: [south]
+            examples:
+              - text: Ông nội kể hồi đó phải lội bưng cả buổi mới ra tới chợ.
+                standard: Ông nội kể hồi đó phải lội đầm lầy cả buổi mới ra đến chợ.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%C6%B0ng#Vietnamese

@@ -1,0 +1,18 @@
+spelling: Thế Tôn
+etymologies:
+  - type: sino
+    han: 世宗
+    note:
+      en: "Non-Sino-Vietnamese reading of Chinese 世宗 (SV: Thế Tông). See tôn giáo."
+    pos:
+      - pos: name
+        senses:
+          - gloss:
+              en: a temple name
+            region: [south]
+            labels: [historical]
+            variant_of: Thế Tông
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/Th%E1%BA%BF_T%C3%B4n#Vietnamese
+            note: "No example yet: the AI drafter skipped this sense (historical temple name of real rulers; any sentence would make claims about real historical people). Check that the sense is real before adding one."

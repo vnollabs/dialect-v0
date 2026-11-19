@@ -1,0 +1,16 @@
+spelling: đục
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to punch; to throw a punch
+            region: [south]
+            labels: [colloquial]
+            synonyms: [thụt, đấm]
+            examples:
+              - text: đục phù mỏ
+                en: to give a beating until the opponent's lips are busted
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%E1%BB%A5c#Vietnamese

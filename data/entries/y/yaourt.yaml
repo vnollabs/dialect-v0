@@ -1,0 +1,16 @@
+spelling: yaourt
+etymologies:
+  - pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: alternative form of da-ua
+            region: [south]
+            variant_of: da-ua
+            examples:
+              - text: Ăn cơm xong, má cho mỗi đứa một hũ yaourt.
+                standard: Ăn cơm xong, mẹ cho mỗi đứa một hộp da-ua.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/yaourt#Vietnamese

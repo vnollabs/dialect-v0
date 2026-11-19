@@ -1,0 +1,19 @@
+spelling: minh mông
+etymologies:
+  - type: sino
+    han: 冥蒙
+    note:
+      en: Sino-Vietnamese word from 冥蒙.
+    pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: vast; immense; extensive; boundless
+            region: [central, south]
+            examples:
+              - text: Đứng trên bờ đê ngó ra, đồng lúa minh mông bát ngát.
+                standard: Đứng trên bờ đê nhìn ra, đồng lúa mênh mông bát ngát.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/minh_m%C3%B4ng#Vietnamese

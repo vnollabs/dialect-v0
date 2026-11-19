@@ -1,0 +1,22 @@
+spelling: chao
+etymologies:
+  - type: loan
+    lang: nan-hbl
+    source_form: 醬
+    note:
+      en: "From a form of Hokkien 醬 /酱 (chiùⁿ) (SV: tương). Compare Thai เต้าเจี้ยว (dtâo-jîao), Lao ເຕົ້າຈ້ຽວ (taochiāu), Malay taoco, taucu. Doublet of tương."
+    pos:
+      - pos: noun
+        han_nom: [洲]
+        senses:
+          - gloss:
+              en: fermented bean curd
+            region: [central, south]
+            synonyms: [đậu phụ nhự]
+            examples:
+              - text: Rau muống luộc chấm chao, ăn với cơm nóng là hết sẩy.
+                standard: Rau muống luộc chấm đậu phụ nhự, ăn với cơm nóng là tuyệt.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/chao#Vietnamese

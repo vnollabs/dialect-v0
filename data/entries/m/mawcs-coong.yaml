@@ -1,0 +1,13 @@
+spelling: mắc công
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Mất công, phiền
+            region: [mekong-delta]
+            examples:
+              - text: Đem theo cây dù đi, mắc công trời mưa lại phải chạy về lấy.
+                standard: Mang theo cái ô đi, kẻo mất công trời mưa lại phải chạy về lấy.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

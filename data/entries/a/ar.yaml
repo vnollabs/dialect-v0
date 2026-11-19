@@ -1,0 +1,17 @@
+spelling: ả
+etymologies:
+  - pos:
+      - pos: noun
+        han_nom: [妸, 婭, 阿]
+        senses:
+          - gloss:
+              en: villainess
+            region: [north, south]
+            labels: [derogatory]
+            examples:
+              - text: Coi phim mà tức, ả đó gạt hết tiền của ông lão rồi bỏ trốn.
+                standard: Xem phim mà tức, ả đó lừa hết tiền của ông lão rồi bỏ trốn.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%E1%BA%A3#Vietnamese

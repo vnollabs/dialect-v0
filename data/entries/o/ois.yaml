@@ -1,0 +1,21 @@
+spelling: ói
+etymologies:
+  - type: native
+    note:
+      en: Inherited from Proto-Vietic *ʔoːlʔ (“to choke while eating”), from Proto-Austroasiatic *ʔoːlʔ ~ *ʔuəl (“to choke; to vomit”). Cognate with Chut [Rục] ʔoːl³, Arem ʔuəlˀ ("to choke"), Pacoh oal, Khmer អួល (ʼuəl, “to gag; to choke”).
+    derived: [mắc ói, nôn ói, ói mửa, tức ói máu]
+    pos:
+      - pos: verb
+        han_nom: [喂, 𣾿]
+        senses:
+          - gloss:
+              en: to vomit
+            region: [central, south]
+            synonyms: [mửa, nôn]
+            examples:
+              - text: Đi ghe lâu say sóng, nó ói mấy lần.
+                standard: Đi thuyền lâu say sóng, nó nôn mấy lần.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C3%B3i#Vietnamese

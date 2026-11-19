@@ -1,0 +1,17 @@
+spelling: sanh viên
+etymologies:
+  - pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: postsecondary student
+            region: [south]
+            labels: [dated]
+            variant_of: sinh viên
+            examples:
+              - text: Hồi tui còn là sanh viên, ngày nào cũng đạp xe đi học.
+                standard: Hồi tôi còn là sinh viên, ngày nào cũng đạp xe đi học.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/sanh_vi%C3%AAn#Vietnamese

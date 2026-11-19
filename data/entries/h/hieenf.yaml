@@ -1,0 +1,30 @@
+spelling: hiền
+etymologies:
+  - type: sino
+    han: 賢
+    note:
+      en: Sino-Vietnamese word from 賢 (“able; talented, virtuous; decent, good-natured, kind”).
+    pos:
+      - pos: adj
+        han_nom: [賢, 贒, 䝨]
+        senses:
+          - gloss:
+              en: ingenuous
+            region: [south]
+            labels: [euphemistic]
+            examples:
+              - text: Em hiền quá à! Vậy thì sao có bồ được?
+                en: You're too ingenuous! How can you get a girlfriend?
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/hi%E1%BB%81n#Vietnamese
+          - gloss:
+              en: innocuous, harmless, nutritious, healthy
+            qualifier: of foods
+            region: [south]
+            examples:
+              - text: I eat a very healthy diet with lots of green vegetables and other foods rich in folate. Do I still need a supplement?
+                ref: "2009, “Preventing Neural Tube Defects For Couples at Increased Risk”, in Western States Regional Genetics Network; translated into Vietnamese as Tin Mới Nhất Về Di Truyền - Ngừa Khuyết Tật Ống Thần Kinh Thai Nhi Cho Những Ông Bà Có Nhiều Rủi Ro, 2009:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/hi%E1%BB%81n#Vietnamese

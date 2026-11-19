@@ -1,0 +1,20 @@
+spelling: da
+etymologies:
+  - note:
+      en: See đa. This form has been completely displaced by the mainstream đa originated from Central Vietnam. Attested in Dictionarium Annamiticum Lusitanum et Latinum (1651) as dĕa.
+    pos:
+      - pos: noun
+        classifiers: [cây]
+        senses:
+          - gloss:
+              en: banyan
+            region: [north, south]
+            labels: [obsolete]
+            variant_of: đa
+            examples:
+              - text: Hồi xưa đầu làng có cây da cổ thụ, trưa nào tụi nhỏ cũng ra đó chơi.
+                standard: Hồi xưa đầu làng có cây đa cổ thụ, trưa nào bọn trẻ cũng ra đó chơi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/da#Vietnamese

@@ -1,0 +1,15 @@
+spelling: úi
+etymologies:
+  - pos:
+      - pos: intj
+        senses:
+          - gloss:
+              en: An expression of surprise
+            region: [central, south]
+            examples:
+              - text: Úi, sao bữa nay con về sớm vậy?
+                standard: Ôi, sao hôm nay con về sớm thế?
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C3%BAi#Vietnamese

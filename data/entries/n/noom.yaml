@@ -1,0 +1,20 @@
+spelling: nôm
+etymologies:
+  - note:
+      en: Doublet of nam and nồm, as in gió nồm (“south(eastern) wind”). See nam for etymology.
+    derived: [nôm na]
+    pos:
+      - pos: adj
+        han_nom: [南, 喃]
+        senses:
+          - gloss:
+              en: pronunciation spelling of nam, representing Quảng Nam and Quảng Ngãi Vietnamese
+            region: [south-central]
+            labels: [pronunciation-spelling]
+            variant_of: nam
+            examples:
+              - text: Quảng Nôm
+                en: Quảng Nam
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/n%C3%B4m#Vietnamese

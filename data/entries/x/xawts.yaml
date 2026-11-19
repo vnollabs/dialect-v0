@@ -1,0 +1,29 @@
+spelling: xắt
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Thái (rau, thịt)
+            region: [south]
+            examples:
+              - text: Xắt rau heo
+            topics: [actions]
+            sources: [skill-dictionary-v1]
+  - type: sino
+    han: 切
+    note:
+      en: "Non-Sino-Vietnamese reading of Chinese 切 (SV: thiết). Doublet of siết."
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to slice
+            region: [central, south]
+            synonyms: [thái]
+            examples:
+              - text: Xắt hành lá nhỏ nhỏ để rắc lên tô cháo.
+                standard: Thái hành lá nhỏ nhỏ để rắc lên bát cháo.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/x%E1%BA%AFt#Vietnamese

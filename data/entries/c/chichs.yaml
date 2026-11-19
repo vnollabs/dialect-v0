@@ -1,0 +1,36 @@
+spelling: chích
+etymologies:
+  - type: native
+    note:
+      en: From Proto-Mon-Khmer *cuk ~ *cuuk ~ *cuək ~ *cak ~ *ciik ~ *c(i)ək (“to prod; to pierce”); cognate with Khmer ចឹក (cək).
+    pos:
+      - pos: verb
+        han_nom: [炙]
+        senses:
+          - gloss:
+              en: to sting
+            qualifier: of an insect
+            region: [south]
+            synonyms: [đốt]
+            examples:
+              - text: Coi chừng con ong chích đó, đừng có lấy tay quơ.
+                standard: Cẩn thận con ong đốt đấy, đừng có lấy tay khua.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ch%C3%ADch#Vietnamese
+          - gloss:
+              vi: Tiêm
+              en: to inject (medicine)
+            region: [south]
+            standard: [tiêm]
+            synonyms: [tiêm]
+            examples:
+              - text: Thằng nhỏ sợ chích thuốc, thấy cô y tá là khóc ré lên.
+                standard: Thằng bé sợ tiêm thuốc, thấy cô y tá là khóc ré lên.
+                ai_draft: true
+            topics: [actions]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ch%C3%ADch#Vietnamese

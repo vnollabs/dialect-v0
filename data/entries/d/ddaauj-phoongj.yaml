@@ -1,0 +1,23 @@
+spelling: đậu phộng
+etymologies:
+  - type: compound
+    note:
+      en: đậu + phộng.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              vi: Lạc
+              en: peanut, groundnut, earthnut
+            region: [south]
+            standard: [lạc]
+            synonyms: [đậu phụng, lạc]
+            examples:
+              - text: Má rang đậu phộng thơm phức, tụi nhỏ bốc ăn hoài.
+                standard: Mẹ rang lạc thơm phức, bọn trẻ bốc ăn mãi.
+                ai_draft: true
+            topics: [food-drink]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%E1%BA%ADu_ph%E1%BB%99ng#Vietnamese

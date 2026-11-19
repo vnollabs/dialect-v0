@@ -1,0 +1,14 @@
+spelling: xứa
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Chen vô, can thiệp chuyện người khác
+            region: [mekong-delta]
+            synonyms: [xía, chỏ]
+            examples:
+              - text: Người lớn nói chuyện, con nít đừng có xứa vô.
+                standard: Người lớn nói chuyện, trẻ con đừng có xen vào.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

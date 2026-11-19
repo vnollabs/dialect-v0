@@ -1,0 +1,15 @@
+spelling: bàn thoạ
+etymologies:
+  - pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: drawer
+            region: [south-central]
+            synonyms: [hộc bàn]
+            examples:
+              - text: Cha để giấy tờ của con trong cái bàn thoạ nớ.
+                en: I've put your documents in that drawer.
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%C3%A0n_tho%E1%BA%A1#Vietnamese

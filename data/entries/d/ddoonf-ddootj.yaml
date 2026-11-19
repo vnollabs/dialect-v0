@@ -1,0 +1,17 @@
+spelling: đồn đột
+etymologies:
+  - pos:
+      - pos: noun
+        classifiers: [con]
+        senses:
+          - gloss:
+              en: sea cucumber
+            region: [central, south]
+            synonyms: [hải sâm, dưa chuột biển]
+            examples:
+              - text: Tiệm hải sản ngoài chợ có bán đồn đột phơi khô, mà mắc dữ lắm.
+                standard: Cửa hàng hải sản ngoài chợ có bán hải sâm phơi khô, mà đắt lắm.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%E1%BB%93n_%C4%91%E1%BB%99t#Vietnamese

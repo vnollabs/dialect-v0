@@ -1,0 +1,28 @@
+spelling: bộ
+etymologies:
+  - pos:
+      - pos: particle
+        senses:
+          - gloss:
+              vi: Đầu câu hỏi, tỏ ý thắc mắc, hoài nghi hoặc ngạc nhiên
+            region: [south]
+            examples:
+              - text: Bộ mày tính bỏ đi luôn hả?
+            topics: [particles]
+            sources: [skill-dictionary-v1]
+  - type: sino
+    han: 步
+    note:
+      en: Sino-Vietnamese word from 步.
+    pos:
+      - pos: particle
+        senses:
+          - gloss:
+              en: sentence-initial question particle, is it that? do...? I bet ...
+            region: [south]
+            examples:
+              - text: Bộ tụi bây thấy chán lắm hay sao vậy?
+                en: Do you guys just get seriously bored or what?
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%E1%BB%99#Vietnamese

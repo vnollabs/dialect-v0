@@ -1,0 +1,17 @@
+spelling: phản ảnh
+etymologies:
+  - note:
+      en: An eggcorn of phản ánh, due to ảnh (“image”).
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: eggcorn of phản ánh
+            region: [south]
+            examples:
+              - text: Bà con lên xã phản ảnh chuyện con đường đất bị lún sụt.
+                standard: Bà con lên xã phản ánh chuyện con đường đất bị lún sụt.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ph%E1%BA%A3n_%E1%BA%A3nh#Vietnamese

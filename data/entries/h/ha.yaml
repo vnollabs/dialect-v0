@@ -1,0 +1,15 @@
+spelling: ha
+etymologies:
+  - pos:
+      - pos: particle
+        senses:
+          - gloss:
+              en: yes?; no?; m'kay?; amirite?
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Đẹp ghê ha ?
+                en: Beautiful, isn't it?
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ha#Vietnamese

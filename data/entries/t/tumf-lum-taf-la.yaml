@@ -1,0 +1,14 @@
+spelling: tùm lum tà la
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Bừa bộn, luộm thuộm
+            region: [mekong-delta]
+            synonyms: [tầy quầy]
+            examples:
+              - text: Đồ chơi bày tùm lum tà la, dọn lại đi con.
+                standard: Đồ chơi bày bừa bộn, dọn lại đi con.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

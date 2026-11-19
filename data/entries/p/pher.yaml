@@ -1,0 +1,19 @@
+spelling: phẻ
+etymologies:
+  - note:
+      en: "From khoẻ, whose onset /kʰw-/ became /f-/. Analogous to how Middle Chinese labialized voiceless \"laryngeal\" fricative initial *xw- (in Baxter, 1992's notation system) yielded /f-/ in several modern Chinese varieties; for instance: Middle Chinese 花 (MC xwae) yielded Cantonese 花 (faa¹), Guangdong Hakka 花 (fa¹), Xiang 花 (fa¹), and Gan 花 (fa¹)."
+    derived: [phẻ phắn]
+    pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: alternative form of khoẻ
+            region: [south]
+            variant_of: khoẻ
+            examples:
+              - text: Uống ly nước dừa xong thấy trong người phẻ hẳn.
+                standard: Uống cốc nước dừa xong thấy trong người khoẻ hẳn.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ph%E1%BA%BB#Vietnamese

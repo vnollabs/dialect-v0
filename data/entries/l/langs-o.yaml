@@ -1,0 +1,14 @@
+spelling: láng o
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Trơn láng, bóng loáng, sạch không tì vết
+            region: [south]
+            synonyms: [láng cóng]
+            examples:
+              - text: Chiếc xe mới rửa láng o, ổng hổng cho ai đụng vô.
+                standard: Chiếc xe mới rửa bóng loáng, ông ấy không cho ai động vào.
+                ai_draft: true
+            topics: [qualities-feelings]
+            sources: [skill-dictionary-v1]

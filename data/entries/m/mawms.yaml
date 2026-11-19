@@ -1,0 +1,20 @@
+spelling: mắm
+etymologies:
+  - type: native
+    note:
+      en: From Proto-Vietic *ɓamʔ (“salted fish”). Compare Tày bẳm, from an earlier form of Vietnamese.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: girl; girlie
+            region: [south]
+            labels: [endearing, familiar, humorous]
+            synonyms: [nhỏ, cái]
+            examples:
+              - text: Con mắm này lém lỉnh quá, nói câu nào cũng làm cả nhà cười.
+                standard: Con bé này lém lỉnh quá, nói câu nào cũng làm cả nhà cười.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%E1%BA%AFm#Vietnamese

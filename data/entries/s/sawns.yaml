@@ -1,0 +1,23 @@
+spelling: sắn
+etymologies:
+  - type: native
+    note:
+      en: |-
+        From Proto-Vietic *s-ranʔ. Cognate with Arem rán.
+        Possibly originally referred to the native kudzu, now called sắn dây. The tuberous roots of kudzu can look quite similar to its counterparts in the two New World plants below.
+    pos:
+      - pos: noun
+        han_nom: [𦸰, 𦼛, 𦼜]
+        classifiers: [cây, củ]
+        senses:
+          - gloss:
+              en: jicama
+            region: [south]
+            synonyms: [củ đậu]
+            examples:
+              - text: Ra chợ mua giùm má mấy củ sắn về làm bò bía nghen.
+                standard: Ra chợ mua giúp mẹ mấy củ đậu về làm bò bía nhé.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/s%E1%BA%AFn#Vietnamese

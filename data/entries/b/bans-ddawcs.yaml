@@ -1,0 +1,14 @@
+spelling: bán đắc
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Đông khách, bán chạy; khác mắc là giá cao
+            region: [mekong-delta]
+            synonyms: [đắc]
+            examples:
+              - text: Bữa nay bán đắc quá, mới trưa mà hết sạch xôi rồi.
+                standard: Hôm nay bán đắt hàng quá, mới trưa mà hết sạch xôi rồi.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

@@ -1,0 +1,17 @@
+spelling: giựt
+etymologies:
+  - pos:
+      - pos: verb
+        han_nom: [秩, 迭]
+        senses:
+          - gloss:
+              en: Southern Vietnam form of giật
+            region: [south]
+            variant_of: giật
+            examples:
+              - text: Đi đường nhớ giữ chặt cái giỏ, coi chừng bị giựt nghen.
+                standard: Đi đường nhớ giữ chặt cái túi, cẩn thận bị giật nhé.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/gi%E1%BB%B1t#Vietnamese

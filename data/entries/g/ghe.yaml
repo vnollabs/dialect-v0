@@ -1,0 +1,13 @@
+spelling: ghe
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Thuyền lớn
+            region: [mekong-delta]
+            examples:
+              - text: Chiếc ghe chở lúa của ông Năm mới cập bến hồi khuya.
+                standard: Chiếc thuyền chở thóc của ông Năm mới cập bến lúc đêm khuya.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

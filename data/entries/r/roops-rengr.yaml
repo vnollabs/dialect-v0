@@ -1,0 +1,26 @@
+spelling: rốp rẻng
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Nhanh gọn, dứt khoát
+            region: [mekong-delta]
+            synonyms: [rốp rẽng]
+            examples:
+              - text: Làm gì thì làm rốp rẻng cho xong
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]
+  - pos:
+      - pos: adv
+        senses:
+          - gloss:
+              en: quickly; promptly
+            qualifier: Mekong Delta
+            region: [mekong-delta]
+            examples:
+              - text: Kêu nó phụ là nó làm rốp rẻng liền, hổng cằn nhằn gì hết.
+                standard: Gọi nó giúp là nó làm nhanh nhẹn ngay, không cằn nhằn gì cả.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/r%E1%BB%91p_r%E1%BA%BBng#Vietnamese

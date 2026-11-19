@@ -1,0 +1,17 @@
+spelling: trách
+etymologies:
+  - pos:
+      - pos: noun
+        han_nom: [垞]
+        classifiers: [cái]
+        senses:
+          - gloss:
+              en: earthenware pot; small cooking pot
+            region: [central, south]
+            examples:
+              - text: Má kho cá rô trong cái trách đất, thơm lừng cả nhà.
+                standard: Mẹ kho cá rô trong cái niêu đất, thơm lừng cả nhà.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/tr%C3%A1ch#Vietnamese

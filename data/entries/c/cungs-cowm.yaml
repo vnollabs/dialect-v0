@@ -1,0 +1,18 @@
+spelling: cúng cơm
+etymologies:
+  - type: compound
+    note:
+      en: cúng (“to offer (sacrifices)”) + cơm (“cooked rice”).
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to make ceremonial offerings on the death anniversary
+            region: [south]
+            examples:
+              - text: Mai nhà mình cúng cơm ông nội, con nhớ về sớm phụ má nấu nướng nghen.
+                standard: Mai nhà mình cúng giỗ ông nội, con nhớ về sớm giúp mẹ nấu nướng nhé.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%C3%BAng_c%C6%A1m#Vietnamese

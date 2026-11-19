@@ -1,0 +1,17 @@
+spelling: thẹo
+etymologies:
+  - pos:
+      - pos: noun
+        han_nom: [𤵌]
+        classifiers: [vết, cái]
+        senses:
+          - gloss:
+              en: scar, cicatrice
+            region: [south]
+            examples:
+              - text: Cái thẹo trên trán là hồi nhỏ leo cây té đó.
+                standard: Cái sẹo trên trán là hồi nhỏ trèo cây ngã đấy.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/th%E1%BA%B9o#Vietnamese

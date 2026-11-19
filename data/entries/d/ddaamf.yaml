@@ -1,0 +1,22 @@
+spelling: đầm
+etymologies:
+  - type: loan
+    lang: fr
+    source_form: dame
+    note:
+      en: Borrowed from French dame.
+    pos:
+      - pos: noun
+        classifiers: [cái, bộ]
+        senses:
+          - gloss:
+              en: dress (women's garment)
+            region: [south]
+            synonyms: [váy, xống]
+            examples:
+              - text: Bữa nay đi đám cưới, con Út mặc cái đầm màu hồng đẹp quá trời.
+                standard: Hôm nay đi đám cưới, con Út mặc chiếc váy màu hồng đẹp lắm.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%E1%BA%A7m#Vietnamese

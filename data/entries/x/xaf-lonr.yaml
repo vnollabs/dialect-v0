@@ -1,0 +1,22 @@
+spelling: xà lỏn
+etymologies:
+  - note:
+      en: Borrowed from a neighbouring language, compare Lao ຜ້າສະໂລ່ງ (phāsa lōng) and Thai โสร่ง (sà-ròong).
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              vi: Quần đùi
+              en: (Southern Vietnam) shorts
+            region: [south]
+            standard: [quần đùi]
+            synonyms: [quần cụt, soóc, soọc, quần đùi]
+            examples:
+              - text: '[…] bỗng có một ông bố mặc "xà lỏn" lượn qua lượn lại,[…]'
+                en: "[…] suddenly there was a dad wearing only shorts pacing back and forth, […]"
+                ref: '2022, Hiếu Đan, “Cô giáo yêu cầu học sinh bật camera để kiểm tra, ông bố mặc quần "xà lỏn" ghé mặt vào nói 1 câu: Cô đứng hình, chỉ muốn bỏ luôn tiết dạy”, in aFamily:'
+            topics: [household]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/x%C3%A0_l%E1%BB%8Fn#Vietnamese

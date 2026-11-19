@@ -1,0 +1,13 @@
+spelling: mắm kho
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Mắm cá linh, cá sặc kho với thịt ba rọi, cà tím, ăn kèm rau đồng, bông súng
+            region: [mekong-delta]
+            examples:
+              - text: Bữa nay má nấu nồi mắm kho, có rau đồng với bông súng ăn kèm.
+                standard: Hôm nay mẹ nấu nồi mắm kho, có rau đồng với hoa súng ăn kèm.
+                ai_draft: true
+            topics: [mekong-food]
+            sources: [skill-dictionary-v1]

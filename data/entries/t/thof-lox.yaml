@@ -1,0 +1,27 @@
+spelling: thò lõ
+etymologies:
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: bulging and staring
+            qualifier: of eyes
+            region: [south]
+            examples:
+              - text: Nhìn nước bò lên ngập đám cỏ đằng trước, mấy con cá nhỏ đủng đỉnh lội tới lội lui, thò lõ nhướng con mắt coi lũ người ta chẳng ra gì.
+                en: They watched the water creep up and swallow the grass in front; some small fish lazily swam back and forth, eyes wide open and staring at the useless humans.
+                ref: "2005, Nguyễn Ngọc Tư, “Một trái tim khô”, in Cánh đồng bất tận, NXB Trẻ:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/th%C3%B2_l%C3%B5#Vietnamese
+          - gloss:
+              en: conspicuous in an insolent way
+            qualifier: of a pose
+            region: [south]
+            examples:
+              - text: Khách tới nhà mà thằng nhỏ cứ ngồi thò lõ giữa bộ ván, hổng chào ai.
+                standard: Khách đến nhà mà thằng bé cứ ngồi chềnh ềnh giữa bộ phản, không chào ai.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/th%C3%B2_l%C3%B5#Vietnamese

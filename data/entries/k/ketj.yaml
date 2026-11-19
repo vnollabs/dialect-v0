@@ -1,0 +1,16 @@
+spelling: kẹt
+etymologies:
+  - pos:
+      - pos: verb
+        han_nom: [搩, 桀, 磔]
+        senses:
+          - gloss:
+              en: to be busy
+            region: [south]
+            examples:
+              - text: Mai tui kẹt rồi, hổng đi đám cưới với bà được.
+                standard: Mai tôi bận rồi, không đi đám cưới cùng bà được.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/k%E1%BA%B9t#Vietnamese

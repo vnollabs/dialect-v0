@@ -1,0 +1,15 @@
+spelling: dởm
+etymologies:
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: fake; false; bad
+            region: [south]
+            examples:
+              - text: Cái quạt mua ngoài lề đường là hàng dởm, xài một tuần là hư.
+                standard: Cái quạt mua ngoài vỉa hè là hàng dởm, dùng một tuần là hỏng.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/d%E1%BB%9Fm#Vietnamese

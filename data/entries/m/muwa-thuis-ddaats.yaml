@@ -1,0 +1,14 @@
+spelling: mưa thúi đất
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Mưa kéo dài liên miên nhiều ngày không dứt
+            region: [south]
+            synonyms: [mưa dầm]
+            examples:
+              - text: Mưa thúi đất mấy bữa nay, đồ phơi hổng khô, nhà cửa ẩm rề.
+                standard: Mưa dầm dề mấy hôm nay, quần áo phơi không khô, nhà cửa ẩm ướt.
+                ai_draft: true
+            topics: [weather-orchards]
+            sources: [skill-dictionary-v1]

@@ -1,0 +1,20 @@
+spelling: mì gói
+etymologies:
+  - type: compound
+    note:
+      en: mì + gói.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: instant noodles
+            region: [south]
+            labels: [colloquial]
+            synonyms: [mì ăn liền, mì tôm]
+            examples:
+              - text: Hết đồ ăn rồi, tối nay nấu mì gói ăn đỡ nghen.
+                standard: Hết đồ ăn rồi, tối nay nấu mì tôm ăn tạm nhé.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%C3%AC_g%C3%B3i#Vietnamese

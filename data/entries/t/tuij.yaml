@@ -1,0 +1,38 @@
+spelling: tụi
+etymologies:
+  - type: loan
+    lang: zh
+    note:
+      en: |-
+        From a form of Chinese 對 (MC twojH) (SV: đối) in a southern Sinitic lect. Southern Min lects (對 /对 (dui³) or 對 /对) are phonetically close, but in these lects, the word for "pair" is usually 雙 (MC sraewng); in Yue, 對 /对 is the chief word for "pair" but phonetically it is less straightforward as far as the prestigious Guangfu lects are concerned. In any case, doublet of đôi.
+        In Đại Nam quấc âm tự vị (1895), tụi was glossed as [Đ]ôi, cặp, bọn (“pair, couple, bunch”).
+    derived: [tụi bay, tụi bây, tụi đấy, tụi đó, tụi mày, tụi mình, tụi này, tụi nó, tụi tao, tụi tui]
+    pos:
+      - pos: noun
+        han_nom: [對]
+        senses:
+          - gloss:
+              en: group (of people)
+            region: [south-central, south]
+            labels: [informal]
+            examples:
+              - text: Tan học, cả tụi kéo nhau ra quán ăn hủ tiếu.
+                standard: Tan học, cả bọn kéo nhau ra quán ăn hủ tiếu.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/t%E1%BB%A5i#Vietnamese
+      - pos: particle
+        han_nom: [對]
+        senses:
+          - gloss:
+              en: pluralizing particle for pronouns
+            region: [south-central, south]
+            synonyms: [bọn, chúng]
+            examples:
+              - text: Chiều nay tụi em qua phụ chị dọn nhà nghen.
+                standard: Chiều nay bọn em sang giúp chị dọn nhà nhé.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/t%E1%BB%A5i#Vietnamese

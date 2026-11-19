@@ -1,0 +1,18 @@
+spelling: ráng sức
+etymologies:
+  - type: compound
+    note:
+      en: ráng + sức.
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to try hard; to strain; to endeavor
+            region: [south]
+            examples:
+              - text: Tụi mình ráng sức đẩy thêm chút nữa là chiếc ghe lên bờ rồi.
+                standard: Chúng mình cố sức đẩy thêm chút nữa là chiếc thuyền lên bờ rồi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/r%C3%A1ng_s%E1%BB%A9c#Vietnamese

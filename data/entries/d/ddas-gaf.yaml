@@ -1,0 +1,18 @@
+spelling: đá gà
+etymologies:
+  - type: compound
+    note:
+      en: đá (“to fight”) + gà (“chicken”).
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: cockfight
+            region: [south]
+            examples:
+              - text: Trận đá gà hồi trưa làm cả xóm bu lại coi.
+                standard: Trận chọi gà hồi trưa làm cả xóm xúm lại xem.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%C3%A1_g%C3%A0#Vietnamese

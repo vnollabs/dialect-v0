@@ -1,0 +1,21 @@
+spelling: hòm
+etymologies:
+  - type: sino
+    han: 函
+    note:
+      en: "Non-Sino-Vietnamese reading of Chinese 函 (“case”, SV: hàm)."
+    pos:
+      - pos: noun
+        han_nom: [函, 㮀, 凾]
+        classifiers: [cái, chiếc]
+        senses:
+          - gloss:
+              en: coffin; casket
+            region: [central, south]
+            examples:
+              - text: Ông Ba mất rồi, mấy người con đang lo mua hòm làm đám.
+                standard: Ông Ba mất rồi, mấy người con đang lo mua quan tài làm đám tang.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/h%C3%B2m#Vietnamese

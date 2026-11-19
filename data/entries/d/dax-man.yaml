@@ -1,0 +1,21 @@
+spelling: dã man
+etymologies:
+  - type: sino
+    han: 野蠻
+    note:
+      en: Sino-Vietnamese word from 野蠻 (“savage”).
+    pos:
+      - pos: adv
+        senses:
+          - gloss:
+              en: totally, extremely
+            region: [south]
+            labels: [informal]
+            examples:
+              - text: Cái thằng này sao mà ngu dã man!
+                en: You are a total idiot!
+              - text: Phim hay dã man!
+                en: That was an awesome movie!
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/d%C3%A3_man#Vietnamese

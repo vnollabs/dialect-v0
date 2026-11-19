@@ -1,0 +1,13 @@
+spelling: hột gà
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Trứng gà
+            region: [mekong-delta]
+            examples:
+              - text: Ra tiệm mua cho má chục hột gà về chiên nghen.
+                standard: Ra quán mua cho mẹ chục quả trứng gà về rán nhé.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

@@ -1,0 +1,49 @@
+spelling: chế
+etymologies:
+  - type: loan
+    lang: nan-tws
+    note:
+      vi: Gốc tiếng Hoa Triều Châu.
+    pos:
+      - senses:
+          - gloss:
+              vi: Chị
+            region: [south]
+            examples:
+              - text: Chế Hai ơi, bán cho em ổ bánh mì thịt nha.
+                standard: Chị Hai ơi, bán cho em cái bánh mì thịt nhé.
+                ai_draft: true
+            topics: [family-address]
+            sources: [skill-dictionary-v1]
+  - type: loan
+    lang: nan-tws
+    source_form: 姐
+    note:
+      en: From Teochew 姐 (zê2).
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: elder sister
+            qualifier: Mekong Delta
+            region: [mekong-delta]
+            examples:
+              - text: Chế tui có sạp vải ngoài chợ, chiều nào cũng đông khách.
+                standard: Chị gái tôi có sạp vải ngoài chợ, chiều nào cũng đông khách.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ch%E1%BA%BF#Vietnamese
+      - pos: pron
+        senses:
+          - gloss:
+              en: Used to address, or used by, a female who is older than the other person in the conversation.
+            qualifier: Mekong Delta
+            region: [mekong-delta]
+            examples:
+              - text: Để chế chở em về, giờ này hết xe buýt rồi.
+                standard: Để chị chở em về, giờ này hết xe buýt rồi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ch%E1%BA%BF#Vietnamese

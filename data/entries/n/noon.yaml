@@ -1,0 +1,15 @@
+spelling: nôn
+etymologies:
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: anxious; impatient; eager
+            region: [central, south]
+            examples:
+              - text: Mai được về quê ngoại, tụi nhỏ nôn quá ngủ hổng được.
+                standard: Mai được về quê ngoại, bọn trẻ háo hức quá ngủ không được.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/n%C3%B4n#Vietnamese

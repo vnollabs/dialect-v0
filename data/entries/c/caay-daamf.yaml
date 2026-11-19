@@ -1,0 +1,13 @@
+spelling: cây dầm
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Mái chèo để khua nước chạy ghe
+            region: [mekong-delta]
+            examples:
+              - text: Đưa cây dầm cho tui bơi xuồng qua bên kia sông.
+                standard: Đưa mái chèo cho tôi chèo thuyền sang bên kia sông.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

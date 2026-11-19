@@ -1,0 +1,18 @@
+spelling: quê
+etymologies:
+  - type: native
+    note:
+      en: Inherited from Proto-Vietic *k-veːr (“village”), itself a *k- prefixed derivative of Proto-Vietic *veːr (“to return”) (whence về). Cognate with Muong quêl (“village”) and Chut [Rục] kəveːl¹. Compare also Proto-Katuic *wiil ~ *weel (whence Pacoh veil).
+    pos:
+      - pos: adj
+        han_nom: [圭, 𬫀]
+        senses:
+          - gloss:
+              en: very embarrassing; mortifying
+            region: [south]
+            examples:
+              - text: Mẹ ở nhà đi. Con lớn rồi có mẹ đi cùng thì quê lắm.
+                en: Just stay home. I'm a grown-up and it's embarrassing to be chaperoned by you.
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/qu%C3%AA#Vietnamese

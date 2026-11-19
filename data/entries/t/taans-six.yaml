@@ -1,0 +1,20 @@
+spelling: tấn sĩ
+etymologies:
+  - type: sino
+    han: 進士
+    note:
+      en: Sino-Vietnamese word from 進士.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: Southern Vietnam form of tiến sĩ
+            region: [south]
+            variant_of: tiến sĩ
+            examples:
+              - text: Con bà Ba đi học bên Tây về, giờ là tấn sĩ rồi đó.
+                standard: Con bà Ba đi học bên Tây về, giờ là tiến sĩ rồi đấy.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/t%E1%BA%A5n_s%C4%A9#Vietnamese

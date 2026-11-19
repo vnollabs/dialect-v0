@@ -1,0 +1,13 @@
+spelling: mống
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Cầu vồng
+            region: [mekong-delta]
+            examples:
+              - text: Mưa vừa tạnh, ngó lên trời thấy cái mống cong vòng bên kia sông.
+                standard: Mưa vừa tạnh, nhìn lên trời thấy cái cầu vồng cong vòng bên kia sông.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

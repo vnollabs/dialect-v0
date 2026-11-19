@@ -1,0 +1,30 @@
+spelling: nghen
+etymologies:
+  - pos:
+      - pos: particle
+        senses:
+          - gloss:
+              vi: Dặn dò, nhắc nhở thân mật, tạo cảm giác gắn kết
+            region: [south]
+            synonyms: [nghe]
+            examples:
+              - text: Nhớ cẩn thận đường trơn trợt nghen!
+            topics: [particles]
+            sources: [skill-dictionary-v1]
+  - note:
+      en: "* [ŋɛᴬ¹ həwŋ͡mᴬ¹] > [ŋɛᴬ¹ ŋ̍ᴬ¹] > [ŋɛŋᴬ¹]"
+    pos:
+      - pos: particle
+        senses:
+          - gloss:
+              en: + hông
+            region: [south]
+            labels: [abbreviation, colloquial]
+            variant_of: nghe
+            examples:
+              - text: Mai mình dậy sớm đi câu cá nghen?
+                standard: Mai mình dậy sớm đi câu cá nghe không?
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/nghen#Vietnamese

@@ -1,0 +1,13 @@
+spelling: nói vòng vo như rạch Cái Tắc
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Nói lòng vòng, khó hiểu
+            region: [south]
+            examples:
+              - text: Có gì nói thẳng ra đi, nói vòng vo như rạch Cái Tắc ai mà hiểu.
+                standard: Có gì nói thẳng ra đi, nói lòng vòng khó hiểu như vậy ai mà hiểu.
+                ai_draft: true
+            topics: [idioms]
+            sources: [skill-dictionary-v1]

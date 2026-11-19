@@ -1,0 +1,21 @@
+spelling: xe lửa
+etymologies:
+  - type: compound
+    note:
+      en: xe (“wheeled vehicle”) + lửa (“fire”), a calque of Chinese 火車 /火车 (hoả xa).
+    pos:
+      - pos: noun
+        han_nom: [車焒]
+        classifiers: [cái, chiếc]
+        senses:
+          - gloss:
+              en: train
+            region: [south]
+            standard: [tàu hoả]
+            examples:
+              - text: Ông bà đi xe lửa ra Nha Trang chơi mấy bữa.
+                standard: Ông bà đi tàu hỏa ra Nha Trang chơi mấy hôm.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/xe_l%E1%BB%ADa#Vietnamese

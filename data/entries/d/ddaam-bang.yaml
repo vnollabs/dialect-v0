@@ -1,0 +1,14 @@
+spelling: đâm bang
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Nói chuyện lạc đề, lan man, chen ngang làm mất hứng
+            region: [south]
+            synonyms: [đâm xuồng lủng, đâm xuồng bể]
+            examples:
+              - text: Người ta đang bàn chuyện nghiêm túc, mày đừng có đâm bang nghen.
+                standard: Người ta đang bàn chuyện nghiêm túc, mày đừng có nói chen ngang lạc đề nhé.
+                ai_draft: true
+            topics: [idioms]
+            sources: [skill-dictionary-v1]

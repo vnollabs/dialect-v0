@@ -1,0 +1,15 @@
+spelling: ui da
+etymologies:
+  - pos:
+      - pos: intj
+        senses:
+          - gloss:
+              en: ouch! (expression of one's own physical pain)
+            region: [south]
+            examples:
+              - text: Ui da, đạp trúng gai rồi, đau quá trời!
+                standard: Ối, giẫm phải gai rồi, đau quá!
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ui_da#Vietnamese

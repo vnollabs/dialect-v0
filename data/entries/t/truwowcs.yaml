@@ -1,0 +1,24 @@
+spelling: trước
+etymologies:
+  - type: sino
+    han: 竹
+    note:
+      en: |-
+        Sino-Vietnamese word from 竹; this is the Southern form, and doublet of trúc. For the rime correspondence, compare phúc vs. phước, phụng vs. phượng.
+        Attested in the Dictionarium Anamitico-Latinum (1838), Đại Nam Quấc âm tự vị (1895), and Tam Tự Kinh diễn nghĩa (1917).
+    pos:
+      - pos: noun
+        classifiers: [cây]
+        senses:
+          - gloss:
+              en: (“(kind of) bamboo”)
+            region: [south]
+            labels: [obsolete]
+            variant_of: trúc
+            examples:
+              - text: Hồi xưa ông ngoại trồng một bụi trước bên hông nhà để lấy cây làm cần câu.
+                standard: Ngày xưa ông ngoại trồng một bụi trúc bên hông nhà để lấy cây làm cần câu.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/tr%C6%B0%E1%BB%9Bc#Vietnamese

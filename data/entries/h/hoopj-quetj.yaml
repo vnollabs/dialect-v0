@@ -1,0 +1,20 @@
+spelling: hộp quẹt
+etymologies:
+  - type: compound
+    note:
+      en: hộp (“box, can, tin”) + quẹt (“to rub”).
+    pos:
+      - pos: noun
+        classifiers: [cái]
+        senses:
+          - gloss:
+              en: lighter
+            region: [south]
+            synonyms: [bật lửa, mậy lả, mậy lửa, thùng quẹt]
+            examples:
+              - text: Ê, cho tui mượn cái hộp quẹt đốt cây nhang coi.
+                standard: Này, cho tôi mượn cái bật lửa thắp nén hương xem nào.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/h%E1%BB%99p_qu%E1%BA%B9t#Vietnamese

@@ -1,0 +1,16 @@
+spelling: wá
+etymologies:
+  - pos:
+      - pos: particle
+        senses:
+          - gloss:
+              en: eye dialect spelling of quá, representing Southern Vietnam Vietnamese
+            region: [south]
+            labels: [internet, pronunciation-spelling]
+            variant_of: quá
+            examples:
+              - text: bùn wá à
+                en: I'm so bored!
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/w%C3%A1#Vietnamese

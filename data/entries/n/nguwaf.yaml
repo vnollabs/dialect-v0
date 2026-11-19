@@ -1,0 +1,20 @@
+spelling: ngừa
+etymologies:
+  - type: sino
+    han: 禦
+    note:
+      en: "Non-Sino-Vietnamese reading of Chinese 禦 (“to defend; to resist”, SV: ngự)."
+    pos:
+      - pos: verb
+        han_nom: [禦, 馭, 𢳶]
+        senses:
+          - gloss:
+              en: to prevent; to avert
+            region: [south]
+            examples:
+              - text: Tối ngủ nhớ giăng mùng để ngừa muỗi chích nghen.
+                standard: Tối ngủ nhớ mắc màn để phòng muỗi đốt nhé.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ng%E1%BB%ABa#Vietnamese

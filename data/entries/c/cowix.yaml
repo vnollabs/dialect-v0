@@ -1,0 +1,18 @@
+spelling: cỡi
+etymologies:
+  - pos:
+      - pos: verb
+        han_nom: [騎]
+        senses:
+          - gloss:
+              en: eye dialect spelling of cưỡi, representing Central Vietnam and Southern Vietnam Vietnamese
+            region: [central, south]
+            labels: [pronunciation-spelling]
+            variant_of: cưỡi
+            examples:
+              - text: Hồi nhỏ tui hay cỡi trâu ra đồng thả diều.
+                standard: Hồi nhỏ tôi hay cưỡi trâu ra đồng thả diều.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%E1%BB%A1i#Vietnamese

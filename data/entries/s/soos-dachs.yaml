@@ -1,0 +1,30 @@
+spelling: số dách
+etymologies:
+  - type: loan
+    lang: yue
+    source_form: 一
+    note:
+      en: "số + dách; the second element is from Cantonese 一 (jat¹) (SV: nhất)."
+    pos:
+      - pos: adv
+        senses:
+          - gloss:
+              en: best (superlative of good)
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Thằng này nói láo số dách.
+                en: This guy is the best at being insolent with his words.
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/s%E1%BB%91_d%C3%A1ch#Vietnamese
+          - gloss:
+              en: most (to a great extent or degree)
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: ngon số dách
+                en: most delicious
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/s%E1%BB%91_d%C3%A1ch#Vietnamese

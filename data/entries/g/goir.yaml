@@ -1,0 +1,14 @@
+spelling: gỏi
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Nộm
+            region: [south]
+            standard: [nộm]
+            examples:
+              - text: Đám giỗ năm nay má làm gỏi gà xé phay ăn với rau răm.
+                standard: Đám giỗ năm nay mẹ làm nộm gà xé phay ăn với rau răm.
+                ai_draft: true
+            topics: [food-drink]
+            sources: [skill-dictionary-v1]

@@ -1,0 +1,15 @@
+spelling: tộ
+etymologies:
+  - pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: large bowl
+            region: [south]
+            examples:
+              - text: Múc canh chua ra cái tộ bự để giữa mâm cho cả nhà ăn.
+                standard: Múc canh chua ra cái bát to để giữa mâm cho cả nhà ăn.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/t%E1%BB%99#Vietnamese

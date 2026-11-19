@@ -1,0 +1,20 @@
+spelling: ngưng
+etymologies:
+  - type: sino
+    han: 凝
+    note:
+      en: Sino-Vietnamese word from 凝.
+    pos:
+      - pos: verb
+        han_nom: [凝]
+        senses:
+          - gloss:
+              en: to stop; to halt
+            region: [central, south]
+            examples:
+              - text: Ngày 11-3, tại Jeddah (Saudi Arabia) Mỹ và Ukraine đã đạt được thỏa thuận ngưng bắn 30 ngày trong cuộc chiến ở Ukraine,[…]
+                en: On March 11, in Jeddah (Saudi Arabia), the US and Ukraine reached a 30-day ceasefire agreement in the war in Ukraine, […]
+                ref: "2025, Tường Anh, Tuổi trẻ:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ng%C6%B0ng#Vietnamese

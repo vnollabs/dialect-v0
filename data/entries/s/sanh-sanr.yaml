@@ -1,0 +1,16 @@
+spelling: sanh sản
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: Southern Vietnam form of sinh sản
+            region: [south]
+            variant_of: sinh sản
+            examples:
+              - text: Ở xóm mình, nhờ có mấy đám ruộng biền đó, dầu mùa nắng nước sông cũng rịn vô, ướt-át luôn luôn, bởi vậy nhái ở được mà sanh-sản ra nhiều.
+                en: In our village, as some of the fields are next to wetland, even in the dry season, water from the river can penetrate to keep it [the fields] ever-flooded, creating a suitable habitat for frogs to procreate.
+                ref: "1944, Hồ Biểu Chánh, chapter 3, in Hai Thà cưới vợ:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/sanh_s%E1%BA%A3n#Vietnamese

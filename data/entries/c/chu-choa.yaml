@@ -1,0 +1,15 @@
+spelling: chu choa
+etymologies:
+  - pos:
+      - pos: intj
+        senses:
+          - gloss:
+              en: an interjection of surprise and amazement; Oh my God!; Oh my!
+            region: [central, north, south]
+            labels: [humorous]
+            examples:
+              - text: Chu choa mạ ơi!
+                en: Oh my God!
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/chu_choa#Vietnamese

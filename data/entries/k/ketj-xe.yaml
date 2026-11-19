@@ -1,0 +1,19 @@
+spelling: kẹt xe
+etymologies:
+  - type: compound
+    note:
+      en: kẹt + xe.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: traffic jam
+            region: [south]
+            synonyms: [tắc đường]
+            examples:
+              - text: Giờ tan tầm kẹt xe dữ lắm, tui về tới nhà gần tám giờ.
+                standard: Giờ tan tầm tắc đường kinh khủng, tôi về tới nhà gần tám giờ.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/k%E1%BA%B9t_xe#Vietnamese

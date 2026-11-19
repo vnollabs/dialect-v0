@@ -1,0 +1,13 @@
+spelling: hột vịt
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Trứng vịt
+            region: [mekong-delta]
+            examples:
+              - text: Má kho thịt với hột vịt, nồi thịt thơm phức.
+                standard: Mẹ kho thịt với trứng vịt, nồi thịt thơm phức.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

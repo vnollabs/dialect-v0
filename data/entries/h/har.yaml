@@ -1,0 +1,16 @@
+spelling: hả
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to open (one's mouth)
+            region: [central, south]
+            synonyms: [há]
+            examples:
+              - text: Hả miệng ra cho má coi cái răng sâu nào con.
+                standard: Há miệng ra cho mẹ xem cái răng sâu nào con.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/h%E1%BA%A3#Vietnamese

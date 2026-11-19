@@ -1,0 +1,21 @@
+spelling: xí muội
+etymologies:
+  - type: loan
+    lang: yue
+    source_form: 酸梅
+    note:
+      en: Corruption of Cantonese 酸梅 (syun1 mui4).
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: salted Chinese plum; smoked plum
+            region: [south]
+            synonyms: [ô mai]
+            examples:
+              - text: Con nhỏ ghé tiệm mua bịch xí muội về ăn vặt.
+                standard: Con bé ghé tiệm mua túi ô mai về ăn vặt.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/x%C3%AD_mu%E1%BB%99i#Vietnamese

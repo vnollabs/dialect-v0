@@ -1,0 +1,21 @@
+spelling: từng
+etymologies:
+  - type: sino
+    han: 層
+    note:
+      en: "Non-Sino-Vietnamese reading of Chinese 層 (“storey; layer”, SV: tằng)."
+    derived: [từng lớp]
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: floor, storey
+            region: [central, south]
+            variant_of: tầng
+            examples:
+              - text: Nhà bà Năm mới cất thêm một từng nữa, giờ rộng rãi lắm.
+                standard: Nhà bà Năm mới xây thêm một tầng nữa, giờ rộng rãi lắm.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/t%E1%BB%ABng#Vietnamese

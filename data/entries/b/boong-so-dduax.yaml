@@ -1,0 +1,14 @@
+spelling: bông so đũa
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Các loại hoa đặc trưng mùa nước nổi miền Tây, dùng nấu canh chua, đổ bánh xèo
+            region: [mekong-delta]
+            synonyms: [bông điên điển]
+            examples:
+              - text: Chiều nay má nấu canh chua bông so đũa với cá rô đồng.
+                standard: Chiều nay mẹ nấu canh chua hoa so đũa với cá rô đồng.
+                ai_draft: true
+            topics: [mekong-food]
+            sources: [skill-dictionary-v1]

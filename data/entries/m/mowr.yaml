@@ -1,0 +1,15 @@
+spelling: mở
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Bật
+            qualifier: đèn, máy
+            region: [south]
+            standard: [bật]
+            examples:
+              - text: Tối rồi, con mở đèn lên cho sáng đi.
+                standard: Tối rồi, con bật đèn lên cho sáng đi.
+                ai_draft: true
+            topics: [household]
+            sources: [skill-dictionary-v1]

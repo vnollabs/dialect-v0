@@ -1,0 +1,16 @@
+spelling: tán
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to slap
+            region: [south]
+            synonyms: [tát, vả]
+            examples:
+              - text: Hai đứa giỡn quá trớn, thằng anh lỡ tay tán em một cái.
+                standard: Hai đứa đùa quá trớn, thằng anh lỡ tay tát em một cái.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/t%C3%A1n#Vietnamese

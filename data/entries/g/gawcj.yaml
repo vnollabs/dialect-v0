@@ -1,0 +1,22 @@
+spelling: gặc
+etymologies:
+  - note:
+      en: |-
+        Possibly related to gật, with lower vowel nucleus and typical Central-Southern /-t/ ~ /-k/ coda merger.
+        Attested in Dictionarium Anamitico-Latinum by Taberd (1838), a dictionary chiefly based on Central and Southern dialects.
+    derived: [gục gặc]
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: synonym of gật (“to nod”)
+            region: [central, south]
+            labels: [uncommon]
+            synonyms: [gật]
+            examples:
+              - text: Hỏi gì ổng cũng hổng nói, chỉ gặc đầu cho qua.
+                standard: Hỏi gì ông ấy cũng không nói, chỉ gật đầu cho qua.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/g%E1%BA%B7c#Vietnamese

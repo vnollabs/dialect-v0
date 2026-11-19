@@ -1,0 +1,19 @@
+spelling: len
+etymologies:
+  - type: loan
+    lang: en
+    source_form: lane
+    note:
+      en: From English lane. Doublet of làn.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: lane (of a road)
+            region: [south]
+            examples:
+              - text: Gần tới giao lộ này thì mình đi len trái ha.
+                en: Switch to the left-hand lane when we reach this intersection.
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/len#Vietnamese

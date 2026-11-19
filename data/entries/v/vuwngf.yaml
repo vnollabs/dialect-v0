@@ -1,0 +1,18 @@
+spelling: vừng
+etymologies:
+  - derived: [vừng đông]
+    pos:
+      - pos: classifier
+        senses:
+          - gloss:
+              en: Central Vietnam and Southern Vietnam form of vầng
+            region: [central, south]
+            labels: [uncommon]
+            variant_of: vầng
+            examples:
+              - text: Tối rằm, vừng trăng tròn vành vạnh nhô lên khỏi hàng dừa.
+                standard: Tối rằm, vầng trăng tròn vành vạnh nhô lên khỏi hàng dừa.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/v%E1%BB%ABng#Vietnamese

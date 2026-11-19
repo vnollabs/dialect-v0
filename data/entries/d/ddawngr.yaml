@@ -1,0 +1,18 @@
+spelling: đẳng
+etymologies:
+  - note:
+      en: Word formation with distal denotation by adding hỏi tone to the root đằng in Southern Vietnamese and some topolects of Thanh Hoá.
+    pos:
+      - pos: pron
+        senses:
+          - gloss:
+              en: that side; that place; that way
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Anh để chiếc xe ở đẳng đi, chỗ này người ta cấm đậu.
+                standard: Anh để chiếc xe ở đằng ấy đi, chỗ này người ta cấm đỗ.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%E1%BA%B3ng#Vietnamese

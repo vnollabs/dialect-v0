@@ -1,0 +1,19 @@
+spelling: cản
+etymologies:
+  - type: sino
+    han: 趕
+    note:
+      en: Sino-Vietnamese word from 趕 (“to repel”).
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: barrage; dam
+            region: [south]
+            examples:
+              - text: Ba với chú Tư ra đắp lại cái cản đầu mương cho nước hổng tràn vô ruộng.
+                standard: Bố với chú Tư ra đắp lại cái đập đầu mương cho nước không tràn vào ruộng.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%E1%BA%A3n#Vietnamese

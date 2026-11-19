@@ -1,0 +1,22 @@
+spelling: gỏi cuốn
+etymologies:
+  - type: compound
+    note:
+      en: gỏi + cuốn.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              vi: Nem cuốn
+              en: summer roll, a cold spring roll in Vietnamese cuisine
+            region: [south]
+            standard: [nem cuốn]
+            examples:
+              - text: Cô ơi, bán cho con năm cái gỏi cuốn, thêm chén tương nha.
+                standard: Cô ơi, bán cho con năm cái nem cuốn, thêm bát tương nhé.
+                ai_draft: true
+            topics: [food-drink]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/g%E1%BB%8Fi_cu%E1%BB%91n#Vietnamese

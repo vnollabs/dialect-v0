@@ -1,0 +1,15 @@
+spelling: lu bu
+etymologies:
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: busy with work
+            region: [south]
+            examples:
+              - text: Mấy bữa nay lu bu gặt lúa quá, hổng ghé thăm bà được.
+                standard: Mấy hôm nay bận bịu gặt lúa quá, không ghé thăm bà được.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/lu_bu#Vietnamese

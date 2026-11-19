@@ -1,0 +1,32 @@
+spelling: bình thủy
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Phích nước
+            region: [south]
+            standard: [phích nước]
+            examples:
+              - text: Con châm nước sôi vô bình thủy giùm má, chút nữa pha trà.
+                standard: Con rót nước sôi vào phích nước giúp mẹ, lát nữa pha trà.
+                ai_draft: true
+            topics: [household]
+            sources: [skill-dictionary-v1]
+  - note:
+      en: Calque of Chinese 水瓶 (thuỷ bình, “water bottle”). The morpheme thuỷ (水) was likely not translated to native nước in order to avoid confusion with usual water bottles.
+    pos:
+      - pos: noun
+        head: bình thuỷ
+        classifiers: [cái]
+        senses:
+          - gloss:
+              en: thermos
+            region: [south]
+            synonyms: [phích]
+            examples:
+              - text: Ba đi ruộng mang theo cái bình thuỷ trà nóng, trưa ngồi bờ ruộng uống cho ấm bụng.
+                standard: Bố ra đồng mang theo cái phích trà nóng, trưa ngồi bờ ruộng uống cho ấm bụng.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%C3%ACnh_thu%E1%BB%B7#Vietnamese

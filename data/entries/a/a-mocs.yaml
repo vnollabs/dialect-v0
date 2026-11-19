@@ -1,0 +1,16 @@
+spelling: a móc
+etymologies:
+  - pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: at sign (@)
+            region: [south]
+            synonyms: [a còng]
+            examples:
+              - text: Ghi địa chỉ mail nhớ có cái a móc ở giữa nghen, thiếu là gửi hổng được.
+                standard: Ghi địa chỉ mail nhớ có cái a còng ở giữa nhé, thiếu là gửi không được.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/a_m%C3%B3c#Vietnamese

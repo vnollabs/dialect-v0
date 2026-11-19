@@ -1,0 +1,20 @@
+spelling: dữ
+etymologies:
+  - type: native
+    note:
+      en: From Proto-Vietic *jɨh.
+    derived: [dữ thần]
+    pos:
+      - pos: adv
+        senses:
+          - gloss:
+              en: really; very much
+            qualifier: after adjective
+            region: [central, south]
+            synonyms: [ghê, tợn, khiếp, quá, lắm]
+            examples:
+              - text: Thằng này sao mà ngu dữ!
+                en: Why are you so damn stupid?
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/d%E1%BB%AF#Vietnamese

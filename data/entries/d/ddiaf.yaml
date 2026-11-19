@@ -1,0 +1,13 @@
+spelling: đìa
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Ao (thường đào trong ruộng, vườn để nuôi cá)
+            region: [mekong-delta]
+            examples:
+              - text: Cuối năm tát đìa bắt cá lóc, cả xóm kéo ra phụ.
+                standard: Cuối năm tát ao bắt cá quả, cả xóm kéo ra giúp.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

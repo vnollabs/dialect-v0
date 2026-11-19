@@ -1,0 +1,19 @@
+spelling: ngã
+etymologies:
+  - pos:
+      - pos: verb
+        han_nom: [我]
+        senses:
+          - gloss:
+              en: to collapse onto the ground and remains there for a period of time
+            qualifier: of a generally inanimate object
+            region: [south]
+            synonyms: [đổ, sụp]
+            examples:
+              - text: Coi chừng cây nó ngã!
+                en: Watch out for the falling tree!
+              - text: Ê, cây móc đồ ngã mất tiêu rồi kìa.
+                en: Hey, your hanger stand has collapsed (and it's still on the ground).
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ng%C3%A3#Vietnamese

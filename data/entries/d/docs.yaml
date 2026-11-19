@@ -1,0 +1,14 @@
+spelling: dóc
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Nói khoác, bịa chuyện
+            region: [mekong-delta]
+            synonyms: [dóc bà cố]
+            examples:
+              - text: Mày đừng tin, thằng đó nói dóc dữ lắm, chuyện gì cũng thêm mắm thêm muối.
+                standard: Mày đừng tin, thằng đó nói khoác lắm, chuyện gì cũng thêm mắm thêm muối.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

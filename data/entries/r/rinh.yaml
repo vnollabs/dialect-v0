@@ -1,0 +1,17 @@
+spelling: rinh
+etymologies:
+  - pos:
+      - pos: verb
+        han_nom: [揁]
+        senses:
+          - gloss:
+              en: to carry (something with both hands to another place); to carry away; to take away
+            region: [central, south]
+            labels: [colloquial]
+            examples:
+              - text: Anh rinh giùm em thùng trái cây này vô nhà nghen.
+                standard: Anh bê giúp em thùng hoa quả này vào nhà nhé.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/rinh#Vietnamese

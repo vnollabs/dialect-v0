@@ -1,0 +1,17 @@
+spelling: quậy
+etymologies:
+  - pos:
+      - pos: verb
+        han_nom: [挂, 掛, 揆, 癸, 跪]
+        senses:
+          - gloss:
+              en: to disturb; to harass; to be mischievous
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Tụi nhỏ quậy quá trời, nhà cửa bừa bộn hết trơn.
+                standard: Bọn trẻ nghịch quá, nhà cửa bừa bộn hết.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/qu%E1%BA%ADy#Vietnamese

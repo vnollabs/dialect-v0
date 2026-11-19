@@ -1,0 +1,17 @@
+spelling: mồng
+etymologies:
+  - pos:
+      - pos: noun
+        classifiers: [cái]
+        senses:
+          - gloss:
+              en: crest; comb (of cock)
+            region: [central, south]
+            synonyms: [mào]
+            examples:
+              - text: Con gà trống nhà tui mồng đỏ chót, gáy to lắm.
+                standard: Con gà trống nhà tôi mào đỏ chót, gáy to lắm.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%E1%BB%93ng#Vietnamese

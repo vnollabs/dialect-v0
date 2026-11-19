@@ -1,0 +1,23 @@
+spelling: thiệt
+etymologies:
+  - type: sino
+    han: 實
+    note:
+      en: |-
+        Sino-Vietnamese word from 實. Doublet of thực and thật.
+        thất thiệt is the only instance where this particular form has been adopted by all dialects.
+    derived: [thất thiệt, thiệt chất, thiệt là, thiệt sự, thiệt tình, thứ thiệt]
+    pos:
+      - pos: adj
+        han_nom: [實, 舌]
+        senses:
+          - gloss:
+              en: real; true; factual
+            region: [central, south]
+            labels: [colloquial]
+            examples:
+              - text: Bữa nay gió ghê thiệt.
+                en: It's real windy today, isn't it?
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/thi%E1%BB%87t#Vietnamese

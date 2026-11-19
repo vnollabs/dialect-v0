@@ -1,0 +1,18 @@
+spelling: hia
+etymologies:
+  - type: loan
+    lang: nan-tws
+    note:
+      vi: Gốc tiếng Hoa Triều Châu.
+    pos:
+      - senses:
+          - gloss:
+              vi: Anh
+            region: [south]
+            standard: [anh]
+            examples:
+              - text: Hia ơi, cho em một ly cà phê sữa đá nha.
+                standard: Anh ơi, cho em một cốc cà phê sữa đá nhé.
+                ai_draft: true
+            topics: [family-address]
+            sources: [skill-dictionary-v1]

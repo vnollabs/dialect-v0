@@ -1,0 +1,15 @@
+spelling: núc
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to chug
+            region: [central, south]
+            examples:
+              - text: Đi ruộng về khát quá, ổng núc một hơi hết sạch ca nước.
+                standard: Đi ruộng về khát quá, ông ấy nốc một hơi hết sạch ca nước.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/n%C3%BAc#Vietnamese

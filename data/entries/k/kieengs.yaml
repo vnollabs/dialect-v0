@@ -1,0 +1,33 @@
+spelling: kiếng
+etymologies:
+  - pos:
+      - pos: noun
+        classifiers: [cái]
+        senses:
+          - gloss:
+              vi: Kính
+              en: glasses
+            region: [south]
+            standard: [kính]
+            variant_of: kính
+            synonyms: [mắt kiếng]
+            examples:
+              - text: Ông ngoại đeo kiếng vô rồi mới đọc được tờ báo.
+                standard: Ông ngoại đeo kính vào rồi mới đọc được tờ báo.
+                ai_draft: true
+            topics: [household]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ki%E1%BA%BFng#Vietnamese
+          - gloss:
+              en: mirror
+            region: [south]
+            synonyms: [gương]
+            examples:
+              - text: Con nhỏ đứng trước kiếng chải đầu cả buổi.
+                standard: Con bé đứng trước gương chải đầu cả buổi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ki%E1%BA%BFng#Vietnamese

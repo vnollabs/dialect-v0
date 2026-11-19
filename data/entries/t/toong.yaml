@@ -1,0 +1,17 @@
+spelling: tông
+etymologies:
+  - note:
+      en: Compare tung.
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to crash into; to collide with; to hit
+            region: [central, south]
+            examples:
+              - text: Chạy xe ẩu, nó tông vô gốc cây trầy hết tay chân.
+                standard: Đi xe ẩu, nó đâm vào gốc cây xước hết tay chân.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/t%C3%B4ng#Vietnamese

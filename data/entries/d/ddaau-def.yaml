@@ -1,0 +1,13 @@
+spelling: đâu dè
+etymologies:
+  - pos:
+      - pos: particle
+        senses:
+          - gloss:
+              vi: Bất ngờ, ngỡ ngàng vì kết quả trái với dự tính
+            region: [south]
+            synonyms: [ai dè]
+            examples:
+              - text: Cứ tưởng ổng hiền, đâu dè dữ thần thiệt chớ!
+            topics: [particles]
+            sources: [skill-dictionary-v1]

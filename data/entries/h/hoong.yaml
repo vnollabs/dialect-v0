@@ -1,0 +1,27 @@
+spelling: hông
+etymologies:
+  - note:
+      en: Attested extensively (spelled as hôn) in works of Hồ Biểu Chánh, such as in Ai làm được (1922).
+    pos:
+      - pos: adv
+        senses:
+          - gloss:
+              en: Southern Vietnam form of không
+            region: [south]
+            variant_of: không
+            synonyms: [hôn, hổng]
+            examples:
+              - text: |-
+                  Hông dám đâu! Em còn phải học bài.
+                  Hông dám đâu! Em còn phải làm bài.
+                  Sao khó ghê? Mai mình hãy ôn bài!
+                  Hông dám đâu! Hổng dám đâu!
+                en: |-
+                  I wouldn't dare! I still have to study.
+                  I wouldn't dare! I still have homework.
+                  Why [is it] so hard? Let's revise tomorrow!
+                  I wouldn't dare! I wouldn't dare!
+                ref: "1992, Nguyễn Văn Hiên, “Không Dám Đâu [I Wouldn't Dare!]”performed by Hiền Thục:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/h%C3%B4ng#Vietnamese

@@ -1,0 +1,19 @@
+spelling: linh đinh
+etymologies:
+  - type: sino
+    han: 零丁
+    note:
+      en: Sino-Vietnamese word from 零丁.
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to wander, to drift, to be afloat
+            region: [central, south]
+            examples:
+              - text: Mấy năm ổng theo ghe buôn linh đinh khắp miệt sông nước.
+                standard: Mấy năm ông ấy theo thuyền buôn lênh đênh khắp vùng sông nước.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/linh_%C4%91inh#Vietnamese

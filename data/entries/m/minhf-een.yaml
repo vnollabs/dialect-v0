@@ -1,0 +1,32 @@
+spelling: mình ên
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Một mình
+            region: [mekong-delta]
+            examples:
+              - text: Ba má đi đám giỗ hết, tối nay con ở nhà mình ên.
+                standard: Bố mẹ đi đám giỗ hết, tối nay con ở nhà một mình.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]
+  - type: loan
+    lang: km
+    source_form: ឯកឯង
+    note:
+      en: The second element is from Khmer ឯកឯង (ʼêkʼêng, “alone”).
+    pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: alone; by oneself
+            qualifier: Mekong Delta
+            region: [mekong-delta]
+            examples:
+              - text: Khuya rồi mà nó còn ngồi mình ên ngoài bến sông.
+                standard: Khuya rồi mà nó còn ngồi một mình ngoài bến sông.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%C3%ACnh_%C3%AAn#Vietnamese

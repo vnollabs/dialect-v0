@@ -1,0 +1,26 @@
+spelling: chén
+etymologies:
+  - type: sino
+    han: 盞
+    note:
+      en: "Non-Sino-Vietnamese reading of Chinese 盞 (“small cup”, SV: trản)."
+    pos:
+      - pos: noun
+        han_nom: [𱔩, 盞, 𥗜, 𡃹]
+        classifiers: [cái]
+        senses:
+          - gloss:
+              vi: Bát
+              en: rice bowl (small bowl from which rice is typically eaten)
+            region: [south, central]
+            standard: [bát]
+            synonyms: [bát]
+            examples:
+              - text: Ăn thêm chén cơm nữa đi con, mới ăn có một chén à.
+                standard: Ăn thêm bát cơm nữa đi con, mới ăn có một bát à.
+                ai_draft: true
+            topics: [food-drink]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ch%C3%A9n#Vietnamese

@@ -1,0 +1,16 @@
+spelling: nhát
+etymologies:
+  - derived: [nhát cáy, nhát gái, nhát gan, nhát ma, nhát nhúa, nhút nhát]
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to scare someone
+            region: [south]
+            examples:
+              - text: Đừng có núp sau cửa nhát em, nó khóc bây giờ.
+                standard: Đừng có nấp sau cửa dọa em, nó khóc bây giờ.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/nh%C3%A1t#Vietnamese

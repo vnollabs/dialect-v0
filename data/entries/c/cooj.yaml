@@ -1,0 +1,39 @@
+spelling: cộ
+etymologies:
+  - derived: [ghe cộ, xe cộ]
+    pos:
+      - pos: noun
+        han_nom: [椇, 𤚦, 𨍄]
+        senses:
+          - gloss:
+              en: a kind of buffalo- or cattle-driven wheelless vehicle, a sled
+            region: [central, south]
+            examples:
+              - text: Tuổi thơ tôi ở một góc làng quê gần như gắn liền với chiếc cộ trâu.
+                en: My childhood in a village's corner was closely linked to the buffalo-sled.
+                ref: "2013, Từ Kế Tường, “Ngồi cộ trâu [Riding the buffalo-sled]”, in Tuổi Trẻ [Youth]:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%E1%BB%99#Vietnamese
+          - gloss:
+              en: (non-standard) a kind of buffalo- or cattle-driven two-wheeled vehicle, a cart
+            region: [central, south]
+            examples:
+              - text: Ngày nào cộ bò của Ngân cũng lăn bánh trên khắp nẻo đường, hẻm hóc
+                en: Every day Ngân's ox-cart rolled its wheels on all roadways and alleyways.
+                ref: "2017, La Hai, “Chuyện về người làm nghề lái cộ bò trở thành người 'nổi tiếng' [The story about an ox-cart driver who became 'famous']”, in Nông Nghiệp Việt Nam [Vietnamese Agriculture]:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%E1%BB%99#Vietnamese
+      - pos: verb
+        senses:
+          - gloss:
+              en: to haul; to drag; to transport
+            region: [central, south]
+            examples:
+              - text: Và cứ thế, sau mùa gặt hình ảnh những chú trâu cộ lúa hay cộ rơm lại xuất hiện tại nhiều cánh đồng ở miền Tây.
+                en: And just like that, after every harvest the images of the buffaloes hauling rice or hauling straws again appear on many fields of the Western region.
+                ref: "2019, Mai Anh, Ngọc Quyên, “Lạ đời: Ở đây 'chê' máy móc, dân vẫn thích cộ lúa bằng trâu [Strange: machines are 'belittled' here, folks still like to haul rice with buffaloes]”, in Dân Việt [Viet Folks]:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%E1%BB%99#Vietnamese

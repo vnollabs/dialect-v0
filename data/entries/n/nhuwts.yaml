@@ -1,0 +1,39 @@
+spelling: nhứt
+etymologies:
+  - type: sino
+    han: 一
+    note:
+      en: Sino-Vietnamese word from 一 (“one”).
+    pos:
+      - pos: num
+        senses:
+          - gloss:
+              vi: Nhất
+              en: Southern Vietnam form of nhất
+            region: [south]
+            labels: [dated]
+            standard: [nhất]
+            variant_of: nhất
+            examples:
+              - text: Thằng Tí thi chạy về hạng nhứt, cả nhà mừng quá trời.
+                standard: Thằng Tí thi chạy về hạng nhất, cả nhà mừng lắm.
+                ai_draft: true
+            topics: [sino-vietnamese]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/nh%E1%BB%A9t#Vietnamese
+      - pos: adv
+        senses:
+          - gloss:
+              en: Southern Vietnam form of nhất
+            region: [south]
+            labels: [dated]
+            variant_of: nhất
+            examples:
+              - text: Trong mấy đứa con, thằng Út là thương má nhứt.
+                standard: Trong mấy đứa con, thằng Út là thương mẹ nhất.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/nh%E1%BB%A9t#Vietnamese

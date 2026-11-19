@@ -1,0 +1,55 @@
+spelling: vè
+etymologies:
+  - derived: [chém vè]
+    pos:
+      - pos: noun
+        han_nom: [椲]
+        classifiers: [cây]
+        senses:
+          - gloss:
+              en: pole erected to mark water level in a river or ditch
+            region: [central, south]
+            examples:
+              - text: Sáng ra coi cây vè cắm dưới mương thấy nước lên thêm một gang tay.
+                standard: Sáng ra xem cây cọc đo nước cắm dưới mương thấy nước lên thêm một gang tay.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/v%C3%A8#Vietnamese
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to draw near or nearer
+            region: [south]
+            examples:
+              - text: Gió lớn quá, chiếc ghe vè vô gần bờ đậu cho chắc ăn.
+                standard: Gió to quá, chiếc thuyền tiến vào gần bờ đậu cho chắc chắn.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/v%C3%A8#Vietnamese
+          - gloss:
+              en: to come alongside (another boat)
+            region: [south]
+            examples:
+              - text: Ghe bán hủ tiếu vè sát xuồng tụi tui, múc cho mỗi đứa một tô.
+                standard: Thuyền bán hủ tiếu áp sát thuyền chúng tôi, múc cho mỗi đứa một bát.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/v%C3%A8#Vietnamese
+  - pos:
+      - pos: noun
+        classifiers: [cái]
+        senses:
+          - gloss:
+              en: mudguard
+            region: [south]
+            examples:
+              - text: Xe té một cái, bể cái vè trước rồi.
+                standard: Xe ngã một cái, vỡ cái chắn bùn trước rồi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/v%C3%A8#Vietnamese

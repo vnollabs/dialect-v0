@@ -1,0 +1,20 @@
+spelling: huê
+etymologies:
+  - type: sino
+    han: 花
+    note:
+      en: Sino-Vietnamese word from 花, variant of hoa. Compare doublets hoà & huề from 和.
+    pos:
+      - pos: noun
+        classifiers: [bông]
+        senses:
+          - gloss:
+              en: flower
+            region: [central, south]
+            labels: [obsolete, rare]
+            examples:
+              - text: 1937, Dương Bá Trạc, "Vào hè (Into Summer)" in Nét mực tình (The Affectionate Ink Stroke)
+                en: The yellow (hue) fades; the color wanes; (I feel) dismayed for the flowers. / The rosy and colorful (petals) fall and drop; (I feel) sorry for the flowers.
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/hu%C3%AA#Vietnamese

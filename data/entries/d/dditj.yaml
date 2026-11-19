@@ -1,0 +1,21 @@
+spelling: địt
+etymologies:
+  - type: native
+    note:
+      en: From Proto-Vietic *diːt ~ *tiːt, from Proto-Mon-Khmer *kt₁iit (“posterior; to break wind”). Doublet of đít (“arse”).
+    pos:
+      - pos: verb
+        han_nom: [𨕀, 𨗵, 𬇓]
+        senses:
+          - gloss:
+              en: to fart
+            region: [central, south]
+            labels: [informal]
+            synonyms: [đánh địt, đánh rắm, xì hơi]
+            examples:
+              - text: Thằng nhỏ địt một cái thúi hoắc, cả nhà bịt mũi cười.
+                standard: Thằng bé đánh rắm một cái thối um, cả nhà bịt mũi cười.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%E1%BB%8Bt#Vietnamese

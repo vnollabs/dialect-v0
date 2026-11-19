@@ -1,0 +1,23 @@
+spelling: bổ
+etymologies:
+  - note:
+      en: See vỗ. This is a form that did not undergo lenition.
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: Southern Vietnam form of vỗ
+            region: [south]
+            labels: [obsolete]
+            variant_of: vỗ
+            examples:
+              - text: |-
+                  Làng Phước-hãi, lưới bạc muôn, Ở theo mé biển tuy buồn mà vui.
+                  Buồn nghe sóng bỗ từ hồi, Vui vì đông đão tới lui chĩnh tề.
+                en: |-
+                  At the village of Phước-hãi, [although] the nets are always silvery [due to the reflection from fishscales], living by the sea has its ups and downs.
+                  The repetitive sound of the waves hitting the shore brings you down, [but] the constant throngs of people coming and leaving lifts you up.
+                ref: "1909, Nguyễn Liên Phong, “Bà-Rịa”, in Nam Kỳ phong tục nhơn vật diễn ca:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%E1%BB%95#Vietnamese

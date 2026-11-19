@@ -1,0 +1,22 @@
+spelling: bà chằn
+etymologies:
+  - type: compound
+    note:
+      en: The sense "ferocious woman" was likely due to the word being treated as if it is a compound of bà (“old woman, old lady”) + chằn (“ogre”).
+    pos:
+      - pos: noun
+        classifiers: [con]
+        senses:
+          - gloss:
+              en: a ferocious woman
+            qualifier: can be offensive
+            region: [south]
+            labels: [colloquial]
+            synonyms: [bà chằn lửa]
+            examples:
+              - text: Chị Hai mà nổi giận lên là thành bà chằn, cả nhà hổng ai dám cãi.
+                standard: Chị cả mà nổi giận lên là thành bà la sát, cả nhà không ai dám cãi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%C3%A0_ch%E1%BA%B1n#Vietnamese

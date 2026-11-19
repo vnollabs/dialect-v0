@@ -1,0 +1,14 @@
+spelling: bánh ướt
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Bánh cuốn
+            region: [south]
+            standard: [bánh cuốn]
+            examples:
+              - text: Sáng nay ăn dĩa bánh ướt chả lụa ở đầu hẻm, ngon gì đâu.
+                standard: Sáng nay ăn đĩa bánh cuốn giò lụa ở đầu ngõ, ngon lắm.
+                ai_draft: true
+            topics: [food-drink]
+            sources: [skill-dictionary-v1]

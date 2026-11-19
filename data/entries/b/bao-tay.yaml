@@ -1,0 +1,22 @@
+spelling: bao tay
+etymologies:
+  - type: compound
+    note:
+      en: bao (“bag, sack; to wrap around”) + tay (“hand”).
+    pos:
+      - pos: noun
+        han_nom: [包𢬣]
+        classifiers: [cái]
+        senses:
+          - gloss:
+              en: glove
+            region: [south]
+            standard: [găng tay]
+            synonyms: [găng, bít tất tay]
+            examples:
+              - text: Nhớ đeo bao tay vô rồi mới làm cá, kẻo vi cá đâm chảy máu nghen.
+                standard: Nhớ đeo găng tay vào rồi mới làm cá, kẻo vây cá đâm chảy máu nhé.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/bao_tay#Vietnamese

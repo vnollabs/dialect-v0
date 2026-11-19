@@ -1,0 +1,19 @@
+spelling: coi mắt
+etymologies:
+  - type: compound
+    note:
+      en: coi (“to see”) + mắt (“eye < eye/face”).
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to meet with a date via a dating service
+            region: [south]
+            synonyms: [xem mặt, xem mắt]
+            examples:
+              - text: Má biểu cuối tuần về quê coi mắt con gái nhà ông Bảy.
+                standard: Mẹ bảo cuối tuần về quê xem mắt con gái nhà ông Bảy.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/coi_m%E1%BA%AFt#Vietnamese

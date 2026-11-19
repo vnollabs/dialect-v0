@@ -1,0 +1,21 @@
+spelling: xoàn
+etymologies:
+  - type: sino
+    han: 鑽
+    note:
+      en: "Non-Sino-Vietnamese reading of Chinese 鑽 (“diamond”, SV: toản)."
+    derived: [hột xoàn]
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: diamond
+            region: [central, south]
+            synonyms: [kim cương]
+            examples:
+              - text: Bà ngoại cho má chiếc nhẫn hột xoàn hồi đám cưới.
+                standard: Bà ngoại cho mẹ chiếc nhẫn kim cương hồi đám cưới.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/xo%C3%A0n#Vietnamese

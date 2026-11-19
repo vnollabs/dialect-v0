@@ -1,0 +1,20 @@
+spelling: thiền
+etymologies:
+  - type: sino
+    han: 嬋
+    note:
+      en: Sino-Vietnamese word from 嬋
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: beauty
+            region: [south]
+            variant_of: thuyền
+            examples:
+              - text: Điêu Thiền
+              - text: thiền quiên
+                en: young and beautiful girl
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/thi%E1%BB%81n#Vietnamese

@@ -1,0 +1,16 @@
+spelling: bảy đáp
+etymologies:
+  - type: compound
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: pig butcher
+            region: [south-central]
+            examples:
+              - text: |-
+                  Không thương ai bằng thương anh bảy đáp,
+                  Ảnh làm heo rồi mình có tim, có cật mình ăn.
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%E1%BA%A3y_%C4%91%C3%A1p#Vietnamese

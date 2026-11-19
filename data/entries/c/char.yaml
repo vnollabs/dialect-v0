@@ -1,0 +1,18 @@
+spelling: chả
+etymologies:
+  - note:
+      en: Word formation with distal denotation by adding hỏi tone to the root cha (“dude”) in Southern Vietnamese and some topolects of Thanh Hoá.
+    pos:
+      - pos: pron
+        senses:
+          - gloss:
+              en: he/him, that dude
+            region: [south]
+            labels: [informal]
+            examples:
+              - text: Thằng cha sửa xe đầu hẻm hả? Tui quen chả từ hồi còn đi học.
+                standard: Gã sửa xe đầu ngõ à? Tôi quen gã từ hồi còn đi học.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ch%E1%BA%A3#Vietnamese

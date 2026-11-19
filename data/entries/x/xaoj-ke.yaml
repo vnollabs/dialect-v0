@@ -1,0 +1,14 @@
+spelling: xạo ke
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Nói dối, nói phét
+            region: [south]
+            synonyms: [xạo, ba xạo]
+            examples:
+              - text: Thôi đừng có xạo ke nữa, tui biết hết rồi.
+                standard: Thôi đừng có nói phét nữa, tôi biết hết rồi.
+                ai_draft: true
+            topics: [idioms]
+            sources: [skill-dictionary-v1]

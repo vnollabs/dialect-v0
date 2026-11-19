@@ -1,0 +1,18 @@
+spelling: nạt
+etymologies:
+  - note:
+      en: Compare nát.
+    pos:
+      - pos: verb
+        han_nom: [㖏, 捏, 揑, 涅, 𠽇]
+        senses:
+          - gloss:
+              en: to browbeat; to thunder
+            region: [central, south]
+            examples:
+              - text: Ổng nạt một tiếng, tụi nhỏ im re liền.
+                standard: Ông ấy quát một tiếng, bọn trẻ im bặt ngay.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/n%E1%BA%A1t#Vietnamese

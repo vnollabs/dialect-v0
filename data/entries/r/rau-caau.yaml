@@ -1,0 +1,19 @@
+spelling: rau câu
+etymologies:
+  - type: compound
+    note:
+      en: Compound of rau (“leaf vegetable”) + câu (the name of the plant). The term was originally used to refer to red algae of the genus Gracilaria, and later to jelly. These red algae are a source of agar, a gelatin substitute in jelly.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: jelly (dessert)
+            region: [south]
+            synonyms: [thạch, đông sương]
+            examples:
+              - text: Má nấu rau câu dừa để trong tủ lạnh, ăn cho mát nghen.
+                standard: Mẹ nấu thạch dừa để trong tủ lạnh, ăn cho mát nhé.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/rau_c%C3%A2u#Vietnamese

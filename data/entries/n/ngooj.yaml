@@ -1,0 +1,60 @@
+spelling: ngộ
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Lạ mà xinh, dễ thương
+            region: [south]
+            examples:
+              - text: Cái này coi ngộ hén
+            topics: [qualities-feelings]
+            sources: [skill-dictionary-v1]
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: queer; quaint
+            region: [south]
+            examples:
+              - text: Ngộ ghê, sáng giờ con chó cứ nằm canh cửa hổng chịu ăn.
+                standard: Lạ thật, từ sáng đến giờ con chó cứ nằm canh cửa không chịu ăn.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ng%E1%BB%99#Vietnamese
+          - gloss:
+              en: sillily cute
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: kể cũng ngộ
+                en: it's kinda funny that
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ng%E1%BB%99#Vietnamese
+  - type: loan
+    lang: yue
+    source_form: 我
+    note:
+      en: Borrowed from Cantonese 我 (ngo5, ngã). See also nị (“thee”).
+    pos:
+      - pos: pron
+        senses:
+          - gloss:
+              en: I; me
+            qualifier: in mimicking stereotypical "Chinese" speech
+            region: [south]
+            labels: [humorous]
+            examples:
+              - text: Ngộ sẽ páo chù!
+                en: I will have my revenge!
+              - text: |-
+                  Mã Sinh nói, giọng lơ lớ tiếng Việt:
+                  "Ngộ xin lỗi nị, vất vả quá chừng."
+                en: |-
+                  Mã Sinh say, voice are lisp Vietnamese:
+                  "I apologize to you, you have been hard."
+                ref: "1999, Bùi Anh Tấn, chapter 2, in Một thế giới không có đàn bà [A Womenless World]:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ng%E1%BB%99#Vietnamese

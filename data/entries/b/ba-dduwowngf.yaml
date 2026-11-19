@@ -1,0 +1,18 @@
+spelling: ba đường
+etymologies:
+  - note:
+      en: Calque of English sugar daddy.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: sugar daddy (older man who spends money for a relationship with a younger partner)
+            region: [south]
+            synonyms: [bố đường, sugar daddy]
+            examples:
+              - text: Tụi nó chọc cổ quen được ông ba đường, nên mới sắm đồ hiệu dữ vậy.
+                standard: Bọn nó trêu cô ấy quen được ông bố đường, nên mới sắm đồ hiệu nhiều thế.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ba_%C4%91%C6%B0%E1%BB%9Dng#Vietnamese

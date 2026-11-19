@@ -1,0 +1,24 @@
+spelling: hun
+etymologies:
+  - sound_change:
+      compare:
+        - [rún, rốn]
+        - [thúi, thối]
+    note:
+      en: Typical Central and Southern Vietnamese retention of medial *u, which often developed into ‹ô› (or ‹o›) in Northern dialects; later strengthened with the use of "slang" to avoid awkward situations. Compare rún vs. rốn, thúi vs. thối.
+    pos:
+      - pos: verb
+        han_nom: [㖧]
+        senses:
+          - gloss:
+              en: to kiss
+            region: [central, south]
+            variant_of: hôn
+            synonyms: [thơm, hôn, chu, chụt, mi]
+            examples:
+              - text: Thằng nhỏ hun má một cái rồi chạy đi học.
+                standard: Thằng bé hôn mẹ một cái rồi chạy đi học.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/hun#Vietnamese
