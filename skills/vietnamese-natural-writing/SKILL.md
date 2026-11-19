@@ -40,7 +40,7 @@ Chỉ bỏ qua bước này khi người dùng đã nói đủ, hoặc bảo "kh
 
 Đọc phần của chế độ đã chốt trong [references/che-do-viet.md](references/che-do-viet.md). Viết truyện, tản văn, quảng cáo, kể chuyện vùng miền thì đọc thêm [references/van-phong-tac-gia.md](references/van-phong-tac-gia.md) và chọn giọng gần nhất theo bảng "Chọn giọng theo việc".
 
-[references/mau-da-duyet.md](references/mau-da-duyet.md) có mục cùng chế độ thì đọc trước: học khung của bài được duyệt, tránh khung của bài bị chê.
+[samples/](samples/) chứa bài người dùng đã duyệt, mỗi bài một file. Có bài cùng chế độ thì đọc trước: học khung (nhịp, cách mở, cách kết, cách giữ giọng), không chép câu chữ.
 
 ### 3. Sửa cho ra người
 
@@ -85,8 +85,7 @@ Thước đo là người dùng, không phải checker. Mỗi lần người dù
 - **Bị chê** ("giống AI", "máy quá", hoặc chỉ ra một câu): gọi đúng tên thói, sửa, rồi ghi:
   1. Cụm từ cố định: thêm vô đúng mục trong `scripts/phrases.txt`.
   2. Kiểu cấu trúc: thêm một dòng vô bảng mục A của `references/dau-hieu-ai.md`. Bắt được bằng regex thì thêm check vô `scripts/check_ai_tells.py` kèm một test trong `scripts/test_check_ai_tells.py`.
-  3. Bài bị chê: ghi vô mục "Bị chê" của `references/mau-da-duyet.md`, theo định dạng ở đầu file.
-- **Được duyệt** ("ok", "được rồi", "hay đó", hoặc dùng luôn): hỏi một câu ngắn có muốn lưu làm mẫu không; đồng ý thì ghi vô mục "Được duyệt".
+- **Được duyệt** ("ok", "được rồi", "hay đó", hoặc dùng luôn): hỏi một câu ngắn có muốn lưu làm mẫu không; đồng ý thì lưu bản cuối thành một file trong `samples/`, tên file là tên bài viết không dấu nối gạch ngang (`khuc-vam-nuoc-dung.md`), dòng đầu `# <Tên bài>`.
 - Sửa `phrases.txt` hoặc checker xong thì chạy `python3 SKILL_DIR/scripts/test_check_ai_tells.py`; test phải qua.
 - Báo một dòng đã ghi gì, vô file nào. Không ghi thông tin riêng (tên khách, số điện thoại, địa chỉ) vô mẫu; thay bằng `[tên]`, `[sđt]`.
 - Thư mục skill không ghi được: đưa người dùng đoạn cần thêm để họ tự dán.
