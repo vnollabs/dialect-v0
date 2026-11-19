@@ -77,7 +77,7 @@
       "required": ["api", "data_version", "built", "license", "license_url", "attribution"],
       "properties": {
         "api": { "const": "v1" },
-        "data_version": { "description": "Build date and commit, e.g. 2026-11-19+9e9fb04.", "type": "string" },
+        "data_version": { "description": "Build date and commit, e.g. 2026-11-19+9e9fb04; the commit ends in -dirty when built with uncommitted changes, and is dev outside a git checkout.", "type": "string" },
         "built": { "type": "string", "format": "date-time" },
         "license": { "type": "string" },
         "license_url": { "type": "string" },

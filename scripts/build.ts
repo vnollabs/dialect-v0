@@ -40,9 +40,11 @@ for (const [file, text] of Object.entries(generated)) {
   console.log(`wrote ${path.relative(ROOT, file)}`);
 }
 
-// Packaged skills: copies of skills/ that include the generated files, without local clutter.
+// Packaged skills: copies of skills/ that include the generated files, without local clutter: dotfiles and
+// dot-directories (.DS_Store, .pytest_cache, .venv, editor swap files), Python caches, editor backups.
 const PACKAGED = path.join(ROOT, "dist/skills");
-const CLUTTER = new Set(["__pycache__", ".DS_Store"]);
+const clutter = (name: string) =>
+  name.startsWith(".") || name === "__pycache__" || name === "node_modules" || /\.py[co]$|~$/.test(name);
 fs.rmSync(PACKAGED, { recursive: true, force: true });
 const skillNames = fs
   .readdirSync(SKILLS, { withFileTypes: true })
@@ -51,15 +53,19 @@ const skillNames = fs
 for (const name of skillNames)
   fs.cpSync(path.join(SKILLS, name), path.join(PACKAGED, name), {
     recursive: true,
-    filter: (src) => !CLUTTER.has(path.basename(src)),
+    filter: (src) => !clutter(path.basename(src)),
   });
 console.log(`wrote dist/skills (${skillNames.join(", ")})`);
 
 // The JSON API. dist/public is the Worker's asset directory (wrangler.jsonc), rebuilt from scratch each time.
 const built = new Date().toISOString();
+const git = (...args: string[]) =>
+  execFileSync("git", args, { cwd: ROOT, encoding: "utf8", stdio: ["ignore", "pipe", "ignore"] }).trim();
 let commit = "dev";
 try {
-  commit = execFileSync("git", ["rev-parse", "--short", "HEAD"], { cwd: ROOT, encoding: "utf8" }).trim();
+  commit = git("rev-parse", "--short", "HEAD");
+  // Uncommitted or untracked changes to what the API is built from: the commit alone doesn't contain this data.
+  if (git("status", "--porcelain", "--", "data", "schema", "scripts")) commit += "-dirty";
 } catch {
   // Not a git checkout: keep "dev".
 }

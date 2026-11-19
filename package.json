@@ -11,7 +11,7 @@
     "validate": "node scripts/validate.ts",
     "build": "node scripts/build.ts",
     "dev:api": "npm run build && wrangler dev",
-    "deploy": "npm run build && wrangler deploy",
+    "deploy": "npm run validate && npm run build && wrangler deploy",
     "dict": "node scripts/dict.ts",
     "import:wiktionary": "node scripts/import-wiktionary.ts",
     "typecheck": "tsc",

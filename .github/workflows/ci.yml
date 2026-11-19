@@ -43,10 +43,11 @@ jobs:
   # Publishes https://dialect.vnol.net/api/v1/ on every push to main (releases; work merges into develop).
   # Needs repository secrets CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID. The token needs Editor on the
   # dialect-api Worker and Zone > Workers Routes > Write on vnol.net; creating the Worker the first time needs
-  # the Workers Admin role, so a member can run the first `npm run deploy` instead. See docs/api.md.
+  # the Workers Admin role, so a member can run the first `npm run deploy` instead. Skipped until the
+  # repository variable DEPLOY_API is "true", so main stays green before the secrets exist. See docs/api.md.
   deploy:
     needs: check
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main' && vars.DEPLOY_API == 'true'
     runs-on: ubuntu-latest
     concurrency: deploy-api
     steps:
