@@ -18,9 +18,10 @@
 import fs from "node:fs";
 import path from "node:path";
 import {
-  ROOT, entryFile, loadEntries, loadRegions, loadSources, loadTopics, readYaml, senses, status, writeEntry,
-  type Entry, type Sense, type SourceRef,
+  ROOT, appendInEntryFile, canonical, entryFile, loadEntries, loadRegions, loadSources, loadTopics, readYaml, senses,
+  status, writeEntry, type Entry, type Sense, type SourceRef,
 } from "./lib/data.ts";
+import { slug } from "./lib/telex.ts";
 
 const [cmd, ...rest] = process.argv.slice(2);
 const flag = (name: string) => (rest.includes(name) ? rest[rest.indexOf(name) + 1] : undefined);
@@ -78,6 +79,10 @@ if (cmd === "add") {
   const file = entryFile(word);
   const existed = fs.existsSync(file);
   const entry: Entry = existed ? readYaml<Entry>(file) : { spelling: word, etymologies: [{ pos: [{ senses: [] }] }] };
+  if (slug(entry.spelling) !== slug(word)) {
+    console.error(`${rel(file)} holds "${entry.spelling}", a different word. Run \`npm run validate\`.`);
+    process.exit(1);
+  }
   const same = [...senses(entry)].find(({ sense }) => sense.gloss.vi?.toLowerCase() === meaning.toLowerCase());
   if (same) {
     console.error(`${rel(file)} already has this meaning: ${describe(entry)}`);
@@ -102,14 +107,24 @@ if (cmd === "add") {
     topics: [topic],
     ...(source && { sources: [source] }),
   };
-  // A new meaning without a part of speech goes in a block without one; editors classify later.
-  const target = entry.etymologies[0].pos.find((b) => !b.pos && !b.head) ?? entry.etymologies[0].pos.at(-1)!;
-  target.senses.push(sense);
+  // A new meaning goes in a block without a part of speech (editors classify it later), for the word
+  // as typed: a form that differs from the file's spelling by case or punctuation ("Nhựt", "… coi") is its `head`.
+  const head = word !== entry.spelling ? word : undefined;
+  const blocks = entry.etymologies[0].pos;
+  let index = blocks.findIndex((b) => !b.pos && b.head === head);
+  const newBlock = index < 0;
+  if (newBlock) index = blocks.push({ ...(head && { head }), senses: [] }) - 1;
+  blocks[index].senses.push(sense);
   if (rest.includes("--dry-run")) {
     console.log(`[dry-run] ${rel(file)}: ${describe(entry)}`);
     process.exit(0);
   }
-  writeEntry(entry);
+  if (existed) {
+    // Only the new block or sense is written, so comments and formatting in the file stay as they are.
+    const block = canonical(entry).etymologies[0].pos[index];
+    if (newBlock) appendInEntryFile(file, ["etymologies", 0, "pos"], block);
+    else appendInEntryFile(file, ["etymologies", 0, "pos", index, "senses"], block.senses.at(-1));
+  } else writeEntry(entry);
   console.log(`${existed ? "updated" : "created"} ${rel(file)}: ${describe(entry)}`);
   console.log("Run `npm run build` to refresh the skill dictionary.");
   process.exit(0);

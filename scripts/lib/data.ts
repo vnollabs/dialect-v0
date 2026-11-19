@@ -71,31 +71,55 @@ export type Source = {
 // ---------- YAML ----------
 
 /** YAML 1.2 core schema: "no", "yes", "on" stay strings (they are Vietnamese words). */
-export function parseYaml(text: string, file: string): unknown {
+function parseDocument(text: string, file: string): YAML.Document {
   const doc = YAML.parseDocument(text, { version: "1.2", schema: "core", uniqueKeys: true });
   if (doc.errors.length) throw new Error(`${file}: ${doc.errors[0].message}`);
-  return doc.toJS();
+  return doc;
 }
 
-export function readYaml<T>(file: string): T {
-  return parseYaml(fs.readFileSync(file, "utf8"), file) as T;
+export function parseYaml(text: string, file: string): unknown {
+  return parseDocument(text, file).toJS();
 }
 
-// Strings a YAML 1.1 reader (PyYAML and others) would turn into booleans or null.
-const YAML11_SPECIAL = /^(y|n|yes|no|true|false|on|off|null|~)$/i;
+export function readYaml<T>(file: string, label = path.relative(ROOT, file)): T {
+  return parseYaml(fs.readFileSync(file, "utf8"), label) as T;
+}
+
+/** Whether the YAML text has a comment anywhere (scripts that rewrite a whole file would drop it). */
+export function hasComments(text: string): boolean {
+  for (const token of new YAML.Lexer().lex(text)) if (YAML.CST.tokenType(token) === "comment") return true;
+  return false;
+}
+
+// Strings a YAML 1.1 reader (PyYAML and others) would not read back as strings: booleans, null,
+// numbers (including 0b11, 0x1f, 1_000 and sexagesimal 1:20), timestamps, and the merge and value keys.
+const YAML11_SPECIAL = [
+  /^(y|n|yes|no|true|false|on|off|null|~)$/i,
+  /^[-+]?(0b[01_]+|0x[0-9a-f_]+|[0-9][0-9_]*(:[0-5]?[0-9])*(\.[0-9_]*)?(e[-+]?[0-9]+)?|\.[0-9_]+(e[-+]?[0-9]+)?|\.inf|\.nan)$/i,
+  /^[0-9]{4}-[0-9]{1,2}-[0-9]{1,2}([Tt \t]|$)/,
+  /^(<<|=)$/,
+];
+
+/** Applies the house style to a new node (or a whole new document). */
+function style(node: YAML.Node | YAML.Document): void {
+  YAML.visit(node, {
+    Seq(_, seq) {
+      // Short lists of plain words read better inline: region: [south, mekong-delta]
+      if (seq.items.every((i) => YAML.isScalar(i) && String(i.value).length < 40)) seq.flow = true;
+    },
+    Scalar(_, scalar) {
+      if (typeof scalar.value === "string" && YAML11_SPECIAL.some((re) => re.test(scalar.value as string)))
+        scalar.type = "QUOTE_DOUBLE";
+    },
+  });
+}
+
+const STRINGIFY: YAML.ToStringOptions = { lineWidth: 0, flowCollectionPadding: false };
 
 export function toYaml(value: unknown): string {
   const doc = new YAML.Document(value, { version: "1.2" });
-  YAML.visit(doc, {
-    Seq(_, node) {
-      // Short lists of plain words read better inline: region: [south, mekong-delta]
-      if (node.items.every((i) => YAML.isScalar(i) && String(i.value).length < 40)) node.flow = true;
-    },
-    Scalar(_, node) {
-      if (typeof node.value === "string" && YAML11_SPECIAL.test(node.value)) node.type = "QUOTE_DOUBLE";
-    },
-  });
-  return doc.toString({ lineWidth: 0, flowCollectionPadding: false });
+  style(doc);
+  return doc.toString(STRINGIFY);
 }
 
 // ---------- Entries ----------
@@ -104,16 +128,27 @@ export function entryFile(spelling: string): string {
   return path.join(ENTRIES, entryRelPath(spelling));
 }
 
-export function loadEntries(): Loaded[] {
+/** Hidden files (.DS_Store, editor swap files, macOS ._ copies) are not part of the data. */
+export const isHidden = (rel: string) => path.basename(rel).startsWith(".");
+
+/** Every entry file. One that isn't valid YAML throws, or is reported to `onError` and left out. */
+export function loadEntries(onError?: (error: Error) => void): Loaded[] {
   if (!fs.existsSync(ENTRIES)) return [];
   const files = fs
     .readdirSync(ENTRIES, { recursive: true, encoding: "utf8" })
-    .filter((f) => f.endsWith(".yaml"))
+    .filter((f) => f.endsWith(".yaml") && !isHidden(f))
     .sort();
-  return files.map((rel) => {
+  const loaded: Loaded[] = [];
+  for (const rel of files) {
     const file = path.join(ENTRIES, rel);
-    return { file, entry: readYaml<Entry>(file) };
-  });
+    try {
+      loaded.push({ file, entry: readYaml<Entry>(file) });
+    } catch (e) {
+      if (!onError) throw e;
+      onError(e as Error);
+    }
+  }
+  return loaded;
 }
 
 const KEY_ORDER: Record<string, string[]> = {
@@ -185,6 +220,18 @@ export function writeEntry(entry: Entry): string {
   return file;
 }
 
+/**
+ * Appends `value` to the list at `at` (e.g. ["etymologies", 0, "pos"]) in an existing entry file.
+ * Edits the parsed document instead of rewriting the file, so comments and hand formatting stay.
+ */
+export function appendInEntryFile(file: string, at: (string | number)[], value: unknown): void {
+  const doc = parseDocument(fs.readFileSync(file, "utf8"), path.relative(ROOT, file));
+  const node = doc.createNode(value);
+  style(node);
+  doc.addIn(at, node);
+  fs.writeFileSync(file, doc.toString(STRINGIFY));
+}
+
 export function* senses(entry: Entry): Generator<{ ety: Etymology; block: PosBlock; sense: Sense }> {
   for (const ety of entry.etymologies)
     for (const block of ety.pos) for (const sense of block.senses) yield { ety, block, sense };
@@ -206,17 +253,23 @@ export const sourceId = (ref: SourceRef): string => (typeof ref === "string" ? r
 
 export type Status = "verified" | "pending" | "unsourced";
 
-/** verified: 2+ independent sources; pending: 1; unsourced: 0. Copies (same_as) and provenance-only sources don't add. */
+/**
+ * verified: 2+ independent sources; pending: 1; unsourced: 0. Copies (same_as) count as their
+ * original, and a provenance-only source (counts: false) doesn't add, even when it copies one that does.
+ */
 export function status(sense: Sense, registry: Record<string, Source>): Status {
   const roots = new Set<string>();
   for (const ref of sense.sources ?? []) {
     let id = sourceId(ref);
+    let counts = true;
     const seen = new Set<string>();
-    while (registry[id]?.same_as && !seen.has(id)) {
+    while (registry[id] && !seen.has(id)) {
       seen.add(id);
+      if (registry[id].counts === false) counts = false;
+      if (!registry[id].same_as) break;
       id = registry[id].same_as!;
     }
-    if (registry[id] && registry[id].counts !== false) roots.add(id);
+    if (registry[id] && counts) roots.add(id);
   }
   return roots.size >= 2 ? "verified" : roots.size === 1 ? "pending" : "unsourced";
 }

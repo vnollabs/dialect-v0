@@ -13,6 +13,7 @@
  * if Wiktionary's "form of X" or a Northern synonym matches that sense's `standard`. Other senses are
  * added next to the existing ones and listed at the end for review. Spellings whose file already
  * cites Wiktionary are skipped, so re-running does not duplicate senses (it is a seed, not a sync).
+ * Files with comments are skipped too and listed, because merging rewrites the whole file.
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -20,7 +21,7 @@ import readline from "node:readline";
 import { PassThrough } from "node:stream";
 import zlib from "node:zlib";
 import {
-  ROOT, entryFile, readYaml, senses, sourceId, writeEntry,
+  ROOT, entryFile, hasComments, parseYaml, senses, sourceId, writeEntry,
   type Entry, type Etymology, type PosBlock, type Sense,
 } from "./lib/data.ts";
 import { slug } from "./lib/telex.ts";
@@ -210,24 +211,76 @@ for await (const line of readline.createInterface({ input, crlfDelay: Infinity }
   if (k.lang_code !== "vi" || k.pos === "character") continue;
   const regional = k.senses.filter((s) => s.glosses?.length && regionsOf(s).some((r) => IMPORT_REGIONS.has(r)));
   if (!regional.length) continue;
-  if (!isVietnameseLatin(k.word)) {
+  let key: string;
+  try {
+    if (!isVietnameseLatin(k.word)) throw new Error("not Vietnamese script");
+    key = slug(k.word); // throws on Latin letters outside Vietnamese (ü, ç, ø, …)
+  } catch {
     skippedScript++;
     continue;
   }
-  const key = slug(k.word);
   bySlug.set(key, [...(bySlug.get(key) ?? []), { k, senses: regional }]);
 }
 
 // ---------- convert and merge ----------
 
-const report = { created: 0, touched: 0, merged: [] as string[], review: [] as string[], skipped: [] as string[] };
+const report = {
+  created: 0,
+  touched: 0,
+  merged: [] as string[],
+  review: [] as string[],
+  conflicts: [] as string[],
+  skipped: [] as string[],
+  byHand: [] as string[],
+};
+
+const ORIGIN = ["type", "lang", "of", "han", "source_form"] as const;
+
+/**
+ * Brings the details of `old` (an existing etymology whose sense moved into `into`) over to `into`,
+ * since `old` is dropped once it has no senses left. Where the two disagree, the existing file wins
+ * and the disagreement is returned for the review list.
+ */
+function mergeEtymology(into: Etymology, old: Etymology): string[] {
+  const conflicts: string[] = [];
+  const clash = ORIGIN.filter((k) => old[k] && into[k] && old[k] !== into[k]);
+  if (clash.length) {
+    // The origin fields describe one origin: keep the existing set whole rather than mix the two.
+    conflicts.push(`kept ${clash.map((k) => `${k}: ${old[k]}`).join(", ")} over Wiktionary's ${clash.map((k) => into[k]).join(", ")}`);
+    for (const k of ORIGIN) {
+      if (old[k]) into[k] = old[k];
+      else delete into[k];
+    }
+  } else for (const k of ORIGIN) if (old[k] && !into[k]) into[k] = old[k];
+  if (old.note) {
+    if (old.note.en && into.note?.en && old.note.en !== into.note.en)
+      conflicts.push(`kept the existing note.en over Wiktionary's "${into.note.en}"`);
+    into.note = { ...into.note, ...old.note };
+  }
+  if (old.sound_change) {
+    if (into.sound_change && JSON.stringify(old.sound_change) !== JSON.stringify(into.sound_change))
+      conflicts.push(`kept the existing sound_change over Wiktionary's`);
+    into.sound_change = old.sound_change;
+  }
+  if (old.derived) into.derived = uniq([...old.derived, ...(into.derived ?? [])]);
+  return conflicts;
+}
 
 for (const group of bySlug.values()) {
   const words = uniq(group.map((g) => g.k.word));
   const existingPath = entryFile(words[0]);
-  const existing = fs.existsSync(existingPath) ? readYaml<Entry>(existingPath) : undefined;
+  const existingText = fs.existsSync(existingPath) ? fs.readFileSync(existingPath, "utf8") : undefined;
+  const existing = existingText === undefined ? undefined : (parseYaml(existingText, path.relative(ROOT, existingPath)) as Entry);
   if (existing && [...senses(existing)].some(({ sense }) => sense.sources?.some((r) => sourceId(r) === "wiktionary"))) {
     report.skipped.push(existing.spelling);
+    continue;
+  }
+  if (existing && slug(existing.spelling) !== slug(words[0])) {
+    report.byHand.push(`${existing.spelling}: ${path.relative(ROOT, existingPath)} doesn't match its spelling (npm run validate)`);
+    continue;
+  }
+  if (existingText && hasComments(existingText)) {
+    report.byHand.push(`${existing!.spelling}: the file has comments; add Wiktionary's senses (${pageUrl(words[0])}) by hand`);
     continue;
   }
   const spelling = existing?.spelling ?? words.find((w) => w === w.toLowerCase()) ?? words[0];
@@ -260,6 +313,7 @@ for (const group of bySlug.values()) {
   if (existing) {
     // Merge an imported sense into an existing (skill) sense when they name the same standard word.
     const mergedNote: string[] = [];
+    const conflicts = new Set<string>();
     for (const ety of etymologies)
       for (const block of ety.pos)
         block.senses = block.senses.map((imp) => {
@@ -277,8 +331,7 @@ for (const group of bySlug.values()) {
               if (i < 0) continue;
               const [old] = oldBlock.senses.splice(i, 1);
               mergedNote.push(`${old.gloss.vi} = ${imp.gloss.en}`);
-              for (const k of ["type", "lang", "of", "han", "source_form", "note"] as const)
-                if (oldEty[k] && !ety[k]) (ety as Record<string, unknown>)[k] = oldEty[k];
+              for (const c of mergeEtymology(ety, oldEty)) conflicts.add(c);
               return {
                 ...old,
                 gloss: { ...old.gloss, en: imp.gloss.en },
@@ -298,6 +351,7 @@ for (const group of bySlug.values()) {
       .filter((e) => e.pos.length);
     entry = { ...entry, ...(existing.pronunciation && { pronunciation: existing.pronunciation }), etymologies: [...remaining, ...etymologies] };
     if (mergedNote.length) report.merged.push(`${spelling}: ${mergedNote.join("; ")}`);
+    if (conflicts.size) report.conflicts.push(`${spelling}: ${[...conflicts].join("; ")}`);
     report.touched++;
     const left = remaining.flatMap((e) => e.pos.flatMap((b) => b.senses.map((s) => s.gloss.vi ?? s.gloss.en)));
     const unmerged = etymologies.flatMap((e) => e.pos.flatMap((b) => b.senses.filter((s) => !s.gloss.vi).map((s) => s.gloss.en)));
@@ -310,7 +364,7 @@ for (const group of bySlug.values()) {
 
 console.log(
   `${[...bySlug.values()].reduce((n, g) => n + g.length, 0)} Wiktionary sections with Southern/South Central/Mekong senses, ` +
-    `${bySlug.size} spellings (${skippedScript} non-Latin headwords skipped)`,
+    `${bySlug.size} spellings (${skippedScript} headwords outside Vietnamese script skipped)`,
 );
 console.log(`created ${report.created} files, added to ${report.touched} existing files${dryRun ? " (dry run)" : ""}`);
 if (report.skipped.length) console.log(`already imported, skipped: ${report.skipped.length}`);
@@ -318,6 +372,10 @@ console.log(`\nMerged into an existing sense (${report.merged.length}):`);
 for (const m of report.merged) console.log(`  ${m}`);
 console.log(`\nTo review: existing senses kept next to imported ones (${report.review.length}):`);
 for (const r of report.review) console.log(`  ${r}`);
+console.log(`\nTo review: etymology details where the existing file and Wiktionary disagree (${report.conflicts.length}):`);
+for (const c of report.conflicts) console.log(`  ${c}`);
+console.log(`\nNot imported, to do by hand (${report.byHand.length}):`);
+for (const b of report.byHand) console.log(`  ${b}`);
 if (unmappedTags.size)
   console.log(`\nWiktionary tags not mapped to labels: ${[...unmappedTags].map(([t, n]) => `${t}×${n}`).join(", ")}`);
 
@@ -340,6 +398,17 @@ if (reportArg && !dryRun) {
     `## To review (${report.review.length})`,
     "",
     ...report.review.map((r) => `- [ ] ${r}`),
+    "",
+    `## Etymology conflicts (${report.conflicts.length})`,
+    "",
+    "A merged sense moved into Wiktionary's etymology, and the existing file's etymology said something else.",
+    "The existing values were kept; check them against Wiktionary.",
+    "",
+    ...report.conflicts.map((c) => `- [ ] ${c}`),
+    "",
+    `## Not imported (${report.byHand.length})`,
+    "",
+    ...report.byHand.map((b) => `- [ ] ${b}`),
     "",
   ].join("\n");
   fs.writeFileSync(reportArg, md);

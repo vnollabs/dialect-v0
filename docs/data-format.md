@@ -22,7 +22,12 @@ A file holds everything spelled one way, the way a Wiktionary page does. Its nam
 | lẩu mắm  | `data/entries/l/laaur-mawms.yaml` |
 | đâu có   | `data/entries/d/ddaau-cos.yaml`   |
 
-Telex keeps words that differ only by tone apart (*lâu, lầu, lẩu, lậu*), and ASCII names behave the same on macOS, Windows and Linux. You never need to work the name out yourself: `npm run dict -- add` creates the file, and `npm run validate` reports a file whose name doesn't match its spelling.
+Telex keeps words that differ only by tone apart (*lâu, lầu, lẩu, lậu*), and ASCII names behave the same on macOS, Windows and Linux. Two extra rules keep loanwords from landing in another word's file:
+
+- A letter Telex would read as a mark on the letter before it is written after `_`: *xoong* → `x/xo_ong.yaml`, because *xông* is `x/xoong.yaml`. The same goes for *boong*, *soóc* (`so_ocs`), *moóc* and *goòng*.
+- A syllable without a tone that ends in s, f, r, x, j or z gets Telex's "no tone" key `z`: *bas* → `basz`, because *bá* is `bas`.
+
+You never need to work the name out yourself: `npm run dict -- add` creates the file, and `npm run validate` reports a file whose name doesn't match its spelling.
 
 Spellings are lowercase except proper nouns. When a proper noun and a common word share a file (*Nhựt*, a given name, and *nhựt* = *nhật*), the proper noun's block sets `head: Nhựt`.
 
@@ -119,7 +124,7 @@ npm run validate        # schema, file names, NFC, ids, skill dictionary
 npm run build           # regenerate the skill files (commit them) and dist/lexicon.json
 ```
 
-`add` refuses a word that already has a file unless `--new-sense` says it's a different meaning; to improve an existing sense, edit the file. Any editor works for other changes. `validate` catches what the schema doesn't (wrong file name, unknown ids, text not in NFC).
+`add` refuses a word that already has a file unless `--new-sense` says it's a different meaning; to improve an existing sense, edit the file. `--new-sense` puts the meaning in a block without a part of speech (for an editor to classify) and leaves the rest of the file, comments included, as it was. Any editor works for other changes. `validate` catches what the schema doesn't (wrong file name, unknown ids, text not in NFC).
 
 ## Reviewing AI-drafted examples
 
@@ -134,7 +139,7 @@ For each draft, check that it uses the word in *this* sense, sounds like a real 
 
 ## Wiktionary
 
-`npm run import:wiktionary` seeded the data from the [kaikki.org](https://kaikki.org/dictionary/Vietnamese/) dump of English Wiktionary (CC BY-SA 4.0). It is a seed, not a sync: spellings that already cite Wiktionary are skipped on re-runs. Every imported sense keeps its page URL in `sources` for attribution.
+`npm run import:wiktionary` seeded the data from the [kaikki.org](https://kaikki.org/dictionary/Vietnamese/) dump of English Wiktionary (CC BY-SA 4.0). It is a seed, not a sync: spellings that already cite Wiktionary are skipped on re-runs. Merging rewrites a whole file, so a file with comments is skipped too and listed for merging by hand. Every imported sense keeps its page URL in `sources` for attribution.
 
 ## Pronunciation
 
@@ -152,5 +157,5 @@ Don't copy IPA from Wiktionary: its `{{vi-IPA}}` template computes it from the s
 
 ## YAML pitfalls
 
-- Files are read as YAML 1.2, where `no` (as in *ăn no*) is a word. Older parsers such as PyYAML read it as `false`. The build quotes such words when it writes files; quote them yourself if you edit by hand (`spelling: "no"`).
+- Files are read as YAML 1.2, where `no` (as in *ăn no*) is a word. Older parsers such as PyYAML read it as `false`, and read `1:20` as 80 and `2024-01-01` as a date. The scripts quote such text when they write files; quote it yourself if you edit by hand (`spelling: "no"`).
 - Keep text in NFC. Most editors do; `validate` reports text that isn't.
