@@ -116,7 +116,7 @@ npm run dict -- add "mưa dông" "Mưa to kèm sấm sét" --topic weather-orcha
   --example "Chiều nay mưa dông lớn lắm nghen" --source <id>
 npm run dict -- drafts  # AI-drafted examples awaiting review
 npm run validate        # schema, file names, NFC, ids, skill dictionary
-npm run build           # regenerate the skill files (commit them) and dist/lexicon.json
+npm run build           # regenerate the skill files (commit them) and the JSON API in dist/public (docs/api.md)
 ```
 
 `add` refuses a word that already has a file unless `--new-sense` says it's a different meaning; to improve an existing sense, edit the file. Any editor works for other changes. `validate` catches what the schema doesn't (wrong file name, unknown ids, text not in NFC).
