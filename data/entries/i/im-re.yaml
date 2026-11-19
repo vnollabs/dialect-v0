@@ -1,0 +1,18 @@
+spelling: im re
+etymologies:
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              vi: Im lặng hoàn toàn, không ai lên tiếng, không một tiếng động
+            region: [south]
+            labels: [colloquial]
+            standard: [im thin thít, im phăng phắc]
+            examples:
+              - text: Má hỏi ai làm bể cái chén, mấy đứa nhỏ đứa nào cũng im re.
+                standard: Mẹ hỏi ai làm vỡ cái bát, mấy đứa trẻ đứa nào cũng im thin thít.
+                ai_draft: true
+            topics: [qualities-feelings]
+            sources:
+              - id: contributor
+                note: Người dùng đưa ra khi duyệt truyện ma lon, 2026-11-19
