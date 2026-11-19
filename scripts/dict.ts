@@ -7,6 +7,7 @@
  *                        [--source ID] [--source-url URL] [--source-note TEXT] [--new-sense] [--dry-run]
  *       Creates WORD's file with one sense (Vietnamese gloss). If the file exists, refuses unless
  *       --new-sense says this is a different meaning; to improve an existing sense, edit the file.
+ *       A new meaning has no part of speech or etymology yet: editors classify it later.
  *       --region defaults to south. Run `npm run build` afterwards to refresh the skill.
  *   node scripts/dict.ts pending [--status pending|unsourced] [--topic ID]
  *       Senses still waiting for sources (two independent sources make a sense verified).
@@ -18,15 +19,18 @@
 import fs from "node:fs";
 import path from "node:path";
 import {
-  ROOT, entryFile, loadEntries, loadRegions, loadSources, loadTopics, readYaml, senses, status, writeEntry,
-  type Entry, type Sense, type SourceRef,
+  ROOT, appendInEntryFile, canonical, entryFile, loadEntries, loadRegions, loadSources, loadTopics, readYaml, senses,
+  status, writeEntry, type Entry, type Etymology, type Sense, type SourceRef,
 } from "./lib/data.ts";
+import { skillLines } from "./lib/skill.ts";
+import { slug } from "./lib/telex.ts";
 
 const [cmd, ...rest] = process.argv.slice(2);
 const flag = (name: string) => (rest.includes(name) ? rest[rest.indexOf(name) + 1] : undefined);
 const BOOLEAN_FLAGS = new Set(["--dry-run", "--new-sense"]);
 const positional = rest.filter((a, i) => !a.startsWith("--") && !(rest[i - 1]?.startsWith("--") && !BOOLEAN_FLAGS.has(rest[i - 1])));
 const rel = (f: string) => path.relative(ROOT, f);
+const ORIGIN_FIELDS = ["type", "lang", "of", "han", "source_form", "sound_change", "note", "derived"] as const;
 const nfc = (s: string) => s.normalize("NFC").trim();
 
 function usage(): never {
@@ -78,6 +82,10 @@ if (cmd === "add") {
   const file = entryFile(word);
   const existed = fs.existsSync(file);
   const entry: Entry = existed ? readYaml<Entry>(file) : { spelling: word, etymologies: [{ pos: [{ senses: [] }] }] };
+  if (slug(entry.spelling) !== slug(word)) {
+    console.error(`${rel(file)} holds "${entry.spelling}", a different word. Run \`npm run validate\`.`);
+    process.exit(1);
+  }
   const same = [...senses(entry)].find(({ sense }) => sense.gloss.vi?.toLowerCase() === meaning.toLowerCase());
   if (same) {
     console.error(`${rel(file)} already has this meaning: ${describe(entry)}`);
@@ -102,14 +110,46 @@ if (cmd === "add") {
     topics: [topic],
     ...(source && { sources: [source] }),
   };
-  // A new meaning without a part of speech goes in a block without one; editors classify later.
-  const target = entry.etymologies[0].pos.find((b) => !b.pos && !b.head) ?? entry.etymologies[0].pos.at(-1)!;
-  target.senses.push(sense);
+  const before: Entry = structuredClone(entry);
+  // A new meaning is unclassified, so it must not inherit another meaning's origin or part of speech: it goes
+  // in an etymology with no origin data whose blocks have no part of speech, made if the file has none.
+  // Its block is for the word as typed: a form that differs from the file's spelling by case or
+  // punctuation ("Nhựt", "… coi") is the block's `head`.
+  const unsorted = (e: Etymology) => ORIGIN_FIELDS.every((k) => e[k] === undefined) && e.pos.every((b) => !b.pos);
+  const head = word !== entry.spelling ? word : undefined;
+  let e = entry.etymologies.findIndex(unsorted);
+  const newEtymology = e < 0;
+  if (newEtymology) e = entry.etymologies.push({ pos: [] }) - 1;
+  const blocks = entry.etymologies[e].pos;
+  let b = blocks.findIndex((x) => x.head === head);
+  const newBlock = b < 0;
+  if (newBlock) b = blocks.push({ ...(head && { head }), senses: [] }) - 1;
+  blocks[b].senses.push(sense);
+
+  // The skill dictionary lists a word once. Say so now rather than leave validate and build failing.
+  const others = loadEntries().filter((l) => path.resolve(l.file) !== path.resolve(file));
+  const known = new Set(skillLines(existed ? [...others, { file, entry: before }] : others, topics).problems);
+  const added = skillLines([...others, { file, entry }], topics).problems.filter((p) => !known.has(p));
+  if (added.length) {
+    console.error(added.join("\n"));
+    console.error(
+      `Not ${existed ? "updated" : "created"}. To keep this meaning out of the skill dictionary, add it to ` +
+        `${rel(file)} by hand without \`topics\`.`,
+    );
+    process.exit(1);
+  }
+
   if (rest.includes("--dry-run")) {
     console.log(`[dry-run] ${rel(file)}: ${describe(entry)}`);
     process.exit(0);
   }
-  writeEntry(entry);
+  if (existed) {
+    // Only the new etymology, block or sense is written, so comments and formatting in the file stay.
+    const ety = canonical(entry).etymologies[e];
+    if (newEtymology) appendInEntryFile(file, ["etymologies"], ety);
+    else if (newBlock) appendInEntryFile(file, ["etymologies", e, "pos"], ety.pos[b]);
+    else appendInEntryFile(file, ["etymologies", e, "pos", b, "senses"], ety.pos[b].senses.at(-1));
+  } else writeEntry(entry);
   console.log(`${existed ? "updated" : "created"} ${rel(file)}: ${describe(entry)}`);
   console.log("Run `npm run build` to refresh the skill dictionary.");
   process.exit(0);

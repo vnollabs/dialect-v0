@@ -12,8 +12,8 @@ import fs from "node:fs";
 import path from "node:path";
 import { Ajv2020 } from "ajv/dist/2020.js";
 import {
-  ENTRIES, ROOT, entryFile, loadEntries, loadRegions, loadSources, loadTopics, senses, sourceId, status,
-  type Status,
+  ENTRIES, ROOT, entryFile, isHidden, loadEntries, loadRegions, loadSources, loadTopics, senses, sourceId, status,
+  type Loaded, type Status,
 } from "./lib/data.ts";
 import { skillLines } from "./lib/skill.ts";
 
@@ -43,7 +43,9 @@ function checkNfc(value: unknown, where: string) {
   else if (value && typeof value === "object") Object.values(value).forEach((v) => checkNfc(v, where));
 }
 
-const entries = loadEntries();
+const entries = loadEntries((e) => problems.push(e.message));
+// Only entries that match the schema go on to the skill dictionary check, which assumes their shape.
+const valid: Loaded[] = [];
 const counts: Record<Status, number> = { verified: 0, pending: 0, unsourced: 0 };
 let senseCount = 0;
 let drafts = 0;
@@ -56,6 +58,7 @@ for (const { file, entry } of entries) {
     for (const e of validateSchema.errors ?? []) problems.push(`${where}: ${e.instancePath || "/"} ${e.message}`);
     continue;
   }
+  valid.push({ file, entry });
   checkNfc(entry, where);
   let expected: string;
   try {
@@ -93,12 +96,12 @@ for (const { file, entry } of entries) {
 
 const stray = fs.existsSync(ENTRIES)
   ? fs.readdirSync(ENTRIES, { recursive: true, encoding: "utf8" }).filter(
-      (f) => !f.endsWith(".yaml") && fs.statSync(path.join(ENTRIES, f)).isFile(),
+      (f) => !f.endsWith(".yaml") && !isHidden(f) && fs.statSync(path.join(ENTRIES, f)).isFile(),
     )
   : [];
 for (const f of stray) problems.push(`data/entries/${f}: only .yaml files belong here`);
 
-problems.push(...skillLines(entries, topics).problems);
+problems.push(...skillLines(valid, topics).problems);
 
 for (const p of problems) console.error(p);
 if (!quiet || problems.length) {

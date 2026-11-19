@@ -38,6 +38,16 @@ const lowerFirst = (s: string) => (s ? s[0].toLocaleLowerCase("vi") + s.slice(1)
 const upperFirst = (s: string) => (s ? s[0].toLocaleUpperCase("vi") + s.slice(1) : s);
 const unquote = (s: string) => (s.length >= 2 && s.startsWith('"') && s.endsWith('"') ? JSON.parse(s) : s);
 
+/** '<từ>: <nghĩa>', either side possibly double-quoted, as dictionary.py's split_entry reads it. */
+function splitEntry(body: string): [string, string] | undefined {
+  if (body.startsWith('"')) {
+    const m = body.match(/^("(?:[^"\\]|\\.)*")\s*:\s(.*)$/);
+    return m ? [unquote(m[1]), unquote(m[2].trim())] : undefined;
+  }
+  const sep = body.indexOf(": ");
+  return sep < 0 ? undefined : [body.slice(0, sep).trim(), unquote(body.slice(sep + 2).trim())];
+}
+
 type Row = { topic: string; key: string; value: string; line: number };
 const rows: Row[] = [];
 {
@@ -53,11 +63,13 @@ const rows: Row[] = [];
         stack.push({ indent, name: body.slice(0, -1).trim() });
         return;
       }
-      const sep = body.indexOf(": ");
+      if (!stack.length) throw new Error(`line ${i + 1}: entry outside any group: ${body}`);
+      const pair = splitEntry(body);
+      if (!pair) throw new Error(`line ${i + 1}: expected '<từ>: <nghĩa>': ${body}`);
       const group = stack.at(-1)!.name;
       const topic = topicByName.get(group);
       if (!topic) throw new Error(`line ${i + 1}: no topic in data/topics.yaml named "${group}"`);
-      rows.push({ topic, key: unquote(body.slice(0, sep).trim()), value: unquote(body.slice(sep + 2).trim()), line: i + 1 });
+      rows.push({ topic, key: pair[0], value: pair[1], line: i + 1 });
     });
 }
 

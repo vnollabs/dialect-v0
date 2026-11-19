@@ -3,7 +3,8 @@
  * The format must stay readable by skills/southern-mekong-vietnamese-dialect/scripts/dictionary.py,
  * so quoting and duplicate rules mirror that script.
  */
-import { collator, type Loaded, senses, type Topic } from "./data.ts";
+import path from "node:path";
+import { ROOT, collator, type Loaded, senses, type Topic } from "./data.ts";
 
 const YAML_INDICATORS = "-?:,[]{}#&*!|>'\"%@`";
 
@@ -18,6 +19,9 @@ function scalar(text: string): string {
 }
 
 const capitalize = (s: string) => (s ? s[0].toLocaleUpperCase("vi") + s.slice(1) : s);
+
+// Everything Python's str.splitlines() splits on: one of these inside a word or gloss breaks the line.
+const LINE_BREAK = /[\n\r\v\f\x1c-\x1e\x85\u2028\u2029]/;
 
 /** Same forms dictionary.py compares: lowercase, no "(…)", no leading "cái"/"con". */
 export function aliases(word: string): string[] {
@@ -79,7 +83,9 @@ function synonymGroups(items: Item[]): Item[][] {
 export function skillLines(entries: Loaded[], topics: Record<string, Topic>): { lines: Line[]; problems: string[] } {
   const problems: string[] = [];
   const items: Item[] = [];
-  for (const { file, entry } of entries) {
+  for (const loaded of entries) {
+    const { entry } = loaded;
+    const file = path.relative(ROOT, loaded.file);
     for (const { block, sense } of senses(entry)) {
       if (!sense.topics?.length) continue;
       if (!sense.gloss.vi) {
@@ -87,10 +93,22 @@ export function skillLines(entries: Loaded[], topics: Record<string, Topic>): { 
         continue;
       }
       const word = block.head ?? entry.spelling;
+      const forms = [word, ...(block.alt_forms ?? [])];
+      const broken = [
+        ...forms.map((f) => ["word", f]),
+        ["gloss.vi", sense.gloss.vi],
+        ["qualifier", sense.qualifier ?? ""],
+      ].find(([, text]) => LINE_BREAK.test(text));
+      if (broken) {
+        // JSON.stringify leaves U+0085, U+2028 and U+2029 as they are; spell them out so they show.
+        const shown = JSON.stringify(broken[1]).replace(/[\x85\u2028\u2029]/g, (c) => `\\u${c.charCodeAt(0).toString(16).padStart(4, "0")}`);
+        problems.push(`${file}: ${broken[0]} ${shown} has a line break; the skill dictionary needs it on one line`);
+        continue;
+      }
       items.push({
         topic: sense.topics[0],
         word,
-        forms: [word, ...(block.alt_forms ?? [])],
+        forms,
         qualifier: sense.qualifier,
         gloss: sense.gloss.vi,
         // One short, human-reviewed example per line, as in the hand-written file; the rest (including
@@ -98,7 +116,7 @@ export function skillLines(entries: Loaded[], topics: Record<string, Topic>): { 
         examples: (sense.examples ?? [])
           .filter((x) => !x.ai_draft)
           .map((x) => x.text)
-          .filter((t) => !t.includes("\n") && t.length <= 150)
+          .filter((t) => !LINE_BREAK.test(t) && t.length <= 150)
           .slice(0, 1),
         synonyms: sense.synonyms ?? [],
         file,
@@ -112,7 +130,9 @@ export function skillLines(entries: Loaded[], topics: Record<string, Topic>): { 
     const key = group.flatMap((g) => g.forms).map(capitalize).join(" / ") + (qualifier ? ` (${qualifier})` : "");
     const examples = [...new Set(group.flatMap((g) => g.examples))];
     const value = gloss + (examples.length ? ` (VD. ${examples.join("; ")})` : "");
-    const id = `${topic}\u0000${key.toLowerCase()}`;
+    // The skill dictionary lists a word once, so every sense with the same key shares one line, under
+    // the topic of the first, even when the senses have different topics (mắc = đắt; mắc = buồn đi tiểu).
+    const id = key.toLowerCase();
     const same = byKey.get(id);
     if (same) same.value += `; ${value}`;
     else byKey.set(id, { topic, key, value, file });
@@ -121,9 +141,15 @@ export function skillLines(entries: Loaded[], topics: Record<string, Topic>): { 
 
   const seen = new Map<string, Line>();
   for (const line of lines) {
-    for (const form of aliases(line.key)) {
+    // A set, as in dictionary.py: "Cái mền / Mền" is one word, not a duplicate of itself.
+    for (const form of new Set(aliases(line.key))) {
       const prev = seen.get(form);
-      if (prev) problems.push(`"${form}" would appear twice in the skill dictionary: ${prev.file} and ${line.file}`);
+      if (prev)
+        problems.push(
+          `"${form}" would appear twice in the skill dictionary: "${prev.key}" (${prev.topic}) from ${prev.file} ` +
+            `and "${line.key}" (${line.topic}) from ${line.file}. A word is listed once, and senses share ` +
+            "a line only when they have the same form and qualifier.",
+        );
       else seen.set(form, line);
     }
   }
@@ -150,13 +176,15 @@ export function renderSkillDictionary(lines: Line[], topics: Record<string, Topi
     "# trang nguồn của từng nghĩa ghi trong trường `sources` của mục từ trong data/entries/.",
   ];
   const children = (parent?: string) => Object.keys(topics).filter((id) => topics[id].parent === parent);
+  // dictionary.py rejects an empty group, so a topic is written only if it or a subtopic has lines.
+  const hasLines = (id: string): boolean => lines.some((l) => l.topic === id) || children(id).some(hasLines);
   const emit = (id: string, depth: number) => {
+    if (!hasLines(id)) return;
     const pad = "  ".repeat(depth);
     const subs = children(id);
     const own = lines
       .filter((l) => l.topic === id)
       .sort((a, b) => collator.compare(a.key, b.key));
-    if (!subs.length && !own.length) return;
     if (depth === 0) out.push("");
     else if (out.at(-1) !== "" && !out.at(-1)!.endsWith(":")) out.push("");
     out.push(`${pad}${topics[id].name}:`);
