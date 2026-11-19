@@ -14,6 +14,9 @@
  *     itself; w after a, o, u) is written after "_": xoong -> xo_ong, because xông is xoong.
  *   - A syllable without a tone that ends in a tone key (s, f, r, x, j) or z gets Telex's
  *     "no tone" key z: bas -> basz, because bá is bas.
+ * A name Windows reserves for a device (con, prn, aux, nul, com0-9, lpt0-9, with any extension) gets a
+ * trailing "_", which Git for Windows can check out: con -> con_.
+ *
  * Case and punctuation are not kept: "Nhựt" and "nhựt", "… coi" and "coi" share a file, and the
  * entry tells them apart with `head`.
  */
@@ -26,6 +29,7 @@ const TONES: Record<string, string> = {
   "̣": "j", // nặng
 };
 const TONE_KEYS = /[sfrxjz]$/;
+const WINDOWS_RESERVED = /^(con|prn|aux|nul|com[0-9]|lpt[0-9])$/;
 const CIRCUMFLEX = "̂";
 const BREVE = "̆";
 const HORN = "̛";
@@ -81,7 +85,7 @@ export function slug(spelling: string): string {
   if (!/^[a-z0-9_]+(-[a-z0-9_]+)*$/.test(result)) {
     throw new Error(`cannot make an ASCII file name for "${spelling}" (got "${result}")`);
   }
-  return result;
+  return WINDOWS_RESERVED.test(result) ? `${result}_` : result;
 }
 
 /** Path of the entry file relative to data/entries. */

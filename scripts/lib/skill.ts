@@ -130,7 +130,9 @@ export function skillLines(entries: Loaded[], topics: Record<string, Topic>): { 
     const key = group.flatMap((g) => g.forms).map(capitalize).join(" / ") + (qualifier ? ` (${qualifier})` : "");
     const examples = [...new Set(group.flatMap((g) => g.examples))];
     const value = gloss + (examples.length ? ` (VD. ${examples.join("; ")})` : "");
-    const id = `${topic}\u0000${key.toLowerCase()}`;
+    // The skill dictionary lists a word once, so every sense with the same key shares one line, under
+    // the topic of the first, even when the senses have different topics (mắc = đắt; mắc = buồn đi tiểu).
+    const id = key.toLowerCase();
     const same = byKey.get(id);
     if (same) same.value += `; ${value}`;
     else byKey.set(id, { topic, key, value, file });
@@ -142,7 +144,12 @@ export function skillLines(entries: Loaded[], topics: Record<string, Topic>): { 
     // A set, as in dictionary.py: "Cái mền / Mền" is one word, not a duplicate of itself.
     for (const form of new Set(aliases(line.key))) {
       const prev = seen.get(form);
-      if (prev) problems.push(`"${form}" would appear twice in the skill dictionary: ${prev.file} and ${line.file}`);
+      if (prev)
+        problems.push(
+          `"${form}" would appear twice in the skill dictionary: "${prev.key}" (${prev.topic}) from ${prev.file} ` +
+            `and "${line.key}" (${line.topic}) from ${line.file}. A word is listed once, and senses share ` +
+            "a line only when they have the same form and qualifier.",
+        );
       else seen.set(form, line);
     }
   }

@@ -46,3 +46,25 @@ test("a parent topic whose subtopics have no lines is left out", () => {
   assert.ok(text.includes("Đồ trong nhà:\n  Mền: Chăn\n"), text);
   assert.ok(!text.includes("Đối chiếu"), text);
 });
+
+test("senses of one word in different topics share a line, under the first topic", () => {
+  const mac: Loaded = {
+    file: "mawcs.yaml",
+    entry: {
+      spelling: "mắc",
+      etymologies: [
+        { pos: [{ senses: [{ gloss: { vi: "Đắt" }, region: ["south"], topics: ["ns-food"] }] }] },
+        { pos: [{ senses: [{ gloss: { vi: "Buồn (đi tiểu)" }, region: ["south"], topics: ["household"] }] }] },
+      ],
+    },
+  };
+  const { lines, problems } = skillLines([mac], topics);
+  assert.deepEqual(problems, []);
+  assert.deepEqual(lines.map((l) => [l.topic, l.key, l.value]), [["ns-food", "Mắc", "Đắt; Buồn (đi tiểu)"]]);
+});
+
+test("a clash the lines can't merge names both lines", () => {
+  const { problems } = skillLines([entry("mắc", { qualifier: "cũ" }), entry("mắc", { gloss: { vi: "Đắt" } })], topics);
+  assert.equal(problems.length, 1);
+  assert.match(problems[0], /"Mắc \(cũ\)" \(household\).*"Mắc" \(household\)/);
+});

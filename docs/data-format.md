@@ -22,10 +22,11 @@ A file holds everything spelled one way, the way a Wiktionary page does. Its nam
 | lẩu mắm  | `data/entries/l/laaur-mawms.yaml` |
 | đâu có   | `data/entries/d/ddaau-cos.yaml`   |
 
-Telex keeps words that differ only by tone apart (*lâu, lầu, lẩu, lậu*), and ASCII names behave the same on macOS, Windows and Linux. Two extra rules keep loanwords from landing in another word's file:
+Telex keeps words that differ only by tone apart (*lâu, lầu, lẩu, lậu*), and ASCII names behave the same on macOS, Windows and Linux. Three extra rules keep loanwords out of another word's file and keep every name usable on Windows:
 
 - A letter Telex would read as a mark on the letter before it is written after `_`: *xoong* → `x/xo_ong.yaml`, because *xông* is `x/xoong.yaml`. The same goes for *boong*, *soóc* (`so_ocs`), *moóc* and *goòng*.
 - A syllable without a tone that ends in s, f, r, x, j or z gets Telex's "no tone" key `z`: *bas* → `basz`, because *bá* is `bas`.
+- A name Windows reserves for a device (con, nul, aux, prn, com0–9, lpt0–9) gets a trailing `_`, or Git for Windows can't check it out: *con* → `c/con_.yaml`.
 
 You never need to work the name out yourself: `npm run dict -- add` creates the file, and `npm run validate` reports a file whose name doesn't match its spelling.
 
@@ -93,7 +94,7 @@ etymologies:
 | `region`             | sense     | Narrowest region the sources support, from `data/regions.yaml`                                                                                           |
 | `standard`           | sense     | Standard-Vietnamese equivalent (*đắt* for *mắc*). Different from `variant_of`, which says the word is a sound variant of another (*biểu* of *bảo*)       |
 | `labels`             | sense     | Usage labels: `colloquial`, `slang`, `dated`, `figurative`, `vulgar`, … (full list in the schema)                                                        |
-| `topics`             | sense     | Puts the sense in the agent skill's dictionary, under the first topic. Needs `gloss.vi`                                                                  |
+| `topics`             | sense     | Puts the sense in the agent skill's dictionary, under the first topic. Needs `gloss.vi`. A word is listed there once: its senses with other topics join the same line |
 | `ai`                 | sense     | Guidance for agents: `tone`, `register`, `relationship`, `usage_notes`                                                                                   |
 | `examples[].ai_draft` | sense    | `true` on examples written by AI and not yet reviewed by a person. The skill dictionary leaves them out until reviewed                                    |
 | `sources`            | sense     | Source ids from `data/sources.yaml`, or `{id, url, note}`                                                                                                |
@@ -124,7 +125,7 @@ npm run validate        # schema, file names, NFC, ids, skill dictionary
 npm run build           # regenerate the skill files (commit them) and dist/lexicon.json
 ```
 
-`add` refuses a word that already has a file unless `--new-sense` says it's a different meaning; to improve an existing sense, edit the file. `--new-sense` puts the meaning in a block without a part of speech (for an editor to classify) and leaves the rest of the file, comments included, as it was. Any editor works for other changes. `validate` catches what the schema doesn't (wrong file name, unknown ids, text not in NFC).
+`add` refuses a word that already has a file unless `--new-sense` says it's a different meaning; to improve an existing sense, edit the file. `--new-sense` adds the meaning unclassified, in a block without a part of speech under an etymology without origin data, so it doesn't inherit another meaning's; an editor classifies it later. It refuses a meaning the skill dictionary couldn't list, because the word already sits there in a line with synonyms or a qualifier; add that one by hand without `topics`. It leaves the rest of the file, comments included, as it was. Any editor works for other changes. `validate` catches what the schema doesn't (wrong file name, unknown ids, text not in NFC).
 
 ## Reviewing AI-drafted examples
 

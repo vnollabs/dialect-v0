@@ -57,7 +57,8 @@ const MARKED: Record<string, string> = { aa: "â", ee: "ê", oo: "ô", dd: "đ",
 const TONE_MARKS = /[̣̀́̃̉]/g;
 
 function decode(name: string): string[] {
-  return name.split("-").map((syl) => {
+  // A trailing "_" only marks a name Windows reserves (con_, aux_), so it comes off first.
+  return name.replace(/_$/, "").split("-").map((syl) => {
     let tone = "";
     if (/[sfrxjz]$/.test(syl)) [tone, syl] = [TONE_KEY[syl.at(-1)!], syl.slice(0, -1)];
     let letters = "";
@@ -100,4 +101,13 @@ test("every name reads back to its spelling (no two words share a file)", () => 
   }
   for (const w of ["cười", "biểu", "nhựt", "thuở", "khuya", "gác-măng-rê", "lẩu mắm"])
     assert.deepEqual(decode(slug(w)), lettersAndTones(w), w);
+});
+
+test("names Windows reserves for devices get a trailing _", () => {
+  assert.equal(entryRelPath("con"), "c/con_.yaml");
+  assert.equal(slug("aũ"), "aux_"); // ngã is x
+  assert.equal(slug("aux"), "auxz"); // the literal word is not reserved
+  for (const w of ["Con", "nul", "prn", "com1", "lpt9"]) assert.ok(slug(w).endsWith("_"), w);
+  for (const w of ["con nít", "côn", "còn", "cong", "com"]) assert.ok(!slug(w).endsWith("_"), w);
+  for (const w of ["con", "aũ", "aux", "nul"]) assert.deepEqual(decode(slug(w)), lettersAndTones(w), w);
 });
