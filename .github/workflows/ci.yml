@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: npm ci
+
+      - name: Entries match the schema and vocabularies
+        run: npm run validate
+
+      - name: Generated skill files are committed and up to date
+        run: npm run build -- --check
+
+      - name: Type-check scripts
+        run: npm run typecheck
+
+      - name: Tests (scripts and skills)
+        run: npm test
+
+      - name: Skill dictionary still reads with the skill's own tool
+        run: python3 skills/southern-mekong-vietnamese-dialect/scripts/dictionary.py check

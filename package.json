@@ -1,0 +1,24 @@
+{
+  "name": "vn-dialect",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Machine-readable lexicon of Vietnamese regional dialects, starting with Southern and Mekong Delta Vietnamese.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "validate": "node scripts/validate.ts",
+    "build": "node scripts/build.ts",
+    "dict": "node scripts/dict.ts",
+    "import:wiktionary": "node scripts/import-wiktionary.ts",
+    "typecheck": "tsc",
+    "test": "node --test \"scripts/**/*.test.ts\" && python3 skills/vietnamese-natural-writing/scripts/test_check_ai_tells.py"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "ajv": "^8.20.0",
+    "typescript": "^7.0.2",
+    "yaml": "^2.9.1"
+  }
+}
