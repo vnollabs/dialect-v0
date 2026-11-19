@@ -138,6 +138,16 @@ test("search: exact forms, and gloss words keep the marks the query has", () => 
   ];
   const words = (q: string) => search(index, q).map((r) => r.word);
   assert.equal(words("quíu")[0], "quýu", "an alternative form is an exact match");
+  const telex = [record("bán", ["bán"]), record("bas", ["bas"]), record("aũ", ["aũ"]), record("xoong", ["xoong"])];
+  telex[0].id = "bans";
+  telex[1].id = "basz";
+  telex[2].id = "aux_";
+  telex[3].id = "xo_ong";
+  const ids = (q: string) => search(telex, q).map((r) => r.id);
+  assert.equal(ids("basz")[0], "basz", "an id typed as is, z included");
+  assert.equal(ids("basn")[0], "bans", "tone key moved to the end");
+  assert.ok(ids("aux").includes("aux_"), "Telex for a reserved name");
+  assert.ok(ids("xo_ong").includes("xo_ong"), "an id with _");
   assert.deepEqual(words("đắt"), ["mắc"], "đắt doesn't find đất");
   assert.deepEqual(words("dat"), ["cù lao", "mắc"], "a query without marks matches either");
   assert.deepEqual(words("đất sông"), ["cù lao"], "every query word must be in the glosses");

@@ -12,7 +12,7 @@ The lexicon as static JSON, generated from `data/` by `npm run build` and served
 |:--|:--|--:|
 | `meta.json` | Counts, file layout, and the region, topic and source vocabularies (Vietnamese `name`, English `en`) | 3 KB |
 | `index.json` | One search record per entry | 58 KB |
-| `entries/{id}.json` | One full entry. `{id}` is the Telex spelling: *mắc* → `mawcs`, *biểu* → `bieeur` | 0.5–3 KB each (uncompressed) |
+| `entries/{id}.json` | One full entry. `{id}` is the entry's file name, the Telex spelling: *mắc* → `mawcs`, *biểu* → `bieeur`, *xoong* → `xo_ong` ([rules](data-format.md#one-file-per-spelling)) | 0.5–3 KB each (uncompressed) |
 | `regions/{region}.json` | Entries with senses in that region or its sub-regions; other senses, and pronunciations from other regions, removed. `south.json` includes Mekong Delta, Southeast and Saigon senses | 4–144 KB |
 | `lexicon.json` | Every entry | 147 KB |
 

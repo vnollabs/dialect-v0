@@ -210,7 +210,7 @@ export function buildApi(opts: {
   entrySchema.$id = `${SCHEMA_BASE}entry.schema.json`;
   entrySchema.title = "VN Dialect API v1 entry";
   entrySchema.properties = {
-    id: { description: "Telex form of the spelling; also the file name: entries/<id>.json", type: "string", pattern: "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    id: { description: "Telex form of the spelling; also the file name: entries/<id>.json", type: "string", pattern: "^[a-z0-9_]+(-[a-z0-9_]+)*$" },
     ...entrySchema.properties,
   };
   entrySchema.required = ["id", ...entrySchema.required];

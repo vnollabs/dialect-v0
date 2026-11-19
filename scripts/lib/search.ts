@@ -36,20 +36,24 @@ export function words(text: string): string[] {
   return lower(text).split(/[^\p{L}\p{M}\p{N}]+/u).filter(Boolean);
 }
 
+const WINDOWS_RESERVED = /^(con|prn|aux|nul|com[0-9]|lpt[0-9])$/; // as in the ids: con -> con_
+
 /**
- * A query typed in Telex without a Vietnamese keyboard, as an entry id: "mawsc coong" -> "mawcs-coong".
+ * The entry ids a query typed in Telex without a Vietnamese keyboard may mean: as typed, syllables joined
+ * with "-" (mawcs coong -> mawcs-coong), and with each tone key moved to the end (mawsc -> mawcs).
  * Telex keyboards accept the tone key (s f r x j) anywhere after the first vowel; ids put it last. Only
  * initial consonants (s, r, x, tr) use those letters, so any of them after the first vowel is a tone key.
  */
-function telexId(query: string): string | undefined {
+function telexIds(query: string): Set<string> {
   const syllables = query.toLowerCase().split(/[\s-]+/).filter(Boolean);
-  if (!syllables.length || !syllables.every((s) => /^[a-z0-9]+$/.test(s))) return undefined;
-  return syllables
-    .map((s) => {
-      const m = /^([^aeiouy]*[aeiouy])(.*)$/.exec(s);
-      return m ? m[1] + m[2].replace(/[sfrxj]/g, "") + m[2].replace(/[^sfrxj]/g, "") : s;
-    })
-    .join("-");
+  if (!syllables.length || !syllables.every((s) => /^[a-z0-9_]+$/.test(s))) return new Set();
+  const toneLast = syllables.map((s) => {
+    const m = /^([^aeiouy]*[aeiouy])(.*)$/.exec(s);
+    return m ? m[1] + m[2].replace(/[sfrxj]/g, "") + m[2].replace(/[^sfrxj]/g, "") : s;
+  });
+  const ids = new Set([syllables.join("-"), toneLast.join("-")]);
+  for (const id of [...ids]) if (WINDOWS_RESERVED.test(id)) ids.add(`${id}_`);
+  return ids;
 }
 
 // Per-record lookups, computed once per record rather than on every keystroke.
@@ -74,7 +78,7 @@ export function search<T extends SearchRecord>(index: T[], query: string, limit 
   const exact = lower(query).trim();
   const q = fold(query);
   if (!q) return [];
-  const id = telexId(query);
+  const ids = telexIds(query);
   // Gloss words only for longer queries, or "an" would match half the dictionary.
   const glossQuery =
     q.length >= 3 ? words(query).map((w) => ({ w, folded: fold(w), marked: fold(w) !== w })) : [];
@@ -82,7 +86,7 @@ export function search<T extends SearchRecord>(index: T[], query: string, limit 
     const p = prepare(r);
     if (p.forms.has(exact)) return 100;
     if (p.standard.has(exact)) return 90;
-    if (r.keys.includes(q) || r.id === id) return 80;
+    if (r.keys.includes(q) || ids.has(r.id)) return 80;
     if (r.keys.some((k) => k.startsWith(q))) return 60;
     if (p.standardFolded.has(q)) return 45;
     if (glossQuery.length && glossQuery.every(({ w, folded, marked }) => (marked ? p.gloss.has(w) : p.glossFolded.has(folded))))
