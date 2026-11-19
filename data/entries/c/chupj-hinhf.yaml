@@ -1,0 +1,17 @@
+spelling: chụp hình
+etymologies:
+  - type: compound
+    note:
+      en: chụp + hình.
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to photograph; to take a photo
+            region: [south]
+            examples:
+              - text: Anh chị em mình cùng chụp hình kỉ niệm nhé!
+                en: Let's take pictures together!
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ch%E1%BB%A5p_h%C3%ACnh#Vietnamese

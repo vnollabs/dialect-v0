@@ -1,0 +1,22 @@
+spelling: cần xé
+etymologies:
+  - type: loan
+    lang: km
+    source_form: កញ្ឆេរ
+    note:
+      en: Borrowed from Khmer កញ្ឆេរ (kɑɑkɑñchee).
+    pos:
+      - pos: noun
+        classifiers: [cái, chiếc]
+        senses:
+          - gloss:
+              en: broad-mouthed bamboo basket with straps
+            qualifier: Mekong Delta
+            region: [mekong-delta]
+            examples:
+              - text: Ba chất mấy cần xé bưởi lên ghe, sáng mai chở ra chợ bán.
+                standard: Bố chất mấy sọt bưởi lên thuyền, sáng mai chở ra chợ bán.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%E1%BA%A7n_x%C3%A9#Vietnamese

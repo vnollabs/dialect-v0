@@ -1,0 +1,17 @@
+spelling: dớ dẩn
+etymologies:
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: eye dialect spelling of vớ vẩn, representing Southern Vietnam Vietnamese
+            region: [south]
+            labels: [pronunciation-spelling]
+            variant_of: vớ vẩn
+            examples:
+              - text: Thôi mày đừng nói chuyện dớ dẩn nữa, lo làm cho xong đi.
+                standard: Thôi mày đừng nói chuyện vớ vẩn nữa, lo làm cho xong đi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/d%E1%BB%9B_d%E1%BA%A9n#Vietnamese

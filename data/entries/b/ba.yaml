@@ -1,0 +1,47 @@
+spelling: ba
+etymologies:
+  - note:
+      en: |-
+        Attested quite late in Vietnamese literature. Likely a loan from some variety of Chinese 爸 (bà) (if so distantly related to bố). The resemblance to French papa is probably coincidental.
+        In Đại Nam quấc âm tự vị (1895), the imitative ba ba was annotated as [t]iếng con nít hay kêu ("a word that children often use"), while glossed as cha, the chief and/or formal word for "father".
+    derived: [ba má, ba mẹ]
+    pos:
+      - pos: noun
+        han_nom: [爸]
+        senses:
+          - gloss:
+              vi: Bố
+              en: father
+            region: [south]
+            standard: [bố]
+            synonyms: [áng, bác, bọ, bố, cậu, cha, thầy, tía]
+            examples:
+              - text: Ba con tên gì?
+                en: What is your dad's name?
+            topics: [family-address]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ba#Vietnamese
+  - type: native
+    note:
+      en: From Proto-Vietic *paː, from Proto-Austroasiatic *peːʔ (“three”). Cognate with Muong pa, Khmer បី (bəy), Halang pe, Pacoh pe, Mon ပိ, Santali ᱯᱮ (pe).
+    derived: [áo ba lỗ, ba bảy hai mốt ngày, ba chỉ, ba lần bảy lượt, ba phải, ba que, ba que xỏ lá, ba rọi, Ba Tàu, ba xạo, ba xu, Chúa Ba Ngôi, dăm ba, nón ba tầm, tháng ba, thứ ba, vài ba]
+    pos:
+      - pos: adj
+        han_nom: [𠀧, 巴]
+        senses:
+          - gloss:
+              en: secondborn
+            qualifier: of a sibling
+            region: [south]
+            examples:
+              - text: anh/chị ba
+                en: second eldest brother/sister
+              - text: bác ba
+                en: second eldest brother/sister of one's parent
+              - text: chú ba
+                en: secondborn younger brother of one's father
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ba#Vietnamese

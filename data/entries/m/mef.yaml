@@ -1,0 +1,26 @@
+spelling: mè
+etymologies:
+  - type: sino
+    han: 麻
+    note:
+      en: "Non-Sino-Vietnamese reading of Chinese 麻 (SV: ma), as in 胡麻 (hồ ma)."
+    derived: [bánh khô mè, chè mè đen, dầu mè, kẹo mè, mè đen, mè xửng, muối mè, ốc cối hột mè]
+    pos:
+      - pos: noun
+        han_nom: [米, 𥻡]
+        classifiers: [cây, hạt, hột]
+        senses:
+          - gloss:
+              vi: Vừng
+              en: sesame
+            region: [south, central]
+            standard: [vừng]
+            examples:
+              - text: Bánh tráng nướng có rắc mè thơm phức.
+                standard: Bánh đa nướng có rắc vừng thơm phức.
+                ai_draft: true
+            topics: [food-drink]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%C3%A8#Vietnamese

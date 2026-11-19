@@ -1,0 +1,14 @@
+spelling: lò
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Bếp
+            region: [south]
+            standard: [bếp]
+            examples:
+              - text: Con nhúm lò nấu nồi cơm giùm má nha.
+                standard: Con nhóm bếp nấu nồi cơm giúp mẹ nhé.
+                ai_draft: true
+            topics: [household]
+            sources: [skill-dictionary-v1]

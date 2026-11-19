@@ -1,0 +1,16 @@
+spelling: dầy
+etymologies:
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: Northern Vietnam and Southern Vietnam form of dày
+            region: [north, south]
+            variant_of: dày
+            examples:
+              - text: Trời trở lạnh rồi, con mặc thêm cái áo dầy vô đi.
+                standard: Trời trở lạnh rồi, con mặc thêm cái áo dày vào đi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/d%E1%BA%A7y#Vietnamese

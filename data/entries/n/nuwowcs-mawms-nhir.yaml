@@ -1,0 +1,13 @@
+spelling: nước mắm nhỉ
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Nước mắm cốt nguyên chất rút từ thùng chượp đầu tiên
+            region: [mekong-delta]
+            examples:
+              - text: Dĩa cá luộc chấm với nước mắm nhỉ thơm lừng.
+                standard: Đĩa cá luộc chấm với nước mắm nhỉ thơm lừng.
+                ai_draft: true
+            topics: [mekong-food]
+            sources: [skill-dictionary-v1]

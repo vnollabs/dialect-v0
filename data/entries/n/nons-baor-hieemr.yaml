@@ -1,0 +1,21 @@
+spelling: nón bảo hiểm
+etymologies:
+  - type: compound
+    note:
+      en: nón (“hat”) + bảo hiểm (“insurance”).
+    pos:
+      - pos: noun
+        classifiers: [cái, chiếc]
+        senses:
+          - gloss:
+              en: helmet
+            qualifier: of a rider
+            region: [south]
+            synonyms: [mũ bảo hiểm, nón an toàn]
+            examples:
+              - text: Chạy xe nhớ đội nón bảo hiểm, cài quai cho kỹ nghen.
+                standard: Đi xe nhớ đội mũ bảo hiểm, cài quai cho cẩn thận nhé.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/n%C3%B3n_b%E1%BA%A3o_hi%E1%BB%83m#Vietnamese

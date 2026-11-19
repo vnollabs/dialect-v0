@@ -1,0 +1,20 @@
+spelling: kì cục
+etymologies:
+  - type: sino
+    han: 奇
+    note:
+      en: Sino-Vietnamese word from 奇 (“wonderful, strange”) and 局 (“bent, crooked”), Literally, “novel and tricky”. Often used with a homonym from 棋局 (qíjú, “arrangement of pieces on a chessboard”) to form kì cục kì cục (棋局奇局) (novel and tricky moves). As this word traveled to the South, where the original meaning is not well-understood, people associated it with a negative connotation.
+    pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: strange; odd; weird
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Ông đó kì cục ghê, trời nắng chang chang mà mặc áo mưa.
+                standard: Ông đó kỳ quặc thật, trời nắng chang chang mà mặc áo mưa.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/k%C3%AC_c%E1%BB%A5c#Vietnamese

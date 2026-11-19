@@ -1,0 +1,16 @@
+spelling: trển
+etymologies:
+  - note:
+      en: Word formation with distal denotation by adding hỏi tone to the root trên (“on”) in Southern Vietnamese and some topolects of Thanh Hoá.
+    pos:
+      - pos: adv
+        senses:
+          - gloss:
+              en: that place
+            region: [south]
+            examples:
+              - text: Ở trên trển.
+                en: (satirical) In Heaven.
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/tr%E1%BB%83n#Vietnamese

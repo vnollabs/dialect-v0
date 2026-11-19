@@ -1,0 +1,13 @@
+spelling: củ khoai mì
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Củ sắn
+            region: [mekong-delta]
+            examples:
+              - text: Ba nhổ mấy củ khoai mì ngoài vườn, má đem luộc chấm muối mè.
+                standard: Bố nhổ mấy củ sắn ngoài vườn, mẹ mang luộc chấm muối vừng.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

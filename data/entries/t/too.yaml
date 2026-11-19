@@ -1,0 +1,19 @@
+spelling: tô
+etymologies:
+  - derived: [bát ô tô]
+    pos:
+      - pos: noun
+        han_nom: [𥗹]
+        classifiers: [cái, chiếc]
+        senses:
+          - gloss:
+              en: large bowl
+            region: [central, south]
+            synonyms: [bát to, bát ô tô]
+            examples:
+              - text: Cho con một tô hủ tiếu, nhiều giá nghen cô.
+                standard: Cho con một bát hủ tiếu to, nhiều giá nhé cô.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/t%C3%B4#Vietnamese

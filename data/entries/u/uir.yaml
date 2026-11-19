@@ -1,0 +1,33 @@
+spelling: ủi
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Là (quần áo)
+            qualifier: đồ
+            region: [south]
+            examples:
+              - text: Tối nào má cũng ủi đồ đi học cho tụi nhỏ.
+                standard: Tối nào mẹ cũng là quần áo đi học cho bọn trẻ.
+                ai_draft: true
+            topics: [actions]
+            sources: [skill-dictionary-v1]
+  - type: sino
+    han: 熨
+    note:
+      en: "Non-Sino-Vietnamese reading of Chinese 熨 (SV: uất, uý)."
+    pos:
+      - pos: verb
+        han_nom: [熨, 墛, 埣]
+        senses:
+          - gloss:
+              en: to iron; to press (clothing)
+            region: [central, south]
+            synonyms: [là]
+            examples:
+              - text: Cái áo sơ mi nhăn quá, đưa đây chị ủi lại cho.
+                standard: Cái áo sơ mi nhàu quá, đưa đây chị là lại cho.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%E1%BB%A7i#Vietnamese

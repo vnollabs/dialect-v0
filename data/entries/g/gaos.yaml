@@ -1,0 +1,14 @@
+spelling: gáo
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Dụng cụ múc nước có cán, làm bằng nửa vỏ trái dừa khô hoặc bằng nhựa
+            region: [mekong-delta]
+            synonyms: [gáo dừa]
+            examples:
+              - text: Ông múc một gáo nước mưa, uống một hơi cho đã khát.
+                standard: Ông múc một gáo nước mưa, uống một hơi cho đỡ khát.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

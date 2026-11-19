@@ -1,0 +1,16 @@
+spelling: kiếng cận
+etymologies:
+  - pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: Southern Vietnam form of kính cận
+            region: [south]
+            variant_of: kính cận
+            examples:
+              - text: Con nhỏ coi điện thoại riết rồi phải đeo kiếng cận.
+                standard: Con bé xem điện thoại mãi rồi phải đeo kính cận.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ki%E1%BA%BFng_c%E1%BA%ADn#Vietnamese

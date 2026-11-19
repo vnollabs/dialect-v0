@@ -1,0 +1,19 @@
+spelling: nhà cầu
+etymologies:
+  - type: compound
+    note:
+      en: nhà (“house”) + cầu (“bridge, latrine”).
+    pos:
+      - pos: noun
+        classifiers: [cái]
+        senses:
+          - gloss:
+              en: latrine; lavatory
+            region: [south]
+            examples:
+              - text: Nhà cầu ở cuối vườn, đi khuya nhớ cầm theo cây đèn pin.
+                standard: Nhà vệ sinh ở cuối vườn, đi đêm nhớ cầm theo cái đèn pin.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/nh%C3%A0_c%E1%BA%A7u#Vietnamese

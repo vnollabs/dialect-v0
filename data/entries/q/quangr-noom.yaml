@@ -1,0 +1,20 @@
+spelling: Quảng Nôm
+etymologies:
+  - type: sino
+    han: 廣南
+    note:
+      en: Sino-Vietnamese word from 廣南, with the South Central form of the second character.
+    pos:
+      - pos: name
+        senses:
+          - gloss:
+              en: Quảng Nam (a province of Vietnam)
+            region: [south-central]
+            labels: [dialectal, endearing, humorous]
+            examples:
+              - text: Tết ni tau về Quảng Nôm ăn Tết với ba mạ.
+                standard: Tết này tao về Quảng Nam ăn Tết với bố mẹ.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/Qu%E1%BA%A3ng_N%C3%B4m#Vietnamese

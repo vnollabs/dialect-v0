@@ -1,0 +1,16 @@
+spelling: trụng
+etymologies:
+  - pos:
+      - pos: verb
+        han_nom: [溕, 重]
+        senses:
+          - gloss:
+              en: to dip in boiling water; to scald
+            region: [central, south]
+            examples:
+              - text: Trụng sơ rau muống rồi vớt ra liền cho giòn.
+                standard: Chần qua rau muống rồi vớt ra ngay cho giòn.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/tr%E1%BB%A5ng#Vietnamese

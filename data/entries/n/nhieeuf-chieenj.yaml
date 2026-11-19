@@ -1,0 +1,14 @@
+spelling: nhiều chiện
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Hay nói chuyện thiên hạ, thêm bớt
+            region: [south]
+            synonyms: [bà tám]
+            examples:
+              - text: Bà đó nhiều chiện lắm, chuyện nhà ai cũng biết rồi đi kể khắp xóm.
+                standard: Bà ấy lắm chuyện lắm, chuyện nhà ai cũng biết rồi đi kể khắp xóm.
+                ai_draft: true
+            topics: [idioms]
+            sources: [skill-dictionary-v1]

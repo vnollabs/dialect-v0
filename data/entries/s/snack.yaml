@@ -1,0 +1,18 @@
+spelling: snack
+etymologies:
+  - note:
+      en: Pseudo-anglicism, derived from snack.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: crisps; potato crisps
+            region: [south]
+            synonyms: [bim bim]
+            examples:
+              - text: Đừng cho tụi nhỏ ăn snack nhiều, hổng tốt đâu.
+                standard: Đừng cho bọn trẻ ăn bim bim nhiều, không tốt đâu.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/snack#Vietnamese

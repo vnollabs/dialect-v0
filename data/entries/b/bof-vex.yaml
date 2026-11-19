@@ -1,0 +1,19 @@
+spelling: bò vẽ
+etymologies:
+  - note:
+      en: Element bò is a variant of vò (“wasp (obsolete)”); element vẽ’s meaning is obscure.
+    pos:
+      - pos: noun
+        classifiers: [con]
+        senses:
+          - gloss:
+              en: lesser banded hornet (Vespa affinis)
+            region: [central, south]
+            synonyms: [ong bò vẽ]
+            examples:
+              - text: Coi chừng tổ bò vẽ trên cây xoài, bị chích là sưng vù đó.
+                standard: Cẩn thận tổ ong bò vẽ trên cây xoài, bị đốt là sưng vù đấy.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%C3%B2_v%E1%BA%BD#Vietnamese

@@ -1,0 +1,18 @@
+spelling: cà vom
+etymologies:
+  - pos:
+      - pos: noun
+        classifiers: [cái, chiếc]
+        senses:
+          - gloss:
+              en: kind of canoe
+            qualifier: Mekong Delta
+            region: [mekong-delta]
+            synonyms: [ghe cà vom]
+            examples:
+              - text: Ông Sáu chất dưa hấu đầy chiếc cà vom, chờ nước lớn là nhổ sào đi chợ.
+                standard: Ông Sáu chất dưa hấu đầy chiếc thuyền cà vom, chờ nước lên là nhổ sào đi chợ.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%C3%A0_vom#Vietnamese

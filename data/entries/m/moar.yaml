@@ -1,0 +1,23 @@
+spelling: moả
+etymologies:
+  - type: loan
+    lang: fr
+    source_form: moi
+    note:
+      en: |-
+        Word formation with distal denotation by adding hỏi tone to the root moa in Southern Vietnamese and some topolects of Thanh Hoá.
+        Also borrowed from French moi (“me”).
+    pos:
+      - pos: pron
+        senses:
+          - gloss:
+              en: I, me
+            region: [south]
+            labels: [dated, humorous]
+            examples:
+              - text: Chuyện đó để moả lo, mấy cậu khỏi bận tâm.
+                standard: Chuyện đó để tôi lo, các cậu khỏi bận tâm.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/mo%E1%BA%A3#Vietnamese

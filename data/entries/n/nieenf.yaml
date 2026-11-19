@@ -1,0 +1,50 @@
+spelling: niền
+etymologies:
+  - note:
+      en: The n-nominalisation reflex of viền (“to hem; to edge”). Also compare vành.
+    pos:
+      - pos: noun
+        han_nom: [𦀅]
+        classifiers: [cái]
+        senses:
+          - gloss:
+              en: rim of a wheel
+            region: [central, south]
+            examples:
+              - text: niền xe đạp
+                en: bicycle wheel rim
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ni%E1%BB%81n#Vietnamese
+          - gloss:
+              en: hoop; band (put around a barrel etc.)
+            region: [central, south]
+            examples:
+              - text: Cái thùng gỗ đựng nước mắm bung niền, nước rỉ ra hết.
+                standard: Cái thùng gỗ đựng nước mắm bung đai, nước rỉ ra hết.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ni%E1%BB%81n#Vietnamese
+      - pos: verb
+        han_nom: [𦀅]
+        senses:
+          - gloss:
+              en: to bind (as with a hoop or band on the outside); to tie
+            region: [central, south]
+            examples:
+              - text: niền răng
+                en: to apply dental braces
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ni%E1%BB%81n#Vietnamese
+          - gloss:
+              en: to put in the stocks
+            region: [central, south]
+            examples:
+              - text: Ông nội kể hồi xưa ăn trộm bị bắt là làng đem niền ngoài đình.
+                standard: Ông nội kể hồi xưa ăn trộm bị bắt là làng đem cùm ngoài đình.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ni%E1%BB%81n#Vietnamese

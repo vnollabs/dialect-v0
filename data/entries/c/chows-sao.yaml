@@ -1,0 +1,12 @@
+spelling: chớ sao
+etymologies:
+  - pos:
+      - pos: particle
+        senses:
+          - gloss:
+              vi: "Đáp hay kết câu: dĩ nhiên rồi, chứ sao"
+            region: [south]
+            examples:
+              - text: Đi chớ sao! Đám giỗ ông Năm mà
+            topics: [particles]
+            sources: [skill-dictionary-v1]

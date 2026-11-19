@@ -1,0 +1,19 @@
+spelling: nhây
+etymologies:
+  - note:
+      en: Compare nhầy, trây.
+    pos:
+      - pos: adj
+        han_nom: [㖇, 街]
+        senses:
+          - gloss:
+              en: (talking, doing something) in a long, drawn-out manner; lengthy
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Chuyện có chút xíu mà ổng kể nhây cả buổi chưa xong.
+                standard: Chuyện có một chút mà ông ấy kể dây dưa cả buổi chưa xong.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/nh%C3%A2y#Vietnamese

@@ -1,0 +1,21 @@
+spelling: đề-pa
+etymologies:
+  - type: loan
+    lang: fr
+    source_form: départir
+    note:
+      en: Borrowed from French départir.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: to set off
+            qualifier: of a car engine
+            region: [south]
+            examples:
+              - text: Sáng lạnh quá, chiếc xe cũ bấm đề-pa mấy lần mới chịu nổ máy.
+                standard: Sáng lạnh quá, chiếc xe cũ bấm khởi động mấy lần mới chịu nổ máy.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%E1%BB%81-pa#Vietnamese

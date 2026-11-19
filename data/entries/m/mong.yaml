@@ -1,0 +1,18 @@
+spelling: mong
+etymologies:
+  - note:
+      en: .
+    pos:
+      - pos: noun
+        classifiers: [cái]
+        senses:
+          - gloss:
+              en: mud slider used for fishing or clam harvesting in alluvial plains of Southern Vietnam
+            qualifier: Mekong Delta
+            region: [mekong-delta]
+            examples:
+              - text: '"[...] Nghề này lấm lem bùn đất, dầm mưa dãi nắng cơ cực lắm. Nhưng vì không nghề nghiệp, không đất sản xuất nên cứ nương vào cái mong, vào bãi bồi này mà kiếm sống."'
+                ref: "2023 September 24, Phương Anh, “Độc đáo nghề trượt mong mưu sinh trên bãi bồi Mỏ Ó”, in Lao Động:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/mong#Vietnamese

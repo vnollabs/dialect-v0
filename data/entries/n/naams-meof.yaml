@@ -1,0 +1,14 @@
+spelling: nấm mèo
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Mộc nhĩ
+            region: [south]
+            standard: [mộc nhĩ]
+            examples:
+              - text: Má bỏ nấm mèo vô chả giò cho giòn.
+                standard: Mẹ cho mộc nhĩ vào nem rán cho giòn.
+                ai_draft: true
+            topics: [food-drink]
+            sources: [skill-dictionary-v1]

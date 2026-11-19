@@ -1,0 +1,17 @@
+spelling: làm biếng
+etymologies:
+  - type: compound
+    note:
+      en: làm + biếng.
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to be lazy
+            region: [central, south]
+            examples:
+              - text: Muốn thành công mà cứ làm biếng thì ai cũng làm được.
+                en: To want to succeed while being lazy is a piece of cake.
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%C3%A0m_bi%E1%BA%BFng#Vietnamese

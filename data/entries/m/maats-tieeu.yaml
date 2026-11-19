@@ -1,0 +1,18 @@
+spelling: mất tiêu
+etymologies:
+  - type: compound
+    note:
+      en: mất + tiêu.
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to vanish
+            region: [central, south]
+            labels: [colloquial]
+            examples:
+              - text: Ủa, chia khoá mất tiêu đâu rồi?
+                en: Huh, where's my key?
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%E1%BA%A5t_ti%C3%AAu#Vietnamese

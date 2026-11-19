@@ -1,0 +1,16 @@
+spelling: đi cầu
+etymologies:
+  - derived: [giấy đi cầu]
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to move one's bowels
+            region: [south]
+            examples:
+              - text: Bé đau bụng, từ sáng tới giờ đi cầu ba lần rồi.
+                standard: Bé đau bụng, từ sáng tới giờ đi ngoài ba lần rồi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91i_c%E1%BA%A7u#Vietnamese

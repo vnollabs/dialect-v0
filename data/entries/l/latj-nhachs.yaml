@@ -1,0 +1,16 @@
+spelling: lạt nhách
+etymologies:
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: very bland, extremely tasteless
+            region: [central, south]
+            synonyms: [nhạt thếch]
+            examples:
+              - text: Nồi canh bữa nay ai nấu mà lạt nhách vậy, đưa tui chén nước mắm coi.
+                standard: Nồi canh hôm nay ai nấu mà nhạt thếch thế, đưa tôi bát nước mắm xem nào.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%E1%BA%A1t_nh%C3%A1ch#Vietnamese

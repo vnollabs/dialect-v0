@@ -1,0 +1,19 @@
+spelling: trà
+etymologies:
+  - type: sino
+    han: 茶
+    note:
+      en: Sino-Vietnamese word from 茶. Doublet of lá and chè.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: tea
+            region: [north, south]
+            synonyms: [chè]
+            examples:
+              - text: chén uống trà
+                en: teacup
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/tr%C3%A0#Vietnamese

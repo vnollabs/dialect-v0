@@ -1,0 +1,23 @@
+spelling: chả giò
+etymologies:
+  - type: compound
+    note:
+      en: chả + giò.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              vi: Nem rán
+              en: spring roll (shredded vegetables wrapped in rice paper, then deep-fried)
+            region: [south]
+            standard: [nem rán]
+            synonyms: [chả cuốn, chả ram, chả nem, chả phòng]
+            examples:
+              - text: Đám giỗ năm nào má cũng cuốn mấy trăm cuốn chả giò.
+                standard: Đám giỗ năm nào mẹ cũng cuốn mấy trăm cái nem rán.
+                ai_draft: true
+            topics: [food-drink]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ch%E1%BA%A3_gi%C3%B2#Vietnamese

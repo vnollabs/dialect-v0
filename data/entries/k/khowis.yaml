@@ -1,0 +1,18 @@
+spelling: khới
+etymologies:
+  - pos:
+      - pos: verb
+        han_nom: [啓, 慨, 𫫤]
+        senses:
+          - gloss:
+              en: to gnaw; to nibble
+            region: [central, south]
+            labels: [uncommon]
+            synonyms: [gặm, nhấm]
+            examples:
+              - text: Con chuột khới lủng cái bao gạo trong bếp rồi.
+                standard: Con chuột gặm thủng cái bao gạo trong bếp rồi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/kh%E1%BB%9Bi#Vietnamese

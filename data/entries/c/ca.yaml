@@ -1,0 +1,20 @@
+spelling: ca
+etymologies:
+  - type: sino
+    han: 歌
+    note:
+      en: Sino-Vietnamese word from 歌 (“song”).
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to sing
+            region: [south]
+            labels: [colloquial, dialectal, literary]
+            synonyms: [hát]
+            examples:
+              - text: Đăng kí ca ở đâu hả em?
+                en: Where can I sign up to sing, boy?
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ca#Vietnamese

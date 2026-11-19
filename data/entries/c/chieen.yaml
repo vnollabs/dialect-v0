@@ -1,0 +1,25 @@
+spelling: chiên
+etymologies:
+  - type: sino
+    han: 煎
+    note:
+      en: "Non-Sino-Vietnamese reading of Chinese 煎 (“to pan-fry”, SV: tiên), (possibly Teochew). Compare Khmer ជៀន (ciən), ចៀន (ciən)."
+    derived: [bột chiên, chiên giòn, chiên ngập dầu, chiên xào, chiên xù, cơm chiên, xôi chiên]
+    pos:
+      - pos: verb
+        han_nom: [煎]
+        senses:
+          - gloss:
+              vi: Rán
+              en: to fry
+            region: [south]
+            standard: [rán]
+            synonyms: [rán]
+            examples:
+              - text: trứng chiên
+                en: fried egg
+            topics: [food-drink]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/chi%C3%AAn#Vietnamese

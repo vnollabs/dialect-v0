@@ -1,0 +1,12 @@
+spelling: cà rịch cà tang
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Chậm rãi, lề mề, từ từ không vội
+            region: [mekong-delta]
+            synonyms: [cà rịt cà tang]
+            examples:
+              - text: Làm cà rịch cà tang vậy chừng nào mới xong?
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

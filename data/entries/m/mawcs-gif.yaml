@@ -1,0 +1,14 @@
+spelling: mắc gì
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Việc gì mà, cớ gì mà, can gì tới (hỏi vặn, có ý bực)
+            region: [south]
+            synonyms: [mắc mớ gì]
+            examples:
+              - text: Chuyện nhà người ta, mắc gì bà xía vô?
+                standard: Chuyện nhà người ta, việc gì mà bà xen vào?
+                ai_draft: true
+            topics: [discourse-markers]
+            sources: [skill-dictionary-v1]

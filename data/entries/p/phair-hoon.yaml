@@ -1,0 +1,16 @@
+spelling: phải hôn
+etymologies:
+  - pos:
+      - pos: particle
+        senses:
+          - gloss:
+              en: Southern Vietnam form of phải không
+            region: [south]
+            variant_of: phải không
+            examples:
+              - text: Anh là con ông Sáu ở xóm trên, phải hôn?
+                standard: Anh là con ông Sáu ở xóm trên, phải không?
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ph%E1%BA%A3i_h%C3%B4n#Vietnamese

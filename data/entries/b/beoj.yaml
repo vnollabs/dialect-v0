@@ -1,0 +1,31 @@
+spelling: bẹo
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Cây sào treo hàng trên ghe ở chợ nổi để chào bán; bẹo là chưng ra
+            region: [mekong-delta]
+            synonyms: [cây bẹo]
+            examples:
+              - text: Ghe chú Sáu treo mấy trái bí lên bẹo, khách đứng xa cũng biết ghe bán bí.
+                standard: Thuyền chú Sáu treo mấy quả bí lên cây sào chào hàng, khách đứng xa cũng biết thuyền bán bí.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]
+  - note:
+      en: Compare véo, béo, nhéo.
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to pinch
+            qualifier: of cheek
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Thằng nhỏ mập mạp dễ thương quá, ai gặp cũng bẹo má một cái.
+                standard: Thằng bé mũm mĩm dễ thương quá, ai gặp cũng véo má một cái.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%E1%BA%B9o#Vietnamese

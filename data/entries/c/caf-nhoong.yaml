@@ -1,0 +1,14 @@
+spelling: cà nhông
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Rong chơi, không có việc gì làm
+            region: [mekong-delta]
+            synonyms: [cà nhổng]
+            examples:
+              - text: Suốt ngày đi cà nhông ngoài đường, hổng lo phụ má việc nhà gì hết.
+                standard: Suốt ngày đi rong chơi ngoài đường, không lo giúp mẹ việc nhà gì cả.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

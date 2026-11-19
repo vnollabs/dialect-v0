@@ -1,0 +1,18 @@
+spelling: bón
+etymologies:
+  - derived: [táo bón]
+    pos:
+      - pos: adj
+        han_nom: [𦊚]
+        senses:
+          - gloss:
+              en: constipated
+            region: [central, south]
+            synonyms: [táo]
+            examples:
+              - text: Thằng nhỏ bị bón mấy bữa nay, cho nó ăn đu đủ chín coi.
+                standard: Thằng bé bị táo bón mấy hôm nay, cho nó ăn đu đủ chín xem.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%C3%B3n#Vietnamese

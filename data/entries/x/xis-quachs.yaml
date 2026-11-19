@@ -1,0 +1,20 @@
+spelling: xí quách
+etymologies:
+  - type: loan
+    lang: yue
+    source_form: 豬骨
+    note:
+      en: "Borrowed from Cantonese 豬骨 /猪骨 (zyu¹ gwat¹, “pork bone”) (SV: trư cốt)."
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: a kind of soup with bones, not necessarily pork
+            region: [south]
+            examples:
+              - text: Sáng nay ghé quán ăn tô hủ tiếu xí quách nóng hổi.
+                standard: Sáng nay ghé quán ăn bát hủ tiếu xương hầm nóng hổi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/x%C3%AD_qu%C3%A1ch#Vietnamese

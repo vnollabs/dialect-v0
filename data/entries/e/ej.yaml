@@ -1,0 +1,17 @@
+spelling: ẹ
+etymologies:
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: dirty
+            region: [central, south]
+            labels: [childish]
+            synonyms: [bẩn, dơ]
+            examples:
+              - text: Đừng bốc đất bỏ vô miệng nghen con, ẹ lắm!
+                standard: Đừng bốc đất cho vào miệng nhé con, bẩn lắm!
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%E1%BA%B9#Vietnamese

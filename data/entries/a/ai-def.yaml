@@ -1,0 +1,15 @@
+spelling: ai dè
+etymologies:
+  - pos:
+      - pos: particle
+        senses:
+          - gloss:
+              vi: Bất ngờ, ngỡ ngàng vì kết quả trái với dự tính
+            region: [south]
+            synonyms: [đâu dè]
+            examples:
+              - text: Tui tưởng chợ đóng cửa rồi, ai dè còn đông nghẹt người.
+                standard: Tôi tưởng chợ đóng cửa rồi, ai ngờ còn đông nghịt người.
+                ai_draft: true
+            topics: [particles]
+            sources: [skill-dictionary-v1]

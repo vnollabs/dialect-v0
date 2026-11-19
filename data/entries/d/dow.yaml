@@ -1,0 +1,32 @@
+spelling: dơ
+etymologies:
+  - sound_change:
+      compare:
+        - [dòm, nhòm]
+        - [dớp, nhớp]
+    note:
+      en: Doublet of nhơ. Compare dòm vs. nhòm, dớp vs. nhớp, etc.
+    pos:
+      - pos: adj
+        han_nom: [汿, 泇, 洳, 𬉣]
+        senses:
+          - gloss:
+              en: dirty; unclean
+            region: [central, south]
+            synonyms: [bẩn]
+            examples:
+              - text: đồ dơ
+                en: dirty utility
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/d%C6%A1#Vietnamese
+          - gloss:
+              en: shameless; barefaced
+            region: [central, south]
+            examples:
+              - text: Mượn tiền hổng trả mà còn đòi mượn nữa, thằng đó dơ thiệt.
+                standard: Mượn tiền không trả mà còn đòi mượn nữa, thằng đó trơ trẽn thật.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/d%C6%A1#Vietnamese

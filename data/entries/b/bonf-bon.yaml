@@ -1,0 +1,25 @@
+spelling: bòn bon
+etymologies:
+  - type: loan
+    lang: fr
+    source_form: bon
+    note:
+      en: |-
+        According to a folk etymology recorded by Bùi Minh Đức in his work Từ điển tiếng Huế (2001), the fruit name was adapted from French bon (“good; tasty”):
+        2001, Bùi Minh Đức, Từ điển tiếng Huế [Dictionary of Hue lects], page 33:
+        Tương truyền vua Gia Long đi lánh nạn gặp lúc đói, phải ăn trái cây này trong rừng. Vua ăn thử thấy ngon, chuyền cho người Pháp tùy tùng vài trái. Ăn thấy ngon, người Pháp thốt lên "bon, bon" tức "ngon" và từ đó về sau, người dân gọi là trái "bòn bon", mặc dầu vua đã đặt tên là "trái Nam Trân".
+        It was said that, one-time while fleeing [from the Tây Sơn troops], Emperor Gia Long was so starving that he had no other choices but to eat this fruit in the forest. Finding its taste pleasing, he gave his French entourage some to try. After tasting them, the French remarked "bon, bon" [good, good], hence the name "bòn bon" used by the locals, even though the Emperor had decided to name the fruit "Nam Trân".
+    pos:
+      - pos: noun
+        classifiers: [cây, trái, quả]
+        senses:
+          - gloss:
+              en: langsat (Lansium domesticum)
+            region: [central, south]
+            synonyms: [lòn bon, dâu da đất, nam trân]
+            examples:
+              - text: Mùa này bòn bon ngoài vườn chín rộ, ra hái một rổ về ăn chơi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%C3%B2n_bon#Vietnamese

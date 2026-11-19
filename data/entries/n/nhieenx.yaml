@@ -1,0 +1,19 @@
+spelling: nhiễn
+etymologies:
+  - note:
+      en: See nhuyễn.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: mashy
+            region: [central, south]
+            labels: [uncommon]
+            variant_of: nhuyễn
+            examples:
+              - text: Khoai lang luộc xong tán nhiễn ra cho em bé ăn.
+                standard: Khoai lang luộc xong tán nhuyễn ra cho em bé ăn.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/nhi%E1%BB%85n#Vietnamese

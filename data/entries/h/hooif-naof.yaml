@@ -1,0 +1,13 @@
+spelling: hồi nào
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Bao giờ (quá khứ)
+            region: [south]
+            examples:
+              - text: Mày về hồi nào vậy, sao hổng báo tao hay?
+                standard: Mày về bao giờ vậy, sao không báo cho tao biết?
+                ai_draft: true
+            topics: [qualities-feelings]
+            sources: [skill-dictionary-v1]

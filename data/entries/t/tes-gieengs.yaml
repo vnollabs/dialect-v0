@@ -1,0 +1,18 @@
+spelling: té giếng
+etymologies:
+  - type: compound
+    note:
+      en: té (“to fall”) + giếng (“well”).
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to have hit your head
+            region: [south]
+            labels: [figurative, slang]
+            examples:
+              - text: Mày té giếng à !?
+                en: Did you friggin' hit your head or somp'n?
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/t%C3%A9_gi%E1%BA%BFng#Vietnamese

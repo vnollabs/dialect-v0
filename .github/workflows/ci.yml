@@ -1,0 +1,67 @@
+name: CI
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: npm ci
+
+      - name: Entries match the schema and vocabularies
+        run: npm run validate
+
+      - name: Build the skill dictionary, packaged skills and API
+        run: npm run build
+
+      - name: Type-check scripts
+        run: npm run typecheck
+
+      - name: Tests (scripts and skills)
+        run: npm test
+
+      - name: Packaged skill dictionary reads with the skill's own tool
+        run: python3 dist/skills/southern-mekong-vietnamese-dialect/scripts/dictionary.py check
+
+      - name: API packages for Cloudflare
+        run: npx wrangler deploy --dry-run
+
+  # Publishes https://dialect.vnol.net/api/v1/ on every push to main (releases; work merges into develop).
+  # Needs repository secrets CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID. The token needs Editor on the
+  # dialect-api Worker and Zone > Workers Routes > Write on vnol.net; creating the Worker the first time needs
+  # the Workers Admin role, so a member can run the first `npm run deploy` instead. Skipped until the
+  # repository variable DEPLOY_API is "true", so main stays green before the secrets exist. See docs/api.md.
+  deploy:
+    needs: check
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main' && vars.DEPLOY_API == 'true'
+    runs-on: ubuntu-latest
+    concurrency: deploy-api
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      - name: Deploy the API
+        run: npm run deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

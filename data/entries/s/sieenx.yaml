@@ -1,0 +1,19 @@
+spelling: siễn
+etymologies:
+  - note:
+      en: See suyễn.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: asthma
+            region: [south]
+            labels: [obsolete]
+            variant_of: suyễn
+            examples:
+              - text: Hồi xưa bà nội tui bị siễn, trời trở lạnh là ho suốt đêm.
+                standard: Ngày xưa bà nội tôi bị suyễn, trời trở lạnh là ho suốt đêm.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/si%E1%BB%85n#Vietnamese

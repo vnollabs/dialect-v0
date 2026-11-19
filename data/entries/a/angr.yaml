@@ -1,0 +1,16 @@
+spelling: ảng
+etymologies:
+  - pos:
+      - pos: noun
+        classifiers: [cái, chiếc]
+        senses:
+          - gloss:
+              en: a kind of water container
+            region: [central, south]
+            examples:
+              - text: Má biểu múc nước trong ảng ra rửa chưn trước khi vô nhà.
+                standard: Mẹ bảo múc nước trong chum ra rửa chân trước khi vào nhà.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%E1%BA%A3ng#Vietnamese

@@ -1,0 +1,14 @@
+spelling: bá cháy con bà bảy
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Cực kỳ xuất sắc, tuyệt vời
+            region: [south]
+            synonyms: [bá cháy, bá chấy bọ chét]
+            examples:
+              - text: Thằng Tư hát karaoke bá cháy con bà bảy, cả xóm vỗ tay rần rần.
+                standard: Thằng Tư hát karaoke tuyệt vời, cả xóm vỗ tay rầm rầm.
+                ai_draft: true
+            topics: [idioms]
+            sources: [skill-dictionary-v1]

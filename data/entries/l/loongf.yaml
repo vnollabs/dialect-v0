@@ -1,0 +1,18 @@
+spelling: lồng
+etymologies:
+  - pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: eye dialect spelling of lồn, representing Southern Vietnam Vietnamese
+            qualifier: minced oath
+            region: [south]
+            labels: [pronunciation-spelling, slang]
+            variant_of: lồn
+            examples:
+              - text: Kẹt xe cái lồng gì mà cả tiếng đồng hồ chưa nhích được chút nào.
+                standard: Tắc đường cái lồn gì mà cả tiếng đồng hồ chưa nhích được chút nào.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%E1%BB%93ng#Vietnamese

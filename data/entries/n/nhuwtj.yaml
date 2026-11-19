@@ -1,0 +1,32 @@
+spelling: nhựt
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Nhật
+            region: [south]
+            standard: [nhật]
+            examples:
+              - text: Chủ nhựt này rảnh hông, qua nhà tui ăn giỗ.
+                standard: Chủ nhật này rảnh không, sang nhà tôi ăn giỗ.
+                ai_draft: true
+            topics: [sino-vietnamese]
+            sources: [skill-dictionary-v1]
+  - type: sino
+    han: 日
+    note:
+      en: Sino-Vietnamese word from 日.
+    pos:
+      - pos: name
+        head: Nhựt
+        senses:
+          - gloss:
+              en: a male given name from Chinese
+            region: [south]
+            labels: [dated]
+            examples:
+              - text: Thằng Nhựt con ông Tám mới đi làm trên thành phố về.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/Nh%E1%BB%B1t#Vietnamese

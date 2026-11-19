@@ -1,0 +1,22 @@
+spelling: mập
+etymologies:
+  - derived: [béo mập, cá mập, mập địt, mập mạp, mập phệ, mập ú]
+    pos:
+      - pos: adj
+        han_nom: [䏜, 乏, 𥄫, 𦚖]
+        senses:
+          - gloss:
+              vi: Béo
+              en: fat, obese, stout, plump
+            region: [south]
+            standard: [béo]
+            synonyms: [mập mạp, to béo, béo, bậm]
+            examples:
+              - text: Mới có mấy tháng mà thằng nhỏ mập ú, má nó cho ăn dữ quá.
+                standard: Mới có mấy tháng mà thằng bé béo ú, mẹ nó cho ăn nhiều quá.
+                ai_draft: true
+            topics: [qualities-feelings]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%E1%BA%ADp#Vietnamese

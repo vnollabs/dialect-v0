@@ -1,0 +1,19 @@
+spelling: lem luốc
+etymologies:
+  - type: compound
+    note:
+      en: Compound of lem (“smudged, stained”) + luốc (“dirty, soiled”) (obsolete).
+    pos:
+      - pos: adj
+        han_nom: [淋綠]
+        senses:
+          - gloss:
+              en: smudged, smeared, grimy, grubby
+            region: [central, south]
+            examples:
+              - text: Đi tát mương về, mặt mũi thằng Tí lem luốc bùn sình.
+                standard: Đi tát mương về, mặt mũi thằng Tí lem luốc bùn đất.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/lem_lu%E1%BB%91c#Vietnamese

@@ -1,0 +1,14 @@
+spelling: nhà thương
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Bệnh viện
+            region: [south]
+            standard: [bệnh viện]
+            examples:
+              - text: Bà ngoại trợt chưn té, phải chở lên nhà thương huyện.
+                standard: Bà ngoại trượt chân ngã, phải chở lên bệnh viện huyện.
+                ai_draft: true
+            topics: [household]
+            sources: [skill-dictionary-v1]

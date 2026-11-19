@@ -1,0 +1,18 @@
+spelling: tiến
+etymologies:
+  - note:
+      en: See tuyến.
+    pos:
+      - pos: noun
+        han_nom: [線]
+        senses:
+          - gloss:
+              en: thread, line
+            region: [south]
+            variant_of: tuyến
+            examples:
+              - text: kim tiến
+                en: golden thread
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ti%E1%BA%BFn#Vietnamese

@@ -1,0 +1,19 @@
+spelling: rún
+etymologies:
+  - note:
+      en: Attested as ルン (run), glossed 臍 (“navel”), in the Annan Hyōryūki (安南漂流記, 1767), recorded the South Central dialect of Hội An.
+    derived: [cười tét rún]
+    pos:
+      - pos: noun
+        classifiers: [cái]
+        senses:
+          - gloss:
+              en: navel
+            region: [central, south]
+            variant_of: rốn
+            examples:
+              - text: Chuồn chuồn cắn rún biết bơi.
+                en: If you let a dragonfly bite your belly button, you would know how to swim.
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/r%C3%BAn#Vietnamese

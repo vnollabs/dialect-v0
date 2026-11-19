@@ -1,0 +1,28 @@
+spelling: sình
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Bùn; (cá, thịt) ươn
+            region: [mekong-delta]
+            examples:
+              - text: Cá để ngoài nắng cả buổi sình hết rồi, bỏ đi con.
+                standard: Cá để ngoài nắng cả buổi ươn hết rồi, bỏ đi con.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]
+  - pos:
+      - pos: noun
+        han_nom: [浧]
+        senses:
+          - gloss:
+              en: mud
+            region: [south]
+            synonyms: [bùn]
+            examples:
+              - text: Tụi nhỏ lội ruộng về, chân dính sình tới đầu gối.
+                standard: Bọn trẻ lội ruộng về, chân dính bùn đến đầu gối.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/s%C3%ACnh#Vietnamese

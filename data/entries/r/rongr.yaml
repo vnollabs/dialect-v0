@@ -1,0 +1,15 @@
+spelling: rỏng
+etymologies:
+  - pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: small natural waterway
+            region: [south]
+            examples:
+              - text: Nước ròng, tụi nhỏ ra cái rỏng sau vườn bắt cá lòng tong.
+                standard: Nước rút, bọn trẻ ra con lạch nhỏ sau vườn bắt cá lòng tong.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/r%E1%BB%8Fng#Vietnamese

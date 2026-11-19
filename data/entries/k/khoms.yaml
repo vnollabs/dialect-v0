@@ -1,0 +1,35 @@
+spelling: khóm
+etymologies:
+  - pos:
+      - pos: noun
+        classifiers: [cây, trái]
+        senses:
+          - gloss:
+              en: pineapple
+            region: [south]
+            labels: [proscribed]
+            synonyms: [dứa, thơm]
+            examples:
+              - text: Má nấu canh chua cá lóc bỏ khóm, chua chua ngọt ngọt.
+                standard: Mẹ nấu canh chua cá quả cho dứa, chua chua ngọt ngọt.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/kh%C3%B3m#Vietnamese
+  - note:
+      en: Possibly from Etymology 1, influenced by xóm.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: a neighborhood
+            qualifier: Mekong Delta
+            region: [mekong-delta]
+            synonyms: [xóm]
+            examples:
+              - text: Tối nay khóm mình họp dân ở nhà văn hóa, ba nhớ đi nghen.
+                standard: Tối nay tổ dân phố mình họp dân ở nhà văn hóa, bố nhớ đi nhé.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/kh%C3%B3m#Vietnamese

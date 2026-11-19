@@ -1,0 +1,12 @@
+spelling: trời
+etymologies:
+  - pos:
+      - pos: particle
+        senses:
+          - gloss:
+              vi: Tiếng đệm cảm thán cuối câu, thân mật, trách yêu
+            region: [south]
+            examples:
+              - text: Làm gì mà đi trễ dữ vậy trời!
+            topics: [particles]
+            sources: [skill-dictionary-v1]

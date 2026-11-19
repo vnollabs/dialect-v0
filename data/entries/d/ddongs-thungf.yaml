@@ -1,0 +1,31 @@
+spelling: đóng thùng
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Bỏ áo vô quần cho lịch sự
+            region: [south]
+            synonyms: [ăn tây ni]
+            examples:
+              - text: Đi đám cưới thì đóng thùng cho đàng hoàng nghen con, đừng bỏ áo ngoài.
+                standard: Đi đám cưới thì sơ vin cho đàng hoàng nhé con, đừng bỏ áo ngoài.
+                ai_draft: true
+            topics: [idioms]
+            sources: [skill-dictionary-v1]
+  - type: compound
+    note:
+      en: đóng + thùng.
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to tuck in one's shirt
+            region: [south]
+            synonyms: [ăn-ta-ni, bồng cốt, sơ vin]
+            examples:
+              - text: Sáng nào ba cũng đóng thùng, mang giày tây rồi mới đi làm.
+                standard: Sáng nào bố cũng sơ vin, đi giày tây rồi mới đi làm.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%C3%B3ng_th%C3%B9ng#Vietnamese

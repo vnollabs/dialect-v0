@@ -1,0 +1,25 @@
+spelling: cua đinh
+etymologies:
+  - type: sino
+    han: 汀
+    note:
+      en: |-
+        cua (“crab”) + đinh (
+        Sino-Vietnamese word from 汀 (“riverbank”)). Semantically, compare giải (“large softshell turtle”), also derived from the sense "crab".
+    pos:
+      - pos: noun
+        han_nom: [𧍏汀]
+        classifiers: [con]
+        senses:
+          - gloss:
+              en: soft-shell turtle
+            qualifier: Mekong Delta
+            region: [mekong-delta]
+            synonyms: [ba ba Nam Bộ]
+            examples:
+              - text: Đám giỗ năm nay ba mua con cua đinh về nấu cháo đậu xanh.
+                standard: Đám giỗ năm nay bố mua con ba ba về nấu cháo đậu xanh.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/cua_%C4%91inh#Vietnamese

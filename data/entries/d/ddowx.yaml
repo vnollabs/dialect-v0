@@ -1,0 +1,19 @@
+spelling: đỡ
+etymologies:
+  - type: sino
+    han: 助
+    note:
+      en: "Non-Sino-Vietnamese reading of Chinese 助 (“to help”, SV: trợ)."
+    pos:
+      - pos: adv
+        senses:
+          - gloss:
+              en: temporarily (in the absence of a better method); as a makeshift
+            region: [south]
+            examples:
+              - text: Hết nước mắm rồi, con chấm muối ăn đỡ đi.
+                standard: Hết nước mắm rồi, con chấm muối ăn tạm đi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%E1%BB%A1#Vietnamese

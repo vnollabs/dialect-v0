@@ -1,0 +1,25 @@
+spelling: đậu hủ
+etymologies:
+  - type: sino
+    han: 豆
+    note:
+      en: Sino-Vietnamese word from 豆腐, composed of 豆 (“bean”) and 腐 (“rotten”). Doublet of đậu phụ, tàu hủ, and tào phớ.
+    pos:
+      - pos: noun
+        classifiers: [bìa]
+        senses:
+          - gloss:
+              vi: Đậu phụ
+              en: tofu
+            region: [south]
+            standard: [đậu phụ]
+            synonyms: [tàu hủ, đậu phụ]
+            examples:
+              - text: Con ra chợ mua cho má mấy miếng đậu hủ về chiên nghen.
+                standard: Con ra chợ mua cho mẹ mấy miếng đậu phụ về rán nhé.
+                ai_draft: true
+            topics: [food-drink]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%E1%BA%ADu_h%E1%BB%A7#Vietnamese

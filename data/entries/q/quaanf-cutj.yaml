@@ -1,0 +1,15 @@
+spelling: quần cụt
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Quần đùi
+            region: [south]
+            standard: [quần đùi]
+            synonyms: [xà lỏn]
+            examples:
+              - text: Trời nóng, ở nhà bận quần cụt cho mát.
+                standard: Trời nóng, ở nhà mặc quần đùi cho mát.
+                ai_draft: true
+            topics: [household]
+            sources: [skill-dictionary-v1]

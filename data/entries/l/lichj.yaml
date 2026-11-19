@@ -1,0 +1,34 @@
+spelling: lịch
+etymologies:
+  - pos:
+      - pos: noun
+        classifiers: [con]
+        senses:
+          - gloss:
+              en: eel of the genus Pisodonophis
+            region: [central, south]
+            variant_of: lệch
+            examples:
+              - text: |-
+                  Con lươn, con lịch, con chình;
+                  Ba con dưới nước cái mình trơn u.
+                en: |-
+                  The spiny eel, the snake-eel, the freshwater eel;
+                  All three dwell underwater and are smooth-bodied
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%E1%BB%8Bch#Vietnamese
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: inclined; uneven; aberrant
+            region: [south]
+            variant_of: lệch
+            examples:
+              - text: Cái bàn kê lịch một bên rồi, chêm miếng ván dưới chưn đi.
+                standard: Cái bàn kê lệch một bên rồi, chêm miếng ván dưới chân đi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%E1%BB%8Bch#Vietnamese

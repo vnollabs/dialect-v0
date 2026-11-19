@@ -1,0 +1,22 @@
+spelling: giả đò
+etymologies:
+  - type: sino
+    han: 度
+    note:
+      en: "Perhaps from giả + đò, with đò being a Non-Sino-Vietnamese reading of Chinese 度 (SV: độ)."
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to feign
+            region: [south]
+            synonyms: [giả bộ, giả vờ]
+            examples:
+              - text: giả đò làm như không biết
+                en: to feign ignorance
+              - text: Bà Dursley lại còn giả đò như mình không có chị em nào hết […]
+                en: Mrs. Dursley pretended she didn't have a sister […]
+                ref: "2017, J. K. Rowling, chapter 1, in Lý Lan, transl., Harry Potter Và Hòn Đá Phù Thủy [Harry Potter and the Sorcerer's Stone], 29 edition, volume 1, Ho Chi Minh City: Nhà xuất bản Trẻ, →ISBN, →OCLC:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/gi%E1%BA%A3_%C4%91%C3%B2#Vietnamese

@@ -1,0 +1,40 @@
+spelling: nhỏ
+etymologies:
+  - pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: child
+            region: [south]
+            examples:
+              - text: sắp nhỏ
+                en: our children
+              - text: tụi nhỏ
+                en: the kids
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/nh%E1%BB%8F#Vietnamese
+          - gloss:
+              en: girl; girlie
+            region: [south]
+            examples:
+              - text: con nhỏ đó
+                en: that girl
+              - text: nhỏ Hoa
+                en: the girl named Hoa
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/nh%E1%BB%8F#Vietnamese
+      - pos: pron
+        senses:
+          - gloss:
+              en: she/her, that girl
+            region: [south]
+            labels: [familiar]
+            examples:
+              - text: Tui có rủ con Thảo mà nhỏ nói bận, hổng đi được.
+                standard: Tôi có rủ con Thảo mà cô bé bảo bận, không đi được.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/nh%E1%BB%8F#Vietnamese

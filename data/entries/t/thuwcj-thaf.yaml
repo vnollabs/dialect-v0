@@ -1,0 +1,18 @@
+spelling: thực thà
+etymologies:
+  - note:
+      en: From thực.
+    pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: alternative form of thật thà
+            region: [south]
+            variant_of: thật thà
+            examples:
+              - text: Thằng nhỏ thực thà lắm, ai hỏi gì cũng nói thiệt.
+                standard: Thằng bé thật thà lắm, ai hỏi gì cũng nói thật.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/th%E1%BB%B1c_th%C3%A0#Vietnamese

@@ -1,0 +1,24 @@
+spelling: áo thun
+etymologies:
+  - type: compound
+    note:
+      en: áo + thun.
+    pos:
+      - pos: noun
+        classifiers: [chiếc, cái]
+        senses:
+          - gloss:
+              vi: Áo phông
+              en: T-shirt
+            region: [south]
+            standard: [áo phông]
+            synonyms: [áo phông]
+            examples:
+              - text: Trời nóng quá, bận cái áo thun cho mát đi con.
+                standard: Trời nóng quá, mặc cái áo phông cho mát đi con.
+                ai_draft: true
+            topics: [household]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C3%A1o_thun#Vietnamese

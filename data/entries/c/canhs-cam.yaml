@@ -1,0 +1,20 @@
+spelling: cánh cam
+etymologies:
+  - type: compound
+    note:
+      en: cánh (“wing”) + cam (“orange”).
+    pos:
+      - pos: noun
+        classifiers: [con]
+        senses:
+          - gloss:
+              en: Anomala esmeralda
+            region: [south]
+            labels: [dialectal]
+            examples:
+              - text: Tụi nhỏ bắt được con cánh cam xanh lè, cột chỉ vô chưn cho nó bay vòng vòng.
+                standard: Bọn trẻ bắt được con cánh cam xanh lét, buộc chỉ vào chân cho nó bay vòng vòng.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%C3%A1nh_cam#Vietnamese

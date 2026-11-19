@@ -1,0 +1,20 @@
+spelling: bày đặt
+etymologies:
+  - type: compound
+    note:
+      en: bày + đặt.
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to make things unnecessarily complicated
+            region: [south]
+            labels: [colloquial]
+            synonyms: [làm màu]
+            examples:
+              - text: Đám giỗ nhỏ thôi mà bày đặt làm chi cho cực, nấu vài món là đủ rồi.
+                standard: Đám giỗ nhỏ thôi mà bày vẽ làm gì cho vất vả, nấu vài món là đủ rồi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%C3%A0y_%C4%91%E1%BA%B7t#Vietnamese

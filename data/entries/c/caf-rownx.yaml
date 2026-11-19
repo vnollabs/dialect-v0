@@ -1,0 +1,19 @@
+spelling: cà rỡn
+etymologies:
+  - type: compound
+    note:
+      en: From cà- (“repetitive prefix”) + rỡn (“to joke, to play”). See also giỡn.
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to keep on joking, playing
+            region: [central, south]
+            labels: [colloquial]
+            examples:
+              - text: Đang học bài mà cứ cà rỡn hoài, coi chừng má rầy đó.
+                standard: Đang học bài mà cứ đùa giỡn mãi, cẩn thận mẹ mắng đấy.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%C3%A0_r%E1%BB%A1n#Vietnamese

@@ -1,0 +1,19 @@
+spelling: lãnh
+etymologies:
+  - type: sino
+    han: 領
+    note:
+      en: Sino-Vietnamese word from 領.
+    derived: [bảo lãnh, chiếm lãnh, lãnh chúa, lãnh đạo, lãnh hải, lãnh sự, lãnh sự quán, lãnh thổ, lãnh tụ, lãnh vực, thống lãnh, thủ lãnh]
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to receive, to get
+            region: [south]
+            examples:
+              - text: Kỹ sư lãnh lương cao hơn cán sư.
+                en: Engineers command higher salaries than technicians.
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%C3%A3nh#Vietnamese

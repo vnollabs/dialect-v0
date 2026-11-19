@@ -1,0 +1,20 @@
+spelling: thí mẹ
+etymologies:
+  - pos:
+      - pos: adv
+        senses:
+          - gloss:
+              en: very much
+            region: [south]
+            labels: [vulgar]
+            synonyms: [thí bà nội]
+            examples:
+              - text: ngu thí mẹ
+                en: so fucking dumb; dumb as fuck
+              - text: chán thí mẹ
+                en: to be bored out of one's mind
+              - text: sợ thí mẹ
+                en: to be scared shitless
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/th%C3%AD_m%E1%BA%B9#Vietnamese

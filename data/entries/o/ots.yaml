@@ -1,0 +1,18 @@
+spelling: ót
+etymologies:
+  - pos:
+      - pos: noun
+        han_nom: [𱔸]
+        classifiers: [cái]
+        senses:
+          - gloss:
+              en: nape
+            region: [central, south]
+            synonyms: [gáy]
+            examples:
+              - text: Trời nắng quá, mồ hôi chảy ướt cả ót.
+                standard: Trời nắng quá, mồ hôi chảy ướt cả gáy.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C3%B3t#Vietnamese

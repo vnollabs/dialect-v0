@@ -1,0 +1,18 @@
+spelling: bén
+etymologies:
+  - derived: [bén ngót, nhạy bén, sắc bén]
+    pos:
+      - pos: adj
+        han_nom: [變]
+        senses:
+          - gloss:
+              en: sharp
+            region: [central, south]
+            synonyms: [sắc]
+            examples:
+              - text: Cây kéo này hết bén rồi, cắt vải hổng đứt.
+                standard: Cái kéo này hết sắc rồi, cắt vải không đứt.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%C3%A9n#Vietnamese

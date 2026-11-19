@@ -1,0 +1,20 @@
+spelling: dây nịt
+etymologies:
+  - type: compound
+    note:
+      en: dây + nịt.
+    pos:
+      - pos: noun
+        classifiers: [sợi]
+        senses:
+          - gloss:
+              en: belt (worn around the waist)
+            region: [south]
+            synonyms: [thắt lưng, dây lưng]
+            examples:
+              - text: Quần rộng thùng thình, phải đeo dây nịt vô mới mặc được.
+                standard: Quần rộng thùng thình, phải đeo thắt lưng vào mới mặc được.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/d%C3%A2y_n%E1%BB%8Bt#Vietnamese

@@ -1,0 +1,19 @@
+spelling: hôn
+etymologies:
+  - note:
+      en: See không.
+    derived: [phải hôn]
+    pos:
+      - pos: particle
+        senses:
+          - gloss:
+              en: Southern Vietnam form of không
+            region: [south]
+            variant_of: không
+            examples:
+              - text: Chiều nay đi câu cá với tui hôn?
+                standard: Chiều nay đi câu cá với tôi không?
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/h%C3%B4n#Vietnamese

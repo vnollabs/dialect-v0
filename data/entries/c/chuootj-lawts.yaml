@@ -1,0 +1,19 @@
+spelling: chuột lắt
+etymologies:
+  - note:
+      en: Originally synonymous with the now widely used chuột nhắt (“mouse”). The scientific meaning of "Polynesian rat" is a case of semantic narrowing.
+    pos:
+      - pos: noun
+        classifiers: [con]
+        senses:
+          - gloss:
+              en: mouse
+            qualifier: now probably Mekong Delta
+            region: [mekong-delta]
+            examples:
+              - text: Tối nghe chuột lắt chạy rột rẹt trên trần nhà, ngủ hổng được.
+                standard: Tối nghe chuột nhắt chạy sột soạt trên trần nhà, ngủ không được.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/chu%E1%BB%99t_l%E1%BA%AFt#Vietnamese

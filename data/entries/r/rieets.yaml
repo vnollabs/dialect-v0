@@ -1,0 +1,14 @@
+spelling: riết
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Lặp lại hoài, liên tục
+            region: [mekong-delta]
+            synonyms: [miết]
+            examples:
+              - text: Ngày nào cũng ăn cơm tấm riết, tui ngán quá rồi.
+                standard: Ngày nào cũng ăn cơm tấm mãi, tôi ngán quá rồi.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

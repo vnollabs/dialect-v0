@@ -1,0 +1,17 @@
+spelling: bự đùng
+etymologies:
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: huge; gigantic; enormous
+            region: [south]
+            labels: [colloquial]
+            synonyms: [to đùng]
+            examples:
+              - text: Thằng Ba câu được con cá lóc bự đùng, cả xóm ra coi.
+                standard: Thằng Ba câu được con cá quả to đùng, cả xóm ra xem.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%E1%BB%B1_%C4%91%C3%B9ng#Vietnamese

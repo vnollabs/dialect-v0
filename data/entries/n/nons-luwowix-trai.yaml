@@ -1,0 +1,21 @@
+spelling: nón lưỡi trai
+etymologies:
+  - type: compound
+    note:
+      en: nón (“headwear”) + lưỡi trai (“visor”).
+    pos:
+      - pos: noun
+        classifiers: [cái, chiếc]
+        senses:
+          - gloss:
+              en: a cap with visor
+            region: [south]
+            labels: [uncommon]
+            synonyms: [mũ lưỡi trai]
+            examples:
+              - text: Thằng Tèo đội cái nón lưỡi trai đi đá banh ngoài bãi.
+                standard: Thằng Tèo đội cái mũ lưỡi trai đi đá bóng ngoài bãi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/n%C3%B3n_l%C6%B0%E1%BB%A1i_trai#Vietnamese

@@ -1,0 +1,18 @@
+spelling: á đù
+etymologies:
+  - note:
+      en: Originally used in Đà Nẵng and Quảng Nam dialects, spread to other dialects through its usage in comedic videos on YouTube.
+    pos:
+      - pos: intj
+        senses:
+          - gloss:
+              en: I'll be damned (expression of surprise)
+            region: [south-central]
+            labels: [vulgar]
+            examples:
+              - text: Á đù, mới mấy ngày mà mày đã sắm được chiếc xe mới rồi hả?
+                standard: Ôi trời, mới mấy ngày mà mày đã sắm được chiếc xe mới rồi à?
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C3%A1_%C4%91%C3%B9#Vietnamese

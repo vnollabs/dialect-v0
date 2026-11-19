@@ -1,0 +1,34 @@
+spelling: lai
+etymologies:
+  - pos:
+      - pos: noun
+        han_nom: [來]
+        classifiers: [cái]
+        senses:
+          - gloss:
+              en: hemline; turn-up
+            region: [central, south]
+            examples:
+              - text: Quần dài quá, đem ra tiệm may lên lai giùm tui.
+                standard: Quần dài quá, mang ra tiệm may lên gấu giúp tôi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/lai#Vietnamese
+  - type: sino
+    han: 釐
+    note:
+      en: "Non-Sino-Vietnamese reading of Chinese 釐 (“a weight unit”, SV: li)."
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: hundredth part of a tael (equal to 0.378 g)
+            region: [central, south]
+            examples:
+              - text: Hồi đó bà ngoại cho má chiếc nhẫn vàng nặng có năm lai.
+                standard: Hồi đó bà ngoại cho mẹ chiếc nhẫn vàng nặng có năm phân.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/lai#Vietnamese

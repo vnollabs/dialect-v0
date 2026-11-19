@@ -1,0 +1,13 @@
+spelling: củ sắn
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Củ đậu (miền Bắc); còn củ sắn của miền Bắc thì miền Nam gọi là "củ khoai mì"
+            region: [south]
+            examples:
+              - text: Trưa nắng gọt củ sắn ăn sống, ngọt mát hết biết.
+                standard: Trưa nắng gọt củ đậu ăn sống, ngọt mát vô cùng.
+                ai_draft: true
+            topics: [food-drink]
+            sources: [skill-dictionary-v1]

@@ -1,0 +1,20 @@
+spelling: bánh da heo
+etymologies:
+  - type: compound
+    note:
+      en: bánh (“cake”) + da (“skin”) + heo (“pig”)
+    pos:
+      - pos: noun
+        classifiers: [chiếc]
+        senses:
+          - gloss:
+              en: A Vietnamese steamed layer cake made from tapioca starch, rice flour, mashed mung beans, taro, or durian, coconut milk and/or water, and sugar.
+            region: [south]
+            standard: [bánh da lợn]
+            examples:
+              - text: Má mua cho tụi nhỏ mấy miếng bánh da heo, đứa nào cũng thích lột từng lớp ăn.
+                standard: Mẹ mua cho bọn trẻ mấy miếng bánh da lợn, đứa nào cũng thích bóc từng lớp ăn.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%C3%A1nh_da_heo#Vietnamese

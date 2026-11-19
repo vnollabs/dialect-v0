@@ -1,0 +1,17 @@
+spelling: bí thơ
+etymologies:
+  - pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: alternative form of bí thư
+            region: [south]
+            labels: [dated, nonstandard]
+            variant_of: bí thư
+            examples:
+              - text: '"[…] sao tao muốn làm bí thơ tỉnh quá".'
+                en: '" […] why do I want to be secretary of the provincial [Communist Party committee] so much?"'
+                ref: "2005, Nguyễn Ngọc Tư, “Cải ơi”, in Cánh đồng bất tận, NXB Trẻ:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%C3%AD_th%C6%A1#Vietnamese

@@ -1,0 +1,17 @@
+spelling: mắc mỏ
+etymologies:
+  - note:
+      en: Reduplication of mắc.
+    pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: dear; expensive
+            region: [south]
+            examples:
+              - text: Cá ngoài chợ bữa nay mắc mỏ quá, mua có chút xíu.
+                standard: Cá ngoài chợ hôm nay đắt đỏ quá, mua có một chút.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%E1%BA%AFc_m%E1%BB%8F#Vietnamese

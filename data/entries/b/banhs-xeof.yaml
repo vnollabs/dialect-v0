@@ -1,0 +1,13 @@
+spelling: bánh xèo
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Bánh đổ bằng bột gạo pha nước cốt dừa, nghệ, nhân tôm thịt, giá, ăn kèm rau sống, rau rừng
+            region: [mekong-delta]
+            examples:
+              - text: Chiều mưa cả nhà đổ bánh xèo, cuốn rau sống chấm nước mắm, ăn hoài hổng chán.
+                standard: Chiều mưa cả nhà đổ bánh xèo, cuốn rau sống chấm nước mắm, ăn mãi không chán.
+                ai_draft: true
+            topics: [mekong-food]
+            sources: [skill-dictionary-v1]

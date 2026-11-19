@@ -1,0 +1,23 @@
+spelling: miễu
+etymologies:
+  - type: sino
+    han: 廟
+    note:
+      en: "Non-Sino-Vietnamese reading of Chinese 廟 (SV: miếu). Doublet of miếu."
+    pos:
+      - pos: noun
+        classifiers: [cái, ngôi]
+        senses:
+          - gloss:
+              en: village shrine
+            region: [south]
+            synonyms: [đình]
+            examples:
+              - text: Rằm tháng này người ta đi cúng miễu Bà đông lắm.
+                en: This mid-month, many people went to the "village shrine of the Lady" to give offerings.
+              - text: Ngoài cửa có cái hồ Hoàn-gươm rộng lớn; giữa hồ lại có cái cù-lao nho-nhỏ có cất cái miễu Ngọc-sơn, cây cối im-rợp huyền vũ coi tươi-tốt. Nhà thiên hạ, phố-xá ở bao lấy miệng hồ.
+                en: Just outside the temple's gate is the large Lake Hoàn-gươm; in the middle of the lake there is an islet on which built a small temple called Ngọc-sơn, where vegetation grows lush under the eyes of the Black Tortoise. Houses and streets surround the lake.
+                ref: "1881, Trương Vĩnh Ký, Chuyến đi Bắc-kỳ năm Ất-hợi (1876):"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/mi%E1%BB%85u#Vietnamese

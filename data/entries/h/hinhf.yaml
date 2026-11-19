@@ -1,0 +1,21 @@
+spelling: hình
+etymologies:
+  - type: sino
+    han: 形
+    note:
+      en: Sino-Vietnamese word from 形.
+    pos:
+      - pos: noun
+        classifiers: [tấm, bức, cái]
+        senses:
+          - gloss:
+              en: photo; picture
+            region: [south]
+            synonyms: [ảnh]
+            examples:
+              - text: Đứng sát vô chút đi, để tui chụp tấm hình cho cả nhà.
+                standard: Đứng sát vào chút đi, để tôi chụp tấm ảnh cho cả nhà.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/h%C3%ACnh#Vietnamese

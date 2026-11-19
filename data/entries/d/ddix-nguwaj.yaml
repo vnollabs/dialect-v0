@@ -1,0 +1,27 @@
+spelling: đĩ ngựa
+etymologies:
+  - type: compound
+    note:
+      en: |-
+        Attested and glossed in Génibrel's Dictionnaire Annamite-Français as "poissarde (“vulgarian (f[eminine]) (insult)”)".
+        From đĩ + ngựa, see each entry for etymologies.
+    pos:
+      - pos: noun
+        classifiers: [con]
+        senses:
+          - gloss:
+              en: a vulgar, crass woman
+            region: [south]
+            labels: [derogatory, vulgar]
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%C4%A9_ng%E1%BB%B1a#Vietnamese
+            note: "No example yet: the AI drafter skipped this sense (sexist slur for a woman; can't make an inoffensive example (rule 4)). Check that the sense is real before adding one."
+          - gloss:
+              en: a sexually promiscuous, morally loose woman
+            region: [south]
+            labels: [derogatory, vulgar]
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%C4%A9_ng%E1%BB%B1a#Vietnamese
+            note: "No example yet: the AI drafter skipped this sense (sexist slur about a woman's sexuality; can't make an inoffensive example (rule 4)). Check that the sense is real before adding one."

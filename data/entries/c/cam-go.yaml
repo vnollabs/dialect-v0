@@ -1,0 +1,30 @@
+spelling: cam go
+etymologies:
+  - type: compound
+    note:
+      en: cam + go (compare gay go).
+    pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: full of difficulties and challenges; difficult; daunting
+            region: [central, south]
+            examples:
+              - text: Năm nay lúa mất giá, làm ăn cam go quá trời.
+                standard: Năm nay lúa mất giá, làm ăn gian nan quá.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/cam_go#Vietnamese
+      - pos: noun
+        senses:
+          - gloss:
+              en: difficulty; challenge
+            region: [central, south]
+            examples:
+              - text: Bao nhiêu cam go ổng cũng vượt qua được, giờ có cơ ngơi đàng hoàng.
+                standard: Bao nhiêu gian nan ông ấy cũng vượt qua được, giờ có cơ ngơi đàng hoàng.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/cam_go#Vietnamese

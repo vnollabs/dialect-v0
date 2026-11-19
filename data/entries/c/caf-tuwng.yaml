@@ -1,0 +1,19 @@
+spelling: cà tưng
+etymologies:
+  - type: compound
+    note:
+      en: From cà- (“repetitive prefix”) + tưng (“to rebound”).
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to keep on jumping up and down
+            region: [central, south]
+            labels: [colloquial]
+            examples:
+              - text: Nghe nói được đi chơi, thằng nhỏ mừng quá cà tưng khắp nhà.
+                standard: Nghe nói được đi chơi, thằng bé mừng quá nhảy tưng tưng khắp nhà.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%C3%A0_t%C6%B0ng#Vietnamese

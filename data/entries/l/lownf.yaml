@@ -1,0 +1,29 @@
+spelling: lờn
+etymologies:
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: Central Vietnam and Southern Vietnam form of nhờn
+            region: [central, south]
+            variant_of: nhờn
+            examples:
+              - text: Xịt thuốc hoài riết rồi sâu nó lờn thuốc, xịt cỡ nào cũng hổng chết.
+                standard: Phun thuốc mãi rồi sâu nó nhờn thuốc, phun bao nhiêu cũng không chết.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%E1%BB%9Dn#Vietnamese
+      - pos: verb
+        senses:
+          - gloss:
+              en: Central Vietnam and Southern Vietnam form of nhờn
+            region: [central, south]
+            variant_of: nhờn
+            examples:
+              - text: Cưng chiều quá riết nó lờn mặt, nói gì cũng cãi lại.
+                standard: Cưng chiều quá rồi nó nhờn mặt, nói gì cũng cãi lại.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%E1%BB%9Dn#Vietnamese

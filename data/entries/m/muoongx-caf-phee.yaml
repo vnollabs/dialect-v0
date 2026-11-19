@@ -1,0 +1,19 @@
+spelling: muỗng cà phê
+etymologies:
+  - type: compound
+    note:
+      en: muỗng (“spoon”) + cà phê (“coffee”).
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: teaspoon
+            region: [central, south]
+            synonyms: [thìa cà phê]
+            examples:
+              - text: Với trường hấp dẫn như trên Trái đất, một muỗng cà phê vật chất từ sao neutron cũng phải nặng một tỷ tấn.
+                en: With a gravitational field like Earth’s, a teaspoon of neutron star matter would still weigh a billion tons.
+                ref: "2019 [2010], Michael Brooks, translated by Đông Nam Stice, edited by Lục Huy Hoàng and Phạm Văn Hải, Những câu hỏi lớn - Vật lý, translation of The big questions: Physics (in English), page 165:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/mu%E1%BB%97ng_c%C3%A0_ph%C3%AA#Vietnamese

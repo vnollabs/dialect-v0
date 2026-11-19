@@ -1,0 +1,20 @@
+spelling: hết trơn hết trọi
+etymologies:
+  - type: compound
+    note:
+      en: hết trơn + hết trọi.
+    pos:
+      - pos: adv
+        senses:
+          - gloss:
+              en: all; completely; totally
+            region: [south]
+            labels: [colloquial, emphatic]
+            synonyms: [hết trọi hết trơn]
+            examples:
+              - text: Mới lãnh lương mà xài hết trơn hết trọi rồi.
+                standard: Mới lĩnh lương mà tiêu hết sạch sành sanh rồi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/h%E1%BA%BFt_tr%C6%A1n_h%E1%BA%BFt_tr%E1%BB%8Di#Vietnamese

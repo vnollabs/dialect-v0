@@ -1,0 +1,18 @@
+spelling: vén
+etymologies:
+  - note:
+      en: Cognate with Muong Bi wẻn.
+    pos:
+      - pos: verb
+        han_nom: [援, 𫽭]
+        senses:
+          - gloss:
+              en: to gather in a tidy heap; to put in order; to arrange
+            region: [south]
+            examples:
+              - text: Quét sân xong nhớ vén lá vô một đống rồi hốt bỏ nghen.
+                standard: Quét sân xong nhớ vun lá vào một đống rồi hót bỏ nhé.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/v%C3%A9n#Vietnamese

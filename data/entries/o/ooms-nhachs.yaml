@@ -1,0 +1,18 @@
+spelling: ốm nhách
+etymologies:
+  - derived: [ốm nhách ốm nheo, ốm nheo ốm nhách]
+    pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: very skinny
+            region: [south]
+            labels: [colloquial]
+            synonyms: [ốm nheo]
+            examples:
+              - text: Dạo này thằng nhỏ ốm nhách, chắc tại học khuya quá.
+                standard: Dạo này thằng bé gầy nhom, chắc tại học khuya quá.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%E1%BB%91m_nh%C3%A1ch#Vietnamese

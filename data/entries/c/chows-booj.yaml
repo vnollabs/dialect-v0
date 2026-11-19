@@ -1,0 +1,12 @@
+spelling: chớ bộ
+etymologies:
+  - pos:
+      - pos: particle
+        senses:
+          - gloss:
+              vi: "Cuối câu: khẳng định điều hiển nhiên, có ý phân trần hay bắt bẻ nhẹ"
+            region: [south]
+            examples:
+              - text: Thì phải đợi nước ròng mới đi được chớ bộ
+            topics: [particles]
+            sources: [skill-dictionary-v1, vjol-thay-mo-cho-bo]

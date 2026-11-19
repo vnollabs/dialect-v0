@@ -1,0 +1,20 @@
+spelling: con nít
+etymologies:
+  - type: native
+    note:
+      en: Compound of con (“child”) + nít (“small (of a child)”); the second element is inherited from Proto-Vietic *ɗiːt (“small”), from Proto-Austroasiatic *kɗiətʔ (“small”). Cognate with Riang [Lang] kᵊndiət² ("small"), Khasi khyndiat (“few, little”), Mon ဍောတ်.
+    derived: [con nít con nôi, con nít quỷ]
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: small child, kid
+            region: [central, north, south]
+            labels: [derogatory, informal]
+            examples:
+              - text: Con nít ở đây đều nếm mùi thịt rắn từ hồi còn trong bụng mẹ.
+                en: The kids around here get a taste for snake meat from when still inside their mothers' bellies.
+                ref: "1957, Đoàn Giỏi, chapter 3, in Đất rừng phương Nam, Kim Đồng:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/con_n%C3%ADt#Vietnamese

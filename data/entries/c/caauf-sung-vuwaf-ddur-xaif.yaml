@@ -1,0 +1,17 @@
+spelling: cầu sung vừa đủ xài
+etymologies:
+  - note:
+      en: 'Based on the words for five types of fruits: mãng cầu (“sugar apple”), sung (“fig”), dừa (“coconut”), đu đủ (“papaya”), xoài (“mango”)), with phono-semantic matching with sung (充) (as in sung túc) and xài (“to use, to spend”); roughly "having enough wealth for a comfortable life".'
+    pos:
+      - pos: phrase
+        senses:
+          - gloss:
+              en: to offer certain fruits during Tết as a way to wish for fortune
+            region: [south]
+            examples:
+              - text: Tết nào má cũng chưng mâm trái cây cầu sung vừa đủ xài, mong năm mới làm ăn khá.
+                standard: Tết nào mẹ cũng bày mâm ngũ quả cầu sung vừa đủ xài, mong năm mới làm ăn khá.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%E1%BA%A7u_sung_v%E1%BB%ABa_%C4%91%E1%BB%A7_x%C3%A0i#Vietnamese

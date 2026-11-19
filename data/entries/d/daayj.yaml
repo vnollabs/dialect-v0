@@ -1,0 +1,17 @@
+spelling: dậy
+etymologies:
+  - pos:
+      - pos: particle
+        senses:
+          - gloss:
+              en: eye dialect spelling of vậy, representing Southern Vietnam Vietnamese
+            region: [south]
+            labels: [pronunciation-spelling]
+            variant_of: vậy
+            examples:
+              - text: Ủa, sao dậy? Bộ bà giận tui hả?
+                standard: Ơ, sao vậy? Chẳng lẽ bà giận tôi à?
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/d%E1%BA%ADy#Vietnamese

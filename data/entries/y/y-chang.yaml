@@ -1,0 +1,31 @@
+spelling: y chang
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Giống y hệt, như đúc
+            region: [south]
+            examples:
+              - text: Thằng nhỏ giống ba nó y chang, từ cái mũi tới cái miệng.
+                standard: Thằng bé giống bố nó y hệt, từ cái mũi đến cái miệng.
+                ai_draft: true
+            topics: [qualities-feelings]
+            sources: [skill-dictionary-v1]
+  - type: sino
+    han: 依
+    note:
+      en: y is a Sino-Vietnamese word from 依.
+    pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: just like; be the same
+            region: [south]
+            synonyms: [y hệt]
+            examples:
+              - text: Hai cái áo y chang nhau, lựa cái nào cũng được.
+                standard: Hai cái áo giống hệt nhau, chọn cái nào cũng được.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/y_chang#Vietnamese

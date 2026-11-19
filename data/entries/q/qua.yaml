@@ -1,0 +1,33 @@
+spelling: qua
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Anh (tự xưng với người thương hoặc người nhỏ hơn)
+            region: [south]
+            examples:
+              - text: Qua tính vậy em coi có đặng hông?
+            topics: [family-address]
+            sources: [skill-dictionary-v1]
+  - type: sino
+    han: 我
+    note:
+      en: "Non-Sino-Vietnamese reading of Chinese 我 (SV: ngã); borrowed from a Sinitic variety with denasalization."
+    pos:
+      - pos: pron
+        han_nom: [戈]
+        senses:
+          - gloss:
+              en: I; me
+            qualifier: men's speech or Central Vietnam
+            region: [central, south]
+            labels: [archaic]
+            synonyms: [ta, tôi]
+            examples:
+              - text: Hôm qua qua bảo qua qua mà qua không qua. Hôm nay qua không bảo qua qua mà qua lại qua.
+                en: Yesterday ah said ah'd cuhm over but ah ain't cuhm. Today ah ain't say ah'd cuhm over but ah came.
+              - text: Qua đã nói với bậu, nhưng bậu chẳng nghe.
+                en: Ah told ya but ya wouldn’t listen.
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/qua#Vietnamese

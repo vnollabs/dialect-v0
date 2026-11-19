@@ -1,0 +1,158 @@
+# Wiktionary import: senses to review
+
+Import of 2026-11-19 from the kaikki.org dump (vi.jsonl.gz).
+Each file below has a sense from the old skill dictionary next to senses imported from Wiktionary.
+Some are the same meaning glossed twice (Vietnamese and English): merge them into one sense,
+keeping both glosses and all sources. Others are different meanings: leave them. Tick each one when done,
+and delete this file when the list is empty.
+
+## Merged automatically (54)
+
+Matched because Wiktionary's "form of" word or Northern synonym equals the old sense's `standard`. Spot-check.
+
+- ba: Bố = father
+- la: Mắng = to reprimand, to scold
+- té: Ngã = to trip; to fall, to fall over
+- viết: Bút = non-chalk handheld writing instrument
+- coi: Xem = to look, watch (over), observe, read, etc.
+- tía: Cha = father; dad
+- tui: Tôi = alternative form of tôi
+- chén: Bát = rice bowl (small bowl from which rice is typically eaten)
+- dù: Ô = umbrella
+- má: Mẹ = mother; mom
+- nón: Mũ = hat; cap; helmet
+- đậu phộng: Lạc = peanut, groundnut, earthnut
+- mè: Vừng = sesame
+- trái: Quả = piece of fruit
+- ảnh: Anh ấy = he; him (man of equal or slightly greater social status)
+- nước tương: Xì dầu = soy sauce
+- heo: Lợn = pig (mammal of genus Sus)
+- bột ngọt: Mì chính = monosodium glutamate
+- bắp: Ngô = maize, corn
+- chiên: Rán = to fry
+- gỏi cuốn: Nem cuốn = summer roll, a cold spring roll in Vietnamese cuisine
+- banh: Bóng = ball
+- chả giò: Nem rán = spring roll (shredded vegetables wrapped in rice paper, then deep-fried)
+- khổ qua: Mướp đắng = bitter melon; bitter gourd
+- mắc: Đắt / Đắt đỏ = expensive; dear
+- chích: Tiêm = to inject (medicine)
+- biểu: Bảo = to tell
+- hột xoàn: Kim cương = diamond (gemstone)
+- muỗng: Thìa = spoon
+- đậu hủ: Đậu phụ = tofu
+- xe hơi: Ô tô = car
+- cà rem: Kem = ice cream
+- thúi: Thối = Central Vietnam and Southern Vietnam form of thối
+- ổng: Ông ấy = he; him (older or respected man)
+- bả: Bà ấy = she; her (woman of higher social status)
+- bao tử: Dạ dày = stomach
+- trễ: Muộn = late; tardy
+- ốm: Gầy = skinny; bony
+- mập: Béo = fat, obese, stout, plump
+- bạc hà: Dọc mùng = Colocasia gigantea
+- mắc cười: Buồn cười = funny
+- hên: May = lucky
+- lẹ: Nhanh = fast; quick; swift
+- mền: Chăn = blanket
+- cá lóc: Cá quả = snakehead
+- giỡn: Đùa = to joke, to play
+- kiếng: Kính = glasses
+- rước: Đón = synonym of đón (“to pick up someone”)
+- tánh: Tính = nature; character; disposition; temperament
+- trả giá: Mặc cả = to bargain, haggle
+- áo thun: Áo phông = T-shirt
+- xà lỏn: Quần đùi = (Southern Vietnam) shorts
+- nhứt: Nhất = Southern Vietnam form of nhất
+- chưn: Chân = alternative form of chân
+
+## To review (89)
+
+- [ ] qua: kept [Anh (tự xưng với người thương hoặc người nhỏ hơn)] next to Wiktionary [I; me]
+- [ ] nghe: kept [Dặn dò, nhắc nhở thân mật, tạo cảm giác gắn kết] next to Wiktionary [to smell | okay?]
+- [ ] coi: kept [Tiếng đệm cuối câu khi biểu, hướng dẫn hoặc ra hiệu] next to Wiktionary [[Look at yourself!] What the heck are you doin'?]
+- [ ] ní: kept [Cách gọi thân mật người ngang tuổi hoặc nhỏ hơn] next to Wiktionary [a friend of the same age | a sworn brother or sister (traditionally involving a formal oath-swearing ritual at a temple) | you (used familiarly and affectionately between close friends)]
+- [ ] nè: kept [Kéo sự chú ý của người nghe vô hành động, sự việc, vật trước mặt] next to Wiktionary [hey!; hold up! | particle demanding attention to something; take a look!]
+- [ ] đậu: kept [Đỗ] next to Wiktionary [to pass (an examination)]
+- [ ] chỉ: kept [Chị ấy] next to Wiktionary [she; her]
+- [ ] cua: kept [Rẽ] next to Wiktionary [to take out a girl]
+- [ ] xắt: kept [Thái (rau, thịt)] next to Wiktionary [to slice]
+- [ ] cổ: kept [Cô ấy] next to Wiktionary [she/her, that young adult woman]
+- [ ] lộn: kept [Nhầm] next to Wiktionary [to mix up; to confuse | to do by mistake; to be mistaken]
+- [ ] hư: kept [Hỏng] next to Wiktionary [corrupt, decayed, rotten, spoiled, damaged]
+- [ ] hạnh: kept [Quả quất] next to Wiktionary [calamansi]
+- [ ] bịch: kept [Túi] next to Wiktionary [pack; packet]
+- [ ] ngó: kept [Trông] next to Wiktionary [to see, to look at]
+- [ ] dĩa: kept [Đĩa] next to Wiktionary [a plate, a dish, a saucer, etc. | a disc, a disk, etc.]
+- [ ] ủi: kept [Là (quần áo)] next to Wiktionary [to iron; to press (clothing)]
+- [ ] xui: kept [Rủi] next to Wiktionary [unlucky]
+- [ ] xà bông: kept [Xà phòng] next to Wiktionary [soap | laundry detergent; washing powder]
+- [ ] sanh: kept [Sinh] next to Wiktionary [to give birth (to)]
+- [ ] chục: kept [Chục trái cây có thể hơn 10 trái; chục trơn là đủ 10, chục có đầu là hơn 10] next to Wiktionary [certain sets of numbers, most usually a dozen but might be as high as eighteen]
+- [ ] bộ: kept [Đầu câu hỏi, tỏ ý thắc mắc, hoài nghi hoặc ngạc nhiên] next to Wiktionary [sentence-initial question particle, is it that? do...? I bet ...]
+- [ ] chế: kept [Chị] next to Wiktionary [elder sister | Used to address, or used by, a female who is older than the other person in the conversation.]
+- [ ] ngộ: kept [Lạ mà xinh, dễ thương] next to Wiktionary [queer; quaint | sillily cute | I; me]
+- [ ] quẹo: kept [Rẽ] next to Wiktionary [to turn; to make a turn; to swerve]
+- [ ] chánh: kept [Chính] next to Wiktionary [Sino-Vietnamese reading of 正 | Sino-Vietnamese reading of 政]
+- [ ] tàu hủ: kept [Đậu phụ] next to Wiktionary [douhua; tofu pudding; soybean pudding]
+- [ ] xe đò: kept [Xe khách đường dài] next to Wiktionary [coach (long-distance bus)]
+- [ ] bậu: kept [Tiếng gọi thân mật người thương] next to Wiktionary [you, my wife]
+- [ ] bận: kept [Mặc (quần áo)] next to Wiktionary [to wear (clothes)]
+- [ ] tới bến: kept [Vui chơi hoặc làm việc hết mình, quá mức] next to Wiktionary [to one's heart's content]
+- [ ] đóng thùng: kept [Bỏ áo vô quần cho lịch sự] next to Wiktionary [to tuck in one's shirt]
+- [ ] xạo: kept [Nói dối, nói phét] next to Wiktionary [to lie]
+- [ ] xài: kept [Dùng, tiêu] next to Wiktionary [to use | to spend (money)]
+- [ ] nhóc: kept [Đầy, nhiều lắm] next to Wiktionary [full of; filled with]
+- [ ] sình: kept [Bùn; (cá, thịt) ươn] next to Wiktionary [mud]
+- [ ] chớ: kept [Nhấn mạnh sự khẳng định, đôi khi phản bác hoặc răn đe nhẹ] next to Wiktionary [Southern Vietnam form of chứ]
+- [ ] mần: kept [Làm] next to Wiktionary [to do | to make]
+- [ ] mùng: kept [Màn (ngủ)] next to Wiktionary [mosquito net | Central Vietnam and Southern Vietnam form of mồng]
+- [ ] máy lạnh: kept [Điều hoà] next to Wiktionary [an air conditioner]
+- [ ] lội: kept [Bơi] next to Wiktionary [to swim]
+- [ ] y chang: kept [Giống y hệt, như đúc] next to Wiktionary [just like; be the same]
+- [ ] lục bình: kept [Bèo tây, trôi nổi trên sông rạch] next to Wiktionary [water hyacinth]
+- [ ] quăng: kept [Vứt] next to Wiktionary [to throw away; to toss out]
+- [ ] ẻm: kept [Em ấy] next to Wiktionary [they/them, that person who's a little younger than me | they/them, that student who's younger than me as a teacher]
+- [ ] đá banh: kept [Đá bóng] next to Wiktionary [to play association football; soccer | association football; soccer]
+- [ ] bánh tráng: kept [Bánh đa (nem)] next to Wiktionary [Vietnamese rice paper]
+- [ ] rành: kept [Thạo, biết rõ] next to Wiktionary [to know clearly; to be acquainted (with) | clear; plain; evident; obvious]
+- [ ] cà chớn: kept [Không đàng hoàng, thiếu nghiêm túc, hay giỡn quá trớn] next to Wiktionary [rude, sassy, insolent]
+- [ ] bùng binh: kept [Vòng xuyến, vòng xoay] next to Wiktionary [roundabout; traffic circle]
+- [ ] bữa hổm: kept [Hôm trước, hôm nọ] next to Wiktionary [that day (in the past); the other day; the day before]
+- [ ] mắc cỡ: kept [Ngượng] next to Wiktionary [shy; bashful | touch-me-not; shy plant (Mimosa pudica)]
+- [ ] quá giang: kept [Đi nhờ xe, đi nhờ ghe] next to Wiktionary [to cross a body of water by boat | to hitchhike]
+- [ ] xía: kept [Chen vô, can thiệp chuyện người khác] next to Wiktionary [to interfere]
+- [ ] bẹo: kept [Cây sào treo hàng trên ghe ở chợ nổi để chào bán; bẹo là chưng ra] next to Wiktionary [to pinch]
+- [ ] liệng: kept [Vứt] next to Wiktionary [to throw]
+- [ ] bình thủy: kept [Phích nước] next to Wiktionary [thermos]
+- [ ] đèn cầy: kept [Nến] next to Wiktionary [candle]
+- [ ] ghiền: kept [Nghiện, mê] next to Wiktionary [to be addicted to]
+- [ ] xỉn: kept [Say rượu, say tới mức không biết trời trăng gì] next to Wiktionary [drunk; blitzed]
+- [ ] thấy mồ: kept [Cuối câu, sau tính từ: than hay nhấn mạnh mức độ, như 'quá', 'ghê'] next to Wiktionary [very much]
+- [ ] lẫy: kept [Dỗi] next to Wiktionary [to sulk; to get angry]
+- [ ] kinh: kept [Kênh] next to Wiktionary [eye dialect spelling of kênh, representing Central Vietnam and Southern Vietnam Vietnamese]
+- [ ] đía: kept [Lươn lẹo, không thật thà] next to Wiktionary [to lie; to talk nonsense; to brag]
+- [ ] quá xá: kept [Nhiều lắm, quá chừng] next to Wiktionary [extremely; mighty]
+- [ ] nghen: kept [Dặn dò, nhắc nhở thân mật, tạo cảm giác gắn kết] next to Wiktionary [+ hông]
+- [ ] vịt xiêm: kept [Ngan] next to Wiktionary [Muscovy duck]
+- [ ] bá cháy: kept [Cực kỳ xuất sắc, tuyệt vời] next to Wiktionary [awesome; cool; badass]
+- [ ] xị: kept [Đơn vị đong rượu gạo của người Nam Bộ, 1 xị khoảng 250ml] next to Wiktionary [hundred thousand dongs]
+- [ ] hèn chi: kept [Thảo nào, bảo sao; vỡ lẽ ra nguyên do] next to Wiktionary [no wonder; of course; it figures]
+- [ ] hèn gì: kept [Thảo nào, bảo sao; vỡ lẽ ra nguyên do] next to Wiktionary [I know it; no wonder; just as I expected]
+- [ ] trớt quớt: kept [Lạc đề, sai bét, trật lất, không ăn nhập gì] next to Wiktionary [futile, anticlimactic, having turned out to be useless]
+- [ ] cà khịa: kept [Kiếm chuyện, trêu chọc để gây sự] next to Wiktionary [to quarrel; pick fights; incite conflict]
+- [ ] cà rá: kept [Nhẫn] next to Wiktionary [a ring; metal hoop]
+- [ ] dễ sợ: kept [Đứng sau tính từ: ghê lắm, quá chừng (nói quá để khen)] next to Wiktionary [very; extremely; drastically; at a very high level]
+- [ ] nhựt: kept [Nhật] next to Wiktionary [a male given name from Chinese]
+- [ ] té ra: kept [Hóa ra, thì ra] next to Wiktionary [apparently]
+- [ ] đầy nhóc: kept [Đầy, nhiều lắm] next to Wiktionary [filled to the brim]
+- [ ] mình ên: kept [Một mình] next to Wiktionary [alone; by oneself]
+- [ ] hổm rày: kept [Dạo này, mấy hôm nay] next to Wiktionary ["from then till now"; these days]
+- [ ] miết: kept [Lặp lại hoài, liên tục] next to Wiktionary [uninterruptedly; without a break; continuously]
+- [ ] coi bộ: kept [Có vẻ như, xem ra; đoán theo điều thấy trước mắt] next to Wiktionary [to seem]
+- [ ] ghe lườn: kept [Các loại thuyền nhỏ, thon dài, chuyên chèo chống trong kinh rạch hẹp] next to Wiktionary [kind of canoe]
+- [ ] xẻo: kept [Lạch nước nhỏ trên vùng đất thấp] next to Wiktionary [small canal]
+- [ ] chà bá: kept [To lớn quá khổ] next to Wiktionary [humongously; enormously]
+- [ ] chèng đéc ơi: kept [Trời ơi (thán từ khi ngạc nhiên)] next to Wiktionary [gosh, golly, golly gee, gee whiz]
+- [ ] cà ràng: kept [Bếp lò nặn bằng đất sét nung, đun củi trên ghe hoặc trong bếp xưa] next to Wiktionary [earthenware stove or hearth]
+- [ ] bông bụp: kept [Hoa dâm bụt] next to Wiktionary [hibiscus]
+- [ ] rốp rẻng: kept [Nhanh gọn, dứt khoát] next to Wiktionary [quickly; promptly]

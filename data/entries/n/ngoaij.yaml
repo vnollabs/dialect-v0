@@ -1,0 +1,21 @@
+spelling: ngoại
+etymologies:
+  - type: sino
+    han: 外
+    note:
+      en: Sino-Vietnamese word from 外 (“outside”). Doublet of ngoài. Compare Chinese 外 (wài, “outside; maternal”), Korean 외(外) (oe, “outside; maternal”). A woman once married is considered belonging to a different family, hence the "inside" father's side and "outside" mother's side. See also xuất giá (“to get married”, literally “to "get out" and get married”).
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: maternal grandparent
+            qualifier: used as a kinship "pronoun"
+            region: [south]
+            examples:
+              - text: Ngoại ơi! Con đến rồi nè!
+                en: Grandpa/Grandma! I'm here!
+              - text: Ngoại ơi! Con chích rồi nhé!
+                en: Grandpa/Grandma! I got my (Covid-19) vaccine!
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ngo%E1%BA%A1i#Vietnamese

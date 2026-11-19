@@ -1,0 +1,19 @@
+spelling: thứ thiệt
+etymologies:
+  - type: compound
+    note:
+      en: thứ (“thing, kind”) + thiệt (“real”). Semantically parallels that of English real deal and real thing.
+    pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: true; real; authentic
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Mật ong rừng thứ thiệt nghen, hổng có pha đường đâu.
+                standard: Mật ong rừng chính hiệu nhé, không có pha đường đâu.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/th%E1%BB%A9_thi%E1%BB%87t#Vietnamese

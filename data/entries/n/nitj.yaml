@@ -1,0 +1,18 @@
+spelling: nịt
+etymologies:
+  - note:
+      en: Originally the noun derivative of rịt (“‘to fasten; to tie’”).
+    pos:
+      - pos: noun
+        han_nom: [𦄇]
+        senses:
+          - gloss:
+              en: belt
+            region: [central, south]
+            examples:
+              - text: Quần rộng quá, phải thắt dây nịt vô mới hổng tuột.
+                standard: Quần rộng quá, phải thắt dây lưng vào mới không tuột.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/n%E1%BB%8Bt#Vietnamese

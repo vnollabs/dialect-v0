@@ -1,0 +1,15 @@
+spelling: rầy
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Mắng
+            region: [south]
+            standard: [mắng]
+            synonyms: [la]
+            examples:
+              - text: Đi chơi về trễ, thằng nhỏ bị má rầy một trận.
+                standard: Đi chơi về muộn, thằng bé bị mẹ mắng một trận.
+                ai_draft: true
+            topics: [actions]
+            sources: [skill-dictionary-v1]

@@ -1,0 +1,14 @@
+spelling: chị Hai
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Cách gọi theo thứ trong nhà (anh Hai, chị Ba, má Bảy…); anh Hai còn dùng gọi người lạ cho thân
+            region: [south]
+            synonyms: [anh Hai]
+            examples:
+              - text: Chị Hai lấy chồng xa, Tết mới về thăm má với mấy đứa em.
+                standard: Chị cả lấy chồng xa, Tết mới về thăm mẹ với mấy đứa em.
+                ai_draft: true
+            topics: [family-address]
+            sources: [skill-dictionary-v1]

@@ -1,0 +1,16 @@
+spelling: biết chết liền
+etymologies:
+  - pos:
+      - pos: phrase
+        senses:
+          - gloss:
+              en: I don't know; no idea
+            region: [south]
+            labels: [colloquial, emphatic]
+            examples:
+              - text: Hỏi tui thằng Tư đi đâu hả? Biết chết liền!
+                standard: Hỏi tôi thằng Tư đi đâu à? Chịu, không biết!
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/bi%E1%BA%BFt_ch%E1%BA%BFt_li%E1%BB%81n#Vietnamese

@@ -1,0 +1,17 @@
+spelling: mại dô
+etymologies:
+  - pos:
+      - pos: intj
+        senses:
+          - gloss:
+              en: eye dialect spelling of mại vô, representing Southern Vietnam Vietnamese
+            region: [south]
+            labels: [pronunciation-spelling]
+            variant_of: mại vô
+            examples:
+              - text: Mại dô, mại dô! Áo thun đồng giá ba chục ngàn nè bà con ơi!
+                standard: Mại vô, mại vô! Áo phông đồng giá ba mươi nghìn đây bà con ơi!
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%E1%BA%A1i_d%C3%B4#Vietnamese

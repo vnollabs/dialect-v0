@@ -1,0 +1,31 @@
+spelling: bịnh
+etymologies:
+  - pos:
+      - pos: noun
+        han_nom: [病]
+        senses:
+          - gloss:
+              en: South Central Vietnam and Southern Vietnam form of bệnh
+            region: [south-central, south]
+            variant_of: bệnh
+            examples:
+              - text: Bịnh của bà ngoại đỡ nhiều rồi, bác sĩ cho về nhà nghỉ.
+                standard: Bệnh của bà ngoại đỡ nhiều rồi, bác sĩ cho về nhà nghỉ.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%E1%BB%8Bnh#Vietnamese
+      - pos: adj
+        han_nom: [病]
+        senses:
+          - gloss:
+              en: South Central Vietnam and Southern Vietnam form of bệnh
+            region: [south-central, south]
+            variant_of: bệnh
+            examples:
+              - text: Bữa nay con bịnh, hổng đi học được, má xin phép cô giùm con nghen.
+                standard: Hôm nay con bệnh, không đi học được, mẹ xin phép cô giúp con nhé.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%E1%BB%8Bnh#Vietnamese

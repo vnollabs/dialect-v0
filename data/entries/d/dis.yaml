@@ -1,0 +1,15 @@
+spelling: dí
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to chase
+            region: [central, south]
+            synonyms: [đuổi]
+            examples:
+              - text: Dí theo nó mau lên!
+                en: Hurry up, go after him!
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/d%C3%AD#Vietnamese

@@ -1,0 +1,14 @@
+spelling: cành xì nái
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: To lớn quá khổ
+            region: [mekong-delta]
+            synonyms: [chà bá, bự tổ chảng]
+            examples:
+              - text: Nhà đó mới mua cái tủ lạnh bự cành xì nái, chiếm hết nửa cái bếp.
+                standard: Nhà đó mới mua cái tủ lạnh to tướng, chiếm hết nửa cái bếp.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

@@ -1,0 +1,21 @@
+spelling: lạt
+etymologies:
+  - type: native
+    note:
+      en: From Proto-Vietic *m-laːc (“tasteless”). Doublet of lợt, nhạt, and nhợt.
+    derived: [lạt lẽo, lạt nhách, lợt lạt]
+    pos:
+      - pos: adj
+        han_nom: [𤁕, 溂]
+        senses:
+          - gloss:
+              en: tasteless or bland
+            qualifier: of flavor
+            region: [central, south]
+            examples:
+              - text: Má nêm thêm chút muối đi, canh còn lạt quá.
+                standard: Mẹ nêm thêm chút muối đi, canh còn nhạt quá.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%E1%BA%A1t#Vietnamese

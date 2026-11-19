@@ -1,0 +1,14 @@
+spelling: đánh lộn
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Đánh nhau
+            region: [south]
+            standard: [đánh nhau]
+            examples:
+              - text: Hai thằng nhỏ giành trái banh rồi đánh lộn ngoài sân.
+                standard: Hai thằng bé giành quả bóng rồi đánh nhau ngoài sân.
+                ai_draft: true
+            topics: [actions]
+            sources: [skill-dictionary-v1]

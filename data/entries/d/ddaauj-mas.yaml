@@ -1,0 +1,19 @@
+spelling: đậu má
+etymologies:
+  - derived: [đậu phộng rau má, đậu xanh rau má]
+    pos:
+      - pos: intj
+        senses:
+          - gloss:
+              en: fudge; darn
+            qualifier: minced oath
+            region: [south]
+            labels: [pronunciation-spelling]
+            variant_of: đụ má
+            examples:
+              - text: Đậu má, mới rửa xe xong là trời đổ mưa liền.
+                standard: Chết tiệt, vừa rửa xe xong là trời đổ mưa ngay.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%E1%BA%ADu_m%C3%A1#Vietnamese

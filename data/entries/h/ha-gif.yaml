@@ -1,0 +1,18 @@
+spelling: ha gì
+etymologies:
+  - note:
+      en: Reduction of hay gì [hajjɪj] to [hajɪj] in Southern colloquial speech. However, the spelling ha gì does not accurately represent this pronunciation change, as ha gì would be pronounced [haːjɪj], with a long vowel. Hă gì would be the more accurate pronunciation spelling, but this is not permitted under current orthography standards.
+    pos:
+      - pos: particle
+        senses:
+          - gloss:
+              en: pronunciation spelling of hay gì
+            region: [south]
+            labels: [colloquial, pronunciation-spelling]
+            variant_of: hay gì
+            examples:
+              - text: Ủa? Rồi mày tính nghỉ chơi với con bồ mày luôn ha gì?
+                en: Huh? So you wanna end your relationship with her or what?
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ha_g%C3%AC#Vietnamese

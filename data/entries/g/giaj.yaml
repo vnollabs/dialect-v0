@@ -1,0 +1,17 @@
+spelling: giạ
+etymologies:
+  - pos:
+      - pos: noun
+        han_nom: [𣂃, 箸]
+        classifiers: [cái, chiếc]
+        senses:
+          - gloss:
+              en: kind of bushel for measuring grains or beans
+            region: [central, south]
+            examples:
+              - text: Bán cho tui chừng hai giạ lúa giống nghen anh.
+                standard: Bán cho tôi khoảng hai giạ thóc giống nhé anh.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/gi%E1%BA%A1#Vietnamese

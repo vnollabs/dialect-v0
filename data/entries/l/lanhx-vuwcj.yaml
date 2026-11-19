@@ -1,0 +1,17 @@
+spelling: lãnh vực
+etymologies:
+  - pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: Southern Vietnam form of lĩnh vực
+            region: [south]
+            labels: [uncommon]
+            variant_of: lĩnh vực
+            examples:
+              - text: Ổng làm trong lãnh vực nông nghiệp mấy chục năm rồi, rành chuyện ruộng đồng lắm.
+                standard: Ông ấy làm trong lĩnh vực nông nghiệp mấy chục năm rồi, rành chuyện ruộng đồng lắm.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%C3%A3nh_v%E1%BB%B1c#Vietnamese

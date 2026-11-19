@@ -1,0 +1,13 @@
+spelling: xuồng
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Thuyền nhỏ
+            region: [mekong-delta]
+            examples:
+              - text: Nước lớn rồi, mình bơi xuồng qua bên kia sông chơi.
+                standard: Nước lên rồi, mình chèo thuyền nhỏ sang bên kia sông chơi.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

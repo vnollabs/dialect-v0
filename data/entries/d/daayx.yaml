@@ -1,0 +1,16 @@
+spelling: dẫy
+etymologies:
+  - pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: Northern Vietnam and Southern Vietnam form of dãy
+            region: [north, south]
+            variant_of: dãy
+            examples:
+              - text: Nhà tui ở căn cuối dẫy nhà trọ, sát bên tiệm tạp hóa.
+                standard: Nhà tôi ở căn cuối dãy nhà trọ, sát bên cửa hàng tạp hóa.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/d%E1%BA%ABy#Vietnamese

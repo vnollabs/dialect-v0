@@ -1,0 +1,20 @@
+spelling: nước lèo
+etymologies:
+  - type: compound
+    note:
+      en: nước + lèo.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: synonym of nước dùng
+            qualifier: historically Northern Vietnam
+            region: [north, south]
+            synonyms: [nước dùng]
+            examples:
+              - text: Nước lèo hủ tiếu phải hầm xương heo cả buổi mới ngọt.
+                standard: Nước dùng hủ tiếu phải hầm xương lợn cả buổi mới ngọt.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/n%C6%B0%E1%BB%9Bc_l%C3%A8o#Vietnamese

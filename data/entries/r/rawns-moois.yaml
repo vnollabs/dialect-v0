@@ -1,0 +1,22 @@
+spelling: rắn mối
+etymologies:
+  - type: compound
+    note:
+      en: |-
+        rắn (“snake”) + mối (“common house gecko”). See also cá mối (“lizardfish”).
+        The second element is commonly thought be mối (“termite”), which is rationalized as being skinks' preys.
+    pos:
+      - pos: noun
+        classifiers: [con]
+        senses:
+          - gloss:
+              en: skink
+            region: [central, south]
+            synonyms: [thằn lằn bóng]
+            examples:
+              - text: Con rắn mối bò ra phơi nắng trên bờ rào, thấy người là chạy mất.
+                standard: Con thằn lằn bóng bò ra phơi nắng trên bờ rào, thấy người là chạy mất.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/r%E1%BA%AFn_m%E1%BB%91i#Vietnamese

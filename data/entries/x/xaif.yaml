@@ -1,0 +1,40 @@
+spelling: xài
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Dùng, tiêu
+            region: [south]
+            examples:
+              - text: Xài đồ phải giữ nghen
+            topics: [actions]
+            sources: [skill-dictionary-v1]
+  - note:
+      en: Possibly related to Khmer ចាយ (caay), Ruching Palaung chāī, Cantonese 使 (sai2, “to use; to spend (money)”), 嘥 (saai1).
+    derived: [tiêu xài, xài phí]
+    pos:
+      - pos: verb
+        han_nom: [𫶰]
+        senses:
+          - gloss:
+              en: to use
+            region: [south]
+            labels: [colloquial, informal]
+            examples:
+              - text: Xài kéo xong thì nhớ để lại chỗ cũ nghen.
+                standard: Dùng kéo xong thì nhớ để lại chỗ cũ nhé.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/x%C3%A0i#Vietnamese
+          - gloss:
+              en: to spend (money)
+            region: [south]
+            labels: [colloquial, informal]
+            examples:
+              - text: Lãnh lương chưa được một tuần mà nó xài hết trơn rồi.
+                standard: Lĩnh lương chưa được một tuần mà nó tiêu hết sạch rồi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/x%C3%A0i#Vietnamese

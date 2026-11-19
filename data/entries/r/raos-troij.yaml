@@ -1,0 +1,19 @@
+spelling: ráo trọi
+etymologies:
+  - type: compound
+    note:
+      en: From ráo (“be dried up”) + trọi (“barren”).
+    pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: all gone
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Mới dọn ra có chút xíu mà tụi nhỏ ăn hết ráo trọi rồi.
+                standard: Mới dọn ra một lát mà bọn trẻ ăn hết sạch rồi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/r%C3%A1o_tr%E1%BB%8Di#Vietnamese

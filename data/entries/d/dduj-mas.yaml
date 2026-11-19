@@ -1,0 +1,37 @@
+spelling: đụ má
+etymologies:
+  - type: compound
+    note:
+      en: đụ (“to fuck”) + má (“mother”)
+    pos:
+      - pos: intj
+        senses:
+          - gloss:
+              en: motherfucker
+            region: [south]
+            labels: [vulgar]
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%E1%BB%A5_m%C3%A1#Vietnamese
+            note: "No example yet: the AI drafter skipped this sense (strong insult ('motherfucker'); can't make it inoffensive or keep it apart from the 'displeasure' sense). Check that the sense is real before adding one."
+          - gloss:
+              en: "Used to express displeasure: fuck."
+            region: [south]
+            labels: [vulgar]
+            examples:
+              - text: Đụ má mày!
+                en: Fuck you!
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%E1%BB%A5_m%C3%A1#Vietnamese
+          - gloss:
+              en: Used to signify a pause or hesitation.
+            region: [south]
+            labels: [vulgar]
+            examples:
+              - text: Bữa đó tui, đụ má, ngồi chờ ổng gần ba tiếng đồng hồ.
+                standard: Hôm đó tôi, mẹ kiếp, ngồi chờ ông ấy gần ba tiếng đồng hồ.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%E1%BB%A5_m%C3%A1#Vietnamese

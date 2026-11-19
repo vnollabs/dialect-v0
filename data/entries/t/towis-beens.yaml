@@ -1,0 +1,28 @@
+spelling: tới bến
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Vui chơi hoặc làm việc hết mình, quá mức
+            region: [south]
+            synonyms: [tới nái]
+            examples:
+              - text: Mùa gặt, cả nhà làm tới bến, tối về ai cũng rã rời.
+                standard: Mùa gặt, cả nhà làm việc hết mình, tối về ai cũng rã rời.
+                ai_draft: true
+            topics: [idioms]
+            sources: [skill-dictionary-v1]
+  - pos:
+      - pos: adv
+        senses:
+          - gloss:
+              en: to one's heart's content
+            region: [south]
+            labels: [figurative]
+            synonyms: [thả ga, thả cửa]
+            examples:
+              - text: Bữa nay ta nhậu tới bến luôn!
+                en: We're gonna party the crap outta it tonight!
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/t%E1%BB%9Bi_b%E1%BA%BFn#Vietnamese

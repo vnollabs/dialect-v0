@@ -1,0 +1,27 @@
+spelling: xía
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Chen vô, can thiệp chuyện người khác
+            region: [mekong-delta]
+            synonyms: [chỏ, xứa]
+            examples:
+              - text: Cứ xía dô chiện tui hoài nghen!
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]
+  - derived: [xía mũi]
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to interfere
+            region: [central, south]
+            labels: [colloquial]
+            examples:
+              - text: Chuyện nhà người ta, mình đừng có xía vô.
+                standard: Chuyện nhà người ta, mình đừng có xen vào.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/x%C3%ADa#Vietnamese

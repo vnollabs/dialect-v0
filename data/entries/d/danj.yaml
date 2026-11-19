@@ -1,0 +1,17 @@
+spelling: dạn
+etymologies:
+  - pos:
+      - pos: adj
+        han_nom: [惮]
+        senses:
+          - gloss:
+              en: bold; brazen; not shy; not self-conscious
+            region: [central, south]
+            labels: [archaic]
+            examples:
+              - text: Hồi nhỏ con Út dạn lắm, gặp người lạ cũng hổng biết mắc cỡ.
+                standard: Hồi nhỏ con Út bạo dạn lắm, gặp người lạ cũng không biết xấu hổ.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/d%E1%BA%A1n#Vietnamese

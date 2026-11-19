@@ -1,0 +1,14 @@
+spelling: dữ thần
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Ghê thiệt, dữ quá; khen hay trách nhẹ tùy giọng
+            region: [south]
+            synonyms: [dữ hôn]
+            examples:
+              - text: Bánh xèo bà Tư đổ giòn rụm, ngon dữ thần.
+                standard: Bánh xèo bà Tư đổ giòn tan, ngon ghê lắm.
+                ai_draft: true
+            topics: [idioms]
+            sources: [skill-dictionary-v1]

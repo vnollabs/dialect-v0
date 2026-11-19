@@ -1,0 +1,20 @@
+spelling: thấu
+etymologies:
+  - type: sino
+    han: 透
+    note:
+      en: Sino-Vietnamese word from 透.
+    pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: able (to)
+            qualifier: in the negative
+            region: [central, south]
+            examples:
+              - text: Trưa nắng gắt quá, tui chịu hổng thấu.
+                standard: Trưa nắng gắt quá, tôi chịu không nổi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/th%E1%BA%A5u#Vietnamese

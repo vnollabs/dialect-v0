@@ -1,0 +1,17 @@
+spelling: dợ
+etymologies:
+  - pos:
+      - pos: particle
+        senses:
+          - gloss:
+              en: pronunciation spelling of vậy, representing Southern Vietnam Vietnamese
+            region: [south]
+            labels: [pronunciation-spelling]
+            variant_of: vậy
+            examples:
+              - text: Làm gì mà về trễ dợ? Má chờ cơm nãy giờ.
+                standard: Làm gì mà về muộn vậy? Mẹ chờ cơm nãy giờ.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/d%E1%BB%A3#Vietnamese

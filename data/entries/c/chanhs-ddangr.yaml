@@ -1,0 +1,17 @@
+spelling: chánh đảng
+etymologies:
+  - pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: political party
+            region: [south]
+            labels: [dated]
+            variant_of: chính đảng
+            examples:
+              - text: Ông ngoại đọc báo xong, ngồi giải thích cho tụi nhỏ chánh đảng là gì.
+                standard: Ông ngoại đọc báo xong, ngồi giải thích cho bọn trẻ chính đảng là gì.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ch%C3%A1nh_%C4%91%E1%BA%A3ng#Vietnamese

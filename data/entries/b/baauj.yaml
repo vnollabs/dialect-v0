@@ -1,0 +1,31 @@
+spelling: bậu
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Tiếng gọi thân mật người thương
+            region: [south]
+            examples:
+              - text: Bậu về hồi nào vậy?
+            topics: [family-address]
+            sources: [skill-dictionary-v1]
+  - type: native
+    note:
+      en: |-
+        Cognate with Muong Bi pẫu. Compare also Tày pậu.
+        Attested as Middle Vietnamese bậu (“friend”) in Dictionarium Annamiticum Lusitanum et Latinum (1651).
+    pos:
+      - pos: pron
+        han_nom: [部, 蔀]
+        senses:
+          - gloss:
+              en: you, my wife
+            region: [central, south]
+            labels: [endearing]
+            examples:
+              - text: Bậu ở nhà coi con nghen, chiều anh đi bán lúa về sớm.
+                standard: Em ở nhà trông con nhé, chiều anh đi bán lúa về sớm.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%E1%BA%ADu#Vietnamese

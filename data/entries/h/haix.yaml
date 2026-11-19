@@ -1,0 +1,21 @@
+spelling: hãi
+etymologies:
+  - type: sino
+    han: 駭
+    note:
+      en: Sino-Vietnamese word from 駭.
+    pos:
+      - pos: verb
+        han_nom: [㤥, 駭]
+        senses:
+          - gloss:
+              en: to fear; to be afraid (of)
+            region: [south]
+            synonyms: [sợ]
+            examples:
+              - text: Thằng nhỏ hãi con chó mực nhà bên, hổng dám đi ngang.
+                standard: Thằng bé sợ con chó mực nhà bên, không dám đi ngang.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/h%C3%A3i#Vietnamese

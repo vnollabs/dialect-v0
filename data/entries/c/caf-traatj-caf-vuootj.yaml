@@ -1,0 +1,18 @@
+spelling: cà trật cà vuột
+etymologies:
+  - type: compound
+    note:
+      en: From cà- (“repetitive prefix”) + trật (“to miss”) + cà- + vuột (“to slip out”).
+    pos:
+      - pos: adv
+        senses:
+          - gloss:
+              en: executed sloppily or without precision
+            region: [central, south]
+            labels: [colloquial]
+            examples:
+              - text: Làm gì mà cà trật cà vuột vậy, để chỉ lại cho.
+                en: Man, that's not how you do it. Stand back, let me show you again.
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%C3%A0_tr%E1%BA%ADt_c%C3%A0_vu%E1%BB%99t#Vietnamese

@@ -1,0 +1,19 @@
+spelling: hết hồn
+etymologies:
+  - type: compound
+    note:
+      en: hết (“to run out of”) + hồn (“soul”).
+    pos:
+      - pos: intj
+        senses:
+          - gloss:
+              en: used after being very startled, scared or frightened; whew; phew
+            region: [south]
+            synonyms: [giật cả mình, giật hết cả mình]
+            examples:
+              - text: Hết hồn! Con chó ở đâu nhảy ra sủa làm tui giựt mình.
+                standard: Hết hồn! Con chó ở đâu nhảy ra sủa làm tôi giật mình.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/h%E1%BA%BFt_h%E1%BB%93n#Vietnamese

@@ -1,0 +1,14 @@
+spelling: chu cha mẹ ơi
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Thán từ biểu lộ sự ngạc nhiên tột độ, trầm trồ hoặc thán phục
+            region: [south]
+            synonyms: [chu cha]
+            examples:
+              - text: Chu cha mẹ ơi, nhà cửa trang hoàng đẹp dữ thần!
+                standard: Ôi chao ơi, nhà cửa trang hoàng đẹp quá!
+                ai_draft: true
+            topics: [idioms]
+            sources: [skill-dictionary-v1]

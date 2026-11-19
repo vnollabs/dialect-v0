@@ -1,0 +1,19 @@
+spelling: chai
+etymologies:
+  - pos:
+      - pos: noun
+        han_nom: [𥑂]
+        classifiers: [cái]
+        senses:
+          - gloss:
+              en: one million dongs
+            region: [south]
+            labels: [slang]
+            synonyms: [củ]
+            examples:
+              - text: Chiếc xe cũ này tui bán cho anh năm chai thôi, rẻ rồi đó.
+                standard: Chiếc xe cũ này tôi bán cho anh năm triệu thôi, rẻ rồi đấy.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/chai#Vietnamese

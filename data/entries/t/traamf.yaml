@@ -1,0 +1,39 @@
+spelling: trầm
+etymologies:
+  - type: sino
+    han: 沉
+    note:
+      en: Sino-Vietnamese word from 沉.
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to make submerged underwater; to drown (something or someone)
+            region: [south]
+            examples:
+              - text: Hết mùa nước, ba trầm chiếc xuồng dưới mương cho cây khỏi nứt.
+                standard: Hết mùa lũ, bố dìm chiếc thuyền xuống mương cho gỗ khỏi nứt.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/tr%E1%BA%A7m#Vietnamese
+          - gloss:
+              en: to drown oneself
+            region: [south]
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/tr%E1%BA%A7m#Vietnamese
+            note: "No example yet: the AI drafter skipped this sense (unclear standalone use of trầm as 'drown oneself' distinct from trầm mình; suicide sense hard to make natural and inoffensive). Check that the sense is real before adding one."
+      - pos: adj
+        senses:
+          - gloss:
+              en: low and flooded
+            qualifier: of land
+            region: [south]
+            examples:
+              - text: Ruộng nhà tui đất trầm, mùa nước nổi là ngập trắng.
+                standard: Ruộng nhà tôi đất trũng, mùa lũ là ngập trắng.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/tr%E1%BA%A7m#Vietnamese

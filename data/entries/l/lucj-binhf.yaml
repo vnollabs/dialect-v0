@@ -1,0 +1,32 @@
+spelling: lục bình
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Bèo tây, trôi nổi trên sông rạch
+            region: [mekong-delta]
+            examples:
+              - text: Mùa nước nổi, lục bình trôi dập dềnh kín mặt rạch.
+                standard: Mùa nước nổi, bèo tây trôi dập dềnh kín mặt rạch.
+                ai_draft: true
+            topics: [mekong-food]
+            sources: [skill-dictionary-v1]
+  - type: sino
+    han: 綠
+    note:
+      en: Sino-Vietnamese word from 綠 (“green”) and 萍 (“duckweed”).
+    pos:
+      - pos: noun
+        classifiers: [cây, hoa, bông]
+        senses:
+          - gloss:
+              en: water hyacinth
+            region: [south]
+            synonyms: [bèo tây]
+            examples:
+              - text: Bà con trong xóm cắt lục bình phơi khô để đan giỏ đem bán.
+                standard: Bà con trong xóm cắt bèo tây phơi khô để đan giỏ đem bán.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%E1%BB%A5c_b%C3%ACnh#Vietnamese

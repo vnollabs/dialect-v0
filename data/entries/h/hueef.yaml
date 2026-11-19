@@ -1,0 +1,32 @@
+spelling: huề
+etymologies:
+  - type: sino
+    han: 和
+    note:
+      en: "Non-Sino-Vietnamese reading of Chinese 和 (SV: hoà)."
+    derived: [huề vốn]
+    pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: resulting in a draw
+            region: [central, south]
+            variant_of: hoà
+            examples:
+              - text: huề cả làng
+                en: everything is all right (humorous)
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/hu%E1%BB%81#Vietnamese
+      - pos: verb
+        senses:
+          - gloss:
+              en: to draw, to tie
+            region: [central, south]
+            examples:
+              - text: Hai đội đá tới phút chót vẫn huề một đều.
+                standard: Hai đội đá tới phút cuối vẫn hòa một đều.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/hu%E1%BB%81#Vietnamese

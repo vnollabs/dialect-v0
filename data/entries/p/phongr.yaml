@@ -1,0 +1,32 @@
+spelling: phỏng
+etymologies:
+  - pos:
+      - pos: adj
+        han_nom: [𤊦]
+        senses:
+          - gloss:
+              en: Central Vietnam and Southern Vietnam form of bỏng
+            region: [central, south]
+            variant_of: bỏng
+            examples:
+              - text: Đụng trúng cái nồi đang sôi, tay nó bị phỏng đỏ hết.
+                standard: Chạm phải cái nồi đang sôi, tay nó bị bỏng đỏ hết.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ph%E1%BB%8Fng#Vietnamese
+      - pos: noun
+        han_nom: [𤊦]
+        classifiers: [vết]
+        senses:
+          - gloss:
+              en: Central Vietnam and Southern Vietnam form of bỏng
+            region: [central, south]
+            variant_of: bỏng
+            examples:
+              - text: Vết phỏng trên tay còn rát, nhớ đừng để dính nước.
+                standard: Vết bỏng trên tay còn rát, nhớ đừng để dính nước.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ph%E1%BB%8Fng#Vietnamese

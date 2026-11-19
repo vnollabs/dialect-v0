@@ -1,0 +1,45 @@
+spelling: xế
+etymologies:
+  - derived: [bữa xế, xế chiều]
+    pos:
+      - pos: noun
+        han_nom: [熾, 𪰮, 制]
+        senses:
+          - gloss:
+              en: early afternoon, about 2–3 pm
+            region: [south]
+            examples:
+              - text: bữa xế
+                en: a light meal or a snack during this time
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/x%E1%BA%BF#Vietnamese
+  - note:
+      en: Perhaps from tài xế (“driver”), influenced by xe (“vehicle”).
+    derived: [quái xế, xế điếc, xế độp, xế hộp]
+    pos:
+      - pos: noun
+        han_nom: [車]
+        senses:
+          - gloss:
+              en: wheeled vehicle
+            region: [central, south]
+            labels: [slang]
+            synonyms: [xe]
+            examples:
+              - text: Chiều nay cho tao mượn chiếc xế đi công chuyện chút nghen.
+                standard: Chiều nay cho tao mượn chiếc xe đi công việc một chút nhé.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/x%E1%BA%BF#Vietnamese
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: ill-mannered; unruly
+            region: [south]
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/x%E1%BA%BF#Vietnamese
+            note: "No example yet: the AI drafter skipped this sense (doubt the usage: xế meaning 'ill-mannered; unruly' is not familiar to me and has no example or source detail to anchor it). Check that the sense is real before adding one."

@@ -1,0 +1,21 @@
+spelling: sô
+etymologies:
+  - type: loan
+    source_form: show
+    note:
+      en: From American English show.
+    derived: [chạy sô, sô diễn]
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: show, performance
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Cô ca sĩ chạy sô liền ba chỗ một đêm, về tới nhà là mệt xỉu.
+                standard: Cô ca sĩ chạy show liền ba chỗ một đêm, về đến nhà là mệt lả.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/s%C3%B4#Vietnamese

@@ -1,0 +1,18 @@
+spelling: thơ
+etymologies:
+  - pos:
+      - pos: noun
+        classifiers: [bức]
+        senses:
+          - gloss:
+              en: letter
+            region: [south]
+            labels: [obsolete]
+            variant_of: thư
+            examples:
+              - text: Hồi đó con đi làm xa, tháng nào cũng gởi thơ về cho má.
+                standard: Hồi đó con đi làm xa, tháng nào cũng gửi thư về cho mẹ.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/th%C6%A1#Vietnamese

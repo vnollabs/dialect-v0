@@ -1,0 +1,27 @@
+spelling: trớt quớt
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Lạc đề, sai bét, trật lất, không ăn nhập gì
+            region: [mekong-delta]
+            examples:
+              - text: Hỏi một đằng mà nó trả lời một nẻo, trớt quớt hết trơn.
+                standard: Hỏi một đằng mà nó trả lời một nẻo, lạc đề hoàn toàn.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: futile, anticlimactic, having turned out to be useless
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Chạy lên tận huyện xin giấy, tới nơi người ta nghỉ, trớt quớt.
+                standard: Chạy lên tận huyện xin giấy, đến nơi người ta nghỉ, công cốc.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/tr%E1%BB%9Bt_qu%E1%BB%9Bt#Vietnamese

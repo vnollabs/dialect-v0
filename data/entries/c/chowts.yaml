@@ -1,0 +1,31 @@
+spelling: chớt
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: eye dialect spelling of chết, representing Southern Vietnam Vietnamese
+            region: [south]
+            labels: [colloquial, dialectal, humorous, pronunciation-spelling]
+            variant_of: chết
+            examples:
+              - text: Bưng thùng nước lên lầu mệt muốn chớt luôn á!
+                standard: Bê thùng nước lên tầng mệt muốn chết luôn ấy!
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ch%E1%BB%9Bt#Vietnamese
+      - pos: intj
+        senses:
+          - gloss:
+              en: eye dialect spelling of chết, representing Southern Vietnam Vietnamese
+            region: [south]
+            labels: [colloquial, dialectal, humorous, pronunciation-spelling]
+            variant_of: chết
+            examples:
+              - text: Chớt rồi, tui quên tắt bếp ở nhà!
+                standard: Chết rồi, tôi quên tắt bếp ở nhà!
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ch%E1%BB%9Bt#Vietnamese

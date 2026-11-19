@@ -1,0 +1,18 @@
+spelling: bạn
+etymologies:
+  - type: sino
+    han: 伴
+    note:
+      en: Sino-Vietnamese word from 伴.
+    pos:
+      - pos: pron
+        senses:
+          - gloss:
+              en: you, a peer of the speaker
+            region: [south]
+            examples:
+              - text: Bạn cho mình hỏi Quận 1 đi đường nào.
+                en: Could you show me the way to District 1?
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%E1%BA%A1n#Vietnamese

@@ -1,0 +1,13 @@
+spelling: đâu có
+etymologies:
+  - pos:
+      - pos: particle
+        senses:
+          - gloss:
+              vi: Phủ định một cách từ tốn, hiền lành
+            region: [south]
+            synonyms: [có… đâu]
+            examples:
+              - text: Tui có làm gì đâu mà la rầy hoài vậy
+            topics: [particles]
+            sources: [skill-dictionary-v1]

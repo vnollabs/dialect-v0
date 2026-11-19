@@ -1,0 +1,13 @@
+spelling: trái mận
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Quả roi (miền Bắc); còn mận ngoài Bắc gọi là "mận Bắc" hoặc "mận Hà Nội"
+            region: [south]
+            examples:
+              - text: Trưa nắng hái mấy trái mận sau vườn chấm muối ớt ăn đã gì đâu.
+                standard: Trưa nắng hái mấy quả roi sau vườn chấm muối ớt ăn đã lắm.
+                ai_draft: true
+            topics: [food-drink]
+            sources: [skill-dictionary-v1]

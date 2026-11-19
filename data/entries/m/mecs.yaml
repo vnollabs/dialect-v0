@@ -1,0 +1,18 @@
+spelling: méc
+etymologies:
+  - note:
+      en: This word is semantic rather than merely onomatopoeic, which makes /ɛːk/ an unusual rhyme even for southern dialects (the old rhyme /ɛːk/ has developed into in most words, from example, Vietnamese hạch < Proto-Vietic *-hɛːk). Some authors have spelt it mét instead. See also ẹc.
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to sneak, to tell, to report (something bad) about someone
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Mày mà đánh em nữa là tao méc má đó nghen.
+                standard: Mày mà đánh em nữa là tao mách mẹ đấy nhé.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%C3%A9c#Vietnamese

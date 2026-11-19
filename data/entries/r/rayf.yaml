@@ -1,0 +1,24 @@
+spelling: rày
+etymologies:
+  - note:
+      en: |-
+        Part of the r-series of demonstratives, along with rứa, ri, ru, sao.
+        Phonologically, like này (“this”), this is the form with more innovative vocalism, while ri (“like this”) and ni (“this”) maintain the monophthong. Meanwhile, its semantic development parallels that of nay (“now”).
+    derived: [hổm rày, rày đây mai đó]
+    pos:
+      - pos: adv
+        han_nom: [𣈙, 例, 𡂲]
+        senses:
+          - gloss:
+              en: now, today, this time
+            region: [central, south]
+            synonyms: [nay, giờ, chừ]
+            examples:
+              - text: từ rày về sau
+                en: from now on
+              - text: 'Nhiều lúc nhớ tới anh Ba thủy thủ, tôi tự hỏi: "Không biết trên bước đường phiêu lãng, anh có trải qua những ngày buồn bã thế này không?" Rày đây mai đó…'
+                en: Often, thinking back to Mr Ba the sailor, I wondered, "Would he also go through such sad days on his adventures?" Now here, tomorrow there…
+                ref: "1957, Đoàn Giỏi, chapter 16, in Đất rừng phương Nam, Kim Đồng:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/r%C3%A0y#Vietnamese

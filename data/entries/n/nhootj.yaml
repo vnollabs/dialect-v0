@@ -1,0 +1,17 @@
+spelling: nhột
+etymologies:
+  - pos:
+      - pos: adj
+        han_nom: [𤷿]
+        senses:
+          - gloss:
+              en: ticklish (when stroked)
+            region: [central, south]
+            standard: [buồn]
+            examples:
+              - text: Đừng có thọc lét nữa, nhột quá trời!
+                standard: Đừng có cù nữa, buồn quá!
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/nh%E1%BB%99t#Vietnamese

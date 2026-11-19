@@ -1,0 +1,22 @@
+spelling: bắp
+etymologies:
+  - pos:
+      - pos: noun
+        han_nom: [𥟼, 芣]
+        classifiers: [cây]
+        senses:
+          - gloss:
+              vi: Ngô
+              en: maize, corn
+            region: [south, central]
+            standard: [ngô]
+            synonyms: [sạu, ngô, bẹ]
+            examples:
+              - text: Má luộc nồi bắp nếp nóng hổi, ăn ngọt lịm luôn.
+                standard: Mẹ luộc nồi ngô nếp nóng hổi, ăn ngọt lịm luôn.
+                ai_draft: true
+            topics: [food-drink]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%E1%BA%AFp#Vietnamese

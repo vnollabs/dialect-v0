@@ -1,0 +1,14 @@
+spelling: trái khóm
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Quả dứa
+            region: [mekong-delta]
+            synonyms: [trái thơm]
+            examples:
+              - text: Trái khóm này ngọt lịm, gọt ra ăn liền đi.
+                standard: Quả dứa này ngọt lịm, gọt ra ăn ngay đi.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

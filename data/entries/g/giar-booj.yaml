@@ -1,0 +1,21 @@
+spelling: giả bộ
+etymologies:
+  - type: sino
+    han: 假
+    note:
+      en: Sino-Vietnamese word from 假 and 步.
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to pretend (to be something), to simulate
+            region: [south]
+            labels: [colloquial]
+            synonyms: [giả vờ]
+            examples:
+              - text: Nó giả bộ ngủ để khỏi phải rửa chén.
+                standard: Nó giả vờ ngủ để khỏi phải rửa bát.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/gi%E1%BA%A3_b%E1%BB%99#Vietnamese

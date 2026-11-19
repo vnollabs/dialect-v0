@@ -1,0 +1,29 @@
+spelling: thì tiết
+etymologies:
+  - pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: weather
+            region: [south]
+            labels: [obsolete]
+            variant_of: thời tiết
+            examples:
+              - text: Thì tiết bữa nay oi bức quá, chắc chiều có mưa.
+                standard: Thời tiết hôm nay oi bức quá, chắc chiều có mưa.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/th%C3%AC_ti%E1%BA%BFt#Vietnamese
+          - gloss:
+              en: season; time (of the year)
+            qualifier: in the translation of the Bible
+            region: [south]
+            labels: [obsolete]
+            examples:
+              - text: Người ấy sẽ như cây trồng gần dòng nước, Sanh bông trái theo thì tiết, Lá nó cũng chẳng tàn héo; Mọi sự người làm đều sẽ thạnh vượng.
+                en: That person is like a tree planted by streams of water, which yields its fruit in season and whose leaf does not wither -- whatever they do prospers.
+                ref: "1926, Phan Khôi, transl., Thi Thiên, translation of Psalms:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/th%C3%AC_ti%E1%BA%BFt#Vietnamese

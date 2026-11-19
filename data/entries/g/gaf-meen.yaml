@@ -1,0 +1,14 @@
+spelling: gà mên
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Cặp lồng (hộp đựng cơm nhiều ngăn chồng lên nhau, có quai xách)
+            region: [south]
+            synonyms: [cà mên]
+            examples:
+              - text: Trưa nào má cũng xách gà mên cơm ra ruộng cho ba.
+                standard: Trưa nào mẹ cũng xách cặp lồng cơm ra ruộng cho bố.
+                ai_draft: true
+            topics: [household]
+            sources: [skill-dictionary-v1]

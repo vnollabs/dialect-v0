@@ -1,0 +1,14 @@
+spelling: đâm xuồng bể
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Nói chuyện lạc đề, lan man, chen ngang làm mất hứng
+            region: [south]
+            synonyms: [đâm bang, đâm xuồng lủng]
+            examples:
+              - text: Đang kể tới khúc hay, ổng đâm xuồng bể hỏi chuyện giá lúa, mất hứng hết trơn.
+                standard: Đang kể tới đoạn hay, ông ấy nói chen ngang lạc đề hỏi chuyện giá lúa, mất hứng hết cả.
+                ai_draft: true
+            topics: [idioms]
+            sources: [skill-dictionary-v1]

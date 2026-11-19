@@ -1,0 +1,18 @@
+spelling: thun
+etymologies:
+  - derived: [áo thun, dây thun]
+    pos:
+      - pos: noun
+        han_nom: [村, 紨, 𦀹]
+        classifiers: [sợi, cọng]
+        senses:
+          - gloss:
+              en: elastic
+            region: [south]
+            examples:
+              - text: Lấy sợi thun cột tóc lại cho gọn đi con.
+                standard: Lấy sợi chun buộc tóc lại cho gọn đi con.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/thun#Vietnamese

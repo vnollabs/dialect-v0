@@ -1,0 +1,48 @@
+spelling: trái
+etymologies:
+  - type: native
+    note:
+      en: |-
+        Attested as Northern Middle Vietnamese blái (“fruit”) in the Dictionarium Annamiticum Lusitanum et Latinum (1651), from Proto-Vietic *p-leːʔ, from Proto-Austroasiatic *pleʔ (“fruit”).
+        Cognate with Muong Bi tlải, Khmer ផ្លែ (phlae), Bahnar plei, Pacoh culay, Mang pløː¹.
+        This is originally the Southern form. The North Central form trấy is still extensively used in these dialects. The Northern forms giái (inland dialects), lái (as in lái tim, coastal dialects) are also attested, but now are mostly displaced by Sino-Vietnamese quả when used as a stand-alone noun and by Southern trái when used as part of compounds (as in Trái Đất (“the Earth”)).
+    derived: [bánh trái, cây trái, trái cây, Trái Đất, trái phá, trái tai, trái tim]
+    pos:
+      - pos: noun
+        han_nom: [𣡚, 𢁑, 𬃻, 𣛤, 𢀲]
+        senses:
+          - gloss:
+              vi: Quả
+              en: piece of fruit
+            region: [south, south-central]
+            standard: [quả]
+            synonyms: [trái cây, quả]
+            examples:
+              - text: ăn trái (cây)
+                en: to eat fruit
+            topics: [food-drink]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/tr%C3%A1i#Vietnamese
+      - pos: classifier
+        han_nom: [𣡚, 顆]
+        senses:
+          - gloss:
+              en: Refers to anything round, such as a piece of fruit.
+            region: [south-central, south]
+            synonyms: [quả]
+            examples:
+              - text: trái chôm chôm
+                en: rambutan
+              - text: trái lựu đạn
+                en: grenade
+              - text: trái núi
+                en: mountain
+              - text: trái banh
+                en: football
+              - text: trái cây
+                en: a piece of fruit
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/tr%C3%A1i#Vietnamese

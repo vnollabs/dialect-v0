@@ -1,0 +1,16 @@
+spelling: lài
+etymologies:
+  - pos:
+      - pos: noun
+        han_nom: [萊]
+        classifiers: [cây, hoa, bông]
+        senses:
+          - gloss:
+              en: jasmine
+            region: [central, south]
+            examples:
+              - text: trà lài
+                en: jasmine tea
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%C3%A0i#Vietnamese

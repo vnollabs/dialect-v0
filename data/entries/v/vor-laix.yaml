@@ -1,0 +1,18 @@
+spelling: vỏ lãi
+etymologies:
+  - pos:
+      - pos: noun
+        classifiers: [cái, chiếc]
+        senses:
+          - gloss:
+              en: type of motor canoe
+            qualifier: Mekong Delta
+            region: [mekong-delta]
+            synonyms: [tắc ráng, vỏ vọt, ghe máy]
+            examples:
+              - text: Ảnh chạy vỏ lãi đưa khách qua sông mỗi ngày.
+                standard: Anh ấy lái xuồng máy đưa khách qua sông mỗi ngày.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/v%E1%BB%8F_l%C3%A3i#Vietnamese

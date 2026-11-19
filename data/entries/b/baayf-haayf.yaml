@@ -1,0 +1,13 @@
+spelling: bầy hầy
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Không gọn gàng, bừa bãi
+            region: [south]
+            examples:
+              - text: Phòng gì mà bầy hầy quá, dọn dẹp lại đi con.
+                standard: Phòng gì mà bừa bãi quá, dọn dẹp lại đi con.
+                ai_draft: true
+            topics: [idioms]
+            sources: [skill-dictionary-v1]

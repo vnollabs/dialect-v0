@@ -1,0 +1,16 @@
+spelling: um sùm
+etymologies:
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: very loud; noisy
+            region: [central, south]
+            labels: [colloquial]
+            examples:
+              - text: Tụi nhỏ giỡn um sùm, ông nội đang ngủ trưa đó.
+                standard: Bọn trẻ đùa ầm ĩ, ông nội đang ngủ trưa đấy.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/um_s%C3%B9m#Vietnamese

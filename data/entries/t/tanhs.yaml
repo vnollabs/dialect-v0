@@ -1,0 +1,21 @@
+spelling: tánh
+etymologies:
+  - derived: [tánh mạng, tánh nết, tánh tình, tánh ý, tâm tánh]
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              vi: Tính
+              en: nature; character; disposition; temperament
+            region: [south]
+            standard: [tính]
+            variant_of: tính
+            examples:
+              - text: Tánh ổng vậy đó, nói thẳng chớ hổng có ác ý gì đâu.
+                standard: Tính ông ấy như vậy đấy, nói thẳng chứ không có ác ý gì đâu.
+                ai_draft: true
+            topics: [sino-vietnamese]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/t%C3%A1nh#Vietnamese

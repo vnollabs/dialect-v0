@@ -1,0 +1,16 @@
+spelling: tức cười
+etymologies:
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: funny
+            region: [south]
+            synonyms: [mắc cười, buồn cười]
+            examples:
+              - text: Coi thằng nhỏ nhái giọng ông nội tức cười quá trời.
+                standard: Xem thằng bé nhại giọng ông nội buồn cười quá.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/t%E1%BB%A9c_c%C6%B0%E1%BB%9Di#Vietnamese

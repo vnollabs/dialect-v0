@@ -1,0 +1,14 @@
+spelling: ngon nhức nách
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Ngon hết sẩy, ngon hết cỡ
+            region: [south]
+            synonyms: [ngon bà cố]
+            examples:
+              - text: Bánh xèo quán này giòn rụm, ngon nhức nách luôn.
+                standard: Bánh xèo quán này giòn rụm, ngon tuyệt luôn.
+                ai_draft: true
+            topics: [idioms]
+            sources: [skill-dictionary-v1]

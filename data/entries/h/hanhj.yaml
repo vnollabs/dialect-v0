@@ -1,0 +1,33 @@
+spelling: hạnh
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Quả quất
+            region: [mekong-delta]
+            synonyms: [trái tắc]
+            examples:
+              - text: Vắt thêm trái hạnh vô chén nước mắm cho chua chua.
+                standard: Vắt thêm quả quất vào bát nước mắm cho chua chua.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]
+  - type: sino
+    han: 幸
+    note:
+      en: Perhaps a Sino-Vietnamese word from 幸 (“lucky”), arising from taboo of mentioning tắc (“kumquat; blocked; stuck”).
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: calamansi
+            qualifier: Mekong Delta
+            region: [mekong-delta]
+            synonyms: [quất, tắc]
+            examples:
+              - text: Nhà bà Hai trồng một hàng hạnh trước ngõ, trái sai trĩu cành.
+                standard: Nhà bà Hai trồng một hàng quất trước ngõ, quả sai trĩu cành.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/h%E1%BA%A1nh#Vietnamese

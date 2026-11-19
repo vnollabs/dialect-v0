@@ -1,0 +1,15 @@
+spelling: có… đâu
+etymologies:
+  - pos:
+      - pos: particle
+        senses:
+          - gloss:
+              vi: Phủ định một cách từ tốn, hiền lành
+            region: [south]
+            synonyms: [đâu có]
+            examples:
+              - text: Tui có giận gì anh đâu, anh đừng lo nghen.
+                standard: Tôi có giận gì anh đâu, anh đừng lo nhé.
+                ai_draft: true
+            topics: [particles]
+            sources: [skill-dictionary-v1]

@@ -1,0 +1,34 @@
+spelling: tàu hủ
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Đậu phụ
+            region: [south]
+            standard: [đậu phụ]
+            synonyms: [đậu hủ]
+            examples:
+              - text: Bữa nay ăn chay, má chiên tàu hủ chấm nước tương.
+                standard: Hôm nay ăn chay, mẹ rán đậu phụ chấm xì dầu.
+                ai_draft: true
+            topics: [food-drink]
+            sources: [skill-dictionary-v1]
+  - type: loan
+    lang: yue
+    source_form: 豆腐
+    note:
+      en: From Cantonese 豆腐 (dau6 fu6; đậu hủ, “tofu”). Doublet of đậu hủ, đậu phụ, and tào phớ.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: douhua; tofu pudding; soybean pudding
+            region: [south]
+            synonyms: [tào phớ]
+            examples:
+              - text: Chiều chiều có bà bán tàu hủ nước đường gánh ngang xóm.
+                standard: Chiều chiều có bà bán tào phớ gánh ngang xóm.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/t%C3%A0u_h%E1%BB%A7#Vietnamese

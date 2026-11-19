@@ -1,0 +1,18 @@
+spelling: bảnh
+etymologies:
+  - type: sino
+    han: 炳
+    pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: badass; kickass; "cool"
+            qualifier: of a boy or man
+            region: [south]
+            labels: [humorous, slang]
+            examples:
+              - text: Chu cha ! Bữa nay bảnh ghê ta !
+                en: Wow! You look like you could kick some ass today!
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%E1%BA%A3nh#Vietnamese

@@ -1,0 +1,16 @@
+spelling: tủ kiếng
+etymologies:
+  - pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: Southern Vietnam form of tủ kính
+            region: [south]
+            variant_of: tủ kính
+            examples:
+              - text: Bộ ly đẹp má cất trong tủ kiếng, Tết mới lấy ra xài.
+                standard: Bộ cốc đẹp mẹ cất trong tủ kính, Tết mới lấy ra dùng.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/t%E1%BB%A7_ki%E1%BA%BFng#Vietnamese

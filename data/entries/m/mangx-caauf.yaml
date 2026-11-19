@@ -1,0 +1,18 @@
+spelling: mãng cầu
+etymologies:
+  - derived: [mãng cầu xiêm]
+    pos:
+      - pos: noun
+        classifiers: [cây, trái, quả]
+        senses:
+          - gloss:
+              en: sugar apple
+            region: [south]
+            synonyms: [na, mãng cầu ta, sa lê, phan lệ chi]
+            examples:
+              - text: Mãng cầu chín mềm rồi, bẻ ra ăn ngọt lịm.
+                standard: Na chín mềm rồi, bẻ ra ăn ngọt lịm.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%C3%A3ng_c%E1%BA%A7u#Vietnamese

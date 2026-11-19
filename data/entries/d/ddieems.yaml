@@ -1,0 +1,19 @@
+spelling: điếm
+etymologies:
+  - type: sino
+    han: 店
+    note:
+      en: Sino-Vietnamese word from 店.
+    pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: being a cheater
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Thằng đó điếm lắm!
+                en: He's such a cheater!
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91i%E1%BA%BFm#Vietnamese

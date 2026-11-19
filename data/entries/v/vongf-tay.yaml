@@ -1,0 +1,18 @@
+spelling: vòng tay
+etymologies:
+  - type: compound
+    note:
+      en: vòng + tay.
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to fold one's arms (in front of the chest)
+            region: [south]
+            examples:
+              - text: Gặp thầy cô, tụi nhỏ vòng tay chào lễ phép.
+                standard: Gặp thầy cô, bọn trẻ khoanh tay chào lễ phép.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/v%C3%B2ng_tay#Vietnamese

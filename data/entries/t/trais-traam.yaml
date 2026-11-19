@@ -1,0 +1,14 @@
+spelling: trái trâm
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Các loại trái cây dân dã mọc hoang ven sông rạch miền Tây xưa
+            region: [mekong-delta]
+            synonyms: [trái bình bát, trái gáo]
+            examples:
+              - text: Hồi nhỏ ăn trái trâm tím lè cả lưỡi mà vẫn khoái.
+                standard: Hồi nhỏ ăn quả trâm tím ngắt cả lưỡi mà vẫn thích.
+                ai_draft: true
+            topics: [mekong-food]
+            sources: [skill-dictionary-v1]

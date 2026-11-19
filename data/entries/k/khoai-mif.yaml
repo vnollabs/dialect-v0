@@ -1,0 +1,19 @@
+spelling: khoai mì
+etymologies:
+  - type: compound
+    note:
+      en: khoai + mì.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: cassava
+            region: [central, south]
+            synonyms: [sắn]
+            examples:
+              - text: Chiều nay má hấp khoai mì chấm đường cho tụi nhỏ ăn.
+                standard: Chiều nay mẹ hấp sắn chấm đường cho bọn trẻ ăn.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/khoai_m%C3%AC#Vietnamese

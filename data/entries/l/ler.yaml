@@ -1,0 +1,21 @@
+spelling: lẻ
+etymologies:
+  - type: native
+    note:
+      en: From Proto-Vietic *lɛh.
+    pos:
+      - pos: adj
+        han_nom: [礼, 禮, 𥛭]
+        senses:
+          - gloss:
+              en: Signifies the "zero(s)" in numbers such as 805 and 2001.
+            region: [south]
+            synonyms: [linh]
+            examples:
+              - text: một trăm lẻ ba
+                en: 103 [i.e. one hundred and three]
+              - text: hai ngàn không trăm lẻ một
+                en: 2001 [i.e. two thousand and one]
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%E1%BA%BB#Vietnamese

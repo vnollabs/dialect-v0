@@ -1,0 +1,17 @@
+spelling: kiểng
+etymologies:
+  - pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: eye dialect spelling of cảnh, representing Southern Vietnam Vietnamese
+            region: [south]
+            labels: [pronunciation-spelling]
+            variant_of: cảnh
+            examples:
+              - text: Ông nội mê cây kiểng, sáng nào cũng ra tưới từng chậu.
+                standard: Ông nội mê cây cảnh, sáng nào cũng ra tưới từng chậu.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ki%E1%BB%83ng#Vietnamese

@@ -1,0 +1,20 @@
+spelling: hoa trà
+etymologies:
+  - type: compound
+    note:
+      en: hoa (花, “flower”); trà (茶, “tea”), calque of Chinese 茶花 (cháhuā).
+    pos:
+      - pos: noun
+        classifiers: [cây, bông]
+        senses:
+          - gloss:
+              en: camellia
+            region: [south]
+            synonyms: [hoa chè]
+            examples:
+              - text: Tết này ba mua chậu hoa trà trắng về chưng trước hiên.
+                standard: Tết này bố mua chậu hoa trà trắng về bày trước hiên.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/hoa_tr%C3%A0#Vietnamese

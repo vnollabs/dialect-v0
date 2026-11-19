@@ -1,0 +1,14 @@
+spelling: nắng bể đầu
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Trời nắng gắt, oi bức dữ dội giữa trưa
+            region: [south]
+            synonyms: [nắng chang chang]
+            examples:
+              - text: Trưa nắng bể đầu mà ổng còn ra ruộng xịt thuốc.
+                standard: Trưa nắng như đổ lửa mà ông ấy còn ra ruộng phun thuốc.
+                ai_draft: true
+            topics: [weather-orchards]
+            sources: [skill-dictionary-v1]

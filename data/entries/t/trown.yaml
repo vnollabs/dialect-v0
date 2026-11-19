@@ -1,0 +1,19 @@
+spelling: trơn
+etymologies:
+  - type: native
+    note:
+      en: Inherited from Proto-Vietic *k-lǝːn.
+    derived: [hết trơn, nòng trơn, sạch trơn, trơn bóng, trơn nhẫy, trơn trợt, trơn tru, trơn trượt, trơn tuột]
+    pos:
+      - pos: adv
+        senses:
+          - gloss:
+              en: completely (gone); all (finished)
+            region: [central, south]
+            labels: [colloquial]
+            examples:
+              - text: hết trơn
+                en: completely out of stock
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/tr%C6%A1n#Vietnamese

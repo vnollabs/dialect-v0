@@ -1,0 +1,14 @@
+spelling: hẻm
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Ngõ
+            region: [south]
+            standard: [ngõ]
+            examples:
+              - text: Nhà tui ở trong hẻm, chạy vô chừng năm chục mét là thấy.
+                standard: Nhà tôi ở trong ngõ, đi vào khoảng năm mươi mét là thấy.
+                ai_draft: true
+            topics: [transport]
+            sources: [skill-dictionary-v1]

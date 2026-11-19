@@ -1,0 +1,29 @@
+spelling: xỉn
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Say rượu, say tới mức không biết trời trăng gì
+            region: [south]
+            synonyms: [quắc cần câu]
+            examples:
+              - text: Ảnh nhậu xỉn tới mức về nhầm nhà hàng xóm.
+                standard: Anh ấy uống say đến mức về nhầm nhà hàng xóm.
+                ai_draft: true
+            topics: [actions]
+            sources: [skill-dictionary-v1]
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: drunk; blitzed
+            region: [south]
+            labels: [colloquial]
+            synonyms: [say]
+            examples:
+              - text: Xỉn rồi thì đừng chạy xe, để tui chở về cho.
+                standard: Say rồi thì đừng lái xe, để tôi chở về cho.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/x%E1%BB%89n#Vietnamese

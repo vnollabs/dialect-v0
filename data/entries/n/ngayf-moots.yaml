@@ -1,0 +1,20 @@
+spelling: ngày mốt
+etymologies:
+  - type: compound
+    note:
+      en: ngày (“day”) + mốt (“day after tomorrow”).
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: overmorrow; the day after tomorrow
+            region: [central, south]
+            labels: [emphatic, formal]
+            synonyms: [mốt, ngày kia]
+            examples:
+              - text: Ngày mốt là đám giỗ ông nội, con nhớ về sớm nghen.
+                standard: Ngày kia là đám giỗ ông nội, con nhớ về sớm nhé.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ng%C3%A0y_m%E1%BB%91t#Vietnamese

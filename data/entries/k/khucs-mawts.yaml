@@ -1,0 +1,17 @@
+spelling: khúc mắt
+etymologies:
+  - pos:
+      - pos: adj
+        han_nom: [曲𬑉]
+        senses:
+          - gloss:
+              en: convoluted, disjointed; complicated, unresolved
+            region: [central, south]
+            variant_of: khúc mắc
+            examples:
+              - text: Có gì khúc mắt thì cứ nói thẳng ra, đừng để bụng nghen.
+                standard: Có gì khúc mắc thì cứ nói thẳng ra, đừng để bụng nhé.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/kh%C3%BAc_m%E1%BA%AFt#Vietnamese

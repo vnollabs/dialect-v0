@@ -1,0 +1,14 @@
+spelling: mấy rày
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Dạo này, mấy hôm nay
+            region: [mekong-delta]
+            synonyms: [hổm rày]
+            examples:
+              - text: Mấy rày trời nóng quá, tối ngủ hổng được.
+                standard: Dạo này trời nóng quá, tối ngủ không được.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

@@ -1,0 +1,23 @@
+spelling: ghệ
+etymologies:
+  - type: loan
+    lang: fr
+    source_form: congaï
+    note:
+      en: Borrowed from French congaï, sometimes spelled congaye, from Vietnamese con gái/cô gái.
+    pos:
+      - pos: noun
+        classifiers: [con]
+        senses:
+          - gloss:
+              en: girlfriend; lover (of lesser commitment)
+            qualifier: often disrespectful
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Thằng Tí bữa nay chở ghệ đi chơi, hổng thèm rủ tụi mình.
+                standard: Thằng Tí hôm nay chở bạn gái đi chơi, chẳng thèm rủ bọn mình.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/gh%E1%BB%87#Vietnamese

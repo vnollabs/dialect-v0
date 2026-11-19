@@ -1,0 +1,17 @@
+spelling: bữa
+etymologies:
+  - note:
+      en: Compare Arem bæːh ("day").
+    pos:
+      - pos: noun
+        han_nom: [𩛷, 𣇊, 𣇜]
+        senses:
+          - gloss:
+              en: day
+            region: [central, south]
+            examples:
+              - text: Bữa nay đi đâu đây bay?
+                en: Guys where are we going today?
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%E1%BB%AFa#Vietnamese

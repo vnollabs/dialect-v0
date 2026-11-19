@@ -1,0 +1,16 @@
+spelling: cá điêu hồng
+etymologies:
+  - pos:
+      - pos: noun
+        classifiers: [con]
+        senses:
+          - gloss:
+              en: red tilapia
+            region: [central, south]
+            examples:
+              - text: Chiều nay má chiên con cá điêu hồng, chấm nước mắm gừng ăn cơm nghen.
+                standard: Chiều nay mẹ rán con cá diêu hồng, chấm nước mắm gừng ăn cơm nhé.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%C3%A1_%C4%91i%C3%AAu_h%E1%BB%93ng#Vietnamese

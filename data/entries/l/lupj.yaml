@@ -1,0 +1,20 @@
+spelling: lụp
+etymologies:
+  - type: loan
+    lang: km
+    source_form: លប់
+    note:
+      en: Borrowed from Khmer លប់ (lup).
+    pos:
+      - pos: noun
+        classifiers: [cái, chiếc]
+        senses:
+          - gloss:
+              en: kind of cage for trapping birds
+            region: [south]
+            examples:
+              - text: Cái ngu của nghề gác cu là khi con mồi và con bổi (cu rừng) xông vào trận, chúng gù, chúng thúc ngay cửa lụp (bẫy).
+                ref: "1999, Phan Trung Nghĩa, Đạo gác cu miệt vườn: Ký - phóng sự, Bạc Liêu: Nhà xuất bản Hội nhà văn, page 31:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%E1%BB%A5p#Vietnamese

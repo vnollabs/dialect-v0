@@ -1,0 +1,32 @@
+spelling: chèng đéc ơi
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Trời ơi (thán từ khi ngạc nhiên)
+            region: [south]
+            synonyms: [mèn đéc ơi, mèn đét ơi, mèn ơi, chèn ơi]
+            examples:
+              - text: Chèng đéc ơi, ai để nồi canh trên bếp cháy khét vầy nè?
+                standard: Trời ơi, ai để nồi canh trên bếp cháy khét thế này?
+                ai_draft: true
+            topics: [idioms]
+            sources: [skill-dictionary-v1]
+  - note:
+      en: |-
+        Element chèng is likely a blend of Vietnamese chời (“Eye-dialect spelling of trời (“sky, heaven”)”) and mèng, which is possibly from Khmer មេឃ (meik, “sky”), in the interjections mèng ơi and mèng đéc ơi.
+        Element đéc, also seen in mèng đéc ơi, is possibly from Khmer ដី (dəy, “earth”).
+    pos:
+      - pos: intj
+        senses:
+          - gloss:
+              en: gosh, golly, golly gee, gee whiz
+            region: [south]
+            synonyms: [trời ơi, trời đất ơi, mèng ơi, mèng đéc ơi, chèng ơi]
+            examples:
+              - text: Chèng đéc ơi, mắc dữ vậy, con cá mà tới hai trăm ngàn!
+                standard: Trời ơi, đắt thế, con cá mà tới hai trăm nghìn!
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ch%C3%A8ng_%C4%91%C3%A9c_%C6%A1i#Vietnamese

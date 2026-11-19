@@ -1,0 +1,13 @@
+spelling: bữa nay
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Hôm nay
+            region: [mekong-delta]
+            examples:
+              - text: Bữa nay trời mát, mình ra vườn hái xoài nghen.
+                standard: Hôm nay trời mát, mình ra vườn hái xoài nhé.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

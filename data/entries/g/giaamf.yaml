@@ -1,0 +1,20 @@
+spelling: giầm
+etymologies:
+  - note:
+      en: Compare Central Vietnamese chầm.
+    derived: [buông giầm cắm chèo]
+    pos:
+      - pos: noun
+        han_nom: [𢴏]
+        senses:
+          - gloss:
+              en: paddle
+            qualifier: Mekong Delta
+            region: [mekong-delta]
+            examples:
+              - text: Tôi vừa đặt giầm lên xuồng, chưa kịp chui vào nó thì đôi mắt đã díp lại rồi.
+                en: I had only just put the paddle on the boat and had no time to crawl inside that my eyes fell shut.
+                ref: "1957, Đoàn Giỏi, chapter 10, in Đất rừng phương Nam, Kim Đồng:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/gi%E1%BA%A7m#Vietnamese

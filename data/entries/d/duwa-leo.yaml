@@ -1,0 +1,20 @@
+spelling: dưa leo
+etymologies:
+  - type: compound
+    note:
+      en: From dưa (“melon”) + leo (“to climb”).
+    pos:
+      - pos: noun
+        classifiers: [cây, trái, quả]
+        senses:
+          - gloss:
+              en: cucumber
+            region: [central, south]
+            synonyms: [dưa chuột]
+            examples:
+              - text: Ăn cơm tấm mà thiếu mấy lát dưa leo thì hổng ngon.
+                standard: Ăn cơm tấm mà thiếu mấy lát dưa chuột thì không ngon.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/d%C6%B0a_leo#Vietnamese

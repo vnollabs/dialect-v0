@@ -1,0 +1,19 @@
+spelling: căm
+etymologies:
+  - type: native
+    note:
+      en: From Proto-Vietic *kam (“arrow”), from Proto-Austroasiatic *kam (“arrow”). Compare Khmer កាំ (kam).
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: spoke (of a wheel)
+            region: [south]
+            synonyms: [nan hoa]
+            examples:
+              - text: Xe đạp gãy hai cây căm rồi, đem ra tiệm sửa đi con.
+                standard: Xe đạp gãy hai cái nan hoa rồi, mang ra tiệm sửa đi con.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%C4%83m#Vietnamese

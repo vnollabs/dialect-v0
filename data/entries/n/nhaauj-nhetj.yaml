@@ -1,0 +1,18 @@
+spelling: nhậu nhẹt
+etymologies:
+  - note:
+      en: From nhậu.
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to drink hard; to booze; to carouse
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Ổng nhậu nhẹt tối ngày, vợ con nói hoài hổng nghe.
+                standard: Ông ấy rượu chè suốt ngày, vợ con nói mãi không nghe.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/nh%E1%BA%ADu_nh%E1%BA%B9t#Vietnamese

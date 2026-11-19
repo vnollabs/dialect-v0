@@ -1,0 +1,30 @@
+spelling: té ra
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Hóa ra, thì ra
+            region: [south]
+            examples:
+              - text: Tưởng ai, té ra là thằng Tư ở xóm dưới
+            topics: [discourse-markers]
+            sources: [skill-dictionary-v1]
+  - type: compound
+    note:
+      en: té + ra.
+    pos:
+      - pos: adv
+        senses:
+          - gloss:
+              en: apparently
+            region: [south]
+            labels: [colloquial]
+            synonyms: [hoá ra, thì ra, hình như]
+            examples:
+              - text: "Near-synonym: hình như"
+              - text: Trong màn đêm có một bóng người vọt vào rừng,[…] té ra người ấy cầm hai chiếc nạng, chính là gã què Khúc Tam chủ quán rượu đầu thôn.
+                en: In the darkness of night, a shadow sped into the forest; […] apparently this person held crutches; it was no-one but the crippled Qū Sān, owner of the inn at the end of the hamlet.
+                ref: "2005 [1957–1959], chapter 1, in Cao Tự Thanh, transl., Anh hùng xạ điêu, Nhà xuất bản Văn học, translation of 射雕英雄传 by Kim Dung [Jin Yong]:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/t%C3%A9_ra#Vietnamese

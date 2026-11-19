@@ -1,0 +1,12 @@
+spelling: hén
+etymologies:
+  - pos:
+      - pos: particle
+        senses:
+          - gloss:
+              vi: Hỏi ý, rủ rê nhẹ nhàng hoặc tìm sự đồng thuận của người nghe
+            region: [south]
+            examples:
+              - text: Chiều nay qua vườn hái mận với tui hén?
+            topics: [particles]
+            sources: [skill-dictionary-v1]

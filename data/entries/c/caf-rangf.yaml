@@ -1,0 +1,33 @@
+spelling: cà ràng
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Bếp lò nặn bằng đất sét nung, đun củi trên ghe hoặc trong bếp xưa
+            region: [mekong-delta]
+            examples:
+              - text: Má nhóm lửa cà ràng nấu nồi cơm, khói bay mù mịt.
+                standard: Mẹ nhóm lửa bếp lò đất nấu nồi cơm, khói bay mù mịt.
+                ai_draft: true
+            topics: [mekong-food]
+            sources: [skill-dictionary-v1]
+  - type: loan
+    lang: km
+    source_form: ចង្ក្រាន
+    note:
+      en: Borrowed from Khmer ចង្ក្រាន (cɑɑcɑngkraan).
+    pos:
+      - pos: noun
+        classifiers: [cái, chiếc]
+        senses:
+          - gloss:
+              en: earthenware stove or hearth
+            qualifier: Mekong Delta
+            region: [mekong-delta]
+            examples:
+              - text: Trên ghe chỉ có cái cà ràng nhỏ, vậy mà bà nấu đủ món cho cả nhà.
+                standard: Trên thuyền chỉ có cái bếp lò đất nhỏ, vậy mà bà nấu đủ món cho cả nhà.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%C3%A0_r%C3%A0ng#Vietnamese

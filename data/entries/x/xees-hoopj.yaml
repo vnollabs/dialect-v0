@@ -1,0 +1,19 @@
+spelling: xế hộp
+etymologies:
+  - type: compound
+    note:
+      en: xế (“car”) + hộp (“box”).
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: small, box-like, four-wheeled vehicle; car
+            region: [south]
+            labels: [slang]
+            examples:
+              - text: Thằng bạn mới tậu chiếc xế hộp, chở tụi tui đi hóng gió.
+                standard: Thằng bạn mới tậu chiếc ô tô, chở bọn tôi đi hóng gió.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/x%E1%BA%BF_h%E1%BB%99p#Vietnamese

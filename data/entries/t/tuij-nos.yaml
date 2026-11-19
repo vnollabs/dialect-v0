@@ -1,0 +1,19 @@
+spelling: tụi nó
+etymologies:
+  - type: compound
+    note:
+      en: tụi (pluralising particle) + nó (“he, she, it”).
+    pos:
+      - pos: pron
+        senses:
+          - gloss:
+              en: they/them
+            region: [south]
+            synonyms: [chúng nó, bọn nó]
+            examples:
+              - text: Tụi nó đi đá banh tới giờ mà chưa về.
+                standard: Chúng nó đi đá bóng đến giờ mà chưa về.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/t%E1%BB%A5i_n%C3%B3#Vietnamese

@@ -1,0 +1,37 @@
+spelling: hớt tóc
+etymologies:
+  - pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: haircut (an act of cutting hair)
+            region: [south]
+            examples:
+              - text: Một lần hớt tóc ở tiệm đầu hẻm có ba chục ngàn hà.
+                standard: Một lần cắt tóc ở tiệm đầu ngõ chỉ có ba mươi nghìn thôi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/h%E1%BB%9Bt_t%C3%B3c#Vietnamese
+      - pos: verb
+        senses:
+          - gloss:
+              en: to give a haircut
+            region: [south]
+            examples:
+              - text: Chủ nhật nào ba cũng hớt tóc cho hai thằng con ngoài hiên.
+                standard: Chủ nhật nào bố cũng cắt tóc cho hai cậu con trai ngoài hiên.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/h%E1%BB%9Bt_t%C3%B3c#Vietnamese
+          - gloss:
+              en: to get a haircut
+            region: [south]
+            examples:
+              - text: Tóc dài quá rồi, chiều nay tui đi hớt tóc.
+                standard: Tóc dài quá rồi, chiều nay tôi đi cắt tóc.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/h%E1%BB%9Bt_t%C3%B3c#Vietnamese

@@ -1,0 +1,16 @@
+spelling: phết
+etymologies:
+  - pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: comma
+            region: [south]
+            synonyms: [phẩy]
+            examples:
+              - text: Câu dài quá, con thêm một dấu phết ở giữa cho dễ đọc.
+                standard: Câu dài quá, con thêm một dấu phẩy ở giữa cho dễ đọc.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ph%E1%BA%BFt#Vietnamese

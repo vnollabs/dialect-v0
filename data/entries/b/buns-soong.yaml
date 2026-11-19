@@ -1,0 +1,19 @@
+spelling: bún sông
+etymologies:
+  - type: compound
+    note:
+      en: Compound of bún + sông (“river”).
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: egg string of a sea hare (known as bún mẹ) used as food, similar to lukot
+            region: [south-central]
+            labels: [colloquial]
+            examples:
+              - text: Người dân nơi đây thường gọi loại trứng "lạ" này là "bún sông", một trong những món đặc sản độc đáo ở dòng sông Cu Đê. "Bún sông" xuất hiện vào đầu tháng 2 đến cuối tháng 3 âm lịch và sinh sản dày đặc dưới đáy sông Cu Đê.
+                en: The people here usually call these type of "strange" eggs as "bún sông", one of the most unique cuisines of the Cu Đê river. "Bún sông" are layed from the beginning of the 2nd month to the end of the 3rd month of lunar calendar and breed in large numbers at the bottom of the Cu Đê river.
+                ref: "2024 May 18, “Nghề lạ: 'Bún sông' là gì mà nhiều người đeo chì ngụp lặn dưới đáy sông để mò?”, in Báo Thanh niên:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%C3%BAn_s%C3%B4ng#Vietnamese

@@ -1,0 +1,21 @@
+spelling: tàn bạo
+etymologies:
+  - type: sino
+    han: 殘暴
+    note:
+      en: Sino-Vietnamese word from 殘暴.
+    derived: [dã man tàn bạo]
+    pos:
+      - pos: adv
+        senses:
+          - gloss:
+              en: totally; extremely
+            region: [south]
+            labels: [informal]
+            examples:
+              - text: Tô hủ tiếu này ngon tàn bạo luôn, ăn hoài hổng ngán.
+                standard: Bát hủ tiếu này ngon cực kỳ luôn, ăn mãi không ngán.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/t%C3%A0n_b%E1%BA%A1o#Vietnamese

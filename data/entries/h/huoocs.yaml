@@ -1,0 +1,14 @@
+spelling: huốc
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Chạy vượt quá chỗ cần tới, qua lượt, mất lượt
+            region: [mekong-delta]
+            synonyms: [chạy huốt, huốt]
+            examples:
+              - text: Mải nói chuyện, tui chạy huốc qua nhà bà Ba hồi nào hổng hay.
+                standard: Mải nói chuyện, tôi đi vượt quá nhà bà Ba lúc nào không biết.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

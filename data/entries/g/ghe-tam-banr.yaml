@@ -1,0 +1,14 @@
+spelling: ghe tam bản
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Các loại thuyền nhỏ, thon dài, chuyên chèo chống trong kinh rạch hẹp
+            region: [mekong-delta]
+            synonyms: [ghe lườn]
+            examples:
+              - text: Mấy chiếc ghe tam bản chở trái cây đậu kín bến chợ.
+                standard: Mấy chiếc thuyền tam bản chở hoa quả đỗ kín bến chợ.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

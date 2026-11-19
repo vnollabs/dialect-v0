@@ -1,0 +1,31 @@
+spelling: gì
+etymologies:
+  - note:
+      en: |-
+        Cognate with Muong chi.
+        See chi, the form without lenition and the form for the interrogative "what" in the Central dialects (both the North Central dialects from Nghệ An to Huế, and the South Central dialects of Đà Nẵng-Quảng Nam-Quảng Ngãi). Further south, the Southern dialects keep native chi with the meaning "what for" and in compounds, but borrowed gì from the Northern dialects for the general "what". In the Dictionarium Anamitico-Latinum (1838), a dictionary based on the Southern dialects, the entry for chi is much more extensive than for gì, likely indicating that in the late 18th-early 19th century, chi was still the main word for "what" in the Southern dialects.
+    derived: [cái gì, gì cũng, gì nữa, gì thì gì, hèn gì, huống gì, khác gì, không có gì, làm gì, mùi gì, mùi mẽ gì, ra gì, thiếu gì, tội tình gì, việc gì]
+    pos:
+      - pos: pron
+        han_nom: [之, 𱍻, 𫩝, 𱍽, 夷, 𫡛, 咦]
+        senses:
+          - gloss:
+              en: what; whatever
+            region: [north, south]
+            examples:
+              - text: Ủa, mày đang nấu gì mà thơm dữ vậy?
+                standard: Ơ, mày đang nấu gì mà thơm thế?
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/g%C3%AC#Vietnamese
+          - gloss:
+              en: anything
+            region: [north, south]
+            examples:
+              - text: Từ sáng tới giờ tui chưa ăn gì hết trơn.
+                standard: Từ sáng tới giờ tôi chưa ăn gì cả.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/g%C3%AC#Vietnamese

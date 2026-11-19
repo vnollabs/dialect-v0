@@ -1,0 +1,17 @@
+spelling: dô
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: pronunciation spelling of vô, representing Southern Vietnam Vietnamese
+            region: [south]
+            labels: [pronunciation-spelling]
+            variant_of: vô
+            examples:
+              - text: Trời mưa rồi, dô nhà đi con!
+                standard: Trời mưa rồi, vào nhà đi con!
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/d%C3%B4#Vietnamese

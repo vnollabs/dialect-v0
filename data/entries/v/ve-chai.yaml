@@ -1,0 +1,21 @@
+spelling: ve chai
+etymologies:
+  - type: compound
+    note:
+      en: |-
+        ve (“bottle”) + chai (“bottle”).
+        Attested yet glossed mistakenly in Latin as lagena vitrea ("glass bottle") in Pierre Pigneau de Béhaine's Dictionarium anamitico-latinum.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: bottles; waste (in general); scrap; junk
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Mấy chai nhựa với giấy báo cũ gom lại bán ve chai cũng được ít tiền.
+                standard: Mấy chai nhựa với giấy báo cũ gom lại bán đồng nát cũng được ít tiền.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ve_chai#Vietnamese

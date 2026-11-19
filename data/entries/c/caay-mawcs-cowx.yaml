@@ -1,0 +1,19 @@
+spelling: cây mắc cỡ
+etymologies:
+  - type: compound
+    note:
+      en: cây (“plant”) + mắc cỡ (“embarrassed”)
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: sensitive plant
+            region: [central, south]
+            synonyms: [cây trinh nữ, cây xấu hổ]
+            examples:
+              - text: Tụi nhỏ lấy tay đụng cây mắc cỡ cho lá nó xếp lại, cười khoái chí.
+                standard: Bọn trẻ lấy tay chạm cây xấu hổ cho lá nó cụp lại, cười khoái chí.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%C3%A2y_m%E1%BA%AFc_c%E1%BB%A1#Vietnamese

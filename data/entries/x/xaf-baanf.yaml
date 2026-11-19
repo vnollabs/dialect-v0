@@ -1,0 +1,27 @@
+spelling: xà bần
+etymologies:
+  - pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: debris, rubble (of a structure after demolition)
+            region: [central, south]
+            synonyms: [trạc thải, giải hạ]
+            examples:
+              - text: Nhưng trước nhà vẫn còn ngổn ngang những xà bần, gạch ngói cũ và con đường chưa mở rộng nên còn những vũng nước lầy lội vì mưa ngày hôm qua.
+                en: But in front of the house, there are still scattered rubble, old bricks and tiles, and the road has not yet been widened, so there are still muddy puddles from yesterday's rain.
+                ref: "2004, Trịnh Hảo Tâm, Trên những nẻo đường Việt Nam, Westminster, California: K.V. Printing, page 121:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/x%C3%A0_b%E1%BA%A7n#Vietnamese
+          - gloss:
+              en: kind of potpourri dish prepared from leftover food
+            region: [south]
+            synonyms: [hổ lốn]
+            examples:
+              - text: Đám giỗ xong đồ ăn dư nhiều quá, má nấu một nồi xà bần.
+                standard: Đám giỗ xong đồ ăn thừa nhiều quá, mẹ nấu một nồi hổ lốn.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/x%C3%A0_b%E1%BA%A7n#Vietnamese

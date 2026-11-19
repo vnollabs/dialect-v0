@@ -1,0 +1,14 @@
+spelling: ben
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to be comparable
+            region: [south]
+            synonyms: [bì]
+            examples:
+              - text: Ai thong thả, trâu nào ben được
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ben#Vietnamese

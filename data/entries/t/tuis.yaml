@@ -1,0 +1,36 @@
+spelling: túi
+etymologies:
+  - type: native
+    note:
+      en: From Proto-Vietic *suːlʔ (“dark, evening”).
+    pos:
+      - pos: adj
+        han_nom: [最]
+        senses:
+          - gloss:
+              en: dark
+            region: [central, south]
+            labels: [colloquial]
+            variant_of: tối
+            examples:
+              - text: Trong nhà túi quá, mở đèn lên coi con.
+                standard: Trong nhà tối quá, bật đèn lên xem con.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/t%C3%BAi#Vietnamese
+      - pos: noun
+        han_nom: [最]
+        senses:
+          - gloss:
+              en: late evening
+            region: [central, south]
+            labels: [colloquial]
+            variant_of: tối
+            examples:
+              - text: Túi nay ở nhà ăn cơm nghen, đừng đi đâu hết.
+                standard: Tối nay ở nhà ăn cơm nhé, đừng đi đâu cả.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/t%C3%BAi#Vietnamese

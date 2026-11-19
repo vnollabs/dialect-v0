@@ -1,0 +1,14 @@
+spelling: ly
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Cốc
+            region: [south]
+            standard: [cốc]
+            examples:
+              - text: Cho em một ly cà phê sữa đá nha anh.
+                standard: Cho em một cốc cà phê sữa đá nhé anh.
+                ai_draft: true
+            topics: [food-drink]
+            sources: [skill-dictionary-v1]

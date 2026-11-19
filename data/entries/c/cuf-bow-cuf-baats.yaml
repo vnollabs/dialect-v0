@@ -1,0 +1,16 @@
+spelling: cù bơ cù bất
+etymologies:
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: derelict; vagrant; homeless
+            region: [central, south]
+            labels: [colloquial]
+            examples:
+              - text: Hồi nhỏ mồ côi, nó sống cù bơ cù bất ngoài bến xe mấy năm trời.
+                standard: Hồi nhỏ mồ côi, nó sống lang thang vất vưởng ngoài bến xe mấy năm trời.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%C3%B9_b%C6%A1_c%C3%B9_b%E1%BA%A5t#Vietnamese

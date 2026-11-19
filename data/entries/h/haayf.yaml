@@ -1,0 +1,16 @@
+spelling: hầy
+etymologies:
+  - pos:
+      - pos: particle
+        senses:
+          - gloss:
+              en: Sentence-final question particle.
+            region: [central, south]
+            examples:
+              - text: Nói nghe hay hầy?
+                en: You really are just saying anything huh?
+              - text: Vậy chứ món đó cũng đâu mắc lắm đâu hầy.
+                en: When you think about it, that stuff is actually not that expensive, no?
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/h%E1%BA%A7y#Vietnamese

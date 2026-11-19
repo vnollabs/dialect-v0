@@ -1,0 +1,24 @@
+spelling: tư
+etymologies:
+  - type: sino
+    han: 四
+    note:
+      en: "Non-Sino-Vietnamese reading of Chinese 四 (“four”, SV: tứ)."
+    pos:
+      - pos: num
+        han_nom: [四, 𦊛]
+        senses:
+          - gloss:
+              en: third-born
+            qualifier: of a sibling
+            region: [south]
+            examples:
+              - text: chú tư
+                en: "\"fourth\" uncle (your grandparents' third child, who's male and who's younger than one of your parents)"
+              - text: anh tư
+                en: "\"fourth\" big brother (your parents' third child who's your older brother)"
+              - text: chị tư
+                en: "\"fourth\" big sister (your parents' third child who's your older sister, or a woman whose husband's his parents' third child)"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/t%C6%B0#Vietnamese

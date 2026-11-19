@@ -1,0 +1,17 @@
+spelling: hành chánh
+etymologies:
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: administrative
+            region: [south]
+            labels: [dated]
+            variant_of: hành chính
+            examples:
+              - text: Hồi đó ba tui làm ở phòng hành chánh của nhà thương tỉnh.
+                standard: Hồi đó bố tôi làm ở phòng hành chính của bệnh viện tỉnh.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/h%C3%A0nh_ch%C3%A1nh#Vietnamese

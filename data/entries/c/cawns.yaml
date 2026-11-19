@@ -1,0 +1,21 @@
+spelling: cắn
+etymologies:
+  - type: native
+    note:
+      en: From Proto-Vietic *kaɲʔ.
+    pos:
+      - pos: verb
+        han_nom: [哏, 艮, 𡄾]
+        senses:
+          - gloss:
+              en: to sting, to bite
+            qualifier: of certain insects
+            region: [central, south]
+            synonyms: [đốt]
+            examples:
+              - text: Ngồi ngoài hiên muỗi cắn quá trời, vô nhà đi con.
+                standard: Ngồi ngoài hiên muỗi đốt nhiều quá, vào nhà đi con.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%E1%BA%AFn#Vietnamese

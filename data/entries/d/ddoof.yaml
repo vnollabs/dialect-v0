@@ -1,0 +1,29 @@
+spelling: đồ
+etymologies:
+  - derived: [cầm đồ, đồ ăn, đồ ăn thức uống, đồ bơi, đồ chơi, đồ dùng, đồ đạc, đồ gốm, đồ hàng, đồ sứ, đồ uống, đồ vật]
+    pos:
+      - pos: noun
+        han_nom: [圖, 龱, 徒, 途, 塗, 𣘊]
+        senses:
+          - gloss:
+              en: the thing that is used for...; the whatsit that is used for...; -er
+            region: [south]
+            synonyms: [cái]
+            examples:
+              - text: cái/đồ đánh trứng
+                en: a whisk
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%E1%BB%93#Vietnamese
+      - pos: particle
+        senses:
+          - gloss:
+              en: or whatever, or something
+            region: [south]
+            labels: [informal]
+            examples:
+              - text: Lớn già đầu rồi! Ra ngoài tập thể dục đồ đi!
+                en: You're a grown-up now! Go outside and do exercise or something!
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%E1%BB%93#Vietnamese

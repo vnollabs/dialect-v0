@@ -1,0 +1,26 @@
+spelling: muỗng
+etymologies:
+  - type: loan
+    lang: tai
+    note:
+      en: From a Tai language. Compare Lao ບ່ວງ (būang).
+    pos:
+      - pos: noun
+        han_nom: [𢳠, 𨮒, 𨮵]
+        classifiers: [cái]
+        senses:
+          - gloss:
+              vi: Thìa
+              en: spoon
+            region: [south, central]
+            standard: [thìa]
+            synonyms: [thìa]
+            examples:
+              - text: Lấy giùm chị cái muỗng với đôi đũa trong rổ coi.
+                standard: Lấy giúp chị cái thìa với đôi đũa trong rổ xem nào.
+                ai_draft: true
+            topics: [food-drink]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/mu%E1%BB%97ng#Vietnamese

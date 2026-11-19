@@ -1,0 +1,17 @@
+spelling: bu
+etymologies:
+  - derived: [ruồi bu kiến đậu]
+    pos:
+      - pos: verb
+        han_nom: [咆, 蚫]
+        senses:
+          - gloss:
+              en: to assemble, to gather into one place
+            region: [central, south]
+            examples:
+              - text: Có xe bán kem ghé đầu hẻm, tụi nhỏ bu lại đông nghẹt.
+                standard: Có xe bán kem ghé đầu ngõ, bọn trẻ xúm lại đông nghịt.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/bu#Vietnamese

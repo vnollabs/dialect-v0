@@ -1,0 +1,31 @@
+spelling: bữa hổm
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Hôm trước, hôm nọ
+            region: [mekong-delta]
+            synonyms: [hôm hổm]
+            examples:
+              - text: Bữa hổm tui gặp ổng ngoài chợ, coi bộ ổng ốm đi nhiều.
+                standard: Hôm trước tôi gặp ông ấy ngoài chợ, trông ông ấy gầy đi nhiều.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]
+  - type: compound
+    note:
+      en: bữa + hổm.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: that day (in the past); the other day; the day before
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Cái áo bữa hổm con mua chật quá, đem đổi được hông má?
+                standard: Cái áo hôm nọ con mua chật quá, mang đi đổi được không mẹ?
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%E1%BB%AFa_h%E1%BB%95m#Vietnamese

@@ -1,0 +1,22 @@
+spelling: xa pô chê
+etymologies:
+  - type: loan
+    lang: fr
+    source_form: sapotier
+    note:
+      en: Borrowed from French sapotier.
+    pos:
+      - pos: noun
+        classifiers: [cây, quả, trái]
+        senses:
+          - gloss:
+              en: sapodilla (Manilkara zapota)
+            region: [south]
+            synonyms: [hồng xiêm]
+            examples:
+              - text: Trái xa pô chê chín mềm, ăn ngọt lịm như đường.
+                standard: Quả hồng xiêm chín mềm, ăn ngọt lịm như đường.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/xa_p%C3%B4_ch%C3%AA#Vietnamese

@@ -1,0 +1,16 @@
+spelling: dô diên
+etymologies:
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: pronunciation spelling of vô duyên, representing Southern Vietnam Vietnamese
+            region: [south]
+            labels: [pronunciation-spelling]
+            variant_of: vô duyên
+            examples:
+              - text: Dô diên! Ai mướn đâu mà làm!
+                en: Hey Prince Uncharming! No one asked for your help!
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/d%C3%B4_di%C3%AAn#Vietnamese

@@ -1,0 +1,18 @@
+spelling: lủm
+etymologies:
+  - derived: [lủm lẳm]
+    pos:
+      - pos: verb
+        han_nom: [𡄁]
+        senses:
+          - gloss:
+              en: to swallow whole
+            region: [central, south]
+            synonyms: [nuốt chửng]
+            examples:
+              - text: Con cá lóc đớp con nhái, lủm một cái là mất tiêu.
+                standard: Con cá quả đớp con nhái, nuốt chửng một cái là mất hút.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%E1%BB%A7m#Vietnamese

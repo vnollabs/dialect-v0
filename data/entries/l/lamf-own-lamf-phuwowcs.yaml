@@ -1,0 +1,18 @@
+spelling: làm ơn làm phước
+etymologies:
+  - type: compound
+    note:
+      en: làm ơn + làm phước.
+    pos:
+      - pos: adv
+        senses:
+          - gloss:
+              en: for God's sake; for the love of God
+            region: [south]
+            labels: [emphatic]
+            examples:
+              - text: Tụi bây làm ơn làm phước bớt giỡn cho tao ngủ cái coi.
+                en: For God's sake can you people stop with your antics so I can take a nap?
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%C3%A0m_%C6%A1n_l%C3%A0m_ph%C6%B0%E1%BB%9Bc#Vietnamese

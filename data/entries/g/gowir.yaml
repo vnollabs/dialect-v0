@@ -1,0 +1,16 @@
+spelling: gởi
+etymologies:
+  - pos:
+      - pos: verb
+        han_nom: [𢭮, 改]
+        senses:
+          - gloss:
+              en: to send; to send in
+            region: [south-central, south]
+            variant_of: gửi
+            examples:
+              - text: gởi đơn xin ân xá
+                en: to send in a plea of amnesty
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/g%E1%BB%9Fi#Vietnamese

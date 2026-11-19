@@ -1,0 +1,25 @@
+spelling: đía
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Lươn lẹo, không thật thà
+            region: [mekong-delta]
+            examples:
+              - text: Thấy cái mặt nó là biết đía rồi!
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to lie; to talk nonsense; to brag
+            qualifier: especially Mekong Delta
+            region: [mekong-delta]
+            examples:
+              - text: Mày đừng có đía nữa, ai mà tin mày câu được con cá bự cỡ đó.
+                standard: Mày đừng có nói phét nữa, ai mà tin mày câu được con cá to cỡ đó.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%C3%ADa#Vietnamese

@@ -1,0 +1,20 @@
+spelling: lặt
+etymologies:
+  - type: native
+    note:
+      en: |-
+        Attested as mlặt, lặt, nhạt, mnhạt in the Dictionarium Annamiticum Lusitanum et Latinum (1651).
+        From Proto-Vietic *m-ləc. Cognate with Arem alɪc.
+    pos:
+      - pos: verb
+        han_nom: [栗, 搮]
+        senses:
+          - gloss:
+              en: to pluck off
+            region: [central, south]
+            examples:
+              - text: lặt lá mai đón Tết
+                en: to pluck the leaves of the mai tree to prepare for the blossom during New Year
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%E1%BA%B7t#Vietnamese

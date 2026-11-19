@@ -1,0 +1,18 @@
+spelling: bánh bía
+etymologies:
+  - pos:
+      - pos: noun
+        classifiers: [chiếc]
+        senses:
+          - gloss:
+              en: alternative form of bánh pía
+            qualifier: Saigon
+            region: [south]
+            variant_of: bánh pía
+            examples:
+              - text: Ghé tiệm mua giùm tui hộp bánh bía nhân đậu xanh, chiều uống trà ăn chơi.
+                standard: Ghé tiệm mua giúp tôi hộp bánh pía nhân đậu xanh, chiều uống trà ăn chơi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%C3%A1nh_b%C3%ADa#Vietnamese

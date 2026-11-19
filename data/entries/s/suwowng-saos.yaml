@@ -1,0 +1,22 @@
+spelling: sương sáo
+etymologies:
+  - type: loan
+    lang: nan-tws
+    source_form: 仙草
+    note:
+      en: "From Teochew 仙草 (siêng1 cao2) (SV: tiên thảo)."
+    pos:
+      - pos: noun
+        classifiers: [cây]
+        senses:
+          - gloss:
+              en: grass jelly
+            region: [south]
+            synonyms: [thạch đen]
+            examples:
+              - text: Trưa nắng uống ly sương sáo đường thốt nốt là đã khát liền.
+                standard: Trưa nắng uống cốc thạch đen đường thốt nốt là đã khát ngay.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/s%C6%B0%C6%A1ng_s%C3%A1o#Vietnamese

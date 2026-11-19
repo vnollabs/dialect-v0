@@ -1,0 +1,24 @@
+spelling: trùn
+etymologies:
+  - type: native
+    note:
+      en: |-
+        From Proto-Vietic *p-luːn ~ *p-ruːn, from Proto-Mon-Khmer *(b)ruun.
+        A cognate, but not a descendant, of attested Northern Middle Vietnamese form blun, whence modern Northern form giun, now also the common written form. The unattested Central-Southern Middle Vietnamese form can be projected back as *blùn.
+        Due to the shift /n/ > /ŋ/ from Huế southwards, and the merger of <-un> and <-ung> that begins somewhere south of Quảng Nam, this word can be usually pronounced identically to trùng, which is the Sino-Vietnamese reading of 蟲 /虫 (“insect, bug”), creating a homophonous pair of false cognates.
+    derived: [trùn chỉ, trùn huyết, trùn quế]
+    pos:
+      - pos: noun
+        han_nom: [𧉙]
+        classifiers: [con]
+        senses:
+          - gloss:
+              en: worm (more specifically an earthworm)
+            region: [central, south]
+            examples:
+              - text: Ra sau vườn đào ít con trùn đi câu cá nghen.
+                standard: Ra sau vườn đào ít con giun đi câu cá nhé.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/tr%C3%B9n#Vietnamese

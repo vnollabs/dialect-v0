@@ -1,0 +1,30 @@
+spelling: thơm
+etymologies:
+  - note:
+      en: Probably derived from etymology 1.
+    pos:
+      - pos: noun
+        han_nom: [𦹳]
+        classifiers: [cây, trái, quả]
+        senses:
+          - gloss:
+              en: pineapple
+            region: [central, south]
+            synonyms: [gai, dứa]
+            examples:
+              - text: Nấu canh chua nhớ bỏ thêm mấy miếng thơm cho ngọt nước nghen.
+                standard: Nấu canh chua nhớ cho thêm mấy miếng dứa cho ngọt nước nhé.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/th%C6%A1m#Vietnamese
+          - gloss:
+              en: the “Cayenne” cultivar of the pineapple
+            region: [south]
+            examples:
+              - text: Ngoài chợ bán cả thơm lẫn khóm, má dặn mua thơm về ép nước.
+                standard: Ngoài chợ bán cả dứa Cayenne lẫn dứa Queen, mẹ dặn mua dứa Cayenne về ép nước.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/th%C6%A1m#Vietnamese

@@ -1,0 +1,16 @@
+spelling: muỗng canh
+etymologies:
+  - pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: tablespoon
+            region: [central, south]
+            synonyms: [thìa canh]
+            examples:
+              - text: Con bỏ thêm một muỗng canh đường vô nồi chè nha.
+                standard: Con cho thêm một thìa canh đường vào nồi chè nhé.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/mu%E1%BB%97ng_canh#Vietnamese

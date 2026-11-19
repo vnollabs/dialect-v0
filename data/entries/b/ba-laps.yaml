@@ -1,0 +1,21 @@
+spelling: ba láp
+etymologies:
+  - type: loan
+    lang: fr
+    source_form: palabre
+    note:
+      en: From French palabre (“idle talk”).
+    derived: [ba láp ba xàm]
+    pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: nonsensical; silly; rubbish; of the bollocks; bullshit
+            region: [central, south]
+            labels: [colloquial]
+            examples:
+              - text: nói toàn chuyện ba láp
+                en: (literally, “to talk entirely a nonsensical story”)
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ba_l%C3%A1p#Vietnamese

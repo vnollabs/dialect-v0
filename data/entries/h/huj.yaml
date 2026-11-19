@@ -1,0 +1,16 @@
+spelling: hụ
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to sound (usually of a siren)
+            region: [south]
+            synonyms: [hú]
+            examples:
+              - text: Xe cứu thương hụ còi chạy ngang chợ, ai cũng dạt qua một bên.
+                standard: Xe cứu thương hú còi chạy ngang chợ, ai cũng dạt sang một bên.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/h%E1%BB%A5#Vietnamese

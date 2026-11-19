@@ -1,0 +1,18 @@
+spelling: thẳng thớm
+etymologies:
+  - note:
+      en: -ơm reduplication of thẳng.
+    pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: straight
+            region: [central, south]
+            synonyms: [thẳng thắn]
+            examples:
+              - text: Trước mặt hai người là một vườn su non được trồng khá thẳng thớm, […]
+                en: In front of the two of them was an orchard of rubber saplings planted in more or less straight lines, […]
+                ref: "2001, Chu Lai, Cuộc đời dài lắm, NXB Văn học, page 197:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/th%E1%BA%B3ng_th%E1%BB%9Bm#Vietnamese

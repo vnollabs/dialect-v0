@@ -1,0 +1,20 @@
+spelling: chanh dây
+etymologies:
+  - type: compound
+    note:
+      en: chanh + dây.
+    pos:
+      - pos: noun
+        classifiers: [cây, quả, trái]
+        senses:
+          - gloss:
+              en: passion fruit
+            region: [south]
+            synonyms: [chanh leo]
+            examples:
+              - text: Trưa nóng làm ly nước chanh dây đá, uống mát rượi.
+                standard: Trưa nóng làm cốc nước chanh leo đá, uống mát lạnh.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/chanh_d%C3%A2y#Vietnamese

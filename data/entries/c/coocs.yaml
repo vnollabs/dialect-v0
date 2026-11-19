@@ -1,0 +1,19 @@
+spelling: cốc
+etymologies:
+  - note:
+      en: Glossed in Từ điển cây thuốc Việt Nam [Vietnamese Dictionary of Medicinal Herbs] by Võ Văn Chi (2019).
+    pos:
+      - pos: noun
+        classifiers: [cây]
+        senses:
+          - gloss:
+              en: Irvingia malayana
+            region: [south-central]
+            synonyms: [cầy, kơ nia]
+            examples:
+              - text: Ngoài rẫy có cây cốc cổ thụ, trưa trưa mấy đứa nhỏ ra gốc nằm hóng mát.
+                standard: Ngoài nương có cây kơ nia cổ thụ, trưa trưa mấy đứa trẻ ra gốc nằm hóng mát.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%E1%BB%91c#Vietnamese

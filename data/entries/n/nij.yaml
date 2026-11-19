@@ -1,0 +1,26 @@
+spelling: nị
+etymologies:
+  - type: loan
+    lang: yue
+    source_form: 你
+    note:
+      en: "From Cantonese 你 (nei⁵) (SV: nhĩ). Doublet of ní."
+    pos:
+      - pos: pron
+        senses:
+          - gloss:
+              en: thou, you (second-person pronoun)
+            qualifier: in mimicking stereotypical "Chinese" speech
+            region: [south]
+            labels: [humorous]
+            examples:
+              - text: |-
+                  Mã Sinh nói, giọng lơ lớ tiếng Việt:
+                  "Ngộ xin lỗi nị, vất vả quá chừng."
+                en: |-
+                  Mã Sinh say, voice are lisp Vietnamese:
+                  "I apologize to you, you have been hard."
+                ref: "1999, Bùi Anh Tấn, chapter 2, in Một thế giới không có đàn bà [A Womenless World]:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/n%E1%BB%8B#Vietnamese

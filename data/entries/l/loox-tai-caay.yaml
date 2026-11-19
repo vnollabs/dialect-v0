@@ -1,0 +1,19 @@
+spelling: lỗ tai cây
+etymologies:
+  - type: compound
+    note:
+      en: lỗ tai (“ear canal”) + cây (“tree”), i.e. "tree ears", which of course do not exist, as opposed to normal functional human ears.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: ears merely for show
+            region: [south]
+            labels: [derogatory]
+            synonyms: [lỗ tai trâu]
+            examples:
+              - text: Mày lỗ tai cây hay gì mà kêu ba bốn tiếng chưa trả lời?
+                en: Are your ears decorations? How come you showed no acknowledgement although I've called for you several times already?
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%E1%BB%97_tai_c%C3%A2y#Vietnamese

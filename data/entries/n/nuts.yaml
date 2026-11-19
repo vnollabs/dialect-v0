@@ -1,0 +1,34 @@
+spelling: nút
+etymologies:
+  - type: native
+    note:
+      en: From Proto-Vietic *t-n-uːt (“bung”), a nasal infixed form of *tuːt (whence đút).
+    pos:
+      - pos: noun
+        han_nom: [𨨷, 𠸂]
+        classifiers: [cái]
+        senses:
+          - gloss:
+              en: button
+            qualifier: of a garment
+            region: [south]
+            examples:
+              - text: Áo sơ mi đứt một cái nút, con đưa má kết lại cho.
+                standard: Áo sơ mi đứt một cái cúc, con đưa mẹ đơm lại cho.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/n%C3%BAt#Vietnamese
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to suck (on)
+            region: [south]
+            synonyms: [mút]
+            examples:
+              - text: ong nút nhụy hoa
+                en: The bee sucks on the flower's pistil
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/n%C3%BAt#Vietnamese

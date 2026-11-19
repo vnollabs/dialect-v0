@@ -1,0 +1,23 @@
+spelling: beo
+etymologies:
+  - type: loan
+    lang: ltc
+    note:
+      en: From Late Proto-Vietic *pɛːw (“leopard”), from Middle Chinese 豹 (MC paewH, “leopard”), probably through a Tai language. Doublet of báo.
+    derived: [cọp beo, hùm beo]
+    pos:
+      - pos: noun
+        han_nom: [豹, 𤣄, 𧴋]
+        classifiers: [con]
+        senses:
+          - gloss:
+              en: leopard, jaguar or cheetah
+            region: [central, south]
+            synonyms: [báo]
+            examples:
+              - text: Hồi xưa ông ngoại kể trong rừng có cọp có beo, đi đêm phải cầm đuốc.
+                standard: Hồi xưa ông ngoại kể trong rừng có hổ có báo, đi đêm phải cầm đuốc.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/beo#Vietnamese

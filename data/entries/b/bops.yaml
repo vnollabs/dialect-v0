@@ -1,0 +1,19 @@
+spelling: bóp
+etymologies:
+  - note:
+      en: Compare Khmer កាបូប (kaaboup).
+    pos:
+      - pos: noun
+        classifiers: [cái, chiếc]
+        senses:
+          - gloss:
+              en: wallet (containing money, documents, etc.)
+            region: [south]
+            synonyms: [ví]
+            examples:
+              - text: Trời ơi, tui để quên cái bóp ở quán cà phê rồi!
+                standard: Trời ơi, tôi để quên cái ví ở quán cà phê rồi!
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%C3%B3p#Vietnamese

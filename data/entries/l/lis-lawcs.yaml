@@ -1,0 +1,15 @@
+spelling: lí lắc
+etymologies:
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: alive; playful
+            region: [south]
+            examples:
+              - text: Con nhỏ út nhà bả lí lắc lắm, ai tới chơi cũng bị nó chọc cười.
+                standard: Con bé út nhà bà ấy tinh nghịch lắm, ai đến chơi cũng bị nó trêu cười.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%C3%AD_l%E1%BA%AFc#Vietnamese

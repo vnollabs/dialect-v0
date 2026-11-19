@@ -1,0 +1,30 @@
+spelling: ghiền
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Nghiện, mê
+            region: [south]
+            examples:
+              - text: Coi phim cho đỡ ghiền
+            topics: [actions]
+            sources: [skill-dictionary-v1]
+  - type: sino
+    han: 健
+    note:
+      en: "Perhaps a non-Sino-Vietnamese reading of Chinese 健 (SV: kiện)."
+    pos:
+      - pos: verb
+        han_nom: [㗔, 堅]
+        senses:
+          - gloss:
+              en: to be addicted to
+            region: [central, south]
+            synonyms: [nghiền, nghiện]
+            examples:
+              - text: Ổng ghiền cà phê, sáng nào hổng uống là nhức đầu.
+                standard: Ông ấy nghiện cà phê, sáng nào không uống là đau đầu.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ghi%E1%BB%81n#Vietnamese

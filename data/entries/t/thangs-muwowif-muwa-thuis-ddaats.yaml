@@ -1,0 +1,13 @@
+spelling: tháng mười mưa thúi đất
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Mưa dầm liên miên
+            region: [south]
+            examples:
+              - text: Đúng là tháng mười mưa thúi đất, cả tuần nay hổng phơi được đồ.
+                standard: Đúng là tháng mười mưa thối đất, cả tuần nay không phơi được quần áo.
+                ai_draft: true
+            topics: [idioms]
+            sources: [skill-dictionary-v1]

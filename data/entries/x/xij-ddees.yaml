@@ -1,0 +1,14 @@
+spelling: xị đế
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Đơn vị đong rượu gạo của người Nam Bộ, 1 xị khoảng 250ml
+            region: [mekong-delta]
+            synonyms: [xị]
+            examples:
+              - text: Chiều mát, mấy ông ngồi nhâm nhi xị đế với dĩa khô mực nướng.
+                standard: Chiều mát, mấy ông ngồi nhâm nhi chai rượu trắng nhỏ với đĩa mực khô nướng.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

@@ -1,0 +1,34 @@
+spelling: cúp
+etymologies:
+  - type: loan
+    lang: fr
+    source_form: couper
+    note:
+      en: From French couper (“to cut”).
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to cease to provide (electricity or water supply)
+            region: [south]
+            labels: [colloquial]
+            synonyms: [cắt]
+            examples:
+              - text: Bữa nay cúp điện từ sáng tới chiều, nóng muốn xỉu.
+                standard: Hôm nay cắt điện từ sáng đến chiều, nóng muốn ngất.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%C3%BAp#Vietnamese
+          - gloss:
+              en: to switch off (a breaker or fuse)
+            region: [south]
+            labels: [colloquial]
+            synonyms: [cắt, ngắt]
+            examples:
+              - text: Trước khi sửa ổ điện nhớ cúp cầu dao cho chắc ăn nghen.
+                standard: Trước khi sửa ổ điện nhớ ngắt cầu dao cho chắc chắn nhé.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%C3%BAp#Vietnamese

@@ -1,0 +1,28 @@
+spelling: vụt
+etymologies:
+  - note:
+      en: Compare vọt as well as the pair phụt, phọt.
+    pos:
+      - pos: verb
+        han_nom: [挬, 桲, 樾, 𨁝, 𨅗]
+        senses:
+          - gloss:
+              en: to toss; to throw (forcefully and far)
+            region: [central, south]
+            examples:
+              - text: Nó vụt cục đá bay qua tuốt bên kia mương.
+                standard: Nó ném mạnh hòn đá bay sang tận bên kia mương.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/v%E1%BB%A5t#Vietnamese
+          - gloss:
+              en: to throw away; to discard
+            region: [central, south]
+            examples:
+              - text: Trái xoài hư rồi, vụt bỏ đi con.
+                standard: Quả xoài hỏng rồi, vứt bỏ đi con.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/v%E1%BB%A5t#Vietnamese

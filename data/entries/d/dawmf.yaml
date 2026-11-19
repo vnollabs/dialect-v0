@@ -1,0 +1,19 @@
+spelling: dằm
+etymologies:
+  - pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: place (for sitting, lying down, placing something, etc.); seat
+            region: [central, south]
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/d%E1%BA%B1m#Vietnamese
+            note: "No example yet: the AI drafter skipped this sense (unsure how this 'place; seat' sense is used in real speech; no trustworthy usage to model). Check that the sense is real before adding one."
+          - gloss:
+              en: mark; sign; trace
+            region: [south]
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/d%E1%BA%B1m#Vietnamese
+            note: "No example yet: the AI drafter skipped this sense (unsure how this 'mark; sign; trace' sense is used in real speech). Check that the sense is real before adding one."

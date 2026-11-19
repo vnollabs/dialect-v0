@@ -1,0 +1,14 @@
+spelling: bí đỏ
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Bí ngô
+            region: [south]
+            standard: [bí ngô]
+            examples:
+              - text: Má nấu nồi canh bí đỏ hầm xương, ngọt lịm.
+                standard: Mẹ nấu nồi canh bí ngô hầm xương, ngọt lịm.
+                ai_draft: true
+            topics: [food-drink]
+            sources: [skill-dictionary-v1]

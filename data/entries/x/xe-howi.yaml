@@ -1,0 +1,25 @@
+spelling: xe hơi
+etymologies:
+  - type: compound
+    note:
+      en: Compound of xe (“wheeled vehicle”) + hơi (“steam; "gas" (smell, heat, etc.)”). Compare Chinese 汽車 /汽车 (khí xa, literally “gas wheeled vehicle”).
+    derived: [nhà lầu xe hơi]
+    pos:
+      - pos: noun
+        classifiers: [chiếc, cái]
+        senses:
+          - gloss:
+              vi: Ô tô
+              en: car
+            region: [south]
+            standard: [ô tô]
+            synonyms: [ô tô]
+            examples:
+              - text: Đám cưới thằng Tâm mướn xe hơi đi rước dâu.
+                standard: Đám cưới thằng Tâm thuê ô tô đi đón dâu.
+                ai_draft: true
+            topics: [transport]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/xe_h%C6%A1i#Vietnamese

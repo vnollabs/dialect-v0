@@ -1,0 +1,31 @@
+spelling: thẩy
+etymologies:
+  - pos:
+      - pos: verb
+        han_nom: [汰, 貸]
+        senses:
+          - gloss:
+              en: to toss (to throw with an initial upward direction)
+            region: [south]
+            examples:
+              - text: Nó thẩy đồng xu lên trời coi sấp hay ngửa.
+                standard: Nó tung đồng xu lên trời xem sấp hay ngửa.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/th%E1%BA%A9y#Vietnamese
+  - note:
+      en: Word formation with distal denotation by adding hỏi tone to the root thầy in Southern Vietnamese and some topolects of Thanh Hoá.
+    pos:
+      - pos: pron
+        senses:
+          - gloss:
+              en: Equivalent to thầy ấy (“he; him”).
+            region: [south]
+            examples:
+              - text: Thầy giáo dặn mai nộp bài, thẩy nói đứa nào trễ là trừ điểm.
+                standard: Thầy giáo dặn mai nộp bài, thầy ấy nói đứa nào muộn là trừ điểm.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/th%E1%BA%A9y#Vietnamese

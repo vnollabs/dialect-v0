@@ -1,0 +1,21 @@
+spelling: bệnh
+etymologies:
+  - type: sino
+    han: 病
+    note:
+      en: Sino-Vietnamese word from 病.
+    derived: [bá bệnh, bạo bệnh, bệnh án, bệnh dịch, bệnh hoạn, bệnh lí học, bệnh lý học, bệnh lí, bệnh lý, bệnh nhân, bệnh nhi, bệnh sử, bệnh tay chân miệng, bệnh tật, bệnh than, bệnh tình, bệnh viện, bệnh xá, chữa bệnh, chứng bệnh, dịch bệnh, khám bệnh, lâm bệnh, phát bệnh, sinh bệnh, tâm bệnh học, tật bệnh, trọng bệnh]
+    pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: sick; ill
+            region: [central, south]
+            synonyms: [ốm]
+            examples:
+              - text: Bữa nay thằng nhỏ bệnh, nên tui xin nghỉ ở nhà coi nó.
+                standard: Hôm nay thằng bé ốm, nên tôi xin nghỉ ở nhà trông nó.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%E1%BB%87nh#Vietnamese

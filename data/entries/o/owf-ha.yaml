@@ -1,0 +1,14 @@
+spelling: ờ ha
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Ừ nhỉ, à phải rồi; chợt nhớ ra hay chợt thấy người kia nói đúng
+            region: [south]
+            synonyms: [ờ há]
+            examples:
+              - text: Ờ ha, bữa nay thứ bảy, tụi nhỏ đâu có đi học.
+                standard: Ừ nhỉ, hôm nay thứ bảy, bọn trẻ đâu có đi học.
+                ai_draft: true
+            topics: [discourse-markers]
+            sources: [skill-dictionary-v1]

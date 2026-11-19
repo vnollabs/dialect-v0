@@ -1,0 +1,29 @@
+spelling: bịch
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Túi
+            region: [south]
+            standard: [túi]
+            examples:
+              - text: Bà bán cho con hai bịch nước mía, bỏ đá nhiều nha.
+                standard: Bà bán cho con hai túi nước mía, cho đá nhiều nhé.
+                ai_draft: true
+            topics: [food-drink]
+            sources: [skill-dictionary-v1]
+  - pos:
+      - pos: noun
+        han_nom: [甓]
+        classifiers: [cái]
+        senses:
+          - gloss:
+              en: pack; packet
+            region: [south]
+            examples:
+              - text: Ghé tiệm tạp hóa mua giùm má hai bịch mì gói với một bịch đường.
+                standard: Ghé cửa hàng tạp hóa mua giúp mẹ hai gói mì tôm với một gói đường.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%E1%BB%8Bch#Vietnamese

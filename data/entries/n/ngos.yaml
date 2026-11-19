@@ -1,0 +1,29 @@
+spelling: ngó
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Trông
+            region: [south]
+            standard: [trông]
+            examples:
+              - text: Con ngó chừng nồi cơm giùm má, má ra sau hè chút xíu.
+                standard: Con trông chừng nồi cơm giúp mẹ, mẹ ra sau nhà một chút.
+                ai_draft: true
+            topics: [actions]
+            sources: [skill-dictionary-v1]
+  - pos:
+      - pos: verb
+        han_nom: [午, 𥘪, 𥄭]
+        senses:
+          - gloss:
+              en: to see, to look at
+            region: [central, south]
+            labels: [colloquial]
+            examples:
+              - text: Ngó lên trời coi, mây đen kéo tới rồi kìa.
+                standard: Nhìn lên trời xem, mây đen kéo đến rồi kìa.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ng%C3%B3#Vietnamese

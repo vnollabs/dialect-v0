@@ -1,0 +1,22 @@
+spelling: cà lem
+etymologies:
+  - type: loan
+    lang: fr
+    source_form: crème
+    note:
+      en: Borrowed from French crème. Doublet of cà rem and kem.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: synonym of cà rem
+            region: [south-central, south]
+            labels: [dated]
+            synonyms: [kem, cà rem]
+            examples:
+              - text: Hồi nhỏ nghe tiếng chuông xe cà lem là tụi tui chạy ùa ra đầu hẻm.
+                standard: Hồi nhỏ nghe tiếng chuông xe kem là bọn tôi chạy ùa ra đầu ngõ.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%C3%A0_lem#Vietnamese

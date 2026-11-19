@@ -1,0 +1,18 @@
+spelling: khọn
+etymologies:
+  - pos:
+      - pos: noun
+        han_nom: [㹠, 𤞧]
+        classifiers: [con]
+        senses:
+          - gloss:
+              en: monkey
+            region: [south-central]
+            labels: [obsolete]
+            examples:
+              - text: Ông nội kể hồi xưa trên hòn núi sau làng có bầy khọn, chiều chiều xuống phá bắp.
+                standard: Ông nội kể hồi xưa trên ngọn núi sau làng có bầy khỉ, chiều chiều xuống phá ngô.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/kh%E1%BB%8Dn#Vietnamese

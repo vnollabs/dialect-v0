@@ -1,0 +1,31 @@
+spelling: ẵm
+etymologies:
+  - note:
+      en: Compare Zhuang aemq.
+    derived: [ẵm bồng]
+    pos:
+      - pos: verb
+        han_nom: [掩, 𱠞, 撼, 𢶽]
+        senses:
+          - gloss:
+              en: to hold an infant
+            region: [south]
+            synonyms: [bế]
+            examples:
+              - text: Chị ẵm thằng nhỏ giùm em chút, em đi lấy bình sữa.
+                standard: Chị bế thằng bé giúp em chút, em đi lấy bình sữa.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%E1%BA%B5m#Vietnamese
+          - gloss:
+              en: to hold something gently in one's arm
+            region: [south]
+            synonyms: [bồng]
+            examples:
+              - text: Bé Út ẵm con mèo con trong tay, đi khoe khắp xóm.
+                standard: Bé Út bế con mèo con trong tay, đi khoe khắp xóm.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%E1%BA%B5m#Vietnamese

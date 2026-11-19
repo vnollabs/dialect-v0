@@ -1,0 +1,19 @@
+spelling: hổm
+etymologies:
+  - note:
+      en: Word formation with distal denotation by adding hỏi tone to the root hôm (“day”) in Southern Vietnamese and some topolects of Thanh Hoá.
+    derived: [bữa hổm, hổm giờ, hổm rày]
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: that day
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Bữa hổm mày nói sẽ trả tiền, giờ sao im re vậy?
+                standard: Hôm đó mày nói sẽ trả tiền, giờ sao im thin thít vậy?
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/h%E1%BB%95m#Vietnamese

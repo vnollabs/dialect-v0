@@ -1,0 +1,21 @@
+spelling: mèng ơi
+etymologies:
+  - type: loan
+    lang: km
+    source_form: មេឃ
+    note:
+      en: Lý Trung Hiếu (2019) traces element mèng to Khmer មេឃ (meik, “sky”).
+    pos:
+      - pos: intj
+        senses:
+          - gloss:
+              en: gosh, golly, golly gee, gee whiz
+            region: [south]
+            synonyms: [trời ơi, trời đất ơi, mèng đéc ơi, chèng đéc ơi, chèng ơi]
+            examples:
+              - text: Mèng ơi, đồ ăn quán này ngon gì đâu!
+                standard: Trời ơi, đồ ăn quán này ngon quá!
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%C3%A8ng_%C6%A1i#Vietnamese

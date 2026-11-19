@@ -1,0 +1,13 @@
+spelling: chén kiểu
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Chén, dĩa bằng sứ cổ có viền hoa văn xanh đỏ, thường thấy trong nhà Nam Bộ xưa
+            region: [south]
+            examples:
+              - text: Bà ngoại còn giữ bộ chén kiểu từ hồi xưa, chỉ đem ra dùng ngày giỗ.
+                standard: Bà ngoại còn giữ bộ bát đĩa sứ hoa văn từ hồi xưa, chỉ mang ra dùng ngày giỗ.
+                ai_draft: true
+            topics: [household]
+            sources: [skill-dictionary-v1]

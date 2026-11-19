@@ -1,0 +1,30 @@
+spelling: cổ
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Cô ấy
+            region: [south]
+            standard: [cô ấy]
+            examples:
+              - text: Cổ dạy con tui hồi lớp một, hiền lắm.
+                standard: Cô ấy dạy con tôi hồi lớp một, hiền lắm.
+                ai_draft: true
+            topics: [family-address]
+            sources: [skill-dictionary-v1]
+  - note:
+      en: Word formation with distal denotation by adding hỏi tone to the root cô in Southern Vietnamese and some topolects of Thanh Hoá.
+    pos:
+      - pos: pron
+        senses:
+          - gloss:
+              en: she/her, that young adult woman
+            region: [central, south]
+            labels: [colloquial]
+            examples:
+              - text: Con Lan đó hả? Cổ mới lấy chồng hồi tháng rồi.
+                standard: Lan đó à? Cô ấy mới lấy chồng hồi tháng trước.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%E1%BB%95#Vietnamese

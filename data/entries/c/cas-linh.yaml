@@ -1,0 +1,11 @@
+spelling: cá linh
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Loại cá nhỏ đặc trưng mùa nước nổi miền Tây
+            region: [mekong-delta]
+            examples:
+              - text: Canh chua bông điên điển cá linh
+            topics: [mekong-food]
+            sources: [skill-dictionary-v1]

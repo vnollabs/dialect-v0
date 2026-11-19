@@ -1,0 +1,18 @@
+spelling: bàu
+etymologies:
+  - derived: [Bàu Sấu]
+    pos:
+      - pos: noun
+        han_nom: [泡]
+        classifiers: [cái]
+        senses:
+          - gloss:
+              en: pond, pool
+            region: [central, south]
+            examples:
+              - text: Hồi nhỏ chiều nào tụi tui cũng ra bàu sau xóm tắm, bắt cá.
+                standard: Hồi nhỏ chiều nào bọn tôi cũng ra ao sau xóm tắm, bắt cá.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%C3%A0u#Vietnamese

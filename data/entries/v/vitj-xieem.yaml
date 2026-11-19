@@ -1,0 +1,31 @@
+spelling: vịt xiêm
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Ngan
+            region: [mekong-delta]
+            examples:
+              - text: Đám giỗ ông nội, ba làm con vịt xiêm nấu chao.
+                standard: Đám giỗ ông nội, bố làm con ngan nấu chao.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]
+  - type: compound
+    note:
+      en: vịt (“duck”) + Xiêm (“Siamese”).
+    pos:
+      - pos: noun
+        classifiers: [con]
+        senses:
+          - gloss:
+              en: Muscovy duck
+            region: [south]
+            synonyms: [ngan]
+            examples:
+              - text: Bầy vịt xiêm sau nhà mới nở thêm mấy con.
+                standard: Đàn ngan sau nhà mới nở thêm mấy con.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/v%E1%BB%8Bt_xi%C3%AAm#Vietnamese

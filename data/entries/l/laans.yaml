@@ -1,0 +1,16 @@
+spelling: lấn
+etymologies:
+  - pos:
+      - pos: verb
+        han_nom: [𢭹, 𪡍, 吝, 粦, 遴, 論]
+        senses:
+          - gloss:
+              en: to jostle; to push in order to squeeze in
+            region: [south]
+            examples:
+              - text: Người ta xếp hàng hết rồi, chú đừng có lấn lên trước vậy.
+                standard: Mọi người xếp hàng cả rồi, chú đừng có chen lên trước như vậy.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%E1%BA%A5n#Vietnamese

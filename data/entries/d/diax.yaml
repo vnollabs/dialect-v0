@@ -1,0 +1,44 @@
+spelling: dĩa
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Đĩa
+            region: [south]
+            standard: [đĩa]
+            examples:
+              - text: Con lấy cái dĩa ra đựng cá chiên giùm má.
+                standard: Con lấy cái đĩa ra đựng cá rán giúp mẹ.
+                ai_draft: true
+            topics: [food-drink]
+            sources: [skill-dictionary-v1]
+  - type: sino
+    han: 碟
+    note:
+      en: "Maybe non-Sino-Vietnamese reading of Chinese 碟 (“plate; dish; saucer; disc”, SV: điệp). If so, a late loan considering that the Chinese word is not used before Yuan dynasty [1271 - 1398]; compare Hokkien 碟 (ti̍h) & Teochew 碟 (dih⁸). Doublet of đĩa."
+    pos:
+      - pos: noun
+        han_nom: [𥐦]
+        classifiers: [cái]
+        senses:
+          - gloss:
+              en: a plate, a dish, a saucer, etc.
+            region: [south]
+            examples:
+              - text: Cho con một dĩa cơm tấm sườn bì chả nha cô.
+                standard: Cho con một đĩa cơm tấm sườn bì chả nhé cô.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/d%C4%A9a#Vietnamese
+          - gloss:
+              en: a disc, a disk, etc.
+            region: [south]
+            labels: [dated]
+            examples:
+              - text: Hồi đó ông nội có cả chồng dĩa hát cải lương, tối nào cũng mở nghe.
+                standard: Hồi đó ông nội có cả chồng đĩa hát cải lương, tối nào cũng bật nghe.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/d%C4%A9a#Vietnamese

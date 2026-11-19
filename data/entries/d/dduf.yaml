@@ -1,0 +1,17 @@
+spelling: đù
+etymologies:
+  - pos:
+      - pos: intj
+        senses:
+          - gloss:
+              en: damn, dang, dayum
+            qualifier: slightly vulgar
+            region: [south-central, south]
+            labels: [colloquial]
+            examples:
+              - text: Đù, chiếc xe mới của mày ngầu dữ vậy!
+                standard: Trời, chiếc xe mới của mày ngầu thế!
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%C3%B9#Vietnamese

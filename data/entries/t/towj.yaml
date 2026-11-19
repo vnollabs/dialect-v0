@@ -1,0 +1,19 @@
+spelling: tợ
+etymologies:
+  - type: sino
+    han: 似
+    note:
+      en: "Non-Sino-Vietnamese reading of Chinese 似 (“to resemble”, SV: tự). Compare tựa."
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to be like; to be similar to
+            region: [central, south]
+            examples:
+              - text: Uống có hai ly mà mặt ảnh đỏ tợ trái ớt chín.
+                standard: Uống có hai cốc mà mặt anh ấy đỏ như quả ớt chín.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/t%E1%BB%A3#Vietnamese

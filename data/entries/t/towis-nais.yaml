@@ -1,0 +1,14 @@
+spelling: tới nái
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Vui chơi hoặc làm việc hết mình, quá mức
+            region: [south]
+            synonyms: [tới bến]
+            examples:
+              - text: Mấy bữa Tết tụi nhỏ chơi tới nái, hổng đụng tới sách vở.
+                standard: Mấy hôm Tết bọn trẻ chơi hết mình, không đụng đến sách vở.
+                ai_draft: true
+            topics: [idioms]
+            sources: [skill-dictionary-v1]

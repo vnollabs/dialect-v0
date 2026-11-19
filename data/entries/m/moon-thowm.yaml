@@ -1,0 +1,15 @@
+spelling: môn thơm
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Dọc mùng
+            region: [south]
+            standard: [dọc mùng]
+            synonyms: [bạc hà]
+            examples:
+              - text: Nấu canh chua phải có môn thơm mới ngon.
+                standard: Nấu canh chua phải có dọc mùng mới ngon.
+                ai_draft: true
+            topics: [food-drink]
+            sources: [skill-dictionary-v1]

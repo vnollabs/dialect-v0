@@ -1,0 +1,19 @@
+spelling: rượu đế
+etymologies:
+  - type: compound
+    note:
+      en: rượu (“wine, liquor, drink, alcohol”) + đế (“kans grass”). Originated during the early period of French colonization of Vietnam, when the protectorate government allowed only one type of alcoholic beverage for consumption. Dissatisfied with that condition, the Vietnamese resorted to distilling their own liquor and hid it behind tall grass called cỏ tranh (cogon grass), or another kind of grass called đế (kans grass).
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: a distilled liquor from Vietnam, made of either glutinous or non-glutinous rice
+            region: [south]
+            synonyms: [rượu trắng, rượu lậu, rượu ngang, rượu gạo, rượu chưng, rượu cuốc lủi, rượu quốc lủi]
+            examples:
+              - text: Mấy ổng ngồi nhậu rượu đế với khô cá lóc tới tối.
+                standard: Mấy ông ấy ngồi uống rượu trắng với khô cá quả đến tối.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/r%C6%B0%E1%BB%A3u_%C4%91%E1%BA%BF#Vietnamese

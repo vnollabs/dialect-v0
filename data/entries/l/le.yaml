@@ -1,0 +1,16 @@
+spelling: le
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: (“to loll (tongue); to put out”)
+            region: [central, south]
+            variant_of: lè
+            examples:
+              - text: Con chó chạy ngoài nắng về, nằm le lưỡi thở hồng hộc.
+                standard: Con chó chạy ngoài nắng về, nằm lè lưỡi thở hồng hộc.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/le#Vietnamese

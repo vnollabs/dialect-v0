@@ -1,0 +1,17 @@
+spelling: ba rọi
+etymologies:
+  - pos:
+      - pos: noun
+        han_nom: [巴𦠵]
+        senses:
+          - gloss:
+              en: pork belly
+            region: [south]
+            synonyms: [ba chỉ, nây]
+            examples:
+              - text: Ra chợ mua giùm má nửa ký thịt ba rọi về kho trứng nghen.
+                standard: Ra chợ mua giúp mẹ nửa cân thịt ba chỉ về kho trứng nhé.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ba_r%E1%BB%8Di#Vietnamese

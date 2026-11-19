@@ -1,0 +1,45 @@
+spelling: dzô
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: alternative spelling of vô
+            qualifier: phonetic spelling
+            region: [south]
+            variant_of: vô
+            examples:
+              - text: Trời mưa lớn quá, dzô nhà núp mưa đi mấy đứa.
+                standard: Trời mưa to quá, vào nhà trú mưa đi mấy đứa.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/dz%C3%B4#Vietnamese
+      - pos: particle
+        senses:
+          - gloss:
+              en: alternative spelling of vô
+            qualifier: phonetic spelling
+            region: [south]
+            variant_of: vô
+            examples:
+              - text: Ráng lên, đạp mạnh dzô, sắp tới đích rồi!
+                standard: Cố lên, đạp mạnh vào, sắp tới đích rồi!
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/dz%C3%B4#Vietnamese
+      - pos: intj
+        senses:
+          - gloss:
+              en: alternative spelling of vô
+            qualifier: phonetic spelling
+            region: [south]
+            variant_of: vô
+            examples:
+              - text: Nào anh em, nâng ly lên, một, hai, ba, dzô!
+                standard: Nào anh em, nâng cốc lên, một, hai, ba, vô!
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/dz%C3%B4#Vietnamese

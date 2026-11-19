@@ -1,0 +1,23 @@
+spelling: hớt
+etymologies:
+  - pos:
+      - pos: verb
+        han_nom: [㓭, 搳]
+        senses:
+          - gloss:
+              en: to trim; to prune; to cut
+            region: [central, south]
+            examples:
+              - text: Mai con lấy kéo hớt bớt mấy nhánh bông giấy giùm ba nghen.
+                standard: Mai con lấy kéo tỉa bớt mấy cành hoa giấy giúp bố nhé.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/h%E1%BB%9Bt#Vietnamese
+          - gloss:
+              en: to cause (something) to be cut, broken or shortened
+            region: [south]
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/h%E1%BB%9Bt#Vietnamese
+            note: "No example yet: the AI drafter skipped this sense (unclear how this sense differs from 'to trim; to cut' in real usage; no trustworthy example). Check that the sense is real before adding one."

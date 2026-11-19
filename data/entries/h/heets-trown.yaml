@@ -1,0 +1,19 @@
+spelling: hết trơn
+etymologies:
+  - type: compound
+    note:
+      en: hết + trơn.
+    derived: [hết trơn hết trọi]
+    pos:
+      - pos: adv
+        senses:
+          - gloss:
+              en: all; completely
+            region: [south]
+            examples:
+              - text: Bánh má làm tụi nhỏ ăn hết trơn, hổng chừa một cái.
+                standard: Bánh mẹ làm bọn trẻ ăn hết sạch, không chừa một cái.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/h%E1%BA%BFt_tr%C6%A1n#Vietnamese

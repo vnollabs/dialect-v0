@@ -1,0 +1,17 @@
+spelling: bự
+etymologies:
+  - pos:
+      - pos: adj
+        han_nom: [被]
+        senses:
+          - gloss:
+              en: big (in size or importance); great; influential
+            region: [central, south]
+            synonyms: [to, lớn]
+            examples:
+              - text: Trái mít này bự quá, một mình tui ôm hổng nổi.
+                standard: Quả mít này to quá, một mình tôi ôm không nổi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%E1%BB%B1#Vietnamese

@@ -1,0 +1,19 @@
+spelling: o mèo
+etymologies:
+  - type: compound
+    note:
+      en: o + mèo. The second element is probably a calque of Chinese 媌 (miáo).
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to flirt (with girls)
+            region: [south]
+            labels: [rare]
+            examples:
+              - text: |-
+                  Ba má bày đặt cho anh
+                  Áo bà ba may hai cái túi đựng dầu chanh o mèo.
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/o_m%C3%A8o#Vietnamese

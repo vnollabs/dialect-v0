@@ -1,0 +1,15 @@
+spelling: phượt
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to pass quickly; to rush past; to speed past
+            region: [south]
+            examples:
+              - text: Chiếc xe máy phượt qua cái vèo, hổng kịp thấy biển số.
+                standard: Chiếc xe máy vụt qua cái vèo, không kịp thấy biển số.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ph%C6%B0%E1%BB%A3t#Vietnamese

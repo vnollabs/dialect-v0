@@ -1,0 +1,18 @@
+spelling: mủ
+etymologies:
+  - type: native
+    note:
+      en: From Proto-Vietic *ɓuh, from Proto-Austroasiatic *ɓuːh (“to bubble, to froth”). Cognate with Thavung บุฮ, Khmer ពុះ (puh, “to boil”), Semai boh (“froth, foam”) and Talieng ʔboh ("foam, bubbles"). Other cognates through affixed form are Khmer ពពុះ (pɔɔpɔpuh, “foam”), Semai buboh (“foam”) and Mon ဗၜိုဟ် (həbɒh, “foam”).
+    pos:
+      - pos: noun
+        han_nom: [𧗅]
+        senses:
+          - gloss:
+              en: sap; latex
+            region: [central, south]
+            examples:
+              - text: ghế mủ
+                en: plastic chair
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%E1%BB%A7#Vietnamese

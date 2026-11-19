@@ -1,0 +1,31 @@
+spelling: bánh tráng
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Bánh đa (nem)
+            region: [south]
+            examples:
+              - text: Con nhúng bánh tráng sơ qua nước rồi cuốn thịt với rau nghen.
+                standard: Con nhúng bánh đa nem qua nước rồi cuốn thịt với rau nhé.
+                ai_draft: true
+            topics: [food-drink]
+            sources: [skill-dictionary-v1]
+  - type: compound
+    note:
+      en: From bánh (“flour-based food”) + tráng (“to spread thinly”).
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: Vietnamese rice paper
+            region: [central, south]
+            standard: [bánh đa]
+            synonyms: [bánh khô]
+            examples:
+              - text: Mấy bữa nắng tốt, bà ngoại tráng bánh tráng phơi đầy sân.
+                standard: Mấy hôm nắng tốt, bà ngoại tráng bánh đa phơi đầy sân.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%C3%A1nh_tr%C3%A1ng#Vietnamese

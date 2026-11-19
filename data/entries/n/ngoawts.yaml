@@ -1,0 +1,17 @@
+spelling: ngoắt
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to wag; to wave; to wiggle
+            region: [central, south]
+            labels: [colloquial]
+            synonyms: [vẫy]
+            examples:
+              - text: Thấy chủ về, con chó ngoắt đuôi mừng rỡ.
+                standard: Thấy chủ về, con chó vẫy đuôi mừng rỡ.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ngo%E1%BA%AFt#Vietnamese

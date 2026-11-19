@@ -1,0 +1,62 @@
+spelling: coi
+etymologies:
+  - pos:
+      - pos: particle
+        head: … coi
+        senses:
+          - gloss:
+              vi: Tiếng đệm cuối câu khi biểu, hướng dẫn hoặc ra hiệu
+            region: [south]
+            examples:
+              - text: Ngồi xích qua đây coi!
+            topics: [particles]
+            sources: [skill-dictionary-v1]
+  - note:
+      en: |-
+        Cognate with Tho [Cuối Chăm] kɐːj².
+        Probably related to noi through an infixed proto-form.
+    pos:
+      - pos: verb
+        han_nom: [瑰, 䁛, 𥋳, 𫀢, 𩲡]
+        senses:
+          - gloss:
+              vi: Xem
+              en: to look, watch (over), observe, read, etc.
+            region: [south, central]
+            standard: [xem]
+            synonyms: [xem, trông, ngó, đọc]
+            examples:
+              - text: coi em
+                en: to babysit one's younger sibling
+              - text: coi mắt
+                en: to meet with a date via a dating service
+              - text: coi ti-vi
+                en: to watch TV
+              - text: coi phim
+                en: to watch a TV show/movie
+              - text: coi báo
+                en: to read a newspaper
+              - text: Coi nè!
+                en: Check this out!
+              - text: Coi chừng!
+                en: Look out!
+              - text: Mày coi chừng tao!
+                en: You'd better not screw with me again!
+            topics: [actions]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/coi#Vietnamese
+      - pos: intj
+        senses:
+          - gloss:
+              en: "[Look at yourself!] What the heck are you doin'?"
+            region: [central, south]
+            labels: [colloquial]
+            examples:
+              - text: Coi! Lớn tướng rồi mà còn giành đồ chơi với em hả?
+                standard: Kìa! Lớn tướng rồi mà còn tranh đồ chơi với em à?
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/coi#Vietnamese

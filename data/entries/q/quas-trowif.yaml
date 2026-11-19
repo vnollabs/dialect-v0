@@ -1,0 +1,20 @@
+spelling: quá trời
+etymologies:
+  - type: compound
+    note:
+      en: quá (“beyond”) + trời (“heaven”).
+    derived: [quá trời quá đất]
+    pos:
+      - pos: adv
+        senses:
+          - gloss:
+              en: extremely; mighty
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Trái sầu riêng này thơm quá trời, ăn một múi là ghiền.
+                standard: Quả sầu riêng này thơm cực kỳ, ăn một múi là nghiện.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/qu%C3%A1_tr%E1%BB%9Di#Vietnamese

@@ -1,0 +1,19 @@
+spelling: cọp
+etymologies:
+  - derived: [cười mỉm chi cọp, không vào hang cọp sao bắt được cọp con]
+    pos:
+      - pos: noun
+        han_nom: [𤜯, 𧲫, 𧳇]
+        classifiers: [con]
+        senses:
+          - gloss:
+              en: tiger
+            region: [south]
+            synonyms: [hổ, hùm, kễnh, khái, ông ba mươi]
+            examples:
+              - text: Tụi nhỏ đi sở thú, đứa nào cũng đòi coi con cọp trước.
+                standard: Bọn trẻ đi sở thú, đứa nào cũng đòi xem con hổ trước.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%E1%BB%8Dp#Vietnamese

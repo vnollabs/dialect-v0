@@ -1,0 +1,15 @@
+spelling: lồm
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: Quảng Nam and Quảng Ngãi form of làm (“to do, to make”)
+            region: [south-central]
+            examples:
+              - text: Mi lồm chi mà về trễ rứa?
+                standard: Mày làm gì mà về muộn thế?
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%E1%BB%93m#Vietnamese

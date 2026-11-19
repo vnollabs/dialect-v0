@@ -1,0 +1,20 @@
+spelling: canh me
+etymologies:
+  - type: compound
+    note:
+      en: canh + me.
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to keep an eye for; to look in case of
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: canh me ăn trộm
+                en: to look out for thieves
+              - text: Hôm qua tính đi sớm canh me đồ rẻ mà tới nơi là đông ngùn ngụt rồi.
+                en: Yesterday, I thought I went early enough to be able to grab some cheap stuff, but somehow there were already swarms.
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/canh_me#Vietnamese

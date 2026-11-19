@@ -1,0 +1,24 @@
+spelling: điệp
+etymologies:
+  - type: sino
+    han: 蝶
+    note:
+      en: |-
+        Sino-Vietnamese word from 蝶 (“butterfly”).
+        The sense of "scallop" is due to the visual similarity between scallop's valves and butterfly's wings when spread.
+    derived: [giấc điệp, giấy điệp, hồ điệp, sò điệp, sứ điệp, yến điệp]
+    pos:
+      - pos: noun
+        classifiers: [cây]
+        senses:
+          - gloss:
+              en: Caesalpinia pulcherrima
+            region: [south]
+            synonyms: [điệp đỏ, điệp cúng, kim phượng]
+            examples:
+              - text: Trước sân chùa có mấy cây điệp trổ bông đỏ rực.
+                standard: Trước sân chùa có mấy cây kim phượng nở hoa đỏ rực.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91i%E1%BB%87p#Vietnamese

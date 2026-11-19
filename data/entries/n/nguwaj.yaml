@@ -1,0 +1,56 @@
+spelling: ngựa
+etymologies:
+  - type: native
+    note:
+      en: From Proto-Vietic *m-ŋəːʔ. See also Old Chinese 午 (OC *ŋaːʔ, “7th earthly branch; horse in the Chinese zodiac”) (ZS), Proto-Hlai *hŋaːʔ (“horse”), and Proto-Kra *ŋjaC (“horse”).
+    pos:
+      - pos: noun
+        han_nom: [馭]
+        classifiers: [con, thớt]
+        senses:
+          - gloss:
+              en: trestle
+            region: [south]
+            examples:
+              - text: Ông Ba kê tấm ván lên hai con ngựa làm bàn bày trái cây bán.
+                standard: Ông Ba kê tấm ván lên hai cái mễ làm bàn bày hoa quả bán.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ng%E1%BB%B1a#Vietnamese
+  - note:
+      en: "The adjectival sense \"sexually promiscuous, lecherous\" (whence sense \"appearance-obsessed, ostentatious\") originates from the comparison of sexually promiscuous, lecherous people – especially women – to horses, as seen – for instances – in: Đại Nam quấc âm tự vị, Dictionnaire Annamite-Français (1898), the Huế's idiom \"rượn như ngựa Thượng Tứ ('to rut like imperial horses')\", which is used to mock women and girls who are deemed \"rotten, of loose morals\"."
+    derived: [đĩ ngựa, ngựa bà, ngựa ngựa]
+    pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: sexually promiscuous, prurient, lewd, lecherous, slutty
+            region: [south]
+            labels: [dated, derogatory, figurative]
+            examples:
+              - text: Đừng có ngựa! Coi chừng nó lừa đấy!
+                en: Don't be a trollop! Beware that he can make an ass out of you!
+              - text: |-
+                  ‘[…] Nói như má hễ thương yêu nhau là hư, thì thiên hạ là đồ bỏ hết chắc? Con biết má giận má nói vậy chớ thế nào má hổng xét lại...’
+                  Bác Bảy cướp lời: ‘Thôi mầy đừng có ngựa nữa! Tao biết mầy khôn lắm mà! Thứ đồ đội quần người ta mà hổng biết mắc cỡ...’
+                en: |-
+                  ‘ […] If [people] loving each other - as you've said, Mom - are indeed rotten, then is every one in the whole world trash? I know you've said so out of anger yet won't you think that over anyhow...’
+                  Uncle Bảy barged in: ‘Stop being a trollop, you! I know you're smart! You shameless bum...’
+                ref: "1965, Lê Xuyên, “I.3”, in Chú Tư Cầu:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ng%E1%BB%B1a#Vietnamese
+          - gloss:
+              en: appearance-obssessed, showy, flashy, gaudy, flamboyant, ostentatious
+            region: [south]
+            labels: [derogatory, figurative]
+            examples:
+              - text: Mày ngựa lắm con ạ. Tốn bao nhiêu là tiền mua quần áo với chả mĩ phẩm.
+                en: You're so appearance-obsessed. All this money you spend on clothing and cosmetics.
+              - text: Kìa, trông thằng đó ngựa chưa kìa!
+                en: Look how flamboyant that guy is!
+                ref: "2013, Lê Trung Ngân, “Tiếng Lóng Thời Nay [Slangs Nowadays]”, in bacsiletrungngan.wordpress.com:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ng%E1%BB%B1a#Vietnamese

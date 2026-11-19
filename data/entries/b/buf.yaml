@@ -1,0 +1,14 @@
+spelling: bù
+etymologies:
+  - derived: [bù hung, bù mắt, bù rầy, bù tọt, bù xè, bù xít]
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: bug
+            region: [south]
+            variant_of: bọ
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%C3%B9#Vietnamese
+            note: "No example yet: the AI drafter skipped this sense ('bù' (bug) seems to occur only inside compounds (bù xít, bù rầy, bù mắt); no natural standalone use). Check that the sense is real before adding one."

@@ -1,0 +1,14 @@
+spelling: gáo dừa
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Dụng cụ múc nước có cán, làm bằng nửa vỏ trái dừa khô hoặc bằng nhựa
+            region: [mekong-delta]
+            synonyms: [gáo]
+            examples:
+              - text: Lấy cái gáo dừa múc nước trong lu mà rửa chân đi con.
+                standard: Lấy cái gáo dừa múc nước trong chum mà rửa chân đi con.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

@@ -1,0 +1,17 @@
+spelling: bá vơ
+etymologies:
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: irresponsible; unable to form one's own opinion
+            qualifier: of personality
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Ổng bá vơ lắm, ai nói sao nghe vậy, chuyện nhà cửa hổng lo gì hết.
+                standard: Ông ấy vô trách nhiệm lắm, ai nói sao nghe vậy, chuyện nhà cửa không lo gì cả.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%C3%A1_v%C6%A1#Vietnamese

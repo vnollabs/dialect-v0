@@ -1,0 +1,25 @@
+spelling: viết
+etymologies:
+  - note:
+      en: |-
+        Contra Alves (2017), the relationship between this word and 筆 (OC *p.[r]ut) (B-S) is very tenuous. He proposed the existence of a prefix to interpret both the discrepancy in part-of-speech and lenition. However, there was no such verbalizer prefix in Vietic, and among verb-noun pairs, the general direction for semantic extension in Vietnamese is verb > noun.
+        Attested as Northern Middle Vietnamese ꞗiét, viét in the Dictionarium Annamiticum Lusitanum et Latinum (1651).
+    derived: [viết lách, viết tắt]
+    pos:
+      - pos: noun
+        classifiers: [cây]
+        senses:
+          - gloss:
+              vi: Bút
+              en: non-chalk handheld writing instrument
+            region: [south]
+            standard: [bút]
+            synonyms: [bút]
+            examples:
+              - text: một cây viết chì
+                en: a pencil
+            topics: [household]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/vi%E1%BA%BFt#Vietnamese

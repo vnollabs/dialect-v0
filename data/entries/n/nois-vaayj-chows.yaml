@@ -1,0 +1,11 @@
+spelling: nói vậy chớ
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Nói thì nói vậy, nhưng mà; tuy vậy
+            region: [south]
+            examples:
+              - text: Nói vậy chớ tui cũng hổng nỡ bỏ nó
+            topics: [discourse-markers]
+            sources: [skill-dictionary-v1]

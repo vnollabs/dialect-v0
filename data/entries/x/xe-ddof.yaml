@@ -1,0 +1,30 @@
+spelling: xe đò
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Xe khách đường dài
+            region: [south]
+            examples:
+              - text: Sáng mai tui đón xe đò lên Sài Gòn thăm con.
+                standard: Sáng mai tôi bắt xe khách lên Sài Gòn thăm con.
+                ai_draft: true
+            topics: [transport]
+            sources: [skill-dictionary-v1]
+  - type: compound
+    note:
+      en: xe (“wheeled vehicle”) + đò (“transporting boat”).
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: coach (long-distance bus)
+            region: [central, south]
+            synonyms: [xe ca, xe khách]
+            examples:
+              - text: Ngồi xe đò cả buổi, xuống xe tui mệt rã rời.
+                standard: Ngồi xe khách cả buổi, xuống xe tôi mệt rã rời.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/xe_%C4%91%C3%B2#Vietnamese

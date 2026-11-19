@@ -1,0 +1,24 @@
+spelling: hột xoàn
+etymologies:
+  - type: compound
+    note:
+      en: hột (“seed”) + xoàn (“diamond”).
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              vi: Kim cương
+              en: diamond (gemstone)
+            region: [south, central]
+            standard: [kim cương]
+            synonyms: [kim cương]
+            examples:
+              - text: Cà rá hột xoàn
+              - text: "♀: Một năm là gom đủ thóc cho hai đứa mua hột xoàn đeo."
+                en: "♀: One year is gathering enough paddy for the two of us to buy diamond to wear."
+                ref: "2025, Sinike, “Muốn cua anh làm bồ [Want to turn you into lover]”performed by Dương Ái Vy:"
+            topics: [household]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/h%E1%BB%99t_xo%C3%A0n#Vietnamese

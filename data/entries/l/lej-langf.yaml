@@ -1,0 +1,17 @@
+spelling: lẹ làng
+etymologies:
+  - note:
+      en: -ang reduplication of lẹ.
+    pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: fast; quick; swift
+            region: [south]
+            examples:
+              - text: Cô Ba bưng bê lẹ làng lắm, quán đông cỡ nào cũng kịp.
+                standard: Cô Ba bưng bê nhanh nhẹn lắm, quán đông cỡ nào cũng kịp.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%E1%BA%B9_l%C3%A0ng#Vietnamese

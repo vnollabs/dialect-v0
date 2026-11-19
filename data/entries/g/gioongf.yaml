@@ -1,0 +1,17 @@
+spelling: giồng
+etymologies:
+  - pos:
+      - pos: noun
+        han_nom: [𡊸]
+        senses:
+          - gloss:
+              en: an elevated alluvial stretch of land
+            qualifier: especially Mekong Delta
+            region: [mekong-delta]
+            examples:
+              - text: Nhà ngoại tui ở trên giồng, mùa nước nổi cũng hổng ngập.
+                standard: Nhà ngoại tôi ở trên gò đất cao, mùa lũ cũng không ngập.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/gi%E1%BB%93ng#Vietnamese

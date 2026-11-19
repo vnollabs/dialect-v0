@@ -1,0 +1,11 @@
+spelling: canh chua bần
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Canh chua nấu bằng trái bần chín mọc ven sông rạch, vị chua thanh
+            region: [mekong-delta]
+            examples:
+              - text: Canh chua cá bông lau nấu bần ăn đứt mấy món khác
+            topics: [mekong-food]
+            sources: [skill-dictionary-v1]

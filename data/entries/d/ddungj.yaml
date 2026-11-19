@@ -1,0 +1,37 @@
+spelling: đụng
+etymologies:
+  - type: sino
+    han: 動
+    note:
+      en: "Non-Sino-Vietnamese reading of Chinese 動 (SV: động). Compare động."
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to meet (unexpectedly); to encounter
+            region: [central, south]
+            examples:
+              - text: Hồi sáng đi chợ, tui đụng thằng Tâm, nó hỏi thăm bà hoài.
+                standard: Hồi sáng đi chợ, tôi tình cờ gặp thằng Tâm, nó hỏi thăm bà mãi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%E1%BB%A5ng#Vietnamese
+          - gloss:
+              en: to marry (each other)
+            region: [central, south]
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%E1%BB%A5ng#Vietnamese
+            note: "No example yet: the AI drafter skipped this sense (doubt the 'to marry (each other)' sense is in real use; can't write a trustworthy example). Check that the sense is real before adding one."
+          - gloss:
+              en: synonym of động (“to touch (with, upon)”)
+            region: [central, south]
+            synonyms: [động]
+            examples:
+              - text: Đừng đụng vô nồi canh, nóng lắm đó con.
+                standard: Đừng động vào nồi canh, nóng lắm đấy con.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%E1%BB%A5ng#Vietnamese

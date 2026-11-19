@@ -1,0 +1,23 @@
+spelling: huynh đệ
+etymologies:
+  - type: sino
+    han: 兄
+    note:
+      en: Sino-Vietnamese word from 兄弟, composed of 兄 (“elder brother”) and 弟 (“younger brother”).
+    derived: [huynh đệ tương tàn, tứ hải giai huynh đệ]
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: brothers
+            region: [south-central, south]
+            labels: [dated, figurative]
+            synonyms: [anh em]
+            examples:
+              - text: tình huynh đệ
+                en: brotherhood
+              - text: Những cộng sự viên cuối cùng của ông [Ngô Đình Diệm], cũng như chính ông, đã chỉ cho tôi thấy hình như ông chỉ thích hợp với sự đào sâu hố chia rẽ giữa các đồng bào, và theo đuổi một cuộc chiến tranh huynh đệ tương tàn.
+                ref: "1990, Bảo Đại, quoting himself, Con rồng Việt Nam: Hồi ký chánh trị 1913 — 1987, Nguyễn Phước tộc xuất bản, pages 533–534:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/huynh_%C4%91%E1%BB%87#Vietnamese

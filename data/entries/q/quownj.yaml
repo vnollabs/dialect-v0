@@ -1,0 +1,29 @@
+spelling: quợn
+etymologies:
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: uneasy, as similar to urge to vomit
+            qualifier: of stomach
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: quợn bụng
+                en: having a hard time dealing with the content in the stomach
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/qu%E1%BB%A3n#Vietnamese
+      - pos: verb
+        senses:
+          - gloss:
+              en: to fear; to be scared
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Nghe tụi nhỏ kể chuyện ma, tui quợn tới hổng dám ra sau nhà một mình.
+                standard: Nghe bọn trẻ kể chuyện ma, tôi sợ đến không dám ra sau nhà một mình.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/qu%E1%BB%A3n#Vietnamese

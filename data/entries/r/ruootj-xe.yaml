@@ -1,0 +1,14 @@
+spelling: ruột xe
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Săm xe
+            region: [south]
+            standard: [săm xe]
+            examples:
+              - text: Ruột xe bị lủng rồi, dắt ra tiệm vá đi.
+                standard: Săm xe bị thủng rồi, dắt ra tiệm vá đi.
+                ai_draft: true
+            topics: [transport]
+            sources: [skill-dictionary-v1]

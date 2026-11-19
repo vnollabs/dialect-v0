@@ -1,0 +1,31 @@
+spelling: bông bụp
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Hoa dâm bụt
+            region: [mekong-delta]
+            examples:
+              - text: Hàng rào nhà ngoại trồng bông bụp, trổ đỏ rực cả một khúc.
+                standard: Hàng rào nhà bà ngoại trồng hoa dâm bụt, nở đỏ rực cả một đoạn.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]
+  - type: compound
+    note:
+      en: Compound of bông + bụp (a variant of bụt, cf. bão táp).
+    pos:
+      - pos: noun
+        classifiers: [cây]
+        senses:
+          - gloss:
+              en: hibiscus
+            region: [south]
+            synonyms: [dâm bụt, râm bụt, cẩn]
+            examples:
+              - text: Con nhỏ hái một bông bụp cài lên tóc, đi khoe khắp xóm.
+                standard: Cô bé hái một bông dâm bụt cài lên tóc, đi khoe khắp xóm.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%C3%B4ng_b%E1%BB%A5p#Vietnamese

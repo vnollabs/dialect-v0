@@ -1,0 +1,21 @@
+spelling: mã tà
+etymologies:
+  - type: loan
+    lang: ms
+    source_form: mata-mata
+    note:
+      en: Unknown. Perhaps from Malay mata(-mata) (“police”) or from French matraque. Compare Min Nan 馬打 /马打 (má-tâ), Thai หมาต๋า (mǎa-dtǎa).
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: policeman during the French colonial period
+            region: [south]
+            labels: [historical]
+            examples:
+              - text: Ông ngoại kể hồi đó thấy mã tà đi ngang là con nít chạy trốn hết.
+                standard: Ông ngoại kể hồi đó thấy mã tà đi ngang là trẻ con chạy trốn hết.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%C3%A3_t%C3%A0#Vietnamese

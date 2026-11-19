@@ -1,0 +1,29 @@
+spelling: quẹo
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Rẽ
+            region: [south]
+            standard: [rẽ]
+            synonyms: [cua]
+            examples:
+              - text: Tới ngã ba thì quẹo trái, đi thêm chút xíu là thấy nhà tui.
+                standard: Đến ngã ba thì rẽ trái, đi thêm một chút là thấy nhà tôi.
+                ai_draft: true
+            topics: [transport]
+            sources: [skill-dictionary-v1]
+  - pos:
+      - pos: verb
+        han_nom: [䠏, 𢳙]
+        senses:
+          - gloss:
+              en: to turn; to make a turn; to swerve
+            region: [central, south]
+            examples:
+              - text: Con chó chạy ngang đường, ổng quẹo gấp một cái suýt té xe.
+                standard: Con chó chạy ngang đường, ông ấy ngoặt gấp một cái suýt ngã xe.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/qu%E1%BA%B9o#Vietnamese

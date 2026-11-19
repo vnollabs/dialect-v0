@@ -1,0 +1,12 @@
+spelling: liếp
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Luống đất cao giữa các mương vườn để trồng cây ăn trái
+            qualifier: vườn
+            region: [south]
+            examples:
+              - text: Bên kia mương có mấy liếp sầu riêng đang ra bông
+            topics: [weather-orchards]
+            sources: [skill-dictionary-v1]

@@ -1,0 +1,15 @@
+spelling: sên
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Xích xe
+            qualifier: xe
+            region: [south]
+            standard: [xích xe]
+            examples:
+              - text: Sên xe đạp bị tuột hoài, chắc phải thay sợi mới.
+                standard: Xích xe đạp bị tuột mãi, chắc phải thay cái mới.
+                ai_draft: true
+            topics: [transport]
+            sources: [skill-dictionary-v1]

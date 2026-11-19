@@ -1,0 +1,21 @@
+spelling: mốt
+etymologies:
+  - note:
+      en: Related to một (“one”). Compare Khmu pŋmoːj ("day after tomorrow") and moːj ("one"), Sa'och [of Kanchanaburi] mṳːj ("day after tomorrow") and mṳːˀj ("one").
+    derived: [mai mốt]
+    pos:
+      - pos: noun
+        han_nom: [𣋻]
+        senses:
+          - gloss:
+              en: day after tomorrow
+            region: [central, south]
+            labels: [colloquial]
+            synonyms: [ngày mốt, ngày kia]
+            examples:
+              - text: Mốt tui mới rảnh, chừng đó ghé nhà bà chơi.
+                standard: Ngày kia tôi mới rảnh, lúc đó ghé nhà bà chơi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%E1%BB%91t#Vietnamese

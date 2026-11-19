@@ -1,0 +1,20 @@
+spelling: lì xì
+etymologies:
+  - type: loan
+    lang: yue
+    source_form: 利市
+    note:
+      en: From old or dialectal Cantonese 利市 (lai6 si6; lợi thị).
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to give money in (usually) red envelopes to children or elders during the Lunar New Year; to give gratuity
+            region: [central, south]
+            examples:
+              - text: Mùng một qua thăm ông bà ngoại, tụi nhỏ được lì xì quá trời.
+                standard: Mùng một sang thăm ông bà ngoại, bọn trẻ được mừng tuổi rất nhiều.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%C3%AC_x%C3%AC#Vietnamese

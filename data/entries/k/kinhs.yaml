@@ -1,0 +1,21 @@
+spelling: kính
+etymologies:
+  - type: sino
+    han: 鏡
+    note:
+      en: Sino-Vietnamese word from 鏡 (“mirror”). Doublet of gương.
+    pos:
+      - pos: noun
+        classifiers: [cái]
+        senses:
+          - gloss:
+              en: synonym of gương (“mirror”)
+            region: [south]
+            synonyms: [gương]
+            examples:
+              - text: Má treo tấm kính nhỏ cạnh cửa để soi mặt trước khi đi chợ.
+                standard: Mẹ treo tấm gương nhỏ cạnh cửa để soi mặt trước khi đi chợ.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/k%C3%ADnh#Vietnamese

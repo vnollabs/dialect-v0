@@ -1,0 +1,48 @@
+# Vùng phương ngữ. Mỗi nghĩa (sense) ghi `region: [<mã>, ...]` theo các mã dưới đây.
+# Ghi vùng hẹp nhất mà nguồn xác nhận; vùng con nằm trong vùng cha (mekong-delta ⊂ south).
+#
+# <mã>:
+#   name: tên tiếng Việt
+#   en:   tên tiếng Anh (khớp nhãn vùng của Wiktionary khi có)
+#   parent: <mã vùng cha>   (tùy chọn)
+
+standard:
+  name: Toàn dân
+  en: Standard Vietnamese
+
+north:
+  name: Bắc Bộ
+  en: Northern Vietnam
+
+central:
+  name: Trung Bộ
+  en: Central Vietnam
+
+north-central:
+  name: Bắc Trung Bộ
+  en: North Central Vietnam
+  parent: central
+
+south-central:
+  name: Nam Trung Bộ
+  en: South Central Vietnam
+  parent: central
+
+south:
+  name: Nam Bộ
+  en: Southern Vietnam
+
+southeast:
+  name: Đông Nam Bộ
+  en: Southeastern Vietnam
+  parent: south
+
+saigon:
+  name: Sài Gòn
+  en: Saigon
+  parent: southeast
+
+mekong-delta:
+  name: Tây Nam Bộ (Miền Tây)
+  en: Mekong Delta
+  parent: south

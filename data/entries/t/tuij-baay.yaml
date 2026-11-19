@@ -1,0 +1,14 @@
+spelling: tụi bây
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Các bạn, tụi mày (gọi người nhỏ hơn hoặc ngang hàng, thân mật)
+            region: [south]
+            synonyms: [bây]
+            examples:
+              - text: Tụi bây ăn cơm chưa, vô đây ăn với tao nè.
+                standard: Chúng mày ăn cơm chưa, vào đây ăn với tao này.
+                ai_draft: true
+            topics: [family-address]
+            sources: [skill-dictionary-v1]

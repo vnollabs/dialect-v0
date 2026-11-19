@@ -1,0 +1,13 @@
+spelling: con lăng quăng
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Bọ gậy (loăng quăng trong nước)
+            region: [mekong-delta]
+            examples:
+              - text: Lu nước để lâu hổng đậy, con lăng quăng lội đầy trong đó.
+                standard: Chum nước để lâu không đậy, bọ gậy bơi đầy trong đó.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

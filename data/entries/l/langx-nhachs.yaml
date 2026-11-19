@@ -1,0 +1,16 @@
+spelling: lãng nhách
+etymologies:
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: frivolous or ridiculous
+            region: [south]
+            labels: [colloquial]
+            synonyms: [lãng xẹt, nhảm, nhảm nhí]
+            examples:
+              - text: chuyện lãng nhách/xẹt
+                en: frivolous/unserious stuff
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%C3%A3ng_nh%C3%A1ch#Vietnamese

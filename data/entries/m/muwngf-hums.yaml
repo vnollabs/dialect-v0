@@ -1,0 +1,16 @@
+spelling: mừng húm
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to be overjoyed; to be bursting with joy
+            region: [central, south]
+            labels: [colloquial]
+            examples:
+              - text: Nghe tin con đậu đại học, bả mừng húm, đi khoe khắp xóm.
+                standard: Nghe tin con đỗ đại học, bà ấy mừng quýnh, đi khoe khắp xóm.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%E1%BB%ABng_h%C3%BAm#Vietnamese

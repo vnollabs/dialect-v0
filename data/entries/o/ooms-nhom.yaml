@@ -1,0 +1,19 @@
+spelling: ốm nhom
+etymologies:
+  - type: compound
+    note:
+      en: ốm + nhom.
+    pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: as thin as a lath; very thin or skinny
+            region: [south]
+            synonyms: [gầy nhom, ốm nhom ốm nhách, khỏng khẻo]
+            examples:
+              - text: Bà Dursley thì ốm nhom, tóc vàng, với một cái cổ dài gấp đôi bình thường […]
+                en: Mrs. Dursley was thin and blonde and had nearly twice the usual amount of neck […]
+                ref: "2017, J. K. Rowling, chapter 1, in Lý Lan, transl., Harry Potter Và Hòn Đá Phù Thủy [Harry Potter and the Sorcerer's Stone], 29 edition, volume 1, Ho Chi Minh City: Nhà xuất bản Trẻ, →ISBN, →OCLC:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%E1%BB%91m_nhom#Vietnamese

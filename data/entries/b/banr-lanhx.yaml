@@ -1,0 +1,21 @@
+spelling: bản lãnh
+etymologies:
+  - type: sino
+    han: 本領
+    note:
+      en: Sino-Vietnamese word from 本領.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: Southern Vietnam form of bản lĩnh
+            region: [south]
+            labels: [dated]
+            variant_of: bản lĩnh
+            examples:
+              - text: Làm ăn trên sông nước phải có bản lãnh, chớ nhát gan thì hổng nên chuyện.
+                standard: Làm ăn trên sông nước phải có bản lĩnh, chứ nhát gan thì không nên chuyện.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%E1%BA%A3n_l%C3%A3nh#Vietnamese

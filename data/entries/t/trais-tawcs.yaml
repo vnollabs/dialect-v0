@@ -1,0 +1,14 @@
+spelling: trái tắc
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Quả quất
+            region: [mekong-delta]
+            synonyms: [hạnh]
+            examples:
+              - text: Vắt thêm trái tắc vô chén nước mắm cho thơm.
+                standard: Vắt thêm quả quất vào bát nước mắm cho thơm.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

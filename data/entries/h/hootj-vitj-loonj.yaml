@@ -1,0 +1,24 @@
+spelling: hột vịt lộn
+etymologies:
+  - pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: an egg containing a developing duck embryo
+            region: [south]
+            examples:
+              - text: Chú Ba soi trứng dưới bóng đèn, lựa riêng mấy hột vịt lộn ra một rổ.
+                standard: Chú Ba soi trứng dưới bóng đèn, chọn riêng mấy quả trứng vịt lộn ra một rổ.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/h%E1%BB%99t_v%E1%BB%8Bt_l%E1%BB%99n#Vietnamese
+          - gloss:
+              en: a boiled egg of that kind; a balut
+            region: [south]
+            examples:
+              - text: hột vịt lộn xào me
+                en: stir-fried baluts with tamarind sauce
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/h%E1%BB%99t_v%E1%BB%8Bt_l%E1%BB%99n#Vietnamese

@@ -1,0 +1,15 @@
+spelling: reng
+etymologies:
+  - pos:
+      - pos: adv
+        senses:
+          - gloss:
+              en: how, why
+            region: [south-central]
+            variant_of: răng
+            examples:
+              - text: Dân Quảng Nôm có reng núa rứa.
+                en: Quảng Nôm folks like to speak their mind.
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/reng#Vietnamese

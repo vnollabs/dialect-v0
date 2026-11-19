@@ -1,0 +1,18 @@
+spelling: đờn
+etymologies:
+  - derived: [đờn ca tài tử]
+    pos:
+      - pos: noun
+        han_nom: [弹]
+        senses:
+          - gloss:
+              en: certain musical instruments
+            region: [south]
+            variant_of: đàn
+            examples:
+              - text: Tối nào ông Tư cũng ôm cây đờn ra hiên ngồi khảy.
+                standard: Tối nào ông Tư cũng ôm cây đàn ra hiên ngồi gảy.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%E1%BB%9Dn#Vietnamese

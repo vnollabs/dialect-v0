@@ -1,0 +1,27 @@
+spelling: cà khịa
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Kiếm chuyện, trêu chọc để gây sự
+            region: [south]
+            examples:
+              - text: Đang yên đang lành tự nhiên đi cà khịa người ta chi vậy?
+            topics: [actions]
+            sources: [skill-dictionary-v1]
+  - type: compound
+    note:
+      en: From cà- (“repetitive prefix”) + khịa (“to poke, to tease, to provoke”).
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to quarrel; pick fights; incite conflict
+            region: [south]
+            examples:
+              - text: Mới nhậu vô mấy ly là nó kiếm chuyện cà khịa người bàn bên.
+                standard: Mới nhậu vào mấy chén là nó kiếm chuyện gây sự với người bàn bên.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%C3%A0_kh%E1%BB%8Ba#Vietnamese

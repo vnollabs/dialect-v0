@@ -1,0 +1,29 @@
+spelling: bển
+etymologies:
+  - note:
+      en: Word formation with distal denotation by adding hỏi tone to the root bên (“side”) in Southern Vietnamese and some topolects of Thanh Hoá.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: that side
+            region: [central, south]
+            examples:
+              - text: Con đò chở hàng qua bển rồi, chừng nửa tiếng mới quay về.
+                standard: Con đò chở hàng sang bên ấy rồi, khoảng nửa tiếng mới quay về.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%E1%BB%83n#Vietnamese
+      - pos: name
+        senses:
+          - gloss:
+              en: the United States of America
+            region: [south]
+            examples:
+              - text: Ông chú tui ở bển gửi đô-la về cho cả nhà ăn Tết.
+                standard: Ông chú tôi ở bên Mỹ gửi đô-la về cho cả nhà ăn Tết.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%E1%BB%83n#Vietnamese

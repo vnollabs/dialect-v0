@@ -1,0 +1,20 @@
+spelling: la
+etymologies:
+  - pos:
+      - pos: verb
+        han_nom: [羅, 囉]
+        senses:
+          - gloss:
+              vi: Mắng
+              en: to reprimand, to scold
+            region: [south, central]
+            standard: [mắng]
+            synonyms: [rầy, mắng, quát]
+            examples:
+              - text: bị vợ la
+                en: to be scolded by wife
+            topics: [actions]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/la#Vietnamese

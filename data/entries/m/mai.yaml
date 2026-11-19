@@ -1,0 +1,21 @@
+spelling: mai
+etymologies:
+  - type: sino
+    han: 媒
+    note:
+      en: "Non-Sino-Vietnamese reading of Chinese 媒 (SV: môi)."
+    derived: [mai mối]
+    pos:
+      - pos: noun
+        han_nom: [䋦]
+        senses:
+          - gloss:
+              en: matchmaker
+            region: [south]
+            examples:
+              - text: Nhà trai nhờ bà mai qua nói chuyện cưới hỏi với nhà gái.
+                standard: Nhà trai nhờ bà mối sang nói chuyện cưới hỏi với nhà gái.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/mai#Vietnamese

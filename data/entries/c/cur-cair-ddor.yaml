@@ -1,0 +1,17 @@
+spelling: củ cải đỏ
+etymologies:
+  - note:
+      en: Calque of Chinese 紅蘿蔔 /红萝卜 (hồng la bặc).
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: carrot
+            region: [south]
+            examples:
+              - text: Má xắt củ cải đỏ với củ cải trắng làm đồ chua ăn bánh mì.
+                standard: Mẹ thái cà rốt với củ cải trắng làm đồ chua ăn bánh mì.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%E1%BB%A7_c%E1%BA%A3i_%C4%91%E1%BB%8F#Vietnamese

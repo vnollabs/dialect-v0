@@ -1,0 +1,19 @@
+spelling: nón len
+etymologies:
+  - type: compound
+    note:
+      en: nón + len.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: beanie
+            region: [south]
+            synonyms: [mũ len]
+            examples:
+              - text: Trời se lạnh, má đan cho con cái nón len đội đi học.
+                standard: Trời se lạnh, mẹ đan cho con cái mũ len đội đi học.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/n%C3%B3n_len#Vietnamese

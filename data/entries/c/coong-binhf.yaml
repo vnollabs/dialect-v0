@@ -1,0 +1,20 @@
+spelling: công bình
+etymologies:
+  - type: sino
+    han: 公平
+    note:
+      en: Sino-Vietnamese word from 公平.
+    pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: just; fair
+            region: [south]
+            labels: [dated]
+            variant_of: công bằng
+            examples:
+              - text: công bình chính/chánh nghĩa
+                en: fair justice
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%C3%B4ng_b%C3%ACnh#Vietnamese

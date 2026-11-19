@@ -1,0 +1,19 @@
+spelling: táo
+etymologies:
+  - type: sino
+    han: 棗
+    note:
+      en: Sino-Vietnamese word from 棗 (“date tree”).
+    pos:
+      - pos: noun
+        han_nom: [棗]
+        classifiers: [cây, trái, quả]
+        senses:
+          - gloss:
+              en: plum
+            region: [south]
+            standard: [mận]
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/t%C3%A1o#Vietnamese
+            note: "No example yet: the AI drafter skipped this sense (doubt the usage: táo for plum (standard mận) is not attested to me; Southern speakers use táo for jujube and mận Bắc/mận Hà Nội for plum). Check that the sense is real before adding one."

@@ -1,0 +1,47 @@
+spelling: tía
+etymologies:
+  - type: loan
+    lang: nan-tws
+    source_form: 爹
+    note:
+      en: From Teochew 爹 (tia³³). Compare Khmer ទៀ (tiə), Thai เตี่ย (dtìia).
+    derived: [tía má]
+    pos:
+      - pos: noun
+        han_nom: [爺]
+        senses:
+          - gloss:
+              vi: Cha
+              en: father; dad
+            region: [south]
+            standard: [cha]
+            synonyms: [bố, ba, cha, thầy, cậu, bọ, áng]
+            examples:
+              - text: |-
+                  ♀: Nhà má mười mấy công ruộng nà
+                  Còn tía thì mấy trăm chuồng gà
+                  Mình em thì lo sao hết
+                  Anh ơi có duyên xin mời qua
+                en: |-
+                  ♀: [My] mom's family has more than ten côngs of rice fields
+                  And [my] dad has hundreds of chicken coops
+                  I can't take care of everything by myself
+                  If you have the chance, please come over
+                ref: "2025, Sinike, “Muốn cua anh làm bồ [Want to turn you into lover]”performed by Dương Ái Vy:"
+            topics: [family-address]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/t%C3%ADa#Vietnamese
+      - pos: pron
+        senses:
+          - gloss:
+              en: you (used to refer to an older man)
+            region: [south]
+            examples:
+              - text: "[…] tưởng tía làm lớn để lo cho dân, ai dè cũng bo bo cho mình."
+                en: "[…] I imagined you aimed big to serve the people; who thought you do it all for yourself too."
+                ref: "2005, Nguyễn Ngọc Tư, “Cải ơi”, in Cánh đồng bất tận, NXB Trẻ:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/t%C3%ADa#Vietnamese

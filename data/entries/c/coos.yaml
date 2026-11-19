@@ -1,0 +1,20 @@
+spelling: cố
+etymologies:
+  - type: sino
+    han: 故
+    note:
+      en: Sino-Vietnamese word from 故. Doublet of cụ and cớ.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: great-grandparent
+            region: [central, south]
+            synonyms: [cụ, cụ bà, cụ ông]
+            examples:
+              - text: Đám giỗ ông cố năm nay làm ở nhà bác Hai.
+                standard: Đám giỗ cụ ông năm nay làm ở nhà bác cả.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%E1%BB%91#Vietnamese

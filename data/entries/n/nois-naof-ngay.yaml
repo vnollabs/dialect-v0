@@ -1,0 +1,11 @@
+spelling: nói nào ngay
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Nói cho công bằng, nói thiệt ra; chen vô khi đang chê mà muốn nói tốt một câu
+            region: [south]
+            examples:
+              - text: Thằng đó làm biếng thiệt, mà nói nào ngay, nó thương má nó lắm
+            topics: [discourse-markers]
+            sources: [skill-dictionary-v1]

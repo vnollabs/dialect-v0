@@ -1,0 +1,15 @@
+spelling: đọt mọt
+etymologies:
+  - pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: Cynometra ramiflora
+            region: [south]
+            examples:
+              - text: Ông Bảy trồng một cây đọt mọt sau hè, trưa nào cũng ra ngồi dưới gốc hóng mát.
+                standard: Ông Bảy trồng một cây đọt mọt sau nhà, trưa nào cũng ra ngồi dưới gốc hóng mát.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%E1%BB%8Dt_m%E1%BB%8Dt#Vietnamese

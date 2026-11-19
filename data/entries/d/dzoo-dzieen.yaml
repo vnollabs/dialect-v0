@@ -1,0 +1,17 @@
+spelling: dzô dziên
+etymologies:
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: Southern Vietnam form of vô duyên
+            region: [south]
+            labels: [internet]
+            variant_of: vô duyên
+            examples:
+              - text: Ổng hỏi lương tui ngay giữa đám giỗ, dzô dziên gì đâu á.
+                standard: Ông ấy hỏi lương tôi ngay giữa đám giỗ, vô duyên hết sức.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/dz%C3%B4_dzi%C3%AAn#Vietnamese

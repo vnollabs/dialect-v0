@@ -1,0 +1,50 @@
+spelling: nghe
+etymologies:
+  - pos:
+      - pos: particle
+        senses:
+          - gloss:
+              vi: Dặn dò, nhắc nhở thân mật, tạo cảm giác gắn kết
+            region: [south]
+            synonyms: [nghen]
+            examples:
+              - text: Ở nhà coi nhà cho kỹ nghe con, má đi chợ chút về.
+                standard: Ở nhà trông nhà cho cẩn thận nhé con, mẹ đi chợ một lát về.
+                ai_draft: true
+            topics: [particles]
+            sources: [skill-dictionary-v1]
+  - type: native
+    note:
+      en: |-
+        From Proto-Vietic *ŋɛː. Cognate with Toum ŋɛː¹. Compare Chong [Kasong] tŋeː.
+        The sense related to smell has been attested since Đại Nam quấc âm tự vị (1895), a dictionary chiefly based on the Southern dialects.
+    pos:
+      - pos: verb
+        han_nom: [宜, 𦖑, 𠵌]
+        senses:
+          - gloss:
+              en: to smell
+            region: [central, south]
+            labels: [colloquial]
+            examples:
+              - text: Quái, sao cứ nghe mùi thum thủm?
+                en: Weird, I think I'm smelling a fart.
+              - text: Nhà ai vừa chín quả đầu. / Đã nghe gió thổi vườn sau thơm lừng.
+                en: Who has freshly ripe fruit? / Smelling the delicious aroma carried by the wind.
+                ref: "Phạm Hổ, Sầu riêng [Durian]:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/nghe#Vietnamese
+      - pos: particle
+        han_nom: [宜, 𦖑, 𠵌]
+        senses:
+          - gloss:
+              en: okay?
+            region: [central, south]
+            labels: [colloquial]
+            examples:
+              - text: Về nhớ làm bài nghe!
+                en: Don't forget to do your homework when you return (home).
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/nghe#Vietnamese

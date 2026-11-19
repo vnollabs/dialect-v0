@@ -1,0 +1,22 @@
+spelling: tôm tít
+etymologies:
+  - type: compound
+    note:
+      en: |-
+        From tôm (“shrimp, pawn”) + tít (“centipede”). Equivalent to tôm + rết in Northern Vietnam, and tôm + rít in Southern Vietnam.
+        As tít is a North Central form, the phrase "tôm tít" certainly originated from that region, then spread to other Central and Southern dialects.
+    pos:
+      - pos: noun
+        classifiers: [con]
+        senses:
+          - gloss:
+              en: mantis shrimp
+            region: [central, south]
+            synonyms: [bề bề]
+            examples:
+              - text: Tôm tít hấp chấm muối tiêu chanh ngon hết sẩy.
+                standard: Bề bề hấp chấm muối tiêu chanh ngon tuyệt.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/t%C3%B4m_t%C3%ADt#Vietnamese

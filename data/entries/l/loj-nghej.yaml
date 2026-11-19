@@ -1,0 +1,18 @@
+spelling: lọ nghẹ
+etymologies:
+  - type: compound
+    note:
+      en: lọ + nghẹ.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: soot on a cooking pot
+            region: [central, south]
+            examples:
+              - text: Cái nồi nấu bếp củi lâu năm, đít nồi bám lọ nghẹ đen thui.
+                standard: Cái nồi nấu bếp củi lâu năm, đáy nồi bám nhọ nồi đen sì.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%E1%BB%8D_ngh%E1%BA%B9#Vietnamese

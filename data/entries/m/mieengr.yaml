@@ -1,0 +1,31 @@
+spelling: miểng
+etymologies:
+  - pos:
+      - pos: noun
+        han_nom: [𨬋, 𥕊]
+        senses:
+          - gloss:
+              en: fragment; shard
+            region: [central, south]
+            variant_of: mảnh
+            examples:
+              - text: Cẩn thận, miểng chai còn văng đầy dưới nền nhà đó.
+                standard: Cẩn thận, mảnh chai còn văng đầy dưới nền nhà đấy.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/mi%E1%BB%83ng#Vietnamese
+  - pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: synonym of nước miếng (“drool; spit”)
+            region: [south]
+            labels: [colloquial]
+            synonyms: [nước miếng]
+            examples:
+              - text: Nói chuyện gì mà văng miểng tùm lum!
+                en: You can't just talk without showering on people, can you?
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/mi%E1%BB%83ng#Vietnamese

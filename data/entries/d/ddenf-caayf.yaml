@@ -1,0 +1,33 @@
+spelling: đèn cầy
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Nến
+            region: [mekong-delta]
+            examples:
+              - text: Cúp điện rồi, con đi kiếm cây đèn cầy với hộp quẹt đi.
+                standard: Mất điện rồi, con đi tìm cây nến với bật lửa đi.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]
+  - type: compound
+    note:
+      en: |-
+        From đèn (“lamp”) + cầy (“Irvingia malayana”).
+        In Đại Nam quấc âm tự vị (1895), it is noted that the sap of I. malayana was used to make đèn cầy.
+    pos:
+      - pos: noun
+        classifiers: [cây, ngọn]
+        senses:
+          - gloss:
+              en: candle
+            region: [south]
+            synonyms: [nến]
+            examples:
+              - text: Má thắp hai cây đèn cầy trên bàn thờ ông bà.
+                standard: Mẹ thắp hai cây nến trên bàn thờ ông bà.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%C3%A8n_c%E1%BA%A7y#Vietnamese

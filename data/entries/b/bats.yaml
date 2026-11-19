@@ -1,0 +1,18 @@
+spelling: bát
+etymologies:
+  - note:
+      en: Attested in the hydronyms Cái Bát and Ngả Bát.
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to steer (a boat) rightward
+            region: [south-central, south]
+            labels: [dated]
+            examples:
+              - text: Tới ngã ba sông, ông ngoại hô thằng cháu bát mũi ghe vô con kinh bên tay mặt.
+                standard: Tới ngã ba sông, ông ngoại gọi thằng cháu bẻ lái sang phải cho thuyền vào con kênh bên tay phải.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%C3%A1t#Vietnamese

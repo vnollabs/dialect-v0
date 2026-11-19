@@ -1,0 +1,21 @@
+spelling: sui
+etymologies:
+  - type: native
+    note:
+      en: From Proto-Vietic *p-ruːj (“marriage”).
+    pos:
+      - pos: noun
+        han_nom: [𡢽]
+        senses:
+          - gloss:
+              en: short for sui gia
+            region: [south]
+            labels: [abbreviation]
+            variant_of: sui gia
+            examples:
+              - text: Ông sui bên đó mới gởi biếu nhà mình một giỏ trái cây.
+                standard: Ông thông gia bên đó mới gửi biếu nhà mình một giỏ hoa quả.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/sui#Vietnamese

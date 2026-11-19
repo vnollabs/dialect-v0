@@ -1,0 +1,22 @@
+spelling: lọp
+etymologies:
+  - type: loan
+    lang: km
+    source_form: លប
+    note:
+      en: Borrowed from Khmer លប (lɔɔp).
+    pos:
+      - pos: noun
+        classifiers: [cái, chiếc]
+        senses:
+          - gloss:
+              en: kind of hoop-trap for catching fish, traditionally made from bamboo
+            qualifier: Mekong Delta
+            region: [mekong-delta]
+            examples:
+              - text: Chiều ông Tư chống xuồng ra đặt lọp, sáng mai đi thăm coi có cá hông.
+                standard: Chiều ông Tư chống xuồng ra đặt lọp, sáng mai đi thăm xem có cá không.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/l%E1%BB%8Dp#Vietnamese

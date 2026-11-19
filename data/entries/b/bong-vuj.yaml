@@ -1,0 +1,33 @@
+spelling: bong vụ
+etymologies:
+  - type: loan
+    lang: km
+    source_form: វូ
+    pos:
+      - pos: noun
+        classifiers: [cái, con]
+        senses:
+          - gloss:
+              en: spinning top
+            region: [south]
+            synonyms: [thò lò]
+            examples:
+              - text: Hồi nhỏ tụi tui hay đẽo bong vụ bằng gỗ, chơi suốt buổi trưa.
+                standard: Hồi nhỏ bọn tôi hay đẽo con quay bằng gỗ, chơi suốt buổi trưa.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/bong_v%E1%BB%A5#Vietnamese
+      - pos: verb
+        senses:
+          - gloss:
+              en: to spin a top
+            region: [south]
+            labels: [obsolete]
+            examples:
+              - text: Hồi xưa, trưa nào tụi nhỏ trong xóm cũng rủ nhau ra gốc me bong vụ.
+                standard: Hồi xưa, trưa nào bọn trẻ trong xóm cũng rủ nhau ra gốc me đánh quay.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/bong_v%E1%BB%A5#Vietnamese

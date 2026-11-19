@@ -1,0 +1,16 @@
+spelling: cắc củm
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to economise; to spend sparingly
+            region: [south]
+            synonyms: [dè sẻn, chắt chiu]
+            examples:
+              - text: Má cắc củm từng đồng để dành tiền cho tụi con đi học.
+                standard: Mẹ chắt chiu từng đồng để dành tiền cho các con đi học.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%E1%BA%AFc_c%E1%BB%A7m#Vietnamese

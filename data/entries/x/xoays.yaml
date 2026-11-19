@@ -1,0 +1,18 @@
+spelling: xoáy
+etymologies:
+  - note:
+      en: Compare xoay (“to turn, to swivel”).
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: hair whorl
+            region: [central, south]
+            synonyms: [khoáy]
+            examples:
+              - text: Cắt khéo khéo chỗ cái xoáy, kẻo tóc thằng nhỏ dựng đứng lên.
+                standard: Cắt khéo khéo chỗ cái xoáy, kẻo tóc thằng bé dựng đứng lên.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/xo%C3%A1y#Vietnamese

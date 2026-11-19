@@ -1,0 +1,22 @@
+spelling: tính
+etymologies:
+  - type: sino
+    han: 併
+    note:
+      en: Sino-Vietnamese word from 併.
+    pos:
+      - pos: verb
+        han_nom: [併, 并]
+        senses:
+          - gloss:
+              en: to plan; to think of (doing something)
+            qualifier: typically Southern Vietnam
+            region: [south]
+            synonyms: [định, dự định]
+            examples:
+              - text: Tính chết mấy lần rồi, nhưng còn mắc nợ đời.
+                en: I thought of dying several times already, but I still owe life.
+                ref: "2005, Nguyễn Ngọc Tư, “Biển người mênh mông”, in Cánh đồng bất tận, NXB Trẻ:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/t%C3%ADnh#Vietnamese

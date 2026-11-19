@@ -1,0 +1,15 @@
+spelling: hen
+etymologies:
+  - pos:
+      - pos: particle
+        senses:
+          - gloss:
+              en: okay?; alright?
+            region: [south]
+            examples:
+              - text: Mai mình đi chợ sớm hen, kẻo hết cá tươi.
+                standard: Mai mình đi chợ sớm nhé, kẻo hết cá tươi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/hen#Vietnamese

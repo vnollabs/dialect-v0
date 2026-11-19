@@ -1,0 +1,22 @@
+spelling: mận
+etymologies:
+  - type: loan
+    lang: tai
+    note:
+      en: From a Tai language. Compare Proto-Tai *manꟲ (“plum”) (whence Zhuang maenj as in makmaenj and Lao ໝັ້ນ (man) in ໝາກໝັ້ນ (māk man)).
+    pos:
+      - pos: noun
+        han_nom: [槾, 𪴏]
+        classifiers: [cây, trái, quả]
+        senses:
+          - gloss:
+              en: wax apple (Syzygium samarangense)
+            region: [south]
+            synonyms: [roi]
+            examples:
+              - text: Vườn nhà ngoại có mấy cây mận, trái đỏ chót ăn giòn ngọt.
+                standard: Vườn nhà ngoại có mấy cây roi, quả đỏ chót ăn giòn ngọt.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%E1%BA%ADn#Vietnamese

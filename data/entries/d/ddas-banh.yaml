@@ -1,0 +1,44 @@
+spelling: đá banh
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Đá bóng
+            region: [south]
+            standard: [đá bóng]
+            examples:
+              - text: Chiều nào tụi nhỏ trong xóm cũng ra bãi đất trống đá banh.
+                standard: Chiều nào bọn trẻ trong xóm cũng ra bãi đất trống đá bóng.
+                ai_draft: true
+            topics: [household]
+            sources: [skill-dictionary-v1]
+  - type: compound
+    note:
+      en: đá (“to kick”) + banh (“ball”).
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to play association football; soccer
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Ê, chiều nay đi đá banh hông mậy?
+                standard: Này, chiều nay đi đá bóng không mày?
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%C3%A1_banh#Vietnamese
+      - pos: noun
+        senses:
+          - gloss:
+              en: association football; soccer
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Ổng mê đá banh lắm, trận nào trên ti vi cũng thức khuya coi.
+                standard: Ông ấy mê bóng đá lắm, trận nào trên ti vi cũng thức khuya xem.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%C3%A1_banh#Vietnamese

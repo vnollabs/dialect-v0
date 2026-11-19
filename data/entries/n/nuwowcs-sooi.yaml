@@ -1,0 +1,19 @@
+spelling: nước sôi
+etymologies:
+  - type: compound
+    note:
+      en: nước (“water”) + sôi (“to boil”).
+    pos:
+      - pos: intj
+        senses:
+          - gloss:
+              en: out of my way, coming through, make way
+            region: [south]
+            labels: [idiomatic]
+            examples:
+              - text: Nước sôi, nước sôi! Tránh ra cho tui bưng tô hủ tiếu qua nè!
+                standard: Tránh ra, tránh ra! Để tôi bưng bát hủ tiếu qua nào!
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/n%C6%B0%E1%BB%9Bc_s%C3%B4i#Vietnamese

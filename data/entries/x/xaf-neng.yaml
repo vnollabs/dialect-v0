@@ -1,0 +1,22 @@
+spelling: xà neng
+etymologies:
+  - type: loan
+    lang: km
+    source_form: ឈ្នាង
+    note:
+      en: From Khmer ឈ្នាង (chniəng).
+    pos:
+      - pos: noun
+        classifiers: [cái, chiếc]
+        senses:
+          - gloss:
+              en: rattan or bamboo trap for scooping up fish or shrimps
+            qualifier: Mekong Delta
+            region: [mekong-delta]
+            examples:
+              - text: Nước ròng, ba lấy cái xà neng ra mé mương xúc tép.
+                standard: Nước rút, bố lấy cái rổ xúc bằng tre ra bờ mương xúc tép.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/x%C3%A0_neng#Vietnamese

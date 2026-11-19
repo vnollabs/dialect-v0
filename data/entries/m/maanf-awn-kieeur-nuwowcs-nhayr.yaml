@@ -1,0 +1,13 @@
+spelling: mần ăn kiểu nước nhảy
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Làm ăn chớp nhoáng, không bền vững, không kiên định
+            region: [south]
+            examples:
+              - text: Ổng mần ăn kiểu nước nhảy, mở tiệm được vài tháng là dẹp.
+                standard: Ông ấy làm ăn chớp nhoáng, mở tiệm được vài tháng là đóng cửa.
+                ai_draft: true
+            topics: [idioms]
+            sources: [skill-dictionary-v1]

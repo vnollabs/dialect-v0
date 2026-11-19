@@ -1,0 +1,19 @@
+spelling: ba má
+etymologies:
+  - type: compound
+    note:
+      en: ba (“dad, father”) + má (“mom, mother”).
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: parents (mother and father)
+            region: [south]
+            synonyms: [bố mẹ, cha mẹ, phụ huynh]
+            examples:
+              - text: Cuối tuần này con về quê thăm ba má nghen.
+                standard: Cuối tuần này con về quê thăm bố mẹ nhé.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ba_m%C3%A1#Vietnamese

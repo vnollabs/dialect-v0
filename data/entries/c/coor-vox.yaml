@@ -1,0 +1,17 @@
+spelling: cổ võ
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: Southern Vietnam and obsolete form of cổ vũ
+            region: [south]
+            labels: [obsolete]
+            variant_of: cổ vũ
+            examples:
+              - text: Hồi đó cả xóm kéo ra bờ sông cổ võ ghe đua của ấp mình.
+                standard: Hồi đó cả xóm kéo ra bờ sông cổ vũ thuyền đua của ấp mình.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%E1%BB%95_v%C3%B5#Vietnamese

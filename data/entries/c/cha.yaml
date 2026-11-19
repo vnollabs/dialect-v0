@@ -1,0 +1,19 @@
+spelling: cha
+etymologies:
+  - note:
+      en: Compare Limchowese 吒 (zaa1, “father”).
+    pos:
+      - pos: noun
+        han_nom: [吒, 𤕔]
+        senses:
+          - gloss:
+              en: dude
+            region: [south]
+            labels: [humorous]
+            synonyms: [bố, cha nội]
+            examples:
+              - text: Thôi dẹp đi cha!
+                en: Stop it, dude!
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/cha#Vietnamese

@@ -1,0 +1,17 @@
+spelling: iu
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: eye dialect spelling of yêu, representing Southern Vietnam Vietnamese
+            region: [south]
+            labels: [dialectal, pronunciation-spelling]
+            variant_of: yêu
+            examples:
+              - text: Anh iu em nhiều lắm, đừng giận anh nữa nghen.
+                standard: Anh yêu em nhiều lắm, đừng giận anh nữa nhé.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/iu#Vietnamese

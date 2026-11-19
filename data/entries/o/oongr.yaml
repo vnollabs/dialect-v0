@@ -1,0 +1,23 @@
+spelling: ổng
+etymologies:
+  - note:
+      en: Word formation with distal denotation by adding hỏi tone to the root ông in Southern Vietnamese and some topolects of Thanh Hoá.
+    pos:
+      - pos: pron
+        senses:
+          - gloss:
+              vi: Ông ấy
+              en: he; him (older or respected man)
+            region: [south, central]
+            labels: [colloquial]
+            standard: [ông ấy]
+            synonyms: [ông ấy]
+            examples:
+              - text: Đó là lúc "ổng", tức ba tôi chống cây gậy khật khừng lang thang xuống bến.
+                en: That was when "he", my father, went wandering down the wharfs with his walking stick.
+                ref: "2005, Nguyễn Ngọc Tư, “Dòng nhớ”, in Cánh đồng bất tận, NXB Trẻ:"
+            topics: [family-address]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%E1%BB%95ng#Vietnamese

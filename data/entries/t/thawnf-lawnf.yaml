@@ -1,0 +1,22 @@
+spelling: thằn lằn
+etymologies:
+  - note:
+      en: |-
+        Trần Trọng Dương (2013) considers this word a doublet of trăn. See there for etymology.
+        Also compare Khmer ថ្លែន (thlaen, “skink”), probably related to ថ្លាន់ (thlan, “python”).
+    pos:
+      - pos: noun
+        han_nom: [𧊺𧋻, 蠅䗲]
+        classifiers: [con]
+        senses:
+          - gloss:
+              en: common house gecko
+            region: [south]
+            synonyms: [thạch sùng, chanh chách, mối rách, móc rách, búa lách, muối tách]
+            examples:
+              - text: Tối nào con thằn lằn cũng bò trên vách rình bắt muỗi.
+                standard: Tối nào con thạch sùng cũng bò trên tường rình bắt muỗi.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/th%E1%BA%B1n_l%E1%BA%B1n#Vietnamese

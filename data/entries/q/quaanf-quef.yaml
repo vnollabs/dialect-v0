@@ -1,0 +1,21 @@
+spelling: quần què
+etymologies:
+  - type: compound
+    note:
+      en: |-
+        quần (“pants”) + què (“crippled”).
+        Some consider this as a Southern corruption of quần hoè, a kind of pants worn in pre-modern times by women during menstruation, making use of flowers of Chinese scholar trees to limit bleeding.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: bullshit; rubbish; your ass
+            qualifier: low colloquial
+            region: [south]
+            labels: [figurative, slang]
+            examples:
+              - text: Đang làm cái quần què gì vậy?
+                en: What the fuck are you doing?
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/qu%E1%BA%A7n_qu%C3%A8#Vietnamese

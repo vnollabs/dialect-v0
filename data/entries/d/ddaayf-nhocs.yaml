@@ -1,0 +1,31 @@
+spelling: đầy nhóc
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Đầy, nhiều lắm
+            region: [mekong-delta]
+            synonyms: [nhóc]
+            examples:
+              - text: Mùa nước nổi, cá linh ngoài đồng đầy nhóc, xúc hoài hổng hết.
+                standard: Mùa lũ, cá linh ngoài đồng nhiều lắm, xúc mãi không hết.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]
+  - type: compound
+    note:
+      en: đầy + nhóc.
+    pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: filled to the brim
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Bà múc canh đầy nhóc cái tô, bưng ra coi chừng đổ nghen.
+                standard: Bà múc canh đầy ắp cái bát, bưng ra cẩn thận kẻo đổ nhé.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%E1%BA%A7y_nh%C3%B3c#Vietnamese

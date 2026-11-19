@@ -1,0 +1,16 @@
+spelling: hủ tíu
+etymologies:
+  - pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: alternative form of hủ tiếu
+            region: [south]
+            variant_of: hủ tiếu
+            examples:
+              - text: Sáng nay ăn hủ tíu Nam Vang đầu hẻm hông?
+                standard: Sáng nay ăn hủ tiếu Nam Vang đầu ngõ không?
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/h%E1%BB%A7_t%C3%ADu#Vietnamese

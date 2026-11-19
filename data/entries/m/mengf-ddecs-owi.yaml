@@ -1,0 +1,21 @@
+spelling: mèng đéc ơi
+etymologies:
+  - type: loan
+    lang: km
+    source_form: មេឃ
+    note:
+      en: Lý Tùng Hiếu (2019) traces first element mèng to Khmer មេឃ (meik, “sky”) and second element đéc to Khmer ដី (dəy, “earth”).
+    pos:
+      - pos: intj
+        senses:
+          - gloss:
+              en: gosh, golly, golly gee, gee whiz
+            region: [south]
+            synonyms: [trời đất ơi, trời ơi, mèng ơi, chèng đéc ơi, chèng ơi]
+            examples:
+              - text: Mèng đéc ơi, xe ai đậu chắn ngang cửa nhà tui vậy nè?
+                standard: Trời đất ơi, xe ai đỗ chắn ngang cửa nhà tôi thế này?
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%C3%A8ng_%C4%91%C3%A9c_%C6%A1i#Vietnamese

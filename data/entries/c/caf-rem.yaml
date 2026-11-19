@@ -1,0 +1,25 @@
+spelling: cà rem
+etymologies:
+  - type: loan
+    lang: fr
+    source_form: crème
+    note:
+      en: Borrowed from French crème. Doublet of cà lem and kem.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              vi: Kem
+              en: ice cream
+            region: [south, south-central]
+            labels: [dated]
+            standard: [kem]
+            synonyms: [kem]
+            examples:
+              - text: Lắm đi bán cà-rem và làm quân trong gánh hát.
+                ref: "[1986, Anh Đức, Đứa con của đất, 2nd edition, Ho Chi Minh City: Nhà xuất bản Văn Nghệ, published 1987, page 223:"
+            topics: [food-drink]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%C3%A0_rem#Vietnamese

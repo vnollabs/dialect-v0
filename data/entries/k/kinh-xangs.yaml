@@ -1,0 +1,16 @@
+spelling: kinh xáng
+etymologies:
+  - pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: alternative form of kênh xáng
+            region: [central, south]
+            variant_of: kênh xáng
+            examples:
+              - text: Nhà tui ở sát bờ kinh xáng, ghe xuồng qua lại suốt ngày.
+                standard: Nhà tôi ở sát bờ kênh xáng, thuyền bè qua lại suốt ngày.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/kinh_x%C3%A1ng#Vietnamese

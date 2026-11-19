@@ -1,0 +1,28 @@
+spelling: chớ
+etymologies:
+  - pos:
+      - pos: particle
+        senses:
+          - gloss:
+              vi: Nhấn mạnh sự khẳng định, đôi khi phản bác hoặc răn đe nhẹ
+            region: [south]
+            examples:
+              - text: Đâu phải chuyện giỡn chơi chớ!
+            topics: [particles]
+            sources: [skill-dictionary-v1]
+  - note:
+      en: Cognate with Muong chớ ~ chở.
+    pos:
+      - pos: particle
+        senses:
+          - gloss:
+              en: Southern Vietnam form of chứ
+            region: [south]
+            variant_of: chứ
+            examples:
+              - text: Con thích ăn cá kho chớ hổng thích ăn thịt.
+                standard: Con thích ăn cá kho chứ không thích ăn thịt.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ch%E1%BB%9B#Vietnamese

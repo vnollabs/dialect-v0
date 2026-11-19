@@ -1,0 +1,28 @@
+spelling: cà chớn
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Không đàng hoàng, thiếu nghiêm túc, hay giỡn quá trớn
+            region: [south]
+            examples:
+              - text: Thằng đó tánh tình cà chớn lắm, đừng có tin lời nó
+            topics: [qualities-feelings]
+            sources: [skill-dictionary-v1]
+  - type: loan
+    lang: km
+    source_form: ខ្ជិល
+    note:
+      en: From Khmer ខ្ជិល (khcɨl, “lazy; idle; shiftless”).
+    pos:
+      - pos: adv
+        senses:
+          - gloss:
+              en: rude, sassy, insolent
+            region: [central, south]
+            examples:
+              - text: Mr. Bean lái cà chớn.
+                en: Mr. Bean drives rudely.
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%C3%A0_ch%E1%BB%9Bn#Vietnamese

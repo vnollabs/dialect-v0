@@ -1,0 +1,14 @@
+spelling: trái cây
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Hoa quả
+            region: [south]
+            standard: [hoa quả]
+            examples:
+              - text: Ra chợ mua ít trái cây về cúng rằm nghen con.
+                standard: Ra chợ mua ít hoa quả về cúng rằm nhé con.
+                ai_draft: true
+            topics: [food-drink]
+            sources: [skill-dictionary-v1]

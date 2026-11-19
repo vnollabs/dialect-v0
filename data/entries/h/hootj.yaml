@@ -1,0 +1,37 @@
+spelling: hột
+etymologies:
+  - derived: [hột le, hột vịt lộn, hột xoàn]
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: Central Vietnam and Southern Vietnam form of hạt
+            region: [central, south]
+            variant_of: hạt
+            examples:
+              - text: Ăn dưa hấu xong nhớ nhả hột vô dĩa nghen con.
+                standard: Ăn dưa hấu xong nhớ nhả hạt vào đĩa nhé con.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/h%E1%BB%99t#Vietnamese
+          - gloss:
+              en: egg
+            qualifier: in certain expressions
+            region: [central, south]
+            examples:
+              - text: hột vịt
+                en: a duck egg
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/h%E1%BB%99t#Vietnamese
+          - gloss:
+              en: drop (of liquid)
+            region: [central, south]
+            examples:
+              - text: Mấy hột mưa đầu mùa rớt lộp độp trên mái tôn.
+                standard: Mấy giọt mưa đầu mùa rơi lộp độp trên mái tôn.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/h%E1%BB%99t#Vietnamese

@@ -1,0 +1,21 @@
+spelling: rước
+etymologies:
+  - pos:
+      - pos: verb
+        han_nom: [逴]
+        senses:
+          - gloss:
+              vi: Đón
+              en: synonym of đón (“to pick up someone”)
+            region: [south]
+            standard: [đón]
+            synonyms: [đón]
+            examples:
+              - text: Chiều nay ba rước con ở trường nghen.
+                standard: Chiều nay bố đón con ở trường nhé.
+                ai_draft: true
+            topics: [actions]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/r%C6%B0%E1%BB%9Bc#Vietnamese

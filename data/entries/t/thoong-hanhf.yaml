@@ -1,0 +1,20 @@
+spelling: thông hành
+etymologies:
+  - type: sino
+    han: 通行
+    note:
+      en: Sino-Vietnamese word from 通行.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: passport
+            region: [south]
+            labels: [dated]
+            examples:
+              - text: Hồi đó muốn đi ngoại quốc phải lo giấy thông hành cả tháng trời.
+                standard: Hồi đó muốn đi nước ngoài phải lo hộ chiếu cả tháng trời.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/th%C3%B4ng_h%C3%A0nh#Vietnamese

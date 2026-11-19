@@ -1,0 +1,14 @@
+spelling: hôm hổm
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Hôm trước, hôm nọ
+            region: [mekong-delta]
+            synonyms: [bữa hổm]
+            examples:
+              - text: Hôm hổm tui gặp bà Tư ngoài chợ, bả hỏi thăm mày đó.
+                standard: Hôm nọ tôi gặp bà Tư ngoài chợ, bà ấy hỏi thăm mày đấy.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

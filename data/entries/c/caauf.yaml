@@ -1,0 +1,25 @@
+spelling: cầu
+etymologies:
+  - type: sino
+    han: 橋
+    note:
+      en: |-
+        Non-Sino-Vietnamese reading of Chinese 橋 (“bridge”, SV: kiều). Doublet of kèo.
+        The “latrine; lavatory” sense was so named since latrines were, in pre-modern times, characteristically a wooden construction on the water. Compare Malay jamban (“latrine”) < jambatan (“bridge”).
+    pos:
+      - pos: noun
+        han_nom: [求, 梂, 橋]
+        classifiers: [cây]
+        senses:
+          - gloss:
+              en: latrine; lavatory
+            region: [south]
+            labels: [abbreviation]
+            variant_of: nhà cầu
+            examples:
+              - text: Đợi tui chút, tui đi cầu cái đã rồi mình đi chợ.
+                standard: Đợi tôi chút, tôi đi vệ sinh cái đã rồi mình đi chợ.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/c%E1%BA%A7u#Vietnamese

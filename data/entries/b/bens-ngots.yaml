@@ -1,0 +1,15 @@
+spelling: bén ngót
+etymologies:
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: very sharp
+            region: [central, south]
+            examples:
+              - text: Con dao mới mài bén ngót, xắt thịt cẩn thận kẻo đứt tay nghen.
+                standard: Con dao mới mài sắc lẹm, thái thịt cẩn thận kẻo đứt tay nhé.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/b%C3%A9n_ng%C3%B3t#Vietnamese

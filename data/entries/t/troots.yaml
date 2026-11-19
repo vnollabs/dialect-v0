@@ -1,0 +1,17 @@
+spelling: trốt
+etymologies:
+  - pos:
+      - pos: noun
+        han_nom: [卒, 啐, 律]
+        classifiers: [cơn, con]
+        senses:
+          - gloss:
+              en: tornado, twister
+            region: [south]
+            examples:
+              - text: Bữa qua trốt nổi ngoài đồng, tốc mái mấy cái chòi canh vịt.
+                standard: Hôm qua lốc xoáy nổi ngoài đồng, tốc mái mấy cái lều canh vịt.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/tr%E1%BB%91t#Vietnamese

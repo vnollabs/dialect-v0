@@ -1,0 +1,19 @@
+spelling: pháo bông
+etymologies:
+  - type: compound
+    note:
+      en: pháo + bông, derived from pháo hoa with Sino-Vietnamese hoa replaced by native bông.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: fireworks
+            region: [central, south]
+            synonyms: [pháo hoa]
+            examples:
+              - text: Giao thừa cả nhà ra bờ sông coi bắn pháo bông.
+                standard: Giao thừa cả nhà ra bờ sông xem bắn pháo hoa.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ph%C3%A1o_b%C3%B4ng#Vietnamese

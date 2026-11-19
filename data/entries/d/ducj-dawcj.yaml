@@ -1,0 +1,27 @@
+spelling: dục dặc
+etymologies:
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: hesitant, unsure
+            region: [south]
+            synonyms: [dùng dằng, dúc dắc, lưỡng lự]
+            examples:
+              - text: Nó còn dục dặc chưa biết nên lên Sài Gòn làm hay ở nhà phụ ba má.
+                standard: Nó còn lưỡng lự chưa biết nên lên Sài Gòn làm hay ở nhà giúp bố mẹ.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/d%E1%BB%A5c_d%E1%BA%B7c#Vietnamese
+          - gloss:
+              en: with to-and-fro motion
+            region: [south]
+            synonyms: [dặc dặc]
+            examples:
+              - text: Họ dùng dao phay chạt mái tóc dày kia, dục dặc, hì hục như phạt một nắm cỏ cứng và khô.
+                en: They used a cleaver to hack away at that thick hair, sawing laboriously as if cutting a clump of tough, dry grass.
+                ref: "2005, Nguyễn Ngọc Tư, “Cánh đồng bất tận” (chapter 1), in Cánh đồng bất tận, NXB Trẻ:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/d%E1%BB%A5c_d%E1%BA%B7c#Vietnamese

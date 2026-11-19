@@ -1,0 +1,27 @@
+spelling: giú
+etymologies:
+  - note:
+      en: Related to giấu. Cognate with Muong chủ (“to hide”) and Chut [Rục] cuː³ (“to cover seeds”).
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to hide; to cover; to conceal
+            region: [central, south]
+            examples:
+              - text: Thằng nhỏ giú mấy viên kẹo dưới gối, sợ anh nó lấy.
+                standard: Thằng bé giấu mấy viên kẹo dưới gối, sợ anh nó lấy.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/gi%C3%BA#Vietnamese
+          - gloss:
+              en: to cover fruits to make them ripe artificially
+            region: [central, south]
+            examples:
+              - text: Má hái buồng chuối xanh về giú trong lu gạo, ba bữa là chín.
+                standard: Mẹ hái buồng chuối xanh về ủ trong chum gạo, ba hôm là chín.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/gi%C3%BA#Vietnamese

@@ -1,0 +1,42 @@
+spelling: mắc cỡ
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Ngượng
+            region: [south]
+            standard: [ngượng]
+            examples:
+              - text: Bị cô giáo khen trước lớp, thằng nhỏ mắc cỡ đỏ mặt.
+                standard: Bị cô giáo khen trước lớp, thằng bé ngượng đỏ mặt.
+                ai_draft: true
+            topics: [qualities-feelings]
+            sources: [skill-dictionary-v1]
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: shy; bashful
+            region: [central, south]
+            synonyms: [thẹn, xấu hổ]
+            examples:
+              - text: Con nhỏ nhà tui tánh mắc cỡ, gặp người lạ là núp sau lưng má.
+                standard: Con bé nhà tôi tính hay xấu hổ, gặp người lạ là nấp sau lưng mẹ.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%E1%BA%AFc_c%E1%BB%A1#Vietnamese
+      - pos: noun
+        classifiers: [cây]
+        senses:
+          - gloss:
+              en: touch-me-not; shy plant (Mimosa pudica)
+            region: [central, south]
+            synonyms: [xấu hổ]
+            examples:
+              - text: Thằng Tí lấy tay chạm vô bụi cây mắc cỡ, lá xếp lại liền.
+                standard: Thằng Tí lấy tay chạm vào bụi cây xấu hổ, lá cụp lại ngay.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%E1%BA%AFc_c%E1%BB%A1#Vietnamese

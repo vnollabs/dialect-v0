@@ -1,0 +1,36 @@
+spelling: thánh
+etymologies:
+  - type: sino
+    han: 聖
+    note:
+      en: |-
+        Sino-Vietnamese word from 聖.
+        The informal adjectival sense "naive, credulous, gullible" and nominal sense "idiot, moron, simpleton" likely semantically develop from senses "saintly" and "saint" respectively, thus paralleling silly and crétin each in that order; see those entries for etymologies and semantic developments.
+    pos:
+      - pos: adj
+        han_nom: [聖, 圣, 垩, 𠄵]
+        senses:
+          - gloss:
+              en: naive, credulous, gullible, daft, silly
+            region: [south]
+            labels: [informal]
+            examples:
+              - text: Mày thánh quá! Nghĩ sao đứa ngu như nó mà làm được bài này!?
+                en: How silly you are! How can you think that an idiot like him/her could finish this assignment!?
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/th%C3%A1nh#Vietnamese
+      - pos: noun
+        han_nom: [聖, 圣, 垩, 𠄵]
+        classifiers: [vị, bậc, đấng]
+        senses:
+          - gloss:
+              en: idiot, moron, dullard, fool, simpleton, cretin
+            region: [south]
+            labels: [informal]
+            examples:
+              - text: Kêu hai thánh đó ra dùm tui dới!
+                en: Call those two cretins out [here] for me!
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/th%C3%A1nh#Vietnamese

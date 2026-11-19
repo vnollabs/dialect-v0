@@ -1,0 +1,23 @@
+spelling: té
+etymologies:
+  - note:
+      en: Probably an undiphthongized form of toé.
+    pos:
+      - pos: verb
+        han_nom: [細, 𪷉, 摖]
+        senses:
+          - gloss:
+              vi: Ngã
+              en: to trip; to fall, to fall over
+            region: [south]
+            standard: [ngã]
+            synonyms: [ngã, bổ]
+            examples:
+              - text: Trời mưa đường trơn, đi chậm thôi kẻo té.
+                standard: Trời mưa đường trơn, đi chậm thôi kẻo ngã.
+                ai_draft: true
+            topics: [actions]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/t%C3%A9#Vietnamese

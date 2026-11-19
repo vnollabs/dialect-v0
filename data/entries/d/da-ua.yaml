@@ -1,0 +1,21 @@
+spelling: da-ua
+etymologies:
+  - type: loan
+    lang: fr
+    source_form: yaourt
+    note:
+      en: Borrowed from French yaourt. The use of the letter d only reflects a southern accent, and even then some yogurt vendors may prefer the letter y, or even the English word yogurt altogether. In textbooks, d is typically used to transcribed the sound /z/ (reflecting a northern accent), so a textbook transcription for this word would be *i-a-ua instead.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: yoghurt
+            region: [south]
+            synonyms: [sữa chua]
+            examples:
+              - text: Ăn cơm xong ăn hũ da-ua cho mát bụng nghen.
+                standard: Ăn cơm xong ăn hũ sữa chua cho mát bụng nhé.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/da-ua#Vietnamese

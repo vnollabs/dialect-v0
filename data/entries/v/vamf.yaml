@@ -1,0 +1,14 @@
+spelling: vàm
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Chỗ rạch, nhánh sông nhỏ đổ ra sông lớn
+            region: [mekong-delta]
+            synonyms: [vàm sông]
+            examples:
+              - text: Chèo xuồng ra tới vàm thì gặp ghe chở lúa đi ngang.
+                standard: Chèo thuyền ra tới cửa kênh thì gặp thuyền chở lúa đi ngang.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

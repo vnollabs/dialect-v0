@@ -1,0 +1,45 @@
+spelling: nè
+etymologies:
+  - pos:
+      - pos: particle
+        senses:
+          - gloss:
+              vi: Kéo sự chú ý của người nghe vô hành động, sự việc, vật trước mặt
+            region: [south]
+            examples:
+              - text: Lấy cái áo này bận thử đi nè, đẹp lắm đó
+            topics: [particles]
+            sources: [skill-dictionary-v1]
+  - pos:
+      - pos: intj
+        han_nom: [泥]
+        senses:
+          - gloss:
+              en: hey!; hold up!
+            region: [south]
+            variant_of: này
+            examples:
+              - text: Nè, đi đâu đó? Đợi tui đi chung với!
+                standard: Này, đi đâu đấy? Đợi tôi đi cùng với!
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/n%C3%A8#Vietnamese
+      - pos: particle
+        han_nom: [泥]
+        senses:
+          - gloss:
+              en: particle demanding attention to something; take a look!
+            region: [south]
+            examples:
+              - text: Nó nè!
+                en: Look, she's this one!
+              - text: Coi nè!
+                en: Look here!
+              - text: Anh mày nè!
+                en: It's me, duh!
+              - text: Qua đây! Có cái này hay lắm nè !
+                en: Come quick! There's something real cool I wanna show you!
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/n%C3%A8#Vietnamese

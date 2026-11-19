@@ -1,0 +1,14 @@
+spelling: cà rịt cà tang
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Chậm rãi, lề mề, từ từ không vội
+            region: [mekong-delta]
+            synonyms: [cà rịch cà tang]
+            examples:
+              - text: Làm gì mà cà rịt cà tang vậy, trễ xe bây giờ!
+                standard: Làm gì mà lề mề thế, lỡ xe bây giờ!
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

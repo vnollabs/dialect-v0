@@ -1,0 +1,14 @@
+spelling: cây bẹo
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Cây sào treo hàng trên ghe ở chợ nổi để chào bán; bẹo là chưng ra
+            region: [mekong-delta]
+            synonyms: [bẹo]
+            examples:
+              - text: Ghe nào bán gì thì treo món đó lên cây bẹo cho khách thấy từ xa.
+                standard: Thuyền nào bán gì thì treo món đó lên cây sào cho khách thấy từ xa.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]

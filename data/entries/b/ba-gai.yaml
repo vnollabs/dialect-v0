@@ -1,0 +1,21 @@
+spelling: ba gai
+etymologies:
+  - type: loan
+    lang: fr
+    source_form: pagaille
+    note:
+      en: From French pagaille (“muddle; mess”).
+    pos:
+      - pos: adj
+        senses:
+          - gloss:
+              en: quarrelsome
+            region: [south]
+            labels: [colloquial]
+            examples:
+              - text: Thằng đó ba gai lắm, đụng chút là kiếm chuyện gây lộn.
+                standard: Thằng đó hay gây sự lắm, động chút là kiếm chuyện cãi nhau.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/ba_gai#Vietnamese

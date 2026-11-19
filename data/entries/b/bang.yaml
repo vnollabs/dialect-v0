@@ -1,0 +1,16 @@
+spelling: bang
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to crash into; to collide with; to hit
+            region: [central, south]
+            synonyms: [bá, tông]
+            examples:
+              - text: Nó chạy xe hổng coi đường, bang vô cột điện, may mà hổng sao.
+                standard: Nó đi xe không nhìn đường, đâm vào cột điện, may mà không sao.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/bang#Vietnamese

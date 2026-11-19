@@ -1,0 +1,28 @@
+spelling: vớ
+etymologies:
+  - pos:
+      - pos: noun
+        classifiers: [cái, chiếc]
+        senses:
+          - gloss:
+              en: a sock
+            region: [south]
+            synonyms: [bít tất, tất]
+            examples:
+              - text: mang vớ
+                en: to be wearing socks
+              - text: đi vớ
+                en: to put on socks
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/v%E1%BB%9B#Vietnamese
+          - gloss:
+              en: stocking
+            region: [south]
+            examples:
+              - text: Đi đám cưới, chỉ mang đôi vớ da dưới váy cho lịch sự.
+                standard: Đi đám cưới, chị ấy đi đôi tất da dưới váy cho lịch sự.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/v%E1%BB%9B#Vietnamese

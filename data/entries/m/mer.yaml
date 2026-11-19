@@ -1,0 +1,17 @@
+spelling: mẻ
+etymologies:
+  - pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: furnace, stove
+            region: [south]
+            examples:
+              - text: mẻ un
+                en: smoking furnace
+              - text: Con vịt không chạy lại cái mẻ mà lạch bạch đi tới chỗ bộ ván ngựa sần sùi nó chui xuống gầm.
+                en: The duck did not run back to the furnace but plodded over to the rough wooden bed and crawled underneath it.
+                ref: "2005, Nguyễn Ngọc Tư, “Cái nhìn khắc khoải”, in Cánh đồng bất tận, NXB Trẻ:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%E1%BA%BB#Vietnamese

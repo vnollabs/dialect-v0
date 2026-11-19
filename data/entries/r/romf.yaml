@@ -1,0 +1,18 @@
+spelling: ròm
+etymologies:
+  - derived: [ròm ri]
+    pos:
+      - pos: adj
+        han_nom: [𦝃, 𦝆]
+        senses:
+          - gloss:
+              en: skinny
+            region: [central, south]
+            synonyms: [gầy, ốm, còi, tóm]
+            examples:
+              - text: Thằng nhỏ ốm ròm vậy chớ ăn khỏe dễ sợ.
+                standard: Thằng bé gầy nhom vậy chứ ăn khỏe lắm.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/r%C3%B2m#Vietnamese

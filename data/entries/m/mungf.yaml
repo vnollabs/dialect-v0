@@ -1,0 +1,43 @@
+spelling: mùng
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Màn (ngủ)
+            region: [mekong-delta]
+            examples:
+              - text: Tối nhớ giăng mùng ngủ, muỗi ở đây dữ lắm.
+                standard: Tối nhớ mắc màn ngủ, muỗi ở đây dữ lắm.
+                ai_draft: true
+            topics: [mekong-words]
+            sources: [skill-dictionary-v1]
+  - note:
+      en: Compare Thai มุ้ง (múng) and Khmer មុង (mung).
+    pos:
+      - pos: noun
+        classifiers: [cái]
+        senses:
+          - gloss:
+              en: mosquito net
+            region: [central, south]
+            synonyms: [màn]
+            examples:
+              - text: Cái mùng cũ rách mấy lỗ rồi, mai ra chợ mua cái mới.
+                standard: Cái màn cũ rách mấy lỗ rồi, mai ra chợ mua cái mới.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%C3%B9ng#Vietnamese
+  - pos:
+      - pos: prefix
+        senses:
+          - gloss:
+              en: Central Vietnam and Southern Vietnam form of mồng
+            region: [central, south]
+            variant_of: mồng
+            examples:
+              - text: ngày mùng một Tết
+                en: New Year's Day (of the lunar calendar)
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/m%C3%B9ng#Vietnamese

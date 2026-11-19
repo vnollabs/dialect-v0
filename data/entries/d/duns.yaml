@@ -1,0 +1,17 @@
+spelling: dún
+etymologies:
+  - pos:
+      - pos: verb
+        han_nom: [敦, 頓]
+        senses:
+          - gloss:
+              en: (“to bend (the legs); to humble oneself”)
+            region: [south]
+            variant_of: nhún
+            examples:
+              - text: Thằng nhỏ dún chân lấy đà rồi phóng qua con mương cái vèo.
+                standard: Thằng bé nhún chân lấy đà rồi nhảy qua con mương cái vèo.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/d%C3%BAn#Vietnamese

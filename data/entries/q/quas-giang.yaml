@@ -1,0 +1,38 @@
+spelling: quá giang
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Đi nhờ xe, đi nhờ ghe
+            region: [south]
+            examples:
+              - text: Cho em quá giang ra chợ với
+            topics: [transport]
+            sources: [skill-dictionary-v1]
+  - type: sino
+    han: 過江
+    note:
+      en: Sino-Vietnamese word from 過江 (“to cross a river”). See also quá độ.
+    pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to cross a body of water by boat
+            region: [south]
+            examples:
+              - text: Hồi chưa có cầu, muốn lên chợ huyện phải quá giang bằng đò.
+                standard: Hồi chưa có cầu, muốn lên chợ huyện phải qua sông bằng đò.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/qu%C3%A1_giang#Vietnamese
+          - gloss:
+              en: to hitchhike
+            region: [south]
+            examples:
+              - text: Xe hư dọc đường, tui đành quá giang xe ông Hai về tới chợ.
+                standard: Xe hỏng dọc đường, tôi đành đi nhờ xe ông Hai về đến chợ.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/qu%C3%A1_giang#Vietnamese

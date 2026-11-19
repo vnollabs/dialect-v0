@@ -1,0 +1,14 @@
+spelling: làm phách
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Ra vẻ kiêu kỳ, cách điệu, kiêu căng khó gần
+            region: [south]
+            synonyms: [làm chảnh]
+            examples:
+              - text: Mới có chút tiền mà làm phách, chào hỏi cũng hổng thèm.
+                standard: Mới có chút tiền mà làm cao, chào hỏi cũng không thèm.
+                ai_draft: true
+            topics: [idioms]
+            sources: [skill-dictionary-v1]

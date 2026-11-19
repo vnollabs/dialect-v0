@@ -1,0 +1,34 @@
+spelling: đương
+etymologies:
+  - pos:
+      - pos: particle
+        senses:
+          - gloss:
+              en: progressing action marker
+            region: [central, south]
+            labels: [dated]
+            variant_of: đang
+            examples:
+              - text: |-
+                  Xuân đương tới, nghĩa là xuân đương qua,
+                  Xuân còn non, nghĩa là xuân sẽ già,
+                en: |-
+                  A coming spring is a passing spring,
+                  A spring in youth is a spring soon to age,
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%C6%B0%C6%A1ng#Vietnamese
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: alternative form of đan
+            region: [south]
+            variant_of: đan
+            examples:
+              - text: Ngoại không nói gì, lặng lẽ ngồi đương thúng,[…]
+                en: His grandmother did not reply; she sat silently weaving her basket; […]
+                ref: "2005, Nguyễn Ngọc Tư, “Biển người mênh mông”, in Cánh đồng bất tận, NXB Trẻ:"
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/%C4%91%C6%B0%C6%A1ng#Vietnamese

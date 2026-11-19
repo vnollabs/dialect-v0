@@ -1,0 +1,23 @@
+spelling: thúi
+etymologies:
+  - derived: [đậu hủ thúi, thúi hẻo, thúi hoắc, thúi rình, thúi tha]
+    pos:
+      - pos: adj
+        han_nom: [退]
+        senses:
+          - gloss:
+              vi: Thối
+              en: Central Vietnam and Southern Vietnam form of thối
+            region: [south, central]
+            standard: [thối]
+            variant_of: thối
+            examples:
+              - text: có mùi thúi
+                en: to have a foul smell
+              - text: Ê mùi gì mà thúi dữ vậy bây?
+                en: Gosh! Guys, what's that stink?
+            topics: [qualities-feelings]
+            sources:
+              - skill-dictionary-v1
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/th%C3%BAi#Vietnamese

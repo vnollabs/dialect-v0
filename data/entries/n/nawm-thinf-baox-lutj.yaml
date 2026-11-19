@@ -1,0 +1,18 @@
+spelling: năm Thìn bão lụt
+etymologies:
+  - type: compound
+    note:
+      en: năm (“year”) + Thìn (“Dragon”, as in the Chinese calendar) + bão lụt (“storms and floods”). It is generally believed that the term is in reference of the year 1904, when Southern Vietnam was hit by one of the most destructive storm ever recorded in its history on 1 May 1904.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: the year 1904, particularly in reference of the destructive storm that made landfall in Southern Vietnam on 1 May 1904.
+            region: [south]
+            examples:
+              - text: Ông cố tui hay nhắc chuyện năm Thìn bão lụt, nói cả đời chưa thấy trận nào dữ vậy.
+                standard: Cụ ông nhà tôi hay nhắc chuyện năm Thìn bão lụt, bảo cả đời chưa thấy trận nào dữ như thế.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/n%C4%83m_Th%C3%ACn_b%C3%A3o_l%E1%BB%A5t#Vietnamese

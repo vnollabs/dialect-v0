@@ -1,0 +1,16 @@
+spelling: nhéo
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              en: to pinch
+            region: [south]
+            synonyms: [véo]
+            examples:
+              - text: Thằng nhỏ lì quá, bị má nhéo tai mới chịu nghe.
+                standard: Thằng bé bướng quá, bị mẹ véo tai mới chịu nghe.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/nh%C3%A9o#Vietnamese

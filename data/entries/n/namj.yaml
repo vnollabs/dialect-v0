@@ -1,0 +1,20 @@
+spelling: nạm
+etymologies:
+  - type: sino
+    han: 腩
+    note:
+      en: |-
+        From Cantonese 腩 (naam5). Coincidentally a
+        Sino-Vietnamese word from 腩, the same character.
+    pos:
+      - pos: noun
+        senses:
+          - gloss:
+              en: flank beef
+            region: [south]
+            examples:
+              - text: phở nạm
+                en: flank beef pho
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/n%E1%BA%A1m#Vietnamese

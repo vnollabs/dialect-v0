@@ -1,0 +1,20 @@
+spelling: heo đất
+etymologies:
+  - type: compound
+    note:
+      en: heo + đất.
+    pos:
+      - pos: noun
+        classifiers: [con]
+        senses:
+          - gloss:
+              en: piggy bank
+            region: [south]
+            synonyms: [ống heo, lợn đất, lợn bỏ ống]
+            examples:
+              - text: Con nuôi heo đất cả năm, giờ đập ra mua xe đạp.
+                standard: Con nuôi lợn đất cả năm, giờ đập ra mua xe đạp.
+                ai_draft: true
+            sources:
+              - id: wiktionary
+                url: https://en.wiktionary.org/wiki/heo_%C4%91%E1%BA%A5t#Vietnamese

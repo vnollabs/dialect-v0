@@ -1,0 +1,14 @@
+spelling: tình thiệt
+etymologies:
+  - pos:
+      - senses:
+          - gloss:
+              vi: Nói thật, thật lòng mà nói
+            region: [south]
+            synonyms: [nói thiệt]
+            examples:
+              - text: Tình thiệt mà nói, tui cũng hổng biết tính sao nữa.
+                standard: Nói thật lòng, tôi cũng không biết tính thế nào nữa.
+                ai_draft: true
+            topics: [discourse-markers]
+            sources: [skill-dictionary-v1]
