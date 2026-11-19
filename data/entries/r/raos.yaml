@@ -1,0 +1,17 @@
+spelling: ráo
+etymologies:
+  - pos:
+      - pos: adv
+        senses:
+          - gloss:
+              vi: "Cuối câu phủ định: hết, cả ('hổng biết gì ráo')"
+            region: [south]
+            labels: [colloquial]
+            standard: [cả, hết]
+            examples:
+              - text: Cái mặt không có mắt mũi gì ráo.
+                standard: Cái mặt không có mắt mũi gì cả.
+            topics: [particles]
+            sources:
+              - id: contributor
+                note: Người dùng đưa ra trong truyện mẫu Khúc Vàm Nước Đứng, 2026-11-19

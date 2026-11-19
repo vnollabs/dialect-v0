@@ -1,0 +1,15 @@
+spelling: chúi nhủi
+etymologies:
+  - pos:
+      - pos: verb
+        senses:
+          - gloss:
+              vi: Chúi đầu về phía trước, mất đà như sắp ngã
+            region: [standard]
+            synonyms: [ngã chúi, chúi nhào]
+            examples:
+              - text: …sợi cước trong tay bỗng dưng căng cọng, giựt một cái làm hắn chúi nhủi về phía trước.
+                standard: …sợi cước trong tay bỗng dưng căng cứng, giật một cái làm hắn ngã chúi về phía trước.
+            sources:
+              - id: contributor
+                note: Người dùng đưa ra trong truyện mẫu Khúc Vàm Nước Đứng, 2026-11-19

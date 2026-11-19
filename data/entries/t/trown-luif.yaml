@@ -1,0 +1,17 @@
+spelling: trơn lùi
+etymologies:
+  - pos:
+      - pos: adj
+        senses:
+          - gloss:
+              vi: Trơn nhẵn hoàn toàn, không có chút gồ ghề nào
+            region: [south]
+            labels: [colloquial]
+            standard: [nhẵn thín, trơn nhẵn]
+            examples:
+              - text: Cái mặt không có mắt mũi gì ráo, chỉ trơn lùi như một cục bột nhào dính đầy sình.
+                standard: Cái mặt không có mắt mũi gì cả, chỉ nhẵn thín như một cục bột nhào dính đầy bùn.
+            topics: [qualities-feelings]
+            sources:
+              - id: contributor
+                note: Người dùng đưa ra trong truyện mẫu Khúc Vàm Nước Đứng, 2026-11-19

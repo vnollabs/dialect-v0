@@ -1,0 +1,16 @@
+spelling: xuồng cui
+etymologies:
+  - pos:
+      - pos: noun
+        classifiers: [chiếc]
+        senses:
+          - gloss:
+              vi: Loại xuồng gỗ nhỏ của người giăng lưới, thả câu, làm ruộng ở Miền Tây, hay dùng vào mùa nước nổi
+            region: [mekong-delta]
+            examples:
+              - text: Thằng Bảy Lập ghì chặt cây tre già, hai bắp chân gồng cứng ngắc làm mấy ngón chân bấu trầy cả lớp rêu đóng trên be xuồng cui.
+                standard: Thằng Bảy Lập ghì chặt cây tre già, hai bắp chân gồng cứng đến mức mấy ngón chân cào xước cả lớp rêu bám trên mạn chiếc xuồng gỗ nhỏ.
+            topics: [mekong-words]
+            sources:
+              - id: contributor
+                note: Người dùng đưa ra trong truyện mẫu Khúc Vàm Nước Đứng, 2026-11-19
