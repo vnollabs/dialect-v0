@@ -4,7 +4,7 @@
 
 An open project from [VN OpenLab](https://vnol.net) · Web portal (planned): [dialect.vnol.net](https://dialect.vnol.net)
 
-> **Status: pre-alpha / planning.** This repository currently holds only the product requirements ([`docs/PRD.md`](docs/PRD.md)). The schema, dataset, build scripts, and web portal described below are planned and not yet implemented. Feedback on the PRD is welcome.
+> **Status: early.** The repo has the dataset (981 entries, 1,202 senses, seeded from an agent-skill dictionary and from Wiktionary), its schema, validation and build scripts, and two agent skills. Most senses still need a second source to count as verified. The web portal and the hosted JSON API are not built yet. See [`docs/PRD.md`](docs/PRD.md) for the plan.
 
 ---
 
@@ -18,105 +18,94 @@ LLMs mostly write standard Northern (Hanoi) Vietnamese, because that is what mos
 
 Existing regional dictionaries are written for people to read. They have no machine-readable schema, no tags for when a word fits socially, and no mapping between regions. VN Dialect fills that gap.
 
-## What it will provide
+## What's here
 
-| Deliverable                     | Description                                                                                                                                 |
-|:--------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------|
-| **JSON schema**                 | `entry.schema.json`, which records pragmatic context (tone, register, relationship) along with each definition                              |
-| **Curated dataset**             | At least 1,500 high-frequency Mekong and Southern entries, covering all common regional pronouns and sentence-final particles               |
-| **`SKILL.md` files for agents** | Short, token-efficient rule sets generated from the data and ready to drop into Claude Skills, Cursor Rules, custom GPTs, or system prompts |
-| **Static JSON API**             | CDN-cached endpoints such as `https://dialect.vnol.net/api/v1/mekong.json`, for MCP servers and RAG pipelines                               |
-| **Style-guard rules**           | Anti-patterns to avoid when writing Southern speech, e.g. *lợn → heo*, *bát → chén*, *vâng → dạ*                                            |
-| **Web portal**                  | Lexicon search, a prompt playground comparing output with and without VN Dialect, and a contribution form that opens PRs for you            |
+| Part                                                                                     | Description                                                                                                                                                       |
+|:-----------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Dataset** ([`data/`](data))                                                            | One YAML file per spelling: etymologies, part of speech, senses with region, standard equivalent, examples, usage labels and sources                              |
+| **Schema** ([`schema/entry.schema.json`](schema/entry.schema.json))                      | JSON Schema for an entry; guide in [`docs/data-format.md`](docs/data-format.md)                                                                                   |
+| **Skill: `southern-mekong-vietnamese-dialect`** ([`skills/`](skills/southern-mekong-vietnamese-dialect)) | Makes an agent write authentic Southern / Mekong Delta Vietnamese: rules, a dictionary generated from `data/`, and a checker that flags *ạ*, *vâng* and Northern words |
+| **Skill: `vietnamese-natural-writing`** ([`skills/`](skills/vietnamese-natural-writing)) | Makes Vietnamese text read like a person wrote it: writing modes, techniques from four Vietnamese authors, and a checker for machine-like patterns                |
+| **Scripts** ([`scripts/`](scripts))                                                      | `validate`, `build` (skill dictionary + `dist/lexicon.json`), `dict` (find / add / pending), Wiktionary import                                                    |
+
+Planned: the web portal (search, prompt playground, contribution form), a hosted static JSON API (`https://dialect.vnol.net/api/v1/…`), north–south mappings, and Central and Northern regions.
 
 ## Example entry
 
-Each entry describes *when* and *how* to use a word, as well as what it means:
+Each sense says *where* and *how* a word is used, not only what it means. [`data/entries/b/bieeur.yaml`](data/entries/b/bieeur.yaml), abridged:
 
-```json
-{
-  "id": "mk-00042",
-  "term": "nghen",
-  "variants": ["hen", "nha"],
-  "region": ["mekong", "south"],
-  "pos": "sentence_final_particle",
-  "standard_equivalent": ["nhé", "nha"],
-  "pragmatics": {
-    "tone": ["friendly", "persuasive", "gentle", "colloquial"],
-    "register": "informal_to_semi_formal",
-    "relationship": "equal_or_affectionate_to_younger"
-  },
-  "definition_vi": "Tiểu từ đặt cuối câu dùng để rủ rê, dặn dò hoặc xác nhận một cách nhẹ nhàng, thân tình.",
-  "definition_en": "Sentence-final particle used to soften suggestions, reminders, or confirmations with warmth.",
-  "examples": [
-    {
-      "dialect": "Mai mốt rảnh ghé nhà tui chơi nghen!",
-      "standard": "Hôm nào rảnh ghé nhà tôi chơi nhé!",
-      "context": "Inviting a friend warmly."
-    }
-  ],
-  "ai_usage_notes": "Avoid pairing 'nghen' with Northern pronouns like 'tớ/cậu' or formal particles like 'ạ'. Pair with 'tui/bạn', 'anh/em', or 'chú/con'."
-}
+```yaml
+spelling: biểu
+etymologies:
+  - type: variant                     # a sound variant of bảo
+    of: bảo
+    sound_change: {pattern: ao → iêu, compare: [[cáo, kiếu], [đào, điều]]}
+    pos:
+      - pos: verb
+        senses:
+          - gloss: {vi: Bảo, en: to tell}
+            region: [south, south-central]
+            standard: [bảo]
+            examples:
+              - {text: "Ê cu, lại đây tao biểu!", en: "Come here for a sec boy, I have something to tell you."}
+            topics: [actions]         # included in the agent skill's dictionary
+            sources: [skill-dictionary-v1, {id: wiktionary, url: "https://en.wiktionary.org/wiki/biểu"}]
 ```
 
-## Planned repository layout
-
-One monorepo holds every region, so the schema and the cross-region checks stay consistent.
+## Repository layout
 
 ```text
 dialect-v0/
-├── schema/
-│   ├── entry.schema.json        # Core schema for lexical entries
-│   └── mapping.schema.json      # Schema for cross-regional equivalences
 ├── data/
-│   ├── mekong/                  # Flagship: Mekong Delta (Tây Nam Bộ)
-│   │   ├── pronouns.json        # Xưng hô & đại từ
-│   │   ├── particles.json       # Tiểu từ tình thái (hen, nghen, đa…)
-│   │   └── lexicon-*.json       # General vocabulary
-│   ├── south/                   # Southern / Saigon urban usage
-│   ├── central/                 # [Future] Central dialects
-│   └── north/                   # [Future] Northern reference
-├── mappings/
-│   └── north-south.json         # Equivalence pairs for translation / style transfer
-├── skills/                      # Generated: do not edit by hand
-│   ├── mekong-agent/SKILL.md
-│   └── south-agent/SKILL.md
-├── scripts/
-│   ├── validate.ts              # Schema + duplicate-ID checks (CI)
-│   └── build-artifacts.ts       # Builds SKILL.md files and minified JSON bundles
-├── web/                         # Source for dialect.vnol.net
-└── docs/
-    └── PRD.md                   # Product requirements
+│   ├── entries/<letter>/<telex>.yaml   # one file per spelling (biểu → b/bieeur.yaml)
+│   ├── regions.yaml · topics.yaml · sources.yaml
+│   └── nguon-tu-dien.md                # notes for finding and verifying new words
+├── schema/entry.schema.json
+├── skills/
+│   ├── southern-mekong-vietnamese-dialect/   # references/ dictionary is generated: don't edit by hand
+│   └── vietnamese-natural-writing/
+├── scripts/                            # TypeScript, run directly by Node ≥ 22.18
+└── docs/                               # PRD, data format, Wiktionary import review list
 ```
 
-## Roadmap
+## Using the skills
 
-- **Phase 1: Mekong & Southern (MVP).** Schema, a dataset of 1,500+ entries, the build pipeline for `SKILL.md` and JSON bundles, and the web portal.
-- **Phase 2: Cross-regional mapping & TTS.** `mappings/north-south.json`, plus pronunciation audio linked with [voice.vnol.net](https://voice.vnol.net).
-- **Phase 3: Multi-region expansion.** Community maintainers for Central (*Huế, Quảng, Nghệ*) and Northern sub-dialects.
+Copy a folder from [`skills/`](skills) into your agent's skills directory (for Claude Code: `~/.claude/skills/` or `.claude/skills/` in a project). Each skill is self-contained and needs only Python 3 for its scripts.
 
 ## Contributing
 
-You don't need academic credentials. Native speakers' knowledge of everyday usage is exactly what this project needs. Once the schema is in place, you'll be able to contribute through:
+You don't need academic credentials. Native speakers' knowledge of everyday usage is exactly what this project needs.
 
-1. **GitHub pull requests:** add or edit entries under `data/<region>/`.
-2. **The web form** at dialect.vnol.net, which turns your submission into valid JSON and opens a PR for you.
+```bash
+npm install
+npm run dict -- find "xuồng"                         # is the word there already?
+npm run dict -- add "mưa dông" "Mưa to kèm sấm sét" --topic weather-orchards \
+  --example "Chiều nay mưa dông lớn lắm nghen" --source <id>
+npm run dict -- pending                              # senses waiting for a source
+npm run validate && npm run build                    # then commit data/ and the regenerated skill files
+```
 
-Every PR will have to pass CI:
+A sense is **verified** once it has two independent sources (see [`data/sources.yaml`](data/sources.yaml)). Write glosses and examples in your own words: books still under copyright can be cited to verify a word but not copied.
 
-- JSON schema validation
-- No duplicate IDs
-- Each entry includes `examples` or `ai_usage_notes`
+Every pull request runs CI: schema and file-name validation, a check that the generated skill files are up to date, type-checking, and both skills' tests.
 
 **No binary files in Git.** Audio files (`.mp3`, `.wav`) are not accepted in this repository. Pronunciation audio is stored externally (e.g. Cloudflare R2, managed with voice.vnol.net), and entries link to it by URL.
 
-Until then, the most useful contribution is feedback on [`docs/PRD.md`](docs/PRD.md). Open an issue or start a discussion.
+[`docs/wiktionary-import-review.md`](docs/wiktionary-import-review.md) lists 89 words where an existing sense sits next to Wiktionary's; merging duplicates there is a good first contribution.
+
+## Roadmap
+
+- **Phase 1: Mekong & Southern (MVP).** Schema ✓, dataset seeded ✓ (verification ongoing; target 1,500+ verified entries), build pipeline for `SKILL.md` and JSON bundles ✓, web portal.
+- **Phase 2: Cross-regional mapping & TTS.** North–south mappings, plus pronunciation audio linked with [voice.vnol.net](https://voice.vnol.net).
+- **Phase 3: Multi-region expansion.** Community maintainers for Central (*Huế, Quảng, Nghệ*) and Northern sub-dialects.
 
 ## License
 
 The planned licensing is:
 
-- **Dataset and lexicon** (`data/`, `mappings/`, `skills/`): [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), with attribution to VN OpenLab
-- **Scripts and web code** (`scripts/`, `web/`, `schema/`): [MIT](https://opensource.org/licenses/MIT)
+- **Dataset and lexicon** (`data/`, and the skills' prose and references in `skills/`): [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), with attribution to VN OpenLab
+- **Code** (`scripts/`, `skills/*/scripts/`, `schema/`, `web/`): [MIT](https://opensource.org/licenses/MIT)
 
-License files will be added along with the first data and code.
+The dataset includes material from [English Wiktionary](https://en.wiktionary.org/), available under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/); each imported sense links to its source page.
+
+License files will be added along with the first release.

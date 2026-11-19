@@ -63,63 +63,63 @@ Traditional regional dictionaries (e.g., printed/PDF lexicons) are designed for 
 
 ## 4. Technical Architecture & Data Design
 
-### 4.1 Monorepo Structure (`vnol/vn-dialect`)
-A single repository will house all regional datasets, schemas, and build scripts to enforce data integrity and enable cross-regional validation.
+### 4.1 Monorepo Structure (`vnollabs/dialect-v0`)
+A single repository holds all regional data, the schema and the build scripts, so cross-regional checks run on everything. Region is a field on each sense, not a folder: one word is often used in several regions.
 
 ```text
-vn-dialect/
+dialect-v0/
 ├── schema/
-│   ├── entry.schema.json        # Core JSON schema for lexical entries
-│   └── mapping.schema.json      # Schema for cross-regional word equivalence
-├── data/
-│   ├── mekong/                  # Flagship: Mekong Delta (Tây Nam Bộ)
-│   │   ├── pronouns.json        # High-priority: Xưng hô & đại từ
-│   │   ├── particles.json       # High-priority: Tiểu từ tình thái (hen, nghen, đa...)
-│   │   └── lexicon-*.json       # Categorized or alphabetical vocabulary
-│   ├── south/                   # General Southern / Saigon urban dialect
-│   ├── central/                 # [Future] Central dialects
-│   └── north/                   # [Future] Northern reference / regionalisms
-├── mappings/
-│   └── north-south.json         # Equivalence pairs for AI translation/style-transfer
-├── skills/                      # Auto-generated artifacts for AI Agents
-│   ├── mekong-agent/
-│   │   └── SKILL.md             # Ready-to-use prompt instructions & rules
-│   └── south-agent/
-│       └── SKILL.md
-├── scripts/
-│   ├── validate.ts              # CI schema & duplicate checker
-│   └── build-artifacts.ts       # Compiles raw JSON into minified API/Skills
-└── web/                         # Source code for dialect.vnol.net
+│   └── entry.schema.json        # JSON Schema for one entry file
+├── data/                        # Source of truth (YAML, edited by hand or with `npm run dict`)
+│   ├── entries/<letter>/<telex>.yaml   # One file per spelling, all regions
+│   ├── regions.yaml             # Region ids: south, mekong-delta, south-central, north, …
+│   ├── topics.yaml              # Topic ids (groups of the agent skill's dictionary)
+│   ├── sources.yaml             # Source ids; copies (same_as) count once
+│   └── nguon-tu-dien.md         # Notes for finding and verifying new words
+├── skills/                      # Agent skills (SKILL.md + references + scripts)
+│   ├── southern-mekong-vietnamese-dialect/   # Dictionary in references/ is generated from data/
+│   └── vietnamese-natural-writing/
+├── scripts/                     # TypeScript, run directly by Node ≥ 22.18
+│   ├── validate.ts              # Schema, file names, NFC, ids (CI)
+│   ├── build.ts                 # Skill dictionary + dist/lexicon.json; --check for CI
+│   ├── dict.ts                  # find / add / pending / topics
+│   └── import-wiktionary.ts     # Seed from the kaikki.org dump of Wiktionary
+├── docs/
+│   ├── PRD.md
+│   └── data-format.md           # Contributor guide to the entry format
+└── web/                         # [Future] Source code for dialect.vnol.net
 ```
+
+Source files are YAML (readable Vietnamese prose, comments, small diffs); every published artifact is JSON or Markdown generated from them. One file per spelling keeps pull requests from conflicting and gives each word its own history. File names are the Telex spelling (`biểu` → `bieeur.yaml`), which keeps words that differ only by tone apart and avoids NFC/NFD file-name problems across operating systems.
 
 ### 4.2 AI-Centric Lexical Entry Schema
-Unlike traditional dictionaries, every entry must prioritize **pragmatic usage** so an LLM knows *when* and *how* to use the word.
+The entry model follows the structure of full dialect dictionaries (e.g. Huỳnh Công Tín's *Từ điển từ ngữ Nam Bộ*) and of Wiktionary, so entries can be imported from Wiktionary and grow to a full dictionary: a spelling holds etymologies (unrelated words spelled the same), each with part-of-speech blocks, each with senses. **Pragmatic usage lives on the sense** (region, labels, standard equivalent, examples, `ai` guidance), so an LLM knows *when* and *how* to use each meaning. Full guide: [`docs/data-format.md`](data-format.md).
 
-```json
-{
-  "id": "mk-00042",
-  "term": "nghen",
-  "variants": ["hen", "nha"],
-  "region": ["mekong", "south"],
-  "pos": "sentence_final_particle",
-  "standard_equivalent": ["nhé", "nha"],
-  "pragmatics": {
-    "tone": ["friendly", "persuasive", "gentle", "colloquial"],
-    "register": "informal_to_semi_formal",
-    "relationship": "equal_or_affectionate_to_younger"
-  },
-  "definition_vi": "Tiểu từ đặt cuối câu dùng để rủ rê, dặn dò hoặc xác nhận một cách nhẹ nhàng, thân tình.",
-  "definition_en": "Sentence-final particle used to soften suggestions, reminders, or confirmations with warmth.",
-  "examples": [
-    {
-      "dialect": "Mai mốt rảnh ghé nhà tui chơi nghen!",
-      "standard": "Hôm nào rảnh ghé nhà tôi chơi nhé!",
-      "context": "Inviting a friend warmly."
-    }
-  ],
-  "ai_usage_notes": "Avoid pairing 'nghen' with Northern pronouns like 'tớ/cậu' or formal particles like 'ạ'. Pair with 'tui/bạn', 'anh/em', or 'chú/con'."
-}
+```yaml
+# data/entries/b/bieeur.yaml (abridged; the `ai` block is added here to show the field)
+spelling: biểu
+etymologies:
+  - type: variant
+    of: bảo
+    sound_change: {pattern: ao → iêu, compare: [[cáo, kiếu], [đào, điều]]}
+    pos:
+      - pos: verb
+        han_nom: [𠶓]
+        senses:
+          - gloss: {vi: Bảo, en: to tell}
+            region: [south, south-central]
+            standard: [bảo]
+            variant_of: bảo
+            examples:
+              - {text: "Ê cu, lại đây tao biểu!", en: "Come here for a sec boy, I have something to tell you."}
+            topics: [actions]
+            ai: {register: informal, usage_notes: "Pair with tao/mày or anh/em; never with Northern 'ạ'."}
+            sources: [skill-dictionary-v1, {id: wiktionary, url: "https://en.wiktionary.org/wiki/biểu"}]
 ```
+
+A sense's verification status is computed from its sources: two independent sources make it *verified*, one *pending*, none *unsourced*.
+
+Pronunciation is not stored per entry: Vietnamese spelling predicts it by rule, so a custom IPA tool will generate it per region (Phase 2). Entries keep only pronunciations checked by ear that differ from the rules, each with a source.
 
 ---
 
