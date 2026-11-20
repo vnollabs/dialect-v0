@@ -1,0 +1,15 @@
+spelling: trà quao
+etymologies:
+  - pos:
+      - pos: noun
+        senses:
+          - gloss:
+              vi: Nước nấu từ lá, vỏ cây quao nước mọc ven sông rạch nước lợ, uống cho mát
+            region: [mekong-delta]
+            examples:
+              - text: Đáng lẽ giờ này hắn đã về tới chòi, ngồi xếp bằng trên vạt tre uống cạn chén trà quao dới tía hắn.
+                standard: Đáng lẽ giờ này hắn đã về tới lều, ngồi khoanh chân trên sạp tre uống cạn chén trà quao với bố hắn.
+            topics: [mekong-food]
+            sources:
+              - id: contributor
+                note: Người dùng đưa ra trong truyện mẫu Khúc Vàm Nước Đứng, 2026-11-19

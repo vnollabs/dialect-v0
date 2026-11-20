@@ -3,17 +3,20 @@ etymologies:
   - type: sino
     han: 棗
     note:
-      en: Sino-Vietnamese word from 棗 (“date tree”).
+      en: Sino-Vietnamese word from 棗 (“jujube / date tree”).
     pos:
       - pos: noun
         han_nom: [棗]
         classifiers: [cây, trái, quả]
         senses:
           - gloss:
-              en: plum
+              vi: Táo ta, quả táo chua hoặc ngọt
+              en: jujube (Ziziphus mauritiana)
             region: [south]
-            standard: [mận]
+            examples:
+              - text: Cây táo sau hè trĩu quả, hái mấy trái chấm muối ớt ăn giòn rụm.
+                standard: Cây táo sau nhà trĩu quả, hái mấy quả chấm muối ớt ăn giòn rụm.
+                ai_draft: true
             sources:
               - id: wiktionary
                 url: https://en.wiktionary.org/wiki/t%C3%A1o#Vietnamese
-            note: "No example yet: the AI drafter skipped this sense (doubt the usage: táo for plum (standard mận) is not attested to me; Southern speakers use táo for jujube and mận Bắc/mận Hà Nội for plum). Check that the sense is real before adding one."

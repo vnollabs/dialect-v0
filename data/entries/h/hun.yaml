@@ -1,6 +1,9 @@
 spelling: hun
 etymologies:
-  - sound_change:
+  - type: variant
+    of: hôn
+    sound_change:
+      pattern: u ↔ ô
       compare:
         - [rún, rốn]
         - [thúi, thối]

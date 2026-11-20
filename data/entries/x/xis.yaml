@@ -32,16 +32,6 @@ etymologies:
             sources:
               - id: wiktionary
                 url: https://en.wiktionary.org/wiki/x%C3%AD#Vietnamese
-      - pos: verb
-        senses:
-          - gloss:
-              en: to die; to croak; to kick the bucket
-            region: [south]
-            labels: [derogatory]
-            sources:
-              - id: wiktionary
-                url: https://en.wiktionary.org/wiki/x%C3%AD#Vietnamese
-            note: "No example yet: the AI drafter skipped this sense (doubt the usage: xí as a derogatory verb 'to die' is not attested to me; risky to guess with a derogatory label). Check that the sense is real before adding one."
       - pos: adj
         senses:
           - gloss:
@@ -54,10 +44,3 @@ etymologies:
             sources:
               - id: wiktionary
                 url: https://en.wiktionary.org/wiki/x%C3%AD#Vietnamese
-          - gloss:
-              en: bad; mean; evil
-            region: [south]
-            sources:
-              - id: wiktionary
-                url: https://en.wiktionary.org/wiki/x%C3%AD#Vietnamese
-            note: "No example yet: the AI drafter skipped this sense (doubt the usage: xí meaning 'bad; mean; evil' is not attested to me and is hard to separate from the interjection and 'ugly' senses). Check that the sense is real before adding one."

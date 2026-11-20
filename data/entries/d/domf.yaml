@@ -23,8 +23,8 @@ etymologies:
             region: [south]
             labels: [colloquial]
             examples:
-              - text: Mày dòm coi trời có mưa hông rồi hẵng phơi đồ.
-                standard: Mày nhìn xem trời có mưa không rồi hẵng phơi quần áo.
+              - text: Mày dòm coi trời có mưa hông rồi mới phơi đồ.
+                standard: Mày nhìn xem trời có mưa không rồi mới phơi quần áo.
                 ai_draft: true
             sources:
               - id: wiktionary

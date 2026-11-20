@@ -1,0 +1,16 @@
+spelling: lưới bén
+etymologies:
+  - pos:
+      - pos: noun
+        classifiers: [tay, cuộn]
+        senses:
+          - gloss:
+              vi: Lưới mắt nhỏ giăng ngang sông rạch hoặc đồng ngập cho cá đi qua mắc vào
+            region: [mekong-delta]
+            examples:
+              - text: Đáng lẽ giờ này hắn đã về tới chòi, … chớ chẳng mắc mớ gì phải thả lưới bén ở cái khúc vàm nước đứng này.
+                standard: Đáng lẽ giờ này hắn đã về tới lều, … chứ chẳng việc gì phải thả lưới ở cái khúc cửa sông nước đứng này.
+            topics: [mekong-words]
+            sources:
+              - id: contributor
+                note: Người dùng đưa ra trong truyện mẫu Khúc Vàm Nước Đứng, 2026-11-19

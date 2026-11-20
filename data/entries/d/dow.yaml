@@ -1,6 +1,9 @@
 spelling: dơ
 etymologies:
-  - sound_change:
+  - type: variant
+    of: nhơ
+    sound_change:
+      pattern: nh- → d-
       compare:
         - [dòm, nhòm]
         - [dớp, nhớp]

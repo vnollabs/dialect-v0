@@ -1,0 +1,16 @@
+spelling: bần
+etymologies:
+  - pos:
+      - pos: noun
+        classifiers: [cây, trái]
+        senses:
+          - gloss:
+              vi: Cây mọc ven sông rạch nước lợ, trái chua dùng nấu canh chua
+            region: [mekong-delta]
+            examples:
+              - text: Hồi năm lụt trôi nguyên chiếc ghe buôn cau, xác người tấp vô mấy gốc bần trôi dạt ra từng khúc, vớt hổng bao giờ đủ.
+                standard: Hồi năm lụt trôi nguyên chiếc thuyền buôn cau, xác người dạt vào mấy gốc bần rồi trôi ra từng khúc, vớt không bao giờ đủ.
+            topics: [mekong-food]
+            sources:
+              - id: contributor
+                note: Người dùng đưa ra trong truyện mẫu Khúc Vàm Nước Đứng, 2026-11-19

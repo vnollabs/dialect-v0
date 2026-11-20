@@ -33,13 +33,3 @@ etymologies:
             sources:
               - id: wiktionary
                 url: https://en.wiktionary.org/wiki/x%E1%BA%BF#Vietnamese
-  - pos:
-      - pos: adj
-        senses:
-          - gloss:
-              en: ill-mannered; unruly
-            region: [south]
-            sources:
-              - id: wiktionary
-                url: https://en.wiktionary.org/wiki/x%E1%BA%BF#Vietnamese
-            note: "No example yet: the AI drafter skipped this sense (doubt the usage: xế meaning 'ill-mannered; unruly' is not familiar to me and has no example or source detail to anchor it). Check that the sense is real before adding one."

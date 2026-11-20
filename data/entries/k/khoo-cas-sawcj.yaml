@@ -1,12 +1,15 @@
 spelling: khô cá sặc
 etymologies:
   - pos:
-      - senses:
+      - pos: noun
+        senses:
           - gloss:
-              vi: Cá nước ngọt xẻ phơi khô, đặc sản miền Tây
+              vi: Cá sặc rằn ướp muối phơi khô, vị béo bùi, đặc sản miền Tây hay dùng trộn gỏi xoài
+              en: dried snakeskin gourami
             region: [mekong-delta]
-            synonyms: [khô cá lóc]
             examples:
-              - text: Nướng con khô cá sặc trộn gỏi xoài bằm là hết bài
+              - text: Nướng con khô cá sặc trộn gỏi xoài bằm là hết sẩy.
+                standard: Nướng con cá sặc khô trộn nộm xoài băm là ngon hết sảy.
+                ai_draft: true
             topics: [mekong-food]
             sources: [skill-dictionary-v1]

@@ -23,8 +23,8 @@ etymologies:
             qualifier: of foods
             region: [south]
             examples:
-              - text: I eat a very healthy diet with lots of green vegetables and other foods rich in folate. Do I still need a supplement?
-                ref: "2009, “Preventing Neural Tube Defects For Couples at Increased Risk”, in Western States Regional Genetics Network; translated into Vietnamese as Tin Mới Nhất Về Di Truyền - Ngừa Khuyết Tật Ống Thần Kinh Thai Nhi Cho Những Ông Bà Có Nhiều Rủi Ro, 2009:"
+              - text: Bữa nay ăn canh rau tập tàng cho nó hiền, giải nhiệt mùa nắng.
+                standard: Hôm nay ăn canh rau tập tàng cho nó lành, giải nhiệt mùa nắng.
             sources:
               - id: wiktionary
                 url: https://en.wiktionary.org/wiki/hi%E1%BB%81n#Vietnamese

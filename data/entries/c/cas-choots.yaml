@@ -1,0 +1,16 @@
+spelling: cá chốt
+etymologies:
+  - pos:
+      - pos: noun
+        classifiers: [con]
+        senses:
+          - gloss:
+              vi: Cá da trơn nhỏ ở sông rạch, ruộng đồng Miền Tây, có râu và ngạnh nhọn, thường đem kho hoặc nấu canh chua
+            region: [mekong-delta]
+            examples:
+              - text: …dính được vài ba con cá chốt nhớt nhợt kêu rỉ rả trong khoang.
+                standard: …dính được vài ba con cá chốt nhầy nhụa kêu rỉ rả trong khoang.
+            topics: [mekong-food]
+            sources:
+              - id: contributor
+                note: Người dùng đưa ra trong truyện mẫu Khúc Vàm Nước Đứng, 2026-11-19

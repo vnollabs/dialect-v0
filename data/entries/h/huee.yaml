@@ -13,7 +13,8 @@ etymologies:
             region: [central, south]
             labels: [obsolete, rare]
             examples:
-              - text: 1937, Dương Bá Trạc, "Vào hè (Into Summer)" in Nét mực tình (The Affectionate Ink Stroke)
+              - text: "Vàng lợt vẻ trông bùi ngùi huê, / Hồng tươi sắc rụng ngậm ngùi huê."
+                ref: '1937, Dương Bá Trạc, "Vào hè (Into Summer)" in Nét mực tình (The Affectionate Ink Stroke)'
                 en: The yellow (hue) fades; the color wanes; (I feel) dismayed for the flowers. / The rosy and colorful (petals) fall and drop; (I feel) sorry for the flowers.
             sources:
               - id: wiktionary

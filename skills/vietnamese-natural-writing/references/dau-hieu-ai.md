@@ -1,6 +1,6 @@
 # Dấu hiệu văn máy trong tiếng Việt và cách sửa
 
-Danh sách để rà bản nháp. `scripts/check_ai_tells.py` bắt được phần lớn mục A, B, D, E và phần "gọi tên cảm xúc" của mục C; phần còn lại của C và mục F phải tự đọc. Ví dụ thật người dùng đã bắt lỗi nằm ở `mau-da-duyet.md`.
+Danh sách để rà bản nháp. `scripts/check_ai_tells.py` bắt được phần lớn mục A, B, D, E và phần "gọi tên cảm xúc" của mục C; phần còn lại của C và mục F phải tự đọc.
 
 ## Mục lục
 
@@ -29,7 +29,7 @@ Danh sách để rà bản nháp. `scripts/check_ai_tells.py` bắt được ph�
 | Ba câu liền nhau mở cùng một chữ ("Bạn…", "Bạn…", "Bạn…") | Khuôn câu lặp | Đổi cách mở, gộp hai câu, hoặc bỏ chủ ngữ |
 | Kịch bản đọc có câu dài quá một hơi (trên 25 chữ) | Viết cho mắt, không cho miệng | Tách câu, đặt chỗ ngắt nghỉ tự nhiên |
 
-Bài học từ các lần bị chê (`mau-da-duyet.md`): sửa chữ không đủ, phải đổi **khung** (nhịp, số vế, cách kết), và chi tiết phải là chi tiết thật người dùng đưa.
+Bài học từ các lần bị chê: sửa chữ không đủ, phải đổi **khung** (nhịp, số vế, cách kết), và chi tiết phải là chi tiết thật người dùng đưa.
 
 ## B. Từ ngữ sáo
 
