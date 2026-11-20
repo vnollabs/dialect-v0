@@ -18,13 +18,6 @@ etymologies:
               - id: wiktionary
                 url: https://en.wiktionary.org/wiki/%C4%91%E1%BB%A5ng#Vietnamese
           - gloss:
-              en: to marry (each other)
-            region: [central, south]
-            sources:
-              - id: wiktionary
-                url: https://en.wiktionary.org/wiki/%C4%91%E1%BB%A5ng#Vietnamese
-            note: "No example yet: the AI drafter skipped this sense (doubt the 'to marry (each other)' sense is in real use; can't write a trustworthy example). Check that the sense is real before adding one."
-          - gloss:
               en: synonym of động (“to touch (with, upon)”)
             region: [central, south]
             synonyms: [động]

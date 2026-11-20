@@ -1,12 +1,16 @@
 spelling: anh Hai
 etymologies:
   - pos:
-      - senses:
+      - pos: noun
+        senses:
           - gloss:
-              vi: Cách gọi theo thứ trong nhà (anh Hai, chị Ba, má Bảy…); anh Hai còn dùng gọi người lạ cho thân
+              vi: Anh cả trong gia đình Nam Bộ (con đầu gọi là Hai); còn dùng gọi thân mật người nam trạc tuổi
+              en: eldest brother; also used as a friendly form of address to an adult male
             region: [south]
-            synonyms: [chị Hai]
+            standard: [anh cả]
             examples:
               - text: Uống gì hông anh Hai?
+                standard: Uống gì không anh cả / anh ơi?
+                ai_draft: true
             topics: [family-address]
             sources: [skill-dictionary-v1]

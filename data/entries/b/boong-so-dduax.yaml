@@ -1,11 +1,12 @@
 spelling: bông so đũa
 etymologies:
   - pos:
-      - senses:
+      - pos: noun
+        senses:
           - gloss:
-              vi: Các loại hoa đặc trưng mùa nước nổi miền Tây, dùng nấu canh chua, đổ bánh xèo
+              vi: Hoa của cây so đũa (màu trắng hoặc tím nhạt), vị ngọt hơi nhẫn đắng, dùng nấu canh chua, luộc chấm kho quẹt
+              en: Sesbania grandiflora flower, a vegetable flower used in Southern Vietnamese cooking
             region: [mekong-delta]
-            synonyms: [bông điên điển]
             examples:
               - text: Chiều nay má nấu canh chua bông so đũa với cá rô đồng.
                 standard: Chiều nay mẹ nấu canh chua hoa so đũa với cá rô đồng.

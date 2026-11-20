@@ -1,11 +1,12 @@
 spelling: trái gáo
 etymologies:
   - pos:
-      - senses:
+      - pos: noun
+        senses:
           - gloss:
-              vi: Các loại trái cây dân dã mọc hoang ven sông rạch miền Tây xưa
+              vi: Trái của cây gáo mọc ven sông rạch, hình tròn sần sùi, vị chua chát, thường kho cá hoặc chấm muối ớt
+              en: fruit of the Nauclea tree (leichhardt tree), a round wild fruit used in rural Mekong cooking
             region: [mekong-delta]
-            synonyms: [trái bình bát, trái trâm]
             examples:
               - text: Mùa này trái gáo rụng đầy mé rạch, tụi nhỏ lượm về chơi đồ hàng.
                 standard: Mùa này quả gáo rụng đầy bờ kênh, bọn trẻ nhặt về chơi đồ hàng.

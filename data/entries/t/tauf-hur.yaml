@@ -1,7 +1,9 @@
 spelling: tàu hủ
 etymologies:
   - pos:
-      - senses:
+      - pos: noun
+        alt_forms: [tàu hũ]
+        senses:
           - gloss:
               vi: Đậu phụ
             region: [south]
@@ -20,6 +22,7 @@ etymologies:
       en: From Cantonese 豆腐 (dau6 fu6; đậu hủ, “tofu”). Doublet of đậu hủ, đậu phụ, and tào phớ.
     pos:
       - pos: noun
+        alt_forms: [tàu hũ]
         senses:
           - gloss:
               en: douhua; tofu pudding; soybean pudding

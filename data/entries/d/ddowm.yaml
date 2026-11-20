@@ -1,10 +1,11 @@
 spelling: đơm
 etymologies:
-  - sound_change:
-      compare:
-        - [đàn, đờn]
+  - type: variant
+    of: đâm
+    sound_change:
+      pattern: âm → ơm
     note:
-      en: Compare the following doublet pairs; nhân vs. nhơn, đàn vs. đờn, etc.
+      en: Doublet of đâm. Compare the rime change in Southern Vietnamese.
     derived: [đơm hoa kết trái]
     pos:
       - pos: verb

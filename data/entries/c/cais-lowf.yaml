@@ -1,12 +1,13 @@
 spelling: cái lờ
 etymologies:
   - pos:
-      - senses:
+      - pos: noun
+        senses:
           - gloss:
-              vi: Đồ đan bằng tre nứa đặt dưới mương, đìa để bắt cá
+              vi: Ngư cụ đan bằng tre hình trụ có hom, đặt ngâm sát đáy nước tĩnh ven bờ cỏ để bẫy cá
+              en: submerged cylindrical bamboo fish trap
             qualifier: bẫy cá
             region: [south]
-            synonyms: [cái đó]
             examples:
               - text: Chiều ba đặt cái lờ dưới mương, sáng ra dở lên được mớ cá rô.
                 standard: Chiều bố đặt cái lờ dưới mương, sáng ra nhấc lên được mớ cá rô.

@@ -4,9 +4,11 @@ etymologies:
       - senses:
           - gloss:
               vi: Chạy vượt quá chỗ cần tới, qua lượt, mất lượt
+              en: to run past (something/someone)
             region: [mekong-delta]
             synonyms: [huốt]
             examples:
               - text: Quẹo hẻm này nè, chạy huốt rồi!
+                standard: Rẽ vào ngõ này này, đi quá rồi!
             topics: [mekong-words]
             sources: [skill-dictionary-v1]

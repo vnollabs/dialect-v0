@@ -1,11 +1,13 @@
 spelling: ghe tam bản
 etymologies:
   - pos:
-      - senses:
+      - pos: noun
+        classifiers: [cái, chiếc]
+        senses:
           - gloss:
-              vi: Các loại thuyền nhỏ, thon dài, chuyên chèo chống trong kinh rạch hẹp
+              vi: Thuyền gỗ nhỏ đáy bằng ghép từ ba tấm ván dài (hai tấm be và một tấm đáy), chuyên chở người và nông sản trên kinh rạch
+              en: sampan (three-board boat), a small flat-bottomed wooden boat made of three planks
             region: [mekong-delta]
-            synonyms: [ghe lườn]
             examples:
               - text: Mấy chiếc ghe tam bản chở trái cây đậu kín bến chợ.
                 standard: Mấy chiếc thuyền tam bản chở hoa quả đỗ kín bến chợ.

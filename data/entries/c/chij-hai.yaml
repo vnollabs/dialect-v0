@@ -1,11 +1,13 @@
 spelling: chị Hai
 etymologies:
   - pos:
-      - senses:
+      - pos: noun
+        senses:
           - gloss:
-              vi: Cách gọi theo thứ trong nhà (anh Hai, chị Ba, má Bảy…); anh Hai còn dùng gọi người lạ cho thân
+              vi: Chị cả trong gia đình Nam Bộ (con đầu gọi là Hai); còn dùng gọi thân mật người nữ trạc tuổi
+              en: eldest sister; also used as a friendly form of address to an adult female
             region: [south]
-            synonyms: [anh Hai]
+            standard: [chị cả]
             examples:
               - text: Chị Hai lấy chồng xa, Tết mới về thăm má với mấy đứa em.
                 standard: Chị cả lấy chồng xa, Tết mới về thăm mẹ với mấy đứa em.

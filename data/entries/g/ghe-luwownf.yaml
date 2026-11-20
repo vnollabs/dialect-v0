@@ -1,17 +1,5 @@
 spelling: ghe lườn
 etymologies:
-  - pos:
-      - senses:
-          - gloss:
-              vi: Các loại thuyền nhỏ, thon dài, chuyên chèo chống trong kinh rạch hẹp
-            region: [mekong-delta]
-            synonyms: [ghe tam bản]
-            examples:
-              - text: Ông Sáu chống ghe lườn len lỏi trong rạch nhỏ đi giăng câu.
-                standard: Ông Sáu chống thuyền nhỏ len lỏi trong lạch nhỏ đi giăng câu.
-                ai_draft: true
-            topics: [mekong-words]
-            sources: [skill-dictionary-v1]
   - type: compound
     note:
       en: ghe + lườn.
@@ -20,13 +8,19 @@ etymologies:
         classifiers: [cái, chiếc]
         senses:
           - gloss:
-              en: kind of canoe
+              vi: Thuyền độc mộc đáy thon dài khoét từ thân cây gỗ, chuyên chèo chống trong kinh rạch cạn hẹp
+              en: dugout boat or canoe, a narrow wooden boat hollowed from a tree trunk for small waterways
             qualifier: Mekong Delta
             region: [mekong-delta]
             examples:
+              - text: Ông Sáu chống ghe lườn len lỏi trong rạch nhỏ đi giăng câu.
+                standard: Ông Sáu chống thuyền nhỏ len lỏi trong lạch nhỏ đi giăng câu.
+                ai_draft: true
               - text: Hồi nhỏ tui hay bơi ghe lườn qua sông đi học.
                 standard: Hồi nhỏ tôi hay chèo thuyền con qua sông đi học.
                 ai_draft: true
+            topics: [mekong-words]
             sources:
+              - skill-dictionary-v1
               - id: wiktionary
                 url: https://en.wiktionary.org/wiki/ghe_l%C6%B0%E1%BB%9Dn#Vietnamese
